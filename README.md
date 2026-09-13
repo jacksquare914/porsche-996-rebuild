@@ -36,8 +36,23 @@ cp .env.example .env      # add a Google OAuth client ID — docs/SETUP.md walks
 npm run dev
 ```
 
-Then [docs/SETUP.md](docs/SETUP.md) for the Google side and deploying to GitHub Pages, and
-[docs/AGENTS.md](docs/AGENTS.md) for the two agents.
+Then [docs/SETUP.md](docs/SETUP.md) for the Google side and deploying to GitHub Pages,
+[docs/AGENTS.md](docs/AGENTS.md) for the two agents, and [docs/CATALOG.md](docs/CATALOG.md)
+for working with the factory parts catalogue.
+
+## Part numbers
+
+The factory parts catalogue (Kat 521, 996 MY98–05) is wired in as a lookup:
+
+```bash
+node scripts/catalog.mjs pn 996-107-026-51      # what is this part, does it fit a 2003
+node scripts/catalog.mjs find "oil separator"   # search by description
+node scripts/catalog.mjs check                  # audit the parts list
+```
+
+It is a 2017 snapshot, so it settles what a part *is* and which model years it covers, while
+a live dealer catalogue settles what number to order today. The catalogue itself is
+copyrighted and stays out of this repo — see [docs/CATALOG.md](docs/CATALOG.md).
 
 ## The M96 caveat
 

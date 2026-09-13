@@ -4,6 +4,7 @@ import { Sheet, Empty, Stat, Icon } from '../ui';
 import type { PriceQuote } from '../types';
 
 export const VENDORS = [
+  'Gaudin Porsche',
   'FCP Euro',
   'SSF Imported Auto Parts',
   'Worldpac',

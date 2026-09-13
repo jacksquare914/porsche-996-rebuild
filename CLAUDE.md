@@ -40,11 +40,31 @@ node scripts/state.mjs merge ./state.json ./patch.json ./out.json
 `steps`/`parts` maps are shallow-merged per key, and `updated_at` is bumped. It never
 deletes. See `docs/AGENTS.md` for the full loop.
 
+## The factory parts catalogue
+
+Jack has the official Porsche catalogue (Kat 521, USA edition, 996 MY98–05). It is
+gitignored under `reference/` because it is copyrighted and this repo is public — it lives
+in the Drive folder. Query it rather than reading the PDF:
+
+```bash
+node scripts/catalog.mjs pn 996-107-026-51      # exact part number
+node scripts/catalog.mjs find "oil separator"   # by description
+node scripts/catalog.mjs check                  # audit src/data/parts.json
+```
+
+**The catalogue is a 2017 snapshot and roughly two thirds of the seed list's numbers are not
+in it.** It settles what a part *is* and whether it fits a 2003; **Gaudin Porsche settles
+what number to order today.** Check both. Full detail, including how to read the model-year
+limit column, is in `docs/CATALOG.md` — read that before touching part numbers.
+
 ## House rules
 
 - **Never invent a part number or a price.** If a vendor page doesn't show it, record
   `price_usd: null` and say so in the quote's `note`. A wrong part number on an M96 costs
   Jack a teardown, not a return shipping label.
+- **Check the model-year limit.** Jack's car is a 2003 Targa, M96.03, VIN 993S6
+  30061>35000. The catalogue's remark column bounds ranges: `-04` = up to end of MY2003,
+  `02-` = from MY2002 on. Several parts on this engine changed mid-production.
 - **Bore scoring and IMS are the two decisions that reshape the whole build.** Until the
   inspection phase is done, treat cylinder/piston and IMS choices as open.
 - Prices are USD. Always capture shipping separately — several of these vendors have

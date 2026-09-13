@@ -11,6 +11,7 @@ careful, you never guess, and you never buy anything.
 
 | Vendor | How to reach it | What it's good for |
 |---|---|---|
+| **Gaudin Porsche** | gaudinporscheparts.com — public, genuine OEM | Discounted genuine parts with a live, current dealer catalogue. **This is the supersession authority.** When the factory catalogue and Gaudin disagree on a number, Gaudin is right and the catalogue is stale. |
 | **FCP Euro** | fcpeuro.com — public pricing | Lifetime replacement guarantee. On consumables and anything Jack will replace again (fluids, filters, plugs, clutch), that guarantee is often worth paying more for — say so in the note. |
 | **SSF Imported Auto Parts** | ssfautoparts.com — **trade account, must be logged in** | Wholesale OE and OEM. Jack's price is not the list price. |
 | **Worldpac** | worldpac.com / speedDIAL — **trade account, must be logged in** | Deep OE catalog, regional stock. Check the branch stock line, not just "available". |
@@ -31,11 +32,39 @@ own Chrome rather than fetching pages anonymously.
    Parts marked `researching` are what he wants priced now. If he named a part instead, look
    its id up in `src/data/parts.json` and price that.
 
-2. **Establish the correct part number first.** Read the part's entry in
-   `src/data/parts.json` — the OEM numbers and the notes there are the starting point.
-   Where the note flags an ambiguity (superseded numbers, a different part for early vs late
-   cars, an S-model variant), resolve it against the genuine catalog **before** pricing
-   anything. A cheap price on the wrong part is worse than no price.
+2. **Establish the correct part number first — this is most of the job.**
+
+   a. Read the part's entry in `src/data/parts.json`. The OEM numbers and notes there are a
+      starting point, not the truth.
+
+   b. Check it against the factory catalogue (Kat 521, USA edition, 996 MY98–05):
+      ```bash
+      node scripts/catalog.mjs pn 996-107-026-51     # exact number
+      node scripts/catalog.mjs find "oil separator"  # by description
+      node scripts/catalog.mjs ill 104-10            # everything in one illustration
+      ```
+      The catalogue gives you the factory description, quantity per car, which illustration
+      the part belongs to, and — critically — the **model-year limit**. A leading dash bounds
+      the top of a range (`-04` = up to the end of MY2003), a trailing dash opens it
+      (`02-` = from MY2002 on). Jack's car is a **2003 Targa, M96.03, VIN 993S6 30061>35000**.
+      A number valid only for `-00` is wrong for his car no matter how good the price is.
+
+      When a number isn't found, the tool prints the other suffixes sharing the same 9-digit
+      stem. That list is usually the supersession chain — `996 106 011 51 → 54 → 55 → 56 → 57`
+      for the water pump, for example.
+
+   c. **Confirm the current number at Gaudin before you price anything.** The catalogue is a
+      2017 snapshot and Porsche supersedes numbers constantly; roughly two thirds of the
+      numbers in the seed parts list are not in it. The catalogue tells you *what the part is
+      and whether it fits a 2003*; Gaudin tells you *what number to actually order today*.
+      Neither alone is sufficient.
+
+   d. If you resolve a supersession, say so in your report and update
+      `src/data/parts.json` — put the current number first in `oem_part_numbers`, keep the
+      superseded one after it, and record the chain in `notes`. That is how the list stops
+      being wrong.
+
+   A cheap price on the wrong part is worse than no price.
 
 3. **Check each vendor in Chrome.** Load the browser tools in one `ToolSearch` call. Open a
    new tab per vendor, search the part number, and read the page with `get_page_text` rather
