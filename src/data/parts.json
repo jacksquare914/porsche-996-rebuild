@@ -1,0 +1,1517 @@
+[
+ {
+  "id": "engine-gasket-set",
+  "name": "Complete engine gasket set, M96.03 3.6",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "10-0904-202 (OEM gasket set for M96.03)"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 1352.17,
+  "notes": "LN-listed price Sept 2026. Includes head gaskets for the stock 96 mm bore in stock thickness \u2014 if you go oversize/big-bore or change deck height you will need head gaskets specified separately. Buying the set is cheaper and far less error-prone than sourcing 40+ individual gaskets."
+ },
+ {
+  "id": "head-gaskets",
+  "name": "Cylinder head gasket, 3.4 / 3.6",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [
+   "996-104-201-04"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Elring",
+    "part": "996 104 201 04"
+   }
+  ],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 60,
+  "notes": "One per bank. This PN is cited for both 3.4 and 3.6 at stock bore. Some listings also show 996-104-269-00/01 as bank-specific head gaskets for the 3.4 \u2014 verify against your bank and bore before ordering. Fit dry unless the manufacturer states otherwise. If the block is sleeved oversize, the gasket must match the new bore."
+ },
+ {
+  "id": "rms-seal",
+  "name": "Rear main seal (RMS), genuine Porsche PTFE",
+  "category": "ims-rms",
+  "oem_part_numbers": [
+   "0PB-105-249"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 45,
+  "notes": "The current updated PTFE design, and the one LN recommends. Install DRY \u2014 no oil or grease on the lip \u2014 and square, with the proper tool. LN's position: RMS leaks are not caused by dual-mass flywheel weight but by factory mis-machining of the case or by an engine never updated to this seal."
+ },
+ {
+  "id": "front-crank-seal",
+  "name": "Front crankshaft seal",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 30,
+  "notes": "Included in the LN M96.03 rebuild kit. PN not separately verified in research \u2014 order via the gasket/rebuild kit or confirm with a dealer parts lookup against your engine number."
+ },
+ {
+  "id": "ims-solution-single-row",
+  "name": "LN IMS Solution, single row (pressure-fed plain bearing)",
+  "category": "ims-rms",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "Single Row IMS Solution Kit, 996 M96/M97"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 1899.0,
+  "notes": "THE RECOMMENDED CHOICE FOR THIS BUILD. A 2003 996 3.6 is a single-row IMS engine by model year (2002-2005 = single row; the large non-serviceable bearing is MY2006-2008). Verify physically before ordering: single-row flange dish depth is quoted at 19.27 mm vs 13.34 mm for dual row. The Solution eliminates ball/roller bearings entirely in favour of a pressure-fed plain bearing, as used in the Mezger engines; no scheduled replacement interval, 5-year unlimited-mileage warranty. Fits 1997-2005 serviceable-IMS engines only. Its extra installation requirements are essentially free when the engine is already out and apart."
+ },
+ {
+  "id": "ims-retrofit-single-row-pro",
+  "name": "LN IMS Retrofit Single Row Pro (ceramic hybrid ball bearing)",
+  "category": "ims-rms",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "106-08.2.2"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 999.0,
+  "notes": "The alternative to the Solution: a ceramic hybrid ball bearing, serviceable and replaceable at clutch intervals, installable with the engine in the car. Requires LN tool 106-08.2.2 (purchase or LN rental program). Choose this OR the Solution, not both. Do NOT buy the Dual Row Pro kit for a 2003 3.6 unless you have physically confirmed a dual-row flange."
+ },
+ {
+  "id": "ims-flange-seal",
+  "name": "IMS flange cover, O-ring and hardware",
+  "category": "ims-rms",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Supplied within the LN IMS kits. Do not reuse the old flange O-ring."
+ },
+ {
+  "id": "ims-tensioner-paddle-billet",
+  "name": "Billet IMS chain tensioner paddle",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering / RND",
+    "part": "Billet IMS chain tensioner paddle"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Upgrade over the plastic original; listed as part of the RND/LN Deluxe rebuild kit. Worth doing while the case is open since it is inaccessible afterwards."
+ },
+ {
+  "id": "ims-sprocket",
+  "name": "Intermediate shaft sprocket",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Included in the LN M96.03 rebuild kit. Inspect tooth profile for hooking; replace with the chains."
+ },
+ {
+  "id": "main-bearings",
+  "name": "Main bearing shell set",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 14,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 14 shells per the M96.03 rebuild kit contents. Order the size matching your crank \u2014 standard if journals are polished within spec, undersize if the crank was ground. Check clearance with Plastigage on every journal before final assembly."
+ },
+ {
+  "id": "rod-bearings",
+  "name": "Connecting rod bearing shell set",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 12,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 12 per the M96.03 rebuild kit. Read the old shells before discarding \u2014 rod bearing 6 commonly shows the heaviest thrust-face wear, consistent with being furthest from the oil pump."
+ },
+ {
+  "id": "thrust-bearings",
+  "name": "Crankshaft thrust bearing / washers",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 2 per the rebuild kit. Set crankshaft end play to the middle of the spec range \u2014 one documented rebuild landed at 0.004 in / 0.10 mm."
+ },
+ {
+  "id": "crankshaft",
+  "name": "Crankshaft, M96.03 3.6",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "3.6 stroke is 82.8 mm (vs 78 mm for the 3.4) so the 3.6 crank is not interchangeable with the 3.4. Usually reconditioned rather than replaced: polish if within spec, grind undersize only if necessary."
+ },
+ {
+  "id": "connecting-rods",
+  "name": "Connecting rods",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Carrillo / CP-Carrillo",
+    "part": "M96 rod set"
+   }
+  ],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "OEM rods are fracture-split \u2014 caps are not interchangeable between rods. Check big-end bore roundness and straightness; resize or replace if out. Aftermarket rods appear in the RND/LN Deluxe kit as an upgrade. Rod part numbers not verified in research."
+ },
+ {
+  "id": "pistons-oem",
+  "name": "Piston, OEM 96 mm (M96.03)",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-103-052-20"
+  ],
+  "alt_brands": [],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "PN 99610305220 is listed by Design911 as a genuine Porsche piston for this family \u2014 VERIFY AGAINST YOUR ENGINE NUMBER before ordering, as piston PNs vary by bore grade and engine variant. 3.6 bore x stroke is 96 x 82.8 mm, 11.3:1. Inspect skirts for flaking of the ferrous coating \u2014 that flaking is the mechanism that initiates bore scoring."
+ },
+ {
+  "id": "piston-rings",
+  "name": "Piston ring set, M96.03 3.6",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-103-053-04"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Mahle",
+    "part": "996 103 053 04"
+   }
+  ],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "996-103-053-04 is cited for the 3.6 M96.03 (the 3.4 uses 996-103-053-02) \u2014 confirm against your engine number. One set per cylinder. File-fit end gaps to the piston/cylinder supplier's spec, not a generic figure, and stagger the gaps per their diagram."
+ },
+ {
+  "id": "nickies-96mm",
+  "name": "LN / Flat 6 Innovations Nickies billet cylinders, 96 mm (stock bore)",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering / Flat 6 Innovations",
+    "part": "96 mm Nickies for 996/997/987 3.4 or 3.6"
+   }
+  ],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "THE answer to bore scoring or a D-chunk crack. Billet aluminium cylinders with nickel-silicon-carbide plating, the same coating technology used in the Turbo/GT2/GT3. NEVER use a steel sleeve to repair an M96 \u2014 the thermal expansion mismatch against the aluminium case is the wrong answer and the industry consensus on this is unambiguous. LN quote USD 5,000-6,000 for case machining plus Nickies plus oversize forged pistons as a package; individual pricing was not published at time of research."
+ },
+ {
+  "id": "nickies-104mm-bigbore",
+  "name": "Flat 6 Innovations 104 mm big-bore Nickies",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Flat 6 Innovations",
+    "part": "104 mm Nickies for 3.4/3.6/3.8 M96/M97"
+   }
+  ],
+  "qty": 6,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Displacement upgrade option (also offered at 105 mm) if you are sleeving anyway and want capacity. Changes piston, ring, head gasket and tuning requirements \u2014 decide BEFORE the case is machined, not after."
+ },
+ {
+  "id": "forged-pistons-oversize",
+  "name": "Oversize forged pistons (for sleeved block)",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "CP-Carrillo",
+    "part": "M96 forged piston set"
+   },
+   {
+    "brand": "Wossner",
+    "part": "M96 forged piston set"
+   },
+   {
+    "brand": "Mahle Motorsport",
+    "part": "M96 forged piston set"
+   }
+  ],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Required whenever the block is sleeved oversize. Bore size, cylinder coating, piston material, skirt coating, compression ratio, ring material, deck height and head gasket thickness are all interdependent \u2014 settle the whole package with the supplier before any machining starts."
+ },
+ {
+  "id": "case-repair-sleeves",
+  "name": "Crankcase repair sleeves",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "repair sleeves"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "For a block with cracked sleeves, slipped sleeves, or damage on the crankcase side. Only relevant if inspection finds it \u2014 otherwise not purchased."
+ },
+ {
+  "id": "hydraulic-lifters-exhaust",
+  "name": "Hydraulic lifters, non-variable (EXHAUST positions)",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-041-72"
+  ],
+  "alt_brands": [],
+  "qty": 12,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 367.48,
+  "notes": "LN price for the set of 12, Sept 2026. IMPORTANT 3.6 SPLIT: 2002-2008 911 3.6/3.8 engines take qty 12 of these in the EXHAUST positions only \u2014 the intake positions take switchable variable-lift lifters instead (see variable-lift-lifters-intake). By contrast 1997-2001 996 and all Boxsters take qty 24 of this conventional lifter in both positions. Do not mix them up. Never lift lifters out with a magnet \u2014 a service bulletin warns against magnetising them."
+ },
+ {
+  "id": "variable-lift-lifters-intake",
+  "name": "VarioCam Plus switchable variable-lift lifters (INTAKE positions)",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-255-25"
+  ],
+  "alt_brands": [],
+  "qty": 12,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "The two-stage lift tappets that make this a VarioCam Plus engine. Substantially more expensive than the conventional lifters; price not published at time of research. Inspect and replace as needed rather than automatically."
+ },
+ {
+  "id": "camshafts",
+  "name": "Camshafts (4 off: intake and exhaust, both banks)",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 4,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Usually reused. Inspect lobes and journals for scoring and wear. Part numbers not verified \u2014 differ between intake and exhaust and between banks."
+ },
+ {
+  "id": "intake-valves",
+  "name": "Intake valves",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 12,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "24-valve engine, 2 intake + 2 exhaust per cylinder. Replace only what measurement condemns. PNs not verified in research."
+ },
+ {
+  "id": "exhaust-valves",
+  "name": "Exhaust valves",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 12,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "PNs not verified in research. Exhaust valves see the most seat recession \u2014 check carefully."
+ },
+ {
+  "id": "valve-guides",
+  "name": "Valve guides",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 24,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Worn guides are common at 100k+ miles and are a real oil-consumption source often misattributed to rings or the AOS. Measure stem-to-guide clearance with a dial indicator before deciding. Machine shop item."
+ },
+ {
+  "id": "valve-stem-seals",
+  "name": "Valve stem seals",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 24,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Always replaced during a valve job. Included in comprehensive gasket sets."
+ },
+ {
+  "id": "valve-springs",
+  "name": "Valve springs",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 24,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Test free height and seat pressure. Replace as a set if any are out of spec."
+ },
+ {
+  "id": "timing-chain-set",
+  "name": "Timing chain set (3-chain layout, M96.03)",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 3,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "THE 3.6 IS A THREE-CHAIN ENGINE \u2014 crank-to-IMS plus one chain per bank \u2014 where the 1999-2001 3.4 is a five-chain engine. Chains and the timing procedure are NOT interchangeable between them. The LN M96.03 rebuild kit lists 'timing chains qty 2' plus separate drive components, so confirm exactly what your kit covers before ordering singles. CAUTION: PNs 996-105-170-53 (intake-to-exhaust chain) and 996-105-253-00 (cam pads) circulate on forums but are quoted for the 3.4 five-chain engine \u2014 do NOT order those for a 3.6 without verification."
+ },
+ {
+  "id": "chain-ramps-rails",
+  "name": "Timing chain ramps, guide rails and pads",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "ONE OF THE TWO SIGNATURE M96 WEAR ITEMS alongside the IMS. Plastic over a steel spine; they heat-cycle brittle and wear through, retarding cam timing and throwing the deviation values you logged at the start. Documented case: a 187k-mile engine with 'incredibly worn' ramps causing out-of-spec cam deviation. Always replaced as a complete set on a rebuild, with new O-rings on every ramp bolt. Specify 3.6 / three-chain when ordering."
+ },
+ {
+  "id": "chain-tensioner-ims",
+  "name": "Timing chain tensioner, crankshaft to intermediate shaft",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-180-58"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Listed by multiple vendors as the crank-to-IMS tensioner for 996/997 and 986/987 2001-2008. Hydraulic \u2014 must be compressed and pinned before installation. There is a TSB relating to tensioner/chain identification; confirm the correct variant for your engine number."
+ },
+ {
+  "id": "chain-tensioner-1-3",
+  "name": "Timing chain tensioner, cylinders 1-3",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-186-02"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "996-105-186-02 is the current supersession of the 996-105-186-01 'new style 1-3 tensioner'. Verify bank application and engine-number applicability with a dealer parts lookup \u2014 tensioner PNs superseded several times across the M96 run."
+ },
+ {
+  "id": "chain-tensioner-4-6",
+  "name": "Timing chain tensioner, cylinders 4-6",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-188-01"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quoted on forums as the 'new style 4-6 tensioner'. VERIFY against your engine number \u2014 this PN was cited in a 3.4 context and may supersede for the 3.6."
+ },
+ {
+  "id": "variocam-actuator",
+  "name": "VarioCam Plus camshaft actuator (rotary vane adjuster)",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-303-03",
+   "996-105-303-05",
+   "996-105-303-06",
+   "996-105-303-07"
+  ],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "One per bank, at the nose of each INTAKE camshaft. VarioCam Plus varies timing with this electro-hydraulic rotary vane adjuster and varies lift with the switchable tappets \u2014 it is NOT the earlier chain-tensioner-actuated VarioCam of the 3.4. The four PNs listed are a supersession chain quoted across 996/986/997/987; confirm the correct one for engine number M96.03 with a dealer lookup."
+ },
+ {
+  "id": "variocam-solenoid",
+  "name": "VarioCam solenoid / cam adjuster valve",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-105-303-02"
+  ],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Controls oil to the cam adjuster. Worn internal seals let contaminated oil in and the solenoids fail with age \u2014 a common cause of cam deviation faults. CAUTION: PNs 996-605-901-00 (1-3) and 996-605-902-00 (4-6) also circulate but are quoted in a 3.4 five-chain context; do not order those for a 3.6 without verification. Seal rebuild kits exist as an alternative to replacement."
+ },
+ {
+  "id": "oil-pump",
+  "name": "Primary engine oil pump",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-107-012-63"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "996-107-012-63 is listed by multiple Porsche dealers as the oil pump for 1997-2009 applications (earlier supersessions 996-107-012-60/62). Note 996-107-008-70 is the 996 TURBO pump \u2014 different engine, do not cross-order. Inspect gear scoring and housing clearance; prime with assembly lube before installation."
+ },
+ {
+  "id": "oil-pump-drive-chromoly",
+  "name": "Chromoly oil pump drive",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering / RND",
+    "part": "chromoly oil pump drive"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Upgrade over the OEM drive, listed in the RND/LN Deluxe rebuild kit. Cheap insurance while the engine is open; inaccessible afterwards."
+ },
+ {
+  "id": "oil-pickup-tube",
+  "name": "Oil pickup tube",
+  "category": "engine-internals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Inspect the screen for the same debris you found in the filter. Always fit a new pickup O-ring \u2014 a leak here is an unseen air leak that starves the engine."
+ },
+ {
+  "id": "oil-pickup-oring",
+  "name": "Oil pickup tube O-ring",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "In the rebuild kit. Never reuse."
+ },
+ {
+  "id": "sump-gasket",
+  "name": "Sump / oil pan sealing (gasket or sealant joint)",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "The M96 sump is a sealant joint, not a conventional gasket, on most variants \u2014 expect to find it sealed with Loctite 5900. Clean the flange carefully without gouging the aluminium and without dropping scrapings into the case."
+ },
+ {
+  "id": "crank-carrier-oring",
+  "name": "Crankshaft carrier O-ring",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "O-Ring M96/M97 Crankshaft Carrier"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Sold individually by LN. Never reuse."
+ },
+ {
+  "id": "case-bolt-orings",
+  "name": "Crankcase through-bolt O-rings",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Multiple O-rings for case bolts are listed in the M96.03 rebuild kit contents. Always renewed on a case split."
+ },
+ {
+  "id": "cam-housing-gasket",
+  "name": "Cam housing / cam cover gaskets and seals",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "In the full gasket set. Includes spark plug tube seals, which are a very common external oil leak source on high-mileage M96s."
+ },
+ {
+  "id": "cam-cover-gasket",
+  "name": "Valve/cam cover gasket set",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "In the full gasket set."
+ },
+ {
+  "id": "intake-manifold-gasket",
+  "name": "Intake manifold gasket",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [
+   "996-110-103-90"
+  ],
+  "alt_brands": [],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "PN sourced from a 996 (1999-2005) parts listing \u2014 verify quantity and application for the 3.6 intake against a parts diagram."
+ },
+ {
+  "id": "throttle-body-gasket",
+  "name": "Throttle body mounting gasket",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [
+   "996-110-317-52"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "996-110-317-52 is listed for 2000-2005 911. PN 996-110-318-02 also appears in listings as a throttle body gasket \u2014 confirm which suits your throttle body casting."
+ },
+ {
+  "id": "injector-oring-kit",
+  "name": "Fuel injector O-ring kit (upper and lower)",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Both upper and lower O-rings per injector. Hard as plastic at 20+ years and a classic post-rebuild fuel-smell and rough-idle cause. Never reuse."
+ },
+ {
+  "id": "fuel-injectors",
+  "name": "Fuel injectors",
+  "category": "fuel-ignition",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 6,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Usually cleaned and flow-tested rather than replaced. Have them balanced as a set \u2014 an out-of-balance injector on a fresh engine is a frustrating diagnostic."
+ },
+ {
+  "id": "exhaust-manifold-gaskets",
+  "name": "Exhaust manifold gaskets and nuts",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "One-time-use gaskets and copper-plated lock nuts. Anti-seize the studs on assembly."
+ },
+ {
+  "id": "exhaust-hardware-kit",
+  "name": "Exhaust studs, nuts and clamps",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Buy extras. Plan on snapping at least one manifold stud on a 20-year-old car and have an extraction plan before you start."
+ },
+ {
+  "id": "o2-sensors",
+  "name": "Oxygen sensors (pre- and post-cat)",
+  "category": "fuel-ignition",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Bosch",
+    "part": "OE-equivalent 996 O2 sensors"
+   }
+  ],
+  "qty": 4,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Two pre-cat, two post-cat. Replace if the pre-cat sensors are original or if your baseline scan showed lazy switching. Never put anti-seize on the sensing tip."
+ },
+ {
+  "id": "head-bolts-oem",
+  "name": "Cylinder head long bolts, OEM (TTY)",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 24,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 24 per the M96.03 rebuild kit. The M96 is a long-bolt engine \u2014 these pass through the head and clamp into the crankcase/carrier rather than threading into a deck. TORQUE-TO-YIELD, single use, never reuse. Factory 996 3.6 procedure: 30 Nm in sequence, UNDO ALL, 20 Nm in sequence, then 2 x 70 degrees angle."
+ },
+ {
+  "id": "arp-head-studs",
+  "name": "ARP cylinder head stud kit, M96/M97",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "ARP",
+    "part": "204-4707"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 549.99,
+  "notes": "LN price Sept 2026 (listed down from 647.05). 8740 chromoly, fits 1997-2008 M96/M97 2.5-3.8 L. Replaces the factory TTY carrier bolts and is reusable. Final torque 60 ft-lb in two equal steps USING ARP ULTRA-TORQUE ASSEMBLY LUBRICANT, not motor oil \u2014 the lubricant is what makes the preload repeatable. Alternative: Raceware studs, which require a mandatory documented re-torque after heat cycling."
+ },
+ {
+  "id": "crank-carrier-bolts-arp",
+  "name": "Crankshaft carrier bolts (ARP)",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "ARP",
+    "part": "M96 crankshaft carrier bolt set"
+   }
+  ],
+  "qty": 14,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 14 per the M96.03 rebuild kit, which supplies ARP. OEM carrier bolts are TTY and single-use. Use ARP's published torque and lubricant, not a generic figure."
+ },
+ {
+  "id": "rod-bolts-arp",
+  "name": "Connecting rod bolts (ARP)",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "ARP",
+    "part": "M96 rod bolt set"
+   }
+  ],
+  "qty": 12,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 12 per the M96.03 rebuild kit, supplied as ARP. OEM rod bolts are TTY and single-use. Measure bolt stretch rather than relying on torque alone if you have the gauge."
+ },
+ {
+  "id": "case-bolts",
+  "name": "Crankcase bolts",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 25,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Quantity 25 per the M96.03 rebuild kit. Multiple lengths and diameters \u2014 map them by position on removal onto a board, they are not interchangeable."
+ },
+ {
+  "id": "flywheel-bolts",
+  "name": "Dual-mass flywheel bolts (TTY)",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 9,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Torque-to-yield, sold separately from the flywheel and the clutch kit, and MANDATORY to replace. Torque 25 Nm (19 ft-lb) + 90 degrees. Quantity is the commonly cited figure for this flange \u2014 confirm by counting yours at teardown."
+ },
+ {
+  "id": "dual-mass-flywheel",
+  "name": "Dual-mass flywheel, LuK",
+  "category": "drivetrain",
+  "oem_part_numbers": [
+   "996-114-012-05",
+   "996-114-012-04"
+  ],
+  "alt_brands": [
+   {
+    "brand": "LuK",
+    "part": "415 0102 100"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "inspect-first",
+  "est_price_usd": 976.0,
+  "notes": "LN price Sept 2026 for 996-114-012-05. Fits all 996 base and 997 base 2005-2008 plus 996 C4S 2002-2005; NOT GT3/Turbo/GT2. Porsche/LuK specify a diagnostic tool to assess free play and radial rock. With the engine already out on a 20-year-old car, replacing it is usually the right call. Single-mass lightweight conversions are available (Aasco, Patrick Motorsports, BBI) at the cost of driveline noise and idle refinement."
+ },
+ {
+  "id": "clutch-kit",
+  "name": "Clutch kit, OEM Sachs (996.2 02-05 base 3.6)",
+  "category": "drivetrain",
+  "oem_part_numbers": [
+   "996-116-910-02"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Sachs",
+    "part": "99611691102"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 608.75,
+  "notes": "LN price Sept 2026. Contains 1 disc, 1 pressure plate, 1 release bearing. Correct for the 996.2 base 3.6 \u2014 the 996.1 3.4 kit is 99611691100, a different part. Excludes GT3/Turbo/GT2. Flywheel bolts are NOT included and must be bought separately."
+ },
+ {
+  "id": "release-bearing",
+  "name": "Clutch release / throwout bearing",
+  "category": "drivetrain",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Sachs",
+    "part": "included in clutch kit 99611691102"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Supplied in the Sachs clutch kit. Also inspect the guide tube it slides on for wear."
+ },
+ {
+  "id": "clutch-slave-cylinder",
+  "name": "Clutch slave cylinder",
+  "category": "drivetrain",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Cheap and buried \u2014 replace while the transmission is off if it shows any weeping. If you unbolt it from the bellhousing without opening the hydraulic line you avoid a bleed."
+ },
+ {
+  "id": "engine-mounts",
+  "name": "Engine mounts",
+  "category": "drivetrain",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 2,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "20-year-old rubber under a fresh engine is not worth redoing the job for. Torque: upper bolts 23 Nm (17 ft-lb), main nut 85 Nm (63 ft-lb). PNs not verified in research."
+ },
+ {
+  "id": "transmission-mount",
+  "name": "Transmission mount",
+  "category": "drivetrain",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Same reasoning as the engine mounts. PN not verified in research."
+ },
+ {
+  "id": "axle-bolts",
+  "name": "Axle shaft (CV joint) bolts",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 24,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "M8 12-point (XZN/triple-square). Single-use. Clean the heads with a pick before seating the socket or they round off. Torque not verified in research \u2014 consult the factory manual."
+ },
+ {
+  "id": "water-pump",
+  "name": "Water pump (metal impeller)",
+  "category": "cooling",
+  "oem_part_numbers": [
+   "996-106-011-77",
+   "996-106-011-57"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Various aftermarket",
+    "part": "metal-impeller M96 water pump"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 180,
+  "notes": "996-106-011-77 is listed by dealers for 2001-2005 911; the -57 is the earlier/broader 1997-2005 listing. SPECIFY A METAL IMPELLER. The factory plastic impeller is a known failure that sheds itself through the entire cooling system. Torque 10 Nm (7.5 ft-lb) \u2014 do not over-torque into aluminium. New O-ring/gasket."
+ },
+ {
+  "id": "thermostat",
+  "name": "Thermostat (and low-temperature option)",
+  "category": "cooling",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "Low Temperature Thermostat"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "A low-temp thermostat is included in the LN/RND M96.03 rebuild kit and is a sensible choice on an engine whose headline failure modes are heat-related. Housing bolts 10 Nm (7.5 ft-lb). OEM PN not verified in research."
+ },
+ {
+  "id": "thermostat-housing",
+  "name": "Thermostat housing / coolant distribution piece",
+  "category": "cooling",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Plastic and brittle with age on the M96. Inspect closely as it comes off; a crack here dumps coolant with no warning."
+ },
+ {
+  "id": "coolant-pipe-note",
+  "name": "Coolant pipes and connectors (see notes \u2014 applicability caveat)",
+  "category": "cooling",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "IMPORTANT CORRECTION FOR THIS BUILD: the famous Porsche 'glued coolant pipe' failure and the pinning/welding fix applies to the GT1-derived Mezger block \u2014 engine codes M96.70 and M97.70, i.e. 996/997 Turbo, GT2 and GT3 \u2014 where the aluminium coolant pipes are bonded into the block with adhesive that lets go. A 2003 996 Carrera with an M96.03 does NOT have those glued pipes, and does not need pinning. What the M96.03 does have is age-brittle plastic coolant distribution pieces, the thermostat housing, and the hoses and O-ring joints \u2014 inspect and renew those instead. Do not pay a shop for coolant pipe pinning on this engine."
+ },
+ {
+  "id": "coolant-hose-set",
+  "name": "Coolant hose set and clamps",
+  "category": "cooling",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Squeeze-test every hose; replace anything hard, soft or crazed. With the drivetrain out you have access you will never have again."
+ },
+ {
+  "id": "aos",
+  "name": "Air-oil separator (AOS), genuine Porsche",
+  "category": "engine-internals",
+  "oem_part_numbers": [
+   "996-107-026-52",
+   "996-107-026-51"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 258.25,
+  "notes": "LN price Sept 2026 for 99610702652, for 2002-2008 911 3.6 (excludes the 3.8 M97.01 S). A different AOS, 996-107-023-55, covers 1999-2001 996 \u2014 do not cross-order. A failed AOS pulls oil into the intake, smokes heavily, and in the worst case lets the engine run away on its own oil or hydro-lock. Replace on principle during a rebuild. Mounting bolts 10 Nm (7.5 ft-lb)."
+ },
+ {
+  "id": "aos-hose-kit",
+  "name": "AOS vent hose kit (upper, lower, connection piece)",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Genuine Porsche",
+    "part": "996BREATHERKT crankcase breather hose kit"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "LN explicitly recommend replacing the vent lines whenever the AOS is replaced \u2014 they go brittle and crack, and the resulting vacuum leak degrades running and can damage the engine. Includes upper and lower vent lines, connection piece with valve, and lower separator hose."
+ },
+ {
+  "id": "spark-plugs",
+  "name": "Spark plugs",
+  "category": "fuel-ignition",
+  "oem_part_numbers": [
+   "999-170-195-90"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Bosch",
+    "part": "FR6LDC"
+   }
+  ],
+  "qty": 6,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 10,
+  "notes": "Price is per plug, approximate. Torque 30 Nm (22 ft-lb) new, 25 Nm (19 ft-lb) reused. Verify the exact plug against your engine number \u2014 plug specifications changed across the M96 run."
+ },
+ {
+  "id": "ignition-coils",
+  "name": "Ignition coil packs",
+  "category": "fuel-ignition",
+  "oem_part_numbers": [
+   "996-602-104-00",
+   "996-602-102-00"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Bosch",
+    "part": "OE coil for 996"
+   }
+  ],
+  "qty": 6,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 45,
+  "notes": "Price per coil, approximate. Both PNs appear in 996 listings (-102 earlier, -104 later/997-shared) \u2014 confirm which your car uses. 20-year-old coils on a freshly rebuilt engine is a false economy. Mounting bolts 10 Nm (7.5 ft-lb)."
+ },
+ {
+  "id": "oil-filter",
+  "name": "Engine oil filter (element kit)",
+  "category": "consumables",
+  "oem_part_numbers": [
+   "996-107-225-53"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Mahle / Mann",
+    "part": "OE-equivalent element"
+   }
+  ],
+  "qty": 3,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 20,
+  "notes": "Price each, approximate. Buy at least three: one for the pre-teardown forensics cut, one for the first fill, one for the early break-in change. Filter cap torque 26 Nm (19 ft-lb) with a new cap O-ring each time."
+ },
+ {
+  "id": "magnetic-drain-plug",
+  "name": "Magnetic engine oil drain plug",
+  "category": "hardware",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "magnetic drain plug"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 25,
+  "notes": "Included in the LN/RND M96.03 rebuild kit. A permanent early-warning system for ferrous debris \u2014 genuinely worth fitting on an M96. Torque 50 Nm (37 ft-lb) with a new crush washer."
+ },
+ {
+  "id": "engine-oil",
+  "name": "Engine oil, full synthetic (Porsche A40 approved)",
+  "category": "fluids",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Mobil 1",
+    "part": "0W-40 European Car Formula"
+   },
+   {
+    "brand": "Motul",
+    "part": "8100 X-cess 5W-40"
+   }
+  ],
+  "qty": 22,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 12,
+  "notes": "Price per US quart, approximate. Quantity 22 qt covers a dry fill plus the early break-in change plus spare. CAPACITIES FOR THE 2003 3.6: approximately 8.25 L / 8.72 US qt for an oil-and-filter change; approximately 10.25 L / 10.83 US qt for a complete DRY fill, which is your situation after a rebuild. Porsche's own figures use the word 'approximately' \u2014 set the final level on the dipstick once the engine has run and settled, do not just pour in a nominal number."
+ },
+ {
+  "id": "coolant-concentrate",
+  "name": "Porsche coolant / antifreeze concentrate",
+  "category": "fluids",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Genuine Porsche",
+    "part": "Porsche coolant concentrate (phosphate-free, G40-type)"
+   }
+  ],
+  "qty": 12,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 30,
+  "notes": "Price per litre of concentrate, approximate; mix 50/50 with distilled water. Quantity is an estimate to fill and then chase air out over several heat cycles. EXACT SYSTEM CAPACITY NOT VERIFIED IN RESEARCH \u2014 the 996 Carrera system is large (mid-20s of litres is the commonly quoted range) because the radiators are at the front and the engine at the rear; confirm against the owner's manual and measure what you drained. Use the Porsche-specified phosphate-free coolant, not a generic green."
+ },
+ {
+  "id": "gear-oil-manual",
+  "name": "Manual transmission gear oil",
+  "category": "fluids",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Various",
+    "part": "Porsche-approved 75W-90 GL-5 for G96"
+   }
+  ],
+  "qty": 3,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": 25,
+  "notes": "Price per litre, approximate. The transmission is off the engine anyway \u2014 refresh it. Drain/fill plug 30 Nm (22 ft-lb); ALWAYS open the fill plug first. Exact capacity and Porsche fluid spec not verified in research; confirm for the G96 six-speed."
+ },
+ {
+  "id": "brake-fluid",
+  "name": "Brake / clutch hydraulic fluid (DOT 4)",
+  "category": "fluids",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 15,
+  "notes": "Only needed if the clutch hydraulic line was opened. If you unbolt the slave cylinder from the bellhousing without cracking the line, you skip the bleed entirely."
+ },
+ {
+  "id": "ac-oring-kit",
+  "name": "A/C O-ring kit and receiver/drier",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "New O-rings on every joint opened. If the system has been open to atmosphere for any length of time the receiver/drier should be replaced. Recovery and recharge must be done by a licensed shop \u2014 venting R134a is illegal."
+ },
+ {
+  "id": "fuel-line-o-rings",
+  "name": "Fuel line O-rings and crush washers",
+  "category": "gaskets-seals",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Never reuse a fuel sealing washer or O-ring. A fuel leak over a hot engine is the one failure mode in this whole job that can burn the car."
+ },
+ {
+  "id": "loctite-5900",
+  "name": "Loctite SI 5900 flange sealant (Porsche-specified)",
+  "category": "consumables",
+  "oem_part_numbers": [
+   "000-043-204-35",
+   "000-043-305-60"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Loctite",
+    "part": "SI 5900, 50 ml"
+   }
+  ],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 35,
+  "notes": "Price per 50 ml tube, approximate. This is the Porsche-specified sealant for the crankcase flange, sump, cam housing and cover joints. Apply a thin continuous bead on a perfectly clean, dry, oil-free flange; roughly a five-minute working window before cure. TOO MUCH IS FAR WORSE THAN TOO LITTLE \u2014 excess squeezes INSIDE the case and ends up in the oil pickup."
+ },
+ {
+  "id": "dreibond-1209",
+  "name": "Drei Bond 1209 flange sealant (alternative)",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Drei Bond",
+    "part": "1209"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 25,
+  "notes": "Many experienced M96 builders prefer Drei Bond 1209 over Loctite 5900 for the case halves, finding 5900 messy and prone to leaving debris inside the block. Either is defensible \u2014 pick one and do not mix them on the same joint."
+ },
+ {
+  "id": "thread-locker-red",
+  "name": "Thread locker, high strength (red) and medium (blue)",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Loctite",
+    "part": "271 / 243"
+   }
+  ],
+  "qty": 2,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 12,
+  "notes": "Red thread locker on the cam sprocket bolts is common belt-and-braces practice among M96 builders as insurance against timing slip."
+ },
+ {
+  "id": "arp-ultra-torque-lube",
+  "name": "ARP Ultra-Torque fastener assembly lubricant",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "ARP",
+    "part": "Ultra-Torque"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 15,
+  "notes": "MANDATORY if you use ARP studs or bolts. ARP explicitly specify their lubricant rather than motor oil because it is what makes the clamping force consistent and reduces preload scatter. Using engine oil instead invalidates their torque figures."
+ },
+ {
+  "id": "assembly-lube",
+  "name": "Engine assembly lubricant",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Various",
+    "part": "moly-based engine assembly lube"
+   }
+  ],
+  "qty": 2,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 15,
+  "notes": "For bearings, cam lobes and journals, and priming the oil pump. This is what keeps the engine alive in the first seconds before oil pressure builds."
+ },
+ {
+  "id": "brake-parts-cleaner",
+  "name": "Solvent, brake cleaner, lint-free rags and gallery brushes",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": 120,
+  "notes": "Estimated lot cost for shop consumables. Oil galleries must be brushed, flushed and blown out with filtered air before assembly \u2014 especially if the IMS bearing or a chain ramp was shedding debris into the oil."
+ },
+ {
+  "id": "serpentine-belt",
+  "name": "Serpentine / accessory drive belt",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Continental / Gates",
+    "part": "OE-equivalent 996 accessory belt"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "always",
+  "est_price_usd": 35,
+  "notes": "Cheap, and you have it off anyway."
+ },
+ {
+  "id": "belt-tensioner",
+  "name": "Accessory belt tensioner and idler pulleys",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Spin each by hand \u2014 any roughness or lateral play, replace. A seized idler shreds a new belt."
+ },
+ {
+  "id": "alternator",
+  "name": "Alternator",
+  "category": "fuel-ignition",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Have it bench-tested while it is off, and replace the pulley/decoupler if it is the one-way type and feels notchy."
+ },
+ {
+  "id": "engine-stand-adapter",
+  "name": "M96 engine stand adapter plate",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Various",
+    "part": "M96/M97 bellhousing-pattern stand adapter"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 200,
+  "notes": "A generic four-arm engine stand will NOT bolt to an M96 \u2014 you need the bellhousing-pattern plate. Use a stand rated well above the engine's roughly 200 kg."
+ },
+ {
+  "id": "ims-tool",
+  "name": "LN IMS Retrofit installation tool 106-08.2.2",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "LN Engineering",
+    "part": "106-08.2.2 tool"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Required for the Single Row Pro retrofit. LN operate a tool RENTAL program, which is the sensible route for a one-off build."
+ },
+ {
+  "id": "rms-install-tool",
+  "name": "Rear main seal installation tool",
+  "category": "tools",
+  "oem_part_numbers": [
+   "9699",
+   "9699/2"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Rauch & Spiegel",
+    "part": "9699 + 9699/2 crankshaft seal tool, 97-08 M96/M97"
+   },
+   {
+    "brand": "LN Engineering",
+    "part": "0PB.105.249.LN M96/M97 rear main seal tool"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Not optional. The PTFE seal must go in dry, square and to the correct depth \u2014 tapping it in with a socket is how RMS leaks get blamed on the flywheel."
+ },
+ {
+  "id": "cam-timing-tool",
+  "name": "Camshaft holding / timing lock fixture",
+  "category": "tools",
+  "oem_part_numbers": [
+   "9595"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Aftermarket",
+    "part": "P253-type M96 cam timing lock tool"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Porsche 9595-series tooling or a competent aftermarket equivalent. Cam timing on an M96 without holding fixtures is not a job, it is a gamble. LN sell an M96 assembly and cam timing tool range; verify the exact tool numbers for the 3.6 three-chain engine, as the tooling differs from the 3.4 five-chain."
+ },
+ {
+  "id": "faultless-tool-kit",
+  "name": "M96 Faultless supplemental engine assembly tool kit and flywheel lock",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Faultless / LN Engineering",
+    "part": "M96 supplemental assembly tool kit + flywheel lock kit"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Covers the flywheel lock and assorted M96 assembly fixtures, and also suits Cayenne V8 and 9A1. Worth pricing against buying the pieces individually."
+ },
+ {
+  "id": "ring-compressor-tapered",
+  "name": "Tapered sleeve ring compressor",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 90,
+  "notes": "LN specifically call for a tapered sleeve compressor for M96 piston installation \u2014 not a band-type. Must match your final bore size, so buy it after machining is specified."
+ },
+ {
+  "id": "measuring-tools",
+  "name": "Precision measuring set (dial bore gauge, micrometers, Plastigage, dial indicator)",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 600,
+  "notes": "Dial bore gauge reading to 0.0001 in, outside micrometers 0-100 mm, telescoping gauges, Plastigage, dial indicator with magnetic base. You cannot honestly inspect an M96 for bore scoring, taper and out-of-round without these \u2014 documented practice quotes a 0.0015 in out-of-round limit measured perpendicular to the crank axis."
+ },
+ {
+  "id": "torque-angle-gauge",
+  "name": "Torque angle gauge and torque wrench set",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 250,
+  "notes": "Almost every critical fastener on this engine is torque-plus-angle: head bolts 2 x 70 degrees, flywheel bolts 25 Nm + 90 degrees, rod and carrier bolts. Estimating the angle by eye is not acceptable. You need wrenches covering roughly 5-30 Nm, 20-100 Nm and 60-200 Nm, calibrated."
+ },
+ {
+  "id": "borescope",
+  "name": "Articulating borescope",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 150,
+  "notes": "Used three times in this build: pre-teardown bore survey, wrist pin circlip verification after installing pistons 4-6, and post-break-in validation. Note the limitation \u2014 bore scoring starts at the BOTTOM of the cylinder where the piston hides it, so a clean borescope is not proof of a clean bore."
+ },
+ {
+  "id": "diagnostic-scan-tool",
+  "name": "Porsche-capable diagnostic scan tool",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Durametric",
+    "part": "Durametric Professional"
+   },
+   {
+    "brand": "Porsche",
+    "part": "PIWIS"
+   },
+   {
+    "brand": "Autologic",
+    "part": "Autologic"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 400,
+  "notes": "Essential at both ends of the job. Before teardown: over-rev ranges, fuel trims, O2 activity, crank sensor data and camshaft deviation. After the rebuild: camshaft deviation again, to prove the timing job. A generic OBD-II reader cannot show cam deviation."
+ },
+ {
+  "id": "oil-filter-cutter",
+  "name": "Oil filter cutter",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": 60,
+  "notes": "The cheapest diagnostic instrument in this list and one of the most informative on an M96. Ferrous paste = IMS; non-ferrous flake = bore scoring or piston skirt; brass = bearings; black plastic = chain ramps."
+ },
+ {
+  "id": "drivetrain-drop-table",
+  "name": "Drivetrain drop table / transmission jacks and engine hoist",
+  "category": "tools",
+  "oem_part_numbers": [],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "as-needed",
+  "est_price_usd": 500,
+  "notes": "The 996 drivetrain comes out DOWNWARD as an assembly, so you need a cradle supporting both the sump and the transmission \u2014 a single-point transmission jack will let it tip. You also need enough lift height to roll the assembly out from under the car. Do not attempt the drop alone."
+ }
+]

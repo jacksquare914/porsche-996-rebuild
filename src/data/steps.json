@@ -1,0 +1,1570 @@
+[
+ {
+  "id": "prep-baseline-documentation",
+  "title": "Baseline documentation and pre-teardown diagnostics",
+  "phase": "prep",
+  "est_hours": 5.5,
+  "notes": "Do this BEFORE you touch a bolt. Everything you learn here changes the parts list. Pull DME data with Durametric/PIWIS/Autologic: record over-rev ranges (range 4-6 counts are the ones that matter), long/short term fuel trims, both bank O2 activity, and above all the camshaft deviation values for bank 1 and bank 2 \u2014 deviation beyond roughly +/-6 deg is the classic worn chain-ramp signature on an M96. Photograph the engine bay from every angle with the decklid open, and shoot close-ups of every connector, ground strap, vacuum line and hose clamp orientation. You will not remember how the AOS hoses route. Label connectors with numbered tape as you go. Record the engine number stamped on the lower edge of the crankcase near the sump flange \u2014 it is the only reliable way to pin down IMS variant and case casting.",
+  "torque": [],
+  "tools": [
+   "Durametric Professional or PIWIS",
+   "borescope",
+   "label maker / masking tape",
+   "camera"
+  ],
+  "part_ids": [
+   "diagnostic-scan-tool"
+  ],
+  "children": [
+   {
+    "id": "prep-oil-filter-forensics",
+    "title": "Cut the oil filter and drop the sump plate for debris forensics",
+    "phase": "prep",
+    "est_hours": 1.5,
+    "notes": "This is the single highest-information-per-hour task in the whole job. Cut the filter open with a filter cutter and spread the pleats on a white shop towel. Fine glittery ferrous paste on a magnet = IMS bearing wearing out. Shiny non-ferrous aluminium flake = bore scoring or piston skirt material. Brass/copper = bearing shells. Black rubbery chunks = chain ramp/guide plastic. Photograph the pleats and photograph the magnetic drain plug. Keep the debris in a labelled bag \u2014 it is your evidence for what the teardown should focus on.",
+    "torque": [
+     {
+      "fastener": "Engine oil drain plug",
+      "spec": "50 Nm (37 ft-lb)",
+      "note": "Always use a new aluminium crush washer. A magnetic drain plug is a worthwhile permanent upgrade."
+     },
+     {
+      "fastener": "Oil filter housing cap",
+      "spec": "26 Nm (19 ft-lb)",
+      "note": "New cap O-ring every time."
+     }
+    ],
+    "tools": [
+     "oil filter cutter",
+     "74mm oil filter cap socket",
+     "strong magnet",
+     "white lint-free towels"
+    ],
+    "part_ids": [
+     "oil-filter",
+     "magnetic-drain-plug",
+     "engine-oil",
+     "oil-filter-cutter"
+    ],
+    "children": []
+   },
+   {
+    "id": "prep-borescope-bores",
+    "title": "Borescope all six cylinders through the spark plug holes",
+    "phase": "prep",
+    "est_hours": 2,
+    "notes": "Rotate the engine so each piston is at BDC and look at the thrust face of the bore. CRITICAL M96 CAVEAT: bore scoring starts at the BOTTOM of the cylinder and is hidden by the piston through most of its travel, so a clean borescope is NOT proof of a clean bore \u2014 only teardown is. Look for vertical score lines on the thrust side. On 996/997 the failure is reported more often on the driver's side bank (cylinders 4-6 on a US-market LHD car), and cylinder 6 is the one most commonly quoted as the first to go because it sits furthest from the oil pump and runs hottest. Photograph each bore and label the image by cylinder number.",
+    "torque": [
+     {
+      "fastener": "Spark plugs (reused)",
+      "spec": "25 Nm (19 ft-lb)",
+      "note": "New plugs 30 Nm (22 ft-lb). Anti-seize is not required on the OE plug."
+     }
+    ],
+    "tools": [
+     "articulating borescope with side-view mirror",
+     "spark plug socket 14mm thin-wall"
+    ],
+    "part_ids": [
+     "spark-plugs",
+     "borescope"
+    ],
+    "children": []
+   },
+   {
+    "id": "prep-leakdown-compression",
+    "title": "Leakdown and compression test, record per cylinder",
+    "phase": "prep",
+    "est_hours": 2,
+    "notes": "Warm engine, all plugs out, throttle propped open. Record both absolute numbers and cylinder-to-cylinder spread \u2014 spread matters more than absolute. Listen at the oil filler (rings), the intake (intake valve), the exhaust (exhaust valve) and the coolant tank (head gasket / D-chunk crack). Bubbles in the expansion tank during leakdown on one specific cylinder is the classic D-chunk / cracked-liner tell. Write the numbers on the build sheet; they are your before/after proof.",
+    "torque": [],
+    "tools": [
+     "leakdown tester (dual gauge)",
+     "compression tester with M14 adapter",
+     "air compressor"
+    ],
+    "part_ids": [],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "prep-car-prep-drain",
+  "title": "Car preparation and fluid drain",
+  "phase": "prep",
+  "est_hours": 5,
+  "notes": "996 Targa specific: the sliding glass roof adds weight high up and the rear glass hatch is fragile \u2014 park the roof in the closed position and do not lean on the hatch. Disconnect the battery (front trunk, under the carpet on the left) and wait 15 minutes before touching anything electrical; note the radio code first. Get the car high enough on a four-post or on tall stands that a transmission jack plus the engine/trans assembly can roll out from under it \u2014 you need roughly 24 in / 600 mm of clearance under the rear.",
+  "torque": [
+   {
+    "fastener": "Road wheel bolts",
+    "spec": "130 Nm (96 ft-lb)",
+    "note": "Applies to all 996 variants."
+   }
+  ],
+  "tools": [
+   "four-post lift or 6-ton jack stands",
+   "drain pans (20 L for coolant)",
+   "battery tender"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "prep-drain-fluids",
+    "title": "Drain engine oil, coolant, transmission oil; discharge A/C",
+    "phase": "prep",
+    "est_hours": 3,
+    "notes": "A/C MUST be discharged and recovered by a licensed shop before the condenser/compressor lines are opened \u2014 venting R134a is illegal. The 996 cooling system holds a lot of coolant and it does not all come out of the radiator drains; open the bleeder on the expansion tank and pull the lower hose at the thermostat housing. Expect to chase residual coolant for a while. Catch and measure what comes out so you know what to put back.",
+    "torque": [
+     {
+      "fastener": "Engine oil drain plug",
+      "spec": "50 Nm (37 ft-lb)",
+      "note": "New crush washer."
+     },
+     {
+      "fastener": "Manual transmission drain / fill plug",
+      "spec": "30 Nm (22 ft-lb)",
+      "note": "Open the FILL plug first \u2014 if you cannot open it, do not drain."
+     }
+    ],
+    "tools": [
+     "A/C recovery machine (shop service)",
+     "coolant catch basin",
+     "17mm hex drive for trans plugs"
+    ],
+    "part_ids": [
+     "engine-oil",
+     "coolant-concentrate",
+     "gear-oil-manual",
+     "magnetic-drain-plug"
+    ],
+    "children": []
+   },
+   {
+    "id": "prep-remove-rear-bodywork",
+    "title": "Remove rear bumper cover, undertrays, exhaust and rear wheels",
+    "phase": "prep",
+    "est_hours": 2,
+    "notes": "Rear bumper cover comes off after the tail light surround fasteners and the wheel-well liner screws; it is held by long horizontal guide rails \u2014 pull it straight back, not down. Photograph the position of the bumper shims. Expect several broken plastic clips; buy a clip assortment in advance. Soak every exhaust fastener in penetrant the night before \u2014 20-year-old muffler-to-cat nuts snap as a matter of routine.",
+    "torque": [],
+    "tools": [
+     "plastic trim tool set",
+     "T25/T30 Torx",
+     "penetrating oil",
+     "clip assortment"
+    ],
+    "part_ids": [
+     "exhaust-hardware-kit"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "removal-disconnect",
+  "title": "Disconnect all engine and transmission interfaces",
+  "phase": "removal",
+  "est_hours": 7,
+  "notes": "On a 996 the engine and transmission come out DOWNWARD as one assembly on the rear subframe/carrier \u2014 nothing comes out the top. Everything that crosses the plane between the body and the drivetrain has to be freed: fuel supply/return, coolant hoses, A/C lines, wiring harness plugs, shift cables, clutch slave hydraulic line, throttle cable/DBW connector, and the rear axle shafts. Work methodically bay-left to bay-right and bag-and-tag every fastener by location. Photograph each connector before unplugging it.",
+  "torque": [],
+  "tools": [
+   "bagging and labelling kit",
+   "hose clamp pliers",
+   "line wrenches"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "removal-fuel-electrical",
+    "title": "Relieve fuel pressure, disconnect fuel lines, harness and grounds",
+    "phase": "removal",
+    "est_hours": 2,
+    "notes": "Relieve rail pressure before opening any fuel fitting, and plug both lines immediately \u2014 the 996 will dribble a surprising amount. The main engine harness plug sits on the left side of the engine; release the lever slowly, the connector body is brittle with age. Do not forget the two engine ground straps \u2014 a missed ground causes maddening no-start diagnostics later.",
+    "torque": [],
+    "tools": [
+     "fuel line disconnect tools",
+     "fuel line caps/plugs"
+    ],
+    "part_ids": [
+     "fuel-line-o-rings"
+    ],
+    "children": []
+   },
+   {
+    "id": "removal-coolant-ac-hoses",
+    "title": "Disconnect coolant hoses, A/C lines and heater lines",
+    "phase": "removal",
+    "est_hours": 2,
+    "notes": "Cap every opened A/C fitting immediately with new O-rings ready for reassembly; moisture in the system means a new receiver/drier. Inspect the plastic coolant distribution pieces and the thermostat housing as they come off \u2014 these are the M96's own coolant weak points and they go brittle. Photograph the hose routing around the AOS, it is easy to get wrong on reassembly.",
+    "torque": [],
+    "tools": [
+     "A/C O-ring kit",
+     "spring clamp pliers"
+    ],
+    "part_ids": [
+     "coolant-hose-set",
+     "thermostat-housing",
+     "ac-oring-kit",
+     "coolant-pipe-note"
+    ],
+    "children": []
+   },
+   {
+    "id": "removal-axles-shifter-clutch-hydraulics",
+    "title": "Disconnect axle shafts, shift cables and clutch slave cylinder",
+    "phase": "removal",
+    "est_hours": 3,
+    "notes": "The axle shaft inner CV bolts are 12-point M8 (triple-square/XZN) and they round off if the socket is not driven fully home \u2014 clean the heads with a pick first. Support each axle with wire once free so the CV boot is not stretched. Leave the clutch slave cylinder bolted to the bellhousing and unbolt it from the line, or better, unbolt the slave and hang it on the body so the hydraulic system stays sealed and does not need bleeding later.",
+    "torque": [
+     {
+      "fastener": "Axle shaft to flange bolts (M8 12-point)",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Commonly quoted in the 80 Nm class for the M10 variant and ~45-50 Nm for M8; verify before assembly. Always use new bolts."
+     }
+    ],
+    "tools": [
+     "M8/M10 12-point (XZN) sockets",
+     "mechanics wire"
+    ],
+    "part_ids": [
+     "axle-bolts",
+     "clutch-slave-cylinder"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "removal-drop-drivetrain",
+  "title": "Drop the engine and transmission out the bottom",
+  "phase": "removal",
+  "est_hours": 11.5,
+  "notes": "This is the defining 996 operation: the whole drivetrain lowers out of the car from underneath. Build or buy a cradle/table that supports BOTH the sump and the transmission \u2014 a bare transmission jack under one point will let the assembly tip. Take the weight on the cradle BEFORE undoing the engine and transmission mounts, then lower in small increments while a second person watches every remaining cable, hose and harness for tension. Budget 6 hours for a careful first-timer; an experienced shop quotes 4-6. Do not work alone on this step.",
+  "torque": [
+   {
+    "fastener": "Engine mount to carrier, upper bolts",
+    "spec": "23 Nm (17 ft-lb)",
+    "note": ""
+   },
+   {
+    "fastener": "Engine mount main nut",
+    "spec": "85 Nm (63 ft-lb)",
+    "note": ""
+   }
+  ],
+  "tools": [
+   "drivetrain drop table or two transmission jacks",
+   "engine hoist",
+   "second pair of hands"
+  ],
+  "part_ids": [
+   "engine-mounts",
+   "transmission-mount"
+  ],
+  "children": [
+   {
+    "id": "removal-lower-assembly",
+    "title": "Take the weight and lower the engine/transmission assembly out",
+    "phase": "removal",
+    "est_hours": 6,
+    "notes": "Take the full weight on the cradle BEFORE undoing the engine and transmission mounts. Then lower in small increments while a second person watches every remaining cable, hose and harness for tension \u2014 something is always still attached. An experienced shop quotes 4-6 hours for the drop; budget 6 for a careful first time. Do not attempt this alone, and do not let the assembly hang on one support point.",
+    "torque": [
+     {
+      "fastener": "Engine mount to carrier, upper bolts",
+      "spec": "23 Nm (17 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "Engine mount main nut",
+      "spec": "85 Nm (63 ft-lb)",
+      "note": ""
+     }
+    ],
+    "tools": [
+     "drivetrain drop table or two transmission jacks",
+     "engine hoist",
+     "second pair of hands"
+    ],
+    "part_ids": [
+     "engine-mounts",
+     "transmission-mount",
+     "drivetrain-drop-table"
+    ],
+    "children": []
+   },
+   {
+    "id": "removal-separate-trans",
+    "title": "Separate transmission from engine",
+    "phase": "removal",
+    "est_hours": 2,
+    "notes": "Pull the transmission straight back off the dowels \u2014 do NOT let it hang on the input shaft, that bends the clutch disc hub and can damage the guide tube. Support the transmission on its own stand. With the bellhousing open, inspect the clutch face, the release bearing and the guide tube, and look for oil: oil on the clutch from the engine side means a leaking RMS; from the transmission side means the input shaft seal.",
+    "torque": [],
+    "tools": [
+     "transmission jack",
+     "long extensions and swivels for bellhousing bolts"
+    ],
+    "part_ids": [],
+    "children": []
+   },
+   {
+    "id": "removal-clutch-dmf",
+    "title": "Remove clutch, pressure plate and dual-mass flywheel",
+    "phase": "removal",
+    "est_hours": 1.5,
+    "notes": "Lock the flywheel before loosening. Loosen the pressure plate bolts in a star pattern a turn at a time so the cover does not distort. The DMF is heavy \u2014 do not let it drop on the crank flange or the dowel. Before discarding, check the DMF: rotational free play (rock the secondary mass against the primary), radial rock, and any rattling or evidence of grease thrown out past the seal. Porsche/LuK spec a diagnostic tool for this; if in doubt on a 20-year-old car with the engine already out, replace it. THE FLYWHEEL BOLTS ARE TORQUE-TO-YIELD AND MUST NOT BE REUSED.",
+    "torque": [
+     {
+      "fastener": "Dual-mass flywheel bolts (M96)",
+      "spec": "25 Nm (19 ft-lb) + 90 deg",
+      "note": "TTY \u2014 new bolts mandatory. Torque-then-angle; use a proper angle gauge, not a guess."
+     }
+    ],
+    "tools": [
+     "flywheel locking tool",
+     "torque angle gauge",
+     "M10 12-point socket"
+    ],
+    "part_ids": [
+     "dual-mass-flywheel",
+     "flywheel-bolts",
+     "clutch-kit",
+     "release-bearing"
+    ],
+    "children": []
+   },
+   {
+    "id": "removal-engine-to-stand",
+    "title": "Mount engine on a stand with an M96 adapter plate",
+    "phase": "removal",
+    "est_hours": 2,
+    "notes": "A generic four-arm stand will NOT bolt to an M96 \u2014 you need the bellhousing-pattern adapter plate. Use a stand rated well above the ~200 kg engine and put the stand on a solid floor; you will be applying real torque to this thing later. Mount it so the engine can rotate to put the case-half seam horizontal. Fit blanking plates/tape over every open port so nothing falls inside.",
+    "torque": [],
+    "tools": [
+     "engine stand (750 lb+)",
+     "M96 engine stand adapter plate",
+     "engine hoist with load leveller"
+    ],
+    "part_ids": [
+     "engine-stand-adapter"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "teardown-external-strip",
+  "title": "Strip external accessories, intake and exhaust from the engine",
+  "phase": "teardown",
+  "est_hours": 8,
+  "notes": "Work top-down and keep hardware in labelled bags by assembly. Photograph the intake runner and vacuum routing before anything moves \u2014 the 996 3.6 resonance/intake plumbing is not intuitive on reassembly. Bag every sensor with its connector orientation photographed.",
+  "torque": [],
+  "tools": [
+   "labelled zip bags",
+   "camera"
+  ],
+  "part_ids": [
+   "engine-gasket-set"
+  ],
+  "children": [
+   {
+    "id": "teardown-intake-throttle",
+    "title": "Remove intake manifold, throttle body, injectors and fuel rail",
+    "phase": "teardown",
+    "est_hours": 2.5,
+    "notes": "Pull the fuel rail with the injectors attached, then press the injectors out. Every injector gets new upper and lower O-rings \u2014 they are hard as plastic at this age and they are a classic post-rebuild fuel-smell/rough-idle cause. Cover the head intake ports immediately. Inspect the intake ports for oil pooling: heavy oil in the intake is your AOS telling you it has failed.",
+    "torque": [
+     {
+      "fastener": "Throttle body to intake",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 low value, ~10 Nm class",
+      "note": "New throttle body gasket 996-110-317-52. Verify against factory manual."
+     }
+    ],
+    "tools": [
+     "injector puller",
+     "pick set"
+    ],
+    "part_ids": [
+     "intake-manifold-gasket",
+     "throttle-body-gasket",
+     "injector-oring-kit",
+     "fuel-injectors"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-accessory-strip",
+    "title": "Remove alternator, A/C compressor, power steering pump, belt drive, AOS, water pump",
+    "phase": "teardown",
+    "est_hours": 3,
+    "notes": "The AOS and its vent hoses come off as a unit \u2014 replace all of it, the hoses go brittle and crack and a vacuum leak there is a genuine engine-killer (it can hydro-lock or run the engine on its own oil). The water pump almost certainly has a plastic impeller; replace it with a metal-impeller unit on principle, because a shed plastic impeller distributes itself through the whole cooling system. Inspect the accessory belt tensioner and idler bearings by hand \u2014 any roughness, replace.",
+    "torque": [
+     {
+      "fastener": "Water pump bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": "New O-ring/gasket; do not over-torque into the aluminium case."
+     },
+     {
+      "fastener": "Thermostat housing bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "AOS mounting bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     }
+    ],
+    "tools": [
+     "serpentine belt tool",
+     "10mm/13mm sockets"
+    ],
+    "part_ids": [
+     "water-pump",
+     "thermostat",
+     "aos",
+     "aos-hose-kit",
+     "serpentine-belt",
+     "belt-tensioner",
+     "alternator"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-exhaust-manifolds",
+    "title": "Remove exhaust manifolds, heat shields and O2 sensors",
+    "phase": "teardown",
+    "est_hours": 2.5,
+    "notes": "Heat and penetrant, then patience. Plan on snapping at least one manifold stud and plan the extraction in advance (weld a nut on rather than drill, if you can get to it). Remove the O2 sensors with a slotted sensor socket and do not hang them by their wires. All manifold gaskets and nuts are one-time-use.",
+    "torque": [
+     {
+      "fastener": "Exhaust manifold nuts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Use new copper-plated lock nuts and new gaskets; anti-seize the studs on assembly."
+     },
+     {
+      "fastener": "Oxygen sensors",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 typically 45-55 Nm class",
+      "note": "Never install an O2 sensor with anti-seize on the sensing tip."
+     }
+    ],
+    "tools": [
+     "O2 sensor socket",
+     "oxy-acetylene or induction heater",
+     "stud extractor set"
+    ],
+    "part_ids": [
+     "exhaust-manifold-gaskets",
+     "exhaust-hardware-kit",
+     "o2-sensors"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "teardown-ims-rms-access",
+  "title": "Remove the IMS flange and rear main seal \u2014 identify the IMS bearing",
+  "phase": "teardown",
+  "est_hours": 3,
+  "notes": "THE CENTRAL M96 DECISION POINT. On a 2003 996 3.6 (M96.03) the intermediate shaft bearing is, by model year, the SINGLE-ROW serviceable bearing. Identification, in order of reliability: (1) pull the flange and look \u2014 a single row of balls in a narrow race, with a comparatively wide flange; (2) measure the flange dish depth, quoted at 19.27 mm for single-row versus 13.34 mm for the dual-row; (3) cross-check the engine number stamped on the lower edge of the crankcase. Do NOT assume from the model year alone on an engine that may have been replaced under warranty \u2014 a swapped-in later engine could be a different variant. The large NON-SERVICEABLE bearing belongs to MY2006-2008 engines and cannot be replaced without splitting the case; since you are splitting the case anyway on this build, that would be an option rather than a disaster, but it is not what a 2003 should have. Photograph the bearing in situ before it moves, photograph the grease/debris state, and bag the old bearing as evidence.",
+  "torque": [
+   {
+    "fastener": "IMS flange bolts",
+    "spec": "NOT VERIFIED IN RESEARCH \u2014 consult LN/factory instructions",
+    "note": "The LN retrofit kit ships its own torque values; follow the kit instructions over any generic figure."
+   }
+  ],
+  "tools": [
+   "LN IMS Retrofit tool 106-08.2.2 (purchase or rental)",
+   "RMS removal tool",
+   "dial calipers"
+  ],
+  "part_ids": [
+   "ims-solution-single-row",
+   "ims-retrofit-single-row-pro",
+   "ims-flange-seal",
+   "rms-seal"
+  ],
+  "children": [
+   {
+    "id": "teardown-ims-flange-remove-identify",
+    "title": "Remove the IMS flange and positively identify the bearing variant",
+    "phase": "teardown",
+    "est_hours": 1,
+    "notes": "Identify in this order of reliability: (1) pull the flange and look \u2014 a single row of balls in a narrow race with a comparatively wide flange; (2) measure flange dish depth, 19.27 mm for single-row versus 13.34 mm for dual-row; (3) cross-check the engine number stamped on the lower edge of the crankcase. Do NOT rely on model year alone \u2014 a warranty-replacement engine could be a different variant. Record the answer on the build sheet before you order any IMS part.",
+    "torque": [
+     {
+      "fastener": "IMS flange bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult LN/factory instructions",
+      "note": "The LN kit ships its own torque values; those supersede any generic figure."
+     }
+    ],
+    "tools": [
+     "dial calipers",
+     "LN IMS tool 106-08.2.2 (purchase or rental)"
+    ],
+    "part_ids": [
+     "ims-flange-seal",
+     "ims-tool"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-ims-inspect-evidence",
+    "title": "Inspect and document IMS bearing condition and shaft play",
+    "phase": "inspection",
+    "est_hours": 1,
+    "notes": "Before the bearing comes out, feel for radial and axial play at the shaft nose. Any detectable play, any roughness on rotation, or a collapsed/missing seal on the outer race means the bearing has been shedding into the oil \u2014 which changes the whole build, because that debris has been through every bearing in the engine. Capture the state of the grease: a dry, brown, varnished bearing is the textbook pre-failure condition. Photograph the balls and both races.",
+    "torque": [],
+    "tools": [
+     "dial indicator with magnetic base",
+     "borescope"
+    ],
+    "part_ids": [],
+    "children": []
+   },
+   {
+    "id": "teardown-rms-flange",
+    "title": "Remove rear main seal and crankshaft flange area",
+    "phase": "teardown",
+    "est_hours": 1,
+    "notes": "The RMS is the 996's most over-blamed and most misunderstood leak. LN's position is worth repeating: RMS leaks are not caused by the weight of the dual-mass flywheel, they come from case/block mis-machining at the factory or from an engine never updated to the current PTFE seal. Note carefully whether the old seal sat square in its bore. A PTFE seal is installed DRY \u2014 no oil, no grease on the lip \u2014 and must go in square with the proper tool, never tapped in with a socket.",
+    "torque": [],
+    "tools": [
+     "Porsche 9699 + 9699/2 RMS tool, or LN 0PB.105.249.LN"
+    ],
+    "part_ids": [
+     "rms-seal",
+     "rms-install-tool"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "teardown-valvetrain",
+  "title": "Valvetrain, cam housings and timing drive teardown",
+  "phase": "teardown",
+  "est_hours": 12,
+  "notes": "Before anything rotates or comes apart, set the engine to TDC cylinder 1 and mark the relationship of every sprocket to its chain with paint. Even though you will re-time from scratch with tooling, the marks tell you where the engine actually WAS, which is how you confirm a suspected timing slip. Keep every lifter, every cam follower and every valve in a labelled tray by exact position \u2014 used parts must go back in the same bore.",
+  "torque": [],
+  "tools": [
+   "paint marker",
+   "24-position labelled parts tray"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "teardown-cam-covers-lock",
+    "title": "Remove cam covers, set TDC and lock the camshafts",
+    "phase": "teardown",
+    "est_hours": 2,
+    "notes": "Photograph the VarioCam Plus solenoid positions and their wiring before removal. 2003 3.6 SPECIFIC: this is a VarioCam Plus engine \u2014 variable timing via an electro-hydraulic rotary vane adjuster at the nose of each INTAKE camshaft, plus two-stage valve lift via switchable tappets. It is NOT the earlier 3.4's chain-tensioner-actuated VarioCam. Note also that the 3.6 M96.03 is a THREE-chain engine (crank-to-IMS plus one chain per bank), where the 1999-2001 3.4 is a five-chain engine \u2014 the parts and the timing procedure are not interchangeable.",
+    "torque": [],
+    "tools": [
+     "cam locking/timing fixture (Porsche 9595-series or equivalent aftermarket P253 type)",
+     "TDC locating pin"
+    ],
+    "part_ids": [
+     "cam-cover-gasket",
+     "variocam-solenoid",
+     "variocam-actuator"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-tensioners-chains-ramps",
+    "title": "Remove chain tensioners, chains, guide rails and chain ramps",
+    "phase": "teardown",
+    "est_hours": 3,
+    "notes": "THE OTHER SIGNATURE M96 WEAR ITEM. The chain ramps and guides are plastic over a steel spine, and they heat-cycle themselves brittle then wear through \u2014 which retards cam timing and throws the deviation codes you logged at the start. Lay every ramp out and photograph the wear faces next to a new one; grooves worn past roughly half the pad thickness, or any cracking/missing chunks, condemn the set. ALL ramps, rails and chains get replaced on a full rebuild \u2014 they are cheap relative to doing this job twice. Retrieve the tensioner shoes and count the pieces; a missing chunk of ramp is somewhere in your engine and you need to find it.",
+    "torque": [
+     {
+      "fastener": "Chain tensioner into case",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Tensioners are hydraulic; they must be compressed and pinned on assembly, never installed pumped up."
+     },
+     {
+      "fastener": "M6 x 30 pan-head socket screws at chain box (10.9)",
+      "spec": "NOT VERIFIED IN RESEARCH",
+      "note": "Use a magnetic bit for the screw that enters the slot \u2014 if dropped it goes into the crankcase."
+     }
+    ],
+    "tools": [
+     "chain tensioner tool",
+     "magnetic pickup",
+     "magnetic bit holder"
+    ],
+    "part_ids": [
+     "timing-chain-set",
+     "chain-ramps-rails",
+     "chain-tensioner-ims",
+     "chain-tensioner-1-3",
+     "chain-tensioner-4-6",
+     "ims-sprocket",
+     "ims-tensioner-paddle-billet"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-cam-housings-lifters",
+    "title": "Remove cam housings, camshafts and hydraulic lifters",
+    "phase": "teardown",
+    "est_hours": 4,
+    "notes": "Loosen cam housing/bearing fasteners progressively in reverse of the tightening sequence, a little at a time across the whole housing, so the cam is not bent by uneven spring load. DO NOT use a magnet to lift the lifters out \u2014 there is a service bulletin against it because magnetising a hydraulic lifter makes it collect ferrous debris for the rest of its life. Use a suction tool or a lifter grabber. 3.6 SPECIFIC LIFTER SPLIT: the 2002-2008 3.6 uses 12 conventional non-variable lifters in the EXHAUST positions (996-105-041-72) and 12 switchable variable-lift lifters in the INTAKE positions (996-105-255-25) \u2014 they are different parts at very different prices, do not mix them up.",
+    "torque": [
+     {
+      "fastener": "Camshaft bearing housing / cam cap bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Must be tightened progressively in the specified sequence."
+     }
+    ],
+    "tools": [
+     "lifter suction/vacuum tool",
+     "labelled lifter tray"
+    ],
+    "part_ids": [
+     "hydraulic-lifters-exhaust",
+     "variable-lift-lifters-intake",
+     "camshafts",
+     "cam-housing-gasket"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-heads-off",
+    "title": "Remove cylinder heads",
+    "phase": "teardown",
+    "est_hours": 3,
+    "notes": "The M96 is a long-bolt engine: the cylinder head fasteners are long through-bolts that pass through the head and clamp into the crankcase/crankshaft carrier, not short bolts into a deck. Loosen them in reverse sequence in several passes. The OEM through-bolts are TORQUE-TO-YIELD and must be discarded \u2014 this is where most builders switch to ARP studs (kit 204-4707) or Raceware. With the heads off, examine the head gasket fire rings for blow-by paths and the coolant ports for corrosion, and photograph both head gaskets in place before lifting them.",
+    "torque": [
+     {
+      "fastener": "Cylinder head (long) bolts, 996 3.6 \u2014 removal",
+      "spec": "Reverse of tightening sequence, in stages",
+      "note": "OEM bolts are TTY, single use. Discard."
+     }
+    ],
+    "tools": [
+     "long extensions",
+     "12-point head bolt socket",
+     "engine stand that rotates"
+    ],
+    "part_ids": [
+     "head-gaskets",
+     "head-bolts-oem",
+     "arp-head-studs"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "teardown-bottom-end",
+  "title": "Bottom end teardown \u2014 oil system, case split, rotating assembly",
+  "phase": "teardown",
+  "est_hours": 10,
+  "notes": "From here on, cleanliness discipline starts. Every part that comes off gets labelled by position. Two people and about 14 hours is a realistic figure for a full careful teardown from cam covers to bare case halves.",
+  "torque": [],
+  "tools": [],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "teardown-oil-pan-pump",
+    "title": "Remove sump/oil pan, pickup, oil pump and scavenge pumps",
+    "phase": "teardown",
+    "est_hours": 3,
+    "notes": "Expect the sump to have been sealed with a heavy hand of Loctite 5900 \u2014 scrape it carefully and do not gouge the aluminium sealing face, and do not let scrapings fall into the case. Inspect the oil pump gears for scoring and measure gear-to-housing clearance. Check the oil pump drive \u2014 the OEM drive is a known weak link and a chromoly replacement is a sensible upgrade while you are in here. Inspect the pickup screen for the same debris you found in the filter.",
+    "torque": [
+     {
+      "fastener": "Oil pan / sump bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Low value into aluminium; torque in a spiral sequence from the centre out."
+     }
+    ],
+    "tools": [
+     "plastic and brass scrapers",
+     "feeler gauges",
+     "straightedge"
+    ],
+    "part_ids": [
+     "oil-pump",
+     "oil-pump-drive-chromoly",
+     "oil-pickup-tube",
+     "sump-gasket",
+     "oil-pickup-oring"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-case-split",
+    "title": "Split the crankcase halves",
+    "phase": "teardown",
+    "est_hours": 3,
+    "notes": "Mark the sealant bead line on the flange with a sharpie BEFORE you clean anything \u2014 the factory bead path is specific and you will want to reproduce it. Remove every case fastener (the M96.03 uses on the order of 25 case bolts plus 14 crankshaft carrier bolts) and lay them out on a board in a map of their positions; they are not all the same length. Separate the halves with even prying at the designated pry points ONLY \u2014 never between the sealing faces, a nick in that flange is a permanent oil leak. Split with the 1-3 half down and the 4-6 half up so the crank stays supported; use temporary bolts to support the crankshaft carrier as the halves come apart.",
+    "torque": [
+     {
+      "fastener": "Crankcase bolts (25 off)",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Multiple sizes and lengths; map them by position on removal."
+     },
+     {
+      "fastener": "Crankshaft carrier bolts (14 off)",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual or ARP instructions",
+      "note": "OEM are TTY. Rebuild kits commonly substitute ARP carrier bolts, which have their own published torque."
+     }
+    ],
+    "tools": [
+     "case splitting pry bars (soft-faced)",
+     "bolt organiser board",
+     "engine stand that rotates 360 deg"
+    ],
+    "part_ids": [
+     "case-bolts",
+     "crank-carrier-bolts-arp",
+     "crank-carrier-oring",
+     "case-bolt-orings",
+     "loctite-5900"
+    ],
+    "children": []
+   },
+   {
+    "id": "teardown-crank-rods-pistons",
+    "title": "Remove crankshaft, connecting rods and pistons",
+    "phase": "teardown",
+    "est_hours": 4,
+    "notes": "Measure crankshaft end play BEFORE disassembly and write it down \u2014 a rebuilt engine should come back in the middle of the spec range (one documented rebuild measured 0.004 in / 0.10 mm). Number every rod and cap to its journal and keep caps with their own rods; they are fracture-split and not interchangeable. GEOMETRY NOTE that catches people out on reassembly: pistons 1-3 come out and go back through the top of the bore normally, but 4-6 have to be passed through an access opening in the case wall with the rods still on the crank. Keep each piston with its bore and mark its orientation arrow. Bag the bearing shells by position \u2014 reading the wear pattern later is how you diagnose oiling problems.",
+    "torque": [
+     {
+      "fastener": "Connecting rod bolts (12 off)",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual or ARP instructions",
+      "note": "OEM are TTY and single use. Most rebuild kits supply ARP rod bolts; use ARP's published torque and ARP Ultra-Torque lubricant, not engine oil."
+     }
+    ],
+    "tools": [
+     "dial indicator",
+     "rod bolt protectors / hose sleeves",
+     "piston ring expander"
+    ],
+    "part_ids": [
+     "rod-bolts-arp",
+     "main-bearings",
+     "rod-bearings",
+     "thrust-bearings",
+     "pistons-oem",
+     "piston-rings"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "inspection-full",
+  "title": "Inspection and measurement of every component",
+  "phase": "inspection",
+  "est_hours": 12,
+  "notes": "Build a spreadsheet before you start measuring and fill it in as you go: every bore at three heights and two axes, every journal, every clearance. This record is what tells you whether you are doing a refresh or a full machining job, and it is the document you will want in five years. Photograph everything you measure next to the measuring instrument.",
+  "torque": [],
+  "tools": [
+   "dial bore gauge",
+   "outside micrometers 0-100mm",
+   "telescoping gauges",
+   "Plastigage",
+   "granite surface plate"
+  ],
+  "part_ids": [
+   "measuring-tools"
+  ],
+  "children": [
+   {
+    "id": "inspection-bores-scoring",
+    "title": "Cylinder bore inspection for scoring, taper and out-of-round",
+    "phase": "inspection",
+    "est_hours": 3,
+    "notes": "THE DEFINING M96 INSPECTION. With the pistons out you can finally see the bottom of the bore where scoring starts and where the borescope could not reach. Look at the thrust faces. Vertical scoring you can catch a fingernail in is terminal for that bore. Documented rebuild practice: measure out-of-round perpendicular to the crank axis, with 0.0015 in quoted as a practical limit. Measure taper top to bottom. Cylinder 6 gets the most attention in the field \u2014 furthest from the oil pump, hottest, and the most commonly reported first failure \u2014 but check all six and do not stop at the first bad one. Inspect the piston skirts at the same time: flaking of the iron/ferrous coating off the skirt is the mechanism that starts the scoring. If any bore is scored, the honest answer is sleeving the whole block, not one hole.",
+    "torque": [],
+    "tools": [
+     "dial bore gauge 0.0001 in",
+     "bright inspection light",
+     "magnifying loupe"
+    ],
+    "part_ids": [
+     "nickies-96mm",
+     "nickies-104mm-bigbore",
+     "forged-pistons-oversize",
+     "measuring-tools",
+     "borescope"
+    ],
+    "children": []
+   },
+   {
+    "id": "inspection-case-dchunk",
+    "title": "Crankcase inspection \u2014 D-chunk cracks, sleeve integrity, bearing bores",
+    "phase": "inspection",
+    "est_hours": 3,
+    "notes": "The D-chunk failure is a crack that propagates from the cylinder outward into the coolant passage, letting coolant flood the engine internals \u2014 it is the end state of untreated bore scoring, and it is reported most often on the 3.4 but is not exclusive to it. Inspect the outside of each cylinder from inside the case for cracks, and look for a slipped or cracked factory sleeve. Dye-penetrant or magnaflux the case if there is any doubt. Also check the main bearing bore alignment and roundness with the halves bolted together to spec, and inspect the case for the fretting and mis-machining that causes chronic RMS leaks. A block with cracked or slipped sleeves needs repair sleeves or replacement \u2014 decide here, not later.",
+    "torque": [],
+    "tools": [
+     "dye penetrant kit",
+     "dial bore gauge",
+     "align-bore checking bar"
+    ],
+    "part_ids": [
+     "nickies-96mm",
+     "case-repair-sleeves"
+    ],
+    "children": []
+   },
+   {
+    "id": "inspection-crank-rods-bearings",
+    "title": "Crankshaft, rod and bearing inspection",
+    "phase": "inspection",
+    "est_hours": 3,
+    "notes": "Mic every main and rod journal in two axes at three points for taper and out-of-round. Check crank runout on V-blocks. Read the old bearing shells like a diagnostic: even grey wear is normal; copper showing through is overload or oil starvation; embedded glitter is the IMS bearing debris that has been circulating. Documented finding worth knowing \u2014 rod bearing 6 commonly shows the heaviest thrust-face wear, consistent with being furthest from the oil pump. Check rod big-end bore roundness and rod straightness; have rods resized if outside spec.",
+    "torque": [],
+    "tools": [
+     "micrometers",
+     "V-blocks and dial indicator",
+     "rod alignment fixture"
+    ],
+    "part_ids": [
+     "crankshaft",
+     "connecting-rods",
+     "main-bearings",
+     "rod-bearings",
+     "thrust-bearings"
+    ],
+    "children": []
+   },
+   {
+    "id": "inspection-heads-valves",
+    "title": "Cylinder head, valve and valve guide inspection",
+    "phase": "inspection",
+    "est_hours": 3,
+    "notes": "Check head flatness with a straightedge and feelers in both diagonals and lengthwise. Measure valve stem-to-guide clearance by rocking each valve in its guide with a dial indicator \u2014 worn guides are common at this mileage and are a real oil-consumption source that people misattribute to rings or the AOS. Inspect the seats for recession and pitting, check for cracks between the valve seats and around the plug hole, and pressure-test the head if there is any sign of coolant intrusion. Check the cam bearing surfaces in the head/housing for scoring.",
+    "torque": [],
+    "tools": [
+     "precision straightedge and feeler gauges",
+     "dial indicator",
+     "valve spring tester"
+    ],
+    "part_ids": [
+     "valve-guides",
+     "intake-valves",
+     "exhaust-valves",
+     "valve-springs",
+     "valve-stem-seals"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "machining-work",
+  "title": "Machine shop operations",
+  "phase": "machining",
+  "est_hours": 8,
+  "notes": "Most of this is bench time for someone else, but your setup, spec sheet and QC on return are the hours that count. Send the shop a written spec: target bore, piston-to-wall clearance from the piston supplier, deck height, ring end gaps required, and the head gasket thickness you intend to run. Those choices are interdependent and the shop cannot guess them. Inspect and re-measure everything yourself when it comes back, before it goes anywhere near assembly.",
+  "torque": [],
+  "tools": [
+   "written machining spec sheet"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "machining-case-sleeve-deck",
+    "title": "Case machining, sleeving (Nickies) and decking",
+    "phase": "machining",
+    "est_hours": 3,
+    "notes": "If the bores are scored, the accepted repair on an M96 is to machine the case and install billet aluminium nickel-silicon-carbide plated cylinders (Nickies) with matched oversize forged pistons. NEVER use a steel sleeve in an M96 \u2014 the thermal expansion mismatch against the aluminium case is exactly the wrong answer and the industry consensus is unambiguous about it. Budget roughly USD 5,000-6,000 for case machining plus Nickies plus oversize forged pistons. The case halves must be align-bored/honed as a matched pair if the main bores are out. Decide bore size (96 mm stock, or 102/104 mm big-bore) before machining, because it sets the piston, ring and head gasket choice.",
+    "torque": [],
+    "tools": [
+     "machine shop: CNC boring, align hone, decking fixture"
+    ],
+    "part_ids": [
+     "nickies-96mm",
+     "nickies-104mm-bigbore",
+     "forged-pistons-oversize",
+     "piston-rings"
+    ],
+    "children": []
+   },
+   {
+    "id": "machining-heads-valve-job",
+    "title": "Cylinder head rebuild \u2014 valve job, guides, resurface",
+    "phase": "machining",
+    "est_hours": 3,
+    "notes": "Specify a three-angle valve job, new guides where clearance is out, new valve stem seals throughout, and a light resurface only if needed \u2014 remember the M96 head sits on a long-bolt stack, so material removed from the head changes the clamped stack height and interacts with head gasket thickness. Have the shop pressure-test both heads. Lap and vacuum-test each valve on return and photograph the seat contact rings.",
+    "torque": [],
+    "tools": [
+     "valve spring compressor",
+     "vacuum test cup",
+     "lapping compound"
+    ],
+    "part_ids": [
+     "valve-guides",
+     "valve-stem-seals",
+     "intake-valves",
+     "exhaust-valves",
+     "valve-springs",
+     "head-gaskets"
+    ],
+    "children": []
+   },
+   {
+    "id": "machining-crank-balance",
+    "title": "Crankshaft polish/grind and rotating assembly balance",
+    "phase": "machining",
+    "est_hours": 2,
+    "notes": "Polish journals if within spec, grind undersize only if you must (and buy matching undersize bearings). Have the full rotating assembly \u2014 crank, rods, pistons, pins, rings, bearings, and the flywheel/clutch if you want it perfect \u2014 balanced as a set. This is the difference between a rebuilt engine and a built one, and on a flat-six it is felt directly in how the engine revs.",
+    "torque": [],
+    "tools": [
+     "machine shop: crank grinder, balancer"
+    ],
+    "part_ids": [
+     "crankshaft",
+     "connecting-rods",
+     "main-bearings",
+     "rod-bearings"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "assembly-bottom-end",
+  "title": "Bottom end assembly",
+  "phase": "assembly",
+  "est_hours": 20,
+  "notes": "Stop. Before a single part goes together: clean every oil gallery with rifle brushes and solvent, blow out with filtered air, and cap them. Lay out a clean bench, wear nitrile gloves, and have all torque specs and the sealant on hand before you start \u2014 some of the sealant steps are on a clock and you cannot go looking for a wrench mid-bead.",
+  "torque": [],
+  "tools": [
+   "gallery brush set",
+   "filtered compressed air",
+   "assembly lube",
+   "clean lint-free rags"
+  ],
+  "part_ids": [
+   "assembly-lube",
+   "brake-parts-cleaner",
+   "engine-gasket-set",
+   "torque-angle-gauge",
+   "faultless-tool-kit"
+  ],
+  "children": [
+   {
+    "id": "assembly-case-clean-prep",
+    "title": "Final clean, deburr and dry-fit the case halves",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "Both sealing flanges must be perfectly clean and perfectly dry \u2014 any oil film and the sealant will not bond. Final wipe with brake cleaner or acetone on a lint-free cloth, then do not touch the flange with bare hands. Chase every threaded hole with a thread chaser (not a cutting tap) and blow out the chips. Dry-assemble the halves once with the crank in, without sealant, to confirm nothing binds and everything clears.",
+    "torque": [],
+    "tools": [
+     "thread chasers",
+     "deburring tool",
+     "acetone / brake cleaner",
+     "nitrile gloves"
+    ],
+    "part_ids": [
+     "brake-parts-cleaner"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-crank-bearings",
+    "title": "Install main bearings, crankshaft and check clearances",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "Install bearing shells dry into clean saddles with the tangs located, then check clearance with Plastigage on every main before lubricating anything. When the numbers are confirmed, strip it, lubricate the shells with assembly lube and set the crank in. Set and verify crankshaft end play with the thrust bearings \u2014 aim for the middle of the spec range, not the edge. Record every number.",
+    "torque": [
+     {
+      "fastener": "Crankshaft carrier bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual or ARP instructions",
+      "note": "14 off. OEM TTY; ARP replacements have their own torque and require ARP lubricant."
+     }
+    ],
+    "tools": [
+     "Plastigage",
+     "dial indicator",
+     "torque wrench 5-60 Nm"
+    ],
+    "part_ids": [
+     "main-bearings",
+     "thrust-bearings",
+     "crankshaft",
+     "crank-carrier-bolts-arp",
+     "assembly-lube"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-pistons-rods",
+    "title": "Fit rings to pistons, install pistons and rods",
+    "phase": "assembly",
+    "est_hours": 5,
+    "notes": "File-fit every ring: square each ring in its own bore with a piston and measure the end gap against the piston supplier's spec, not a generic figure. Stagger the ring gaps per the supplier's diagram. Use a TAPERED SLEEVE ring compressor, which is what the cylinder design wants \u2014 not a band-type compressor. Protect the rod bolts with hose sleeves so nothing touches the crank or the bore. THE 4-6 TRICK: pistons 4-6 must be fed in through the case access opening with the rods already on the crank. Do a dry practice run, use an alignment tool, and verify EVERY wrist pin circlip with a borescope after installation \u2014 a circlip that pops out destroys the engine.",
+    "torque": [
+     {
+      "fastener": "Connecting rod bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual or ARP instructions",
+      "note": "12 off. OEM TTY, single use. With ARP bolts use ARP Ultra-Torque lubricant and ARP's published torque/stretch, and measure bolt stretch if you can."
+     }
+    ],
+    "tools": [
+     "tapered sleeve ring compressor",
+     "ring filer",
+     "feeler gauges",
+     "rod bolt stretch gauge",
+     "borescope"
+    ],
+    "part_ids": [
+     "pistons-oem",
+     "forged-pistons-oversize",
+     "piston-rings",
+     "rod-bearings",
+     "rod-bolts-arp",
+     "connecting-rods",
+     "ring-compressor-tapered",
+     "borescope"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-ims-install",
+    "title": "Install the IMS bearing solution",
+    "phase": "assembly",
+    "est_hours": 3,
+    "notes": "FOR A 2003 3.6, THE CHOICE IS BETWEEN TWO SINGLE-ROW PRODUCTS. (a) IMS Retrofit Single Row Pro (LN 106-08.2.2, around USD 999): a ceramic-hybrid ball bearing, serviceable, replaceable at clutch intervals, installable with the engine in the car. (b) IMS Solution Single Row (around USD 1,899): a pressure-fed PLAIN bearing \u2014 no balls, no rollers \u2014 which backdates the design to what Porsche used in the Mezger engines, carries no scheduled replacement interval and a 5-year unlimited-mileage warranty. WITH THE ENGINE ALREADY OUT AND THE CASE ALREADY APART, THE SOLUTION IS THE RATIONAL CHOICE \u2014 its installation requirements (oil feed provisions, full access) are free at this point in the build, and you never open this up again. Do not buy the Dual Row Pro for this engine unless you have physically confirmed a dual-row flange. Follow LN's kit instructions exactly; their torque values supersede any generic figure.",
+    "torque": [
+     {
+      "fastener": "IMS flange bolts",
+      "spec": "Per LN kit instructions",
+      "note": "Follow the supplied instructions, not a generic figure."
+     }
+    ],
+    "tools": [
+     "LN IMS tool 106-08.2.2 (purchase or LN rental program)",
+     "bearing puller/installer"
+    ],
+    "part_ids": [
+     "ims-solution-single-row",
+     "ims-retrofit-single-row-pro",
+     "ims-flange-seal",
+     "ims-tensioner-paddle-billet",
+     "ims-tool"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-case-halves-sealant",
+    "title": "Join the case halves \u2014 the sealant procedure",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "THE HIGHEST-STAKES FIVE MINUTES OF THE BUILD. Have every bolt cleaned, laid out in its mapped position, and every tool in hand before you open the sealant. Porsche specifies Loctite 5900 flange sealant (Porsche PN 000-043-204-35, 50 ml). Many experienced M96 builders prefer Drei Bond 1209 instead, on the grounds that 5900 is messy and tends to squeeze debris into the block \u2014 either is defensible, but do not mix them. Apply a thin, continuous, even bead following the marked path (mark the line with a sharpie beforehand, per the manual illustration); too much sealant is far worse than too little because the excess goes INSIDE the engine and ends up in the oil pickup. You have roughly a five-minute working window before cure begins. Bring the halves together square, start every bolt by hand, then torque in the specified sequence in stages. Do not rotate the crank until the sealant has cured.",
+    "torque": [
+     {
+      "fastener": "Crankcase bolts (25 off)",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Multiple lengths and diameters, tightened in a specified sequence in stages. Install new O-rings on the through-bolts."
+     }
+    ],
+    "tools": [
+     "sharpie",
+     "sealant spreader",
+     "torque wrenches",
+     "bolt position map"
+    ],
+    "part_ids": [
+     "loctite-5900",
+     "dreibond-1209",
+     "case-bolts",
+     "case-bolt-orings",
+     "crank-carrier-oring"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "assembly-top-end",
+  "title": "Top end assembly, timing and cam timing",
+  "phase": "assembly",
+  "est_hours": 20,
+  "notes": "Cleanliness rules still apply. Everything here is sequence-critical; do not improvise the order.",
+  "torque": [],
+  "tools": [],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "assembly-oil-pump-sump",
+    "title": "Install oil pump, pickup and sump",
+    "phase": "assembly",
+    "est_hours": 3,
+    "notes": "Prime the oil pump with assembly lube before it goes on so it can pull oil on first crank. New pickup tube O-ring \u2014 a leak here is an air leak that starves the engine and is invisible from outside. Consider the chromoly oil pump drive upgrade now, it is inaccessible later. Seal the sump with a thin even bead; the previous builder's excess 5900 is why you spent an hour scraping.",
+    "torque": [
+     {
+      "fastener": "Oil pan / sump bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Spiral sequence from centre out, in stages."
+     }
+    ],
+    "tools": [
+     "sealant applicator",
+     "torque wrench 5-30 Nm"
+    ],
+    "part_ids": [
+     "oil-pump",
+     "oil-pump-drive-chromoly",
+     "oil-pickup-tube",
+     "oil-pickup-oring",
+     "sump-gasket",
+     "loctite-5900",
+     "magnetic-drain-plug"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-heads-on",
+    "title": "Install cylinder heads and torque the long bolts",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "New head gaskets (996-104-201-04), fitted dry unless the gasket maker says otherwise, and correctly oriented. Oil the threads and the underside of the bolt heads per the manual. THE FACTORY 996 3.6 SEQUENCE IS UNUSUAL \u2014 READ IT TWICE: tighten all bolts to 30 Nm in the specified sequence, then UNDO ALL THE SCREWS AGAIN, then tighten to 20 Nm in sequence, then final tighten with 2 x 70 degrees of torque angle. The deliberate loosen-and-retighten step is not a typo and it is the step people skip. If you are running ARP 204-4707 studs instead, follow ARP's procedure \u2014 60 ft-lb final in two equal steps using ARP Ultra-Torque assembly lubricant, NOT engine oil, because the lubricant is what makes the preload repeatable.",
+    "torque": [
+     {
+      "fastener": "Cylinder head long bolts \u2014 OEM, 996 3.6",
+      "spec": "30 Nm (22 ft-lb) in sequence, then undo all; 20 Nm (15 ft-lb) in sequence; then 2 x 70 deg angle",
+      "note": "TTY \u2014 new bolts mandatory. Do not substitute the M96/70 Mezger procedure (which is 30 Nm, undo, 20 Nm, then 120 deg) \u2014 different engine, different spec."
+     },
+     {
+      "fastener": "Cylinder head studs \u2014 ARP 204-4707 alternative",
+      "spec": "60 ft-lb (81 Nm) final, in two equal steps",
+      "note": "Use ARP Ultra-Torque fastener assembly lubricant, not motor oil. Studs are reusable, unlike the OEM TTY bolts."
+     },
+     {
+      "fastener": "M6 x 30 pan-head socket screws (10.9) at chain box",
+      "spec": "NOT VERIFIED IN RESEARCH",
+      "note": "Use a magnetic bit holder for the screw entering the slot \u2014 if dropped it falls into the crankcase."
+     }
+    ],
+    "tools": [
+     "torque angle gauge",
+     "beam or click torque wrench 20-150 Nm",
+     "magnetic bit holder"
+    ],
+    "part_ids": [
+     "head-gaskets",
+     "head-bolts-oem",
+     "arp-head-studs",
+     "arp-ultra-torque-lube",
+     "torque-angle-gauge"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-cams-lifters-housings",
+    "title": "Install lifters, camshafts and cam housings",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "Soak new hydraulic lifters in clean oil and keep them upright. Remember the 3.6 split: switchable variable-lift lifters (996-105-255-25) go in the INTAKE positions, conventional lifters (996-105-041-72) in the EXHAUST positions. Lubricate cam lobes and journals with assembly lube. Torque the cam housing fasteners progressively and evenly in the specified sequence so the camshaft is never bent by uneven spring load.",
+    "torque": [
+     {
+      "fastener": "Camshaft bearing housing bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Progressive, sequenced tightening in several passes."
+     }
+    ],
+    "tools": [
+     "assembly lube",
+     "cam housing sequence diagram"
+    ],
+    "part_ids": [
+     "hydraulic-lifters-exhaust",
+     "variable-lift-lifters-intake",
+     "camshafts",
+     "cam-housing-gasket",
+     "assembly-lube"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-chains-rails-tensioners",
+    "title": "Install timing chains, guide rails, ramps and tensioners",
+    "phase": "assembly",
+    "est_hours": 4,
+    "notes": "All new ramps, rails and chains \u2014 this is not the place to reuse. New O-rings on every ramp bolt, and clean and lightly grease the bolts as you go. The 3.6 is a three-chain layout: crank-to-IMS, plus one chain per bank. Compress and pin the hydraulic tensioners before installing them; never fit a pumped-up tensioner. Consider the billet IMS chain tensioner paddle upgrade in place of the plastic original. Verify every rail is fully seated and every retaining pin is captured before the covers go on.",
+    "torque": [
+     {
+      "fastener": "Chain tensioners",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Tensioners must be compressed/pinned before installation and released only after the chain is routed."
+     }
+    ],
+    "tools": [
+     "chain tensioner compression tool",
+     "magnetic pickup tool"
+    ],
+    "part_ids": [
+     "timing-chain-set",
+     "chain-ramps-rails",
+     "chain-tensioner-ims",
+     "chain-tensioner-1-3",
+     "chain-tensioner-4-6",
+     "ims-sprocket",
+     "ims-tensioner-paddle-billet"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-cam-timing",
+    "title": "Set camshaft timing and verify deviation",
+    "phase": "assembly",
+    "est_hours": 5,
+    "notes": "THE STEP THAT DECIDES WHETHER THE ENGINE LIVES. Bring the engine to TDC cylinder 1 on the compression stroke and lock it there. Fit the cam holding/locking fixtures to both banks (Porsche 9595-series tooling or a competent aftermarket equivalent such as the P253 type). Time the chains, release the tensioners, then rotate the engine through at least two full turns BY HAND \u2014 if anything binds, stop and find out why before you apply any more force. Re-check TDC and re-verify the locks still drop in. A widely used belt-and-braces practice among M96 builders is red thread locker on the cam sprocket bolts as insurance against timing slip. Finally, after first start, read camshaft deviation for both banks with a scan tool and compare against the values you logged at the very beginning \u2014 that is the closed loop on the whole job.",
+    "torque": [
+     {
+      "fastener": "Camshaft sprocket / adjuster bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Red (high-strength) thread locker is common practice here as anti-slip insurance."
+     }
+    ],
+    "tools": [
+     "Porsche 9595-series cam holding fixture / P253-type timing lock tool",
+     "TDC locating pin",
+     "Durametric or PIWIS for deviation readout"
+    ],
+    "part_ids": [
+     "variocam-actuator",
+     "variocam-solenoid",
+     "thread-locker-red",
+     "cam-timing-tool",
+     "diagnostic-scan-tool"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "assembly-close-up",
+  "title": "Close up the engine \u2014 seals, flywheel, clutch and accessories",
+  "phase": "assembly",
+  "est_hours": 10,
+  "notes": "Last chance to catch anything before the engine goes back under the car. Do a written checklist walk-around: every fastener torqued and marked, every plug fitted, every sensor connected.",
+  "torque": [],
+  "tools": [
+   "paint marker for torque-witness marks",
+   "written checklist"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "assembly-rms-front-seal",
+    "title": "Install the rear main seal and front crankshaft seal",
+    "phase": "assembly",
+    "est_hours": 2,
+    "notes": "Use the current genuine Porsche PTFE rear main seal (0PB-105-249) \u2014 it is the updated design and it is what fixes the chronic leak history. INSTALL IT DRY: no oil, no grease, nothing on the lip. It must go in square and to the correct depth, which means the Porsche 9699 + 9699/2 tool or the LN equivalent (0PB.105.249.LN). Do not tap it in with a socket and do not touch the sealing lip with your fingers.",
+    "torque": [],
+    "tools": [
+     "Porsche 9699 + 9699/2 RMS tool, or LN 0PB.105.249.LN",
+     "front crank seal installer"
+    ],
+    "part_ids": [
+     "rms-seal",
+     "front-crank-seal",
+     "rms-install-tool"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-flywheel-clutch",
+    "title": "Install dual-mass flywheel, clutch and release bearing",
+    "phase": "assembly",
+    "est_hours": 2,
+    "notes": "NEW TTY FLYWHEEL BOLTS, no exceptions \u2014 the OEM bolts stretch by design and are single-use. Torque 25 Nm then 90 degrees with a proper angle gauge. Centre the clutch disc with an alignment tool before final-torquing the pressure plate, and tighten the cover bolts in a star pattern in stages. Fit the new release bearing and check the guide tube for wear. Photograph the assembly before the transmission goes on.",
+    "torque": [
+     {
+      "fastener": "Dual-mass flywheel bolts",
+      "spec": "25 Nm (19 ft-lb) + 90 deg",
+      "note": "TTY \u2014 new bolts mandatory."
+     },
+     {
+      "fastener": "Clutch pressure plate bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "Star pattern, in stages."
+     }
+    ],
+    "tools": [
+     "flywheel locking tool",
+     "clutch alignment tool",
+     "torque angle gauge"
+    ],
+    "part_ids": [
+     "dual-mass-flywheel",
+     "flywheel-bolts",
+     "clutch-kit",
+     "release-bearing",
+     "torque-angle-gauge",
+     "faultless-tool-kit"
+    ],
+    "children": []
+   },
+   {
+    "id": "assembly-accessories-intake-exhaust",
+    "title": "Refit water pump, AOS, accessories, intake and exhaust manifolds",
+    "phase": "assembly",
+    "est_hours": 6,
+    "notes": "Metal-impeller water pump, new thermostat, all new AOS hoses, new injector O-rings, new exhaust manifold gaskets and nuts with anti-seize on the studs. Fit all sensors and route the harness exactly as photographed at teardown. Fit new spark plugs and inspect the coils \u2014 20-year-old coils on a freshly rebuilt engine is a false economy.",
+    "torque": [
+     {
+      "fastener": "Water pump bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "Thermostat housing bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "AOS mounting bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "Ignition coil pack bolts",
+      "spec": "10 Nm (7.5 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "Spark plugs (new)",
+      "spec": "30 Nm (22 ft-lb)",
+      "note": "Reused plugs 25 Nm (19 ft-lb)."
+     }
+    ],
+    "tools": [
+     "torque wrench 5-30 Nm",
+     "spark plug socket"
+    ],
+    "part_ids": [
+     "water-pump",
+     "thermostat",
+     "aos",
+     "aos-hose-kit",
+     "spark-plugs",
+     "ignition-coils",
+     "injector-oring-kit",
+     "exhaust-manifold-gaskets",
+     "serpentine-belt",
+     "belt-tensioner"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "install-drivetrain",
+  "title": "Reinstall engine and transmission in the car",
+  "phase": "install",
+  "est_hours": 10,
+  "notes": "Essentially the drop in reverse, and it goes faster \u2014 but the risk of damaging a new engine is highest here. Mate the transmission to the engine on the bench/cradle, on the dowels, without forcing. Raise the assembly slowly and keep checking clearance to the body, the coolant pipes and the A/C lines. New motor mounts and transmission mount while it is all apart; 20-year-old rubber under a fresh engine is not worth the hours to do again.",
+  "torque": [
+   {
+    "fastener": "Engine mount to carrier, upper bolts",
+    "spec": "23 Nm (17 ft-lb)",
+    "note": ""
+   },
+   {
+    "fastener": "Engine mount main nut",
+    "spec": "85 Nm (63 ft-lb)",
+    "note": ""
+   },
+   {
+    "fastener": "Road wheel bolts",
+    "spec": "130 Nm (96 ft-lb)",
+    "note": ""
+   }
+  ],
+  "tools": [
+   "drivetrain drop table",
+   "engine hoist",
+   "second pair of hands"
+  ],
+  "part_ids": [
+   "engine-mounts",
+   "transmission-mount",
+   "axle-bolts"
+  ],
+  "children": [
+   {
+    "id": "install-lift-into-car",
+    "title": "Mate transmission to engine and lift the assembly into the car",
+    "phase": "install",
+    "est_hours": 2,
+    "notes": "Mate the transmission to the engine on the cradle, onto the dowels, without forcing \u2014 never pull it together with the bellhousing bolts. Raise the assembly slowly, checking clearance to the body, coolant plumbing and A/C lines continuously. This is where the risk of damaging a brand-new engine is highest, so go slowly and use a second set of eyes.",
+    "torque": [
+     {
+      "fastener": "Engine mount to carrier, upper bolts",
+      "spec": "23 Nm (17 ft-lb)",
+      "note": ""
+     },
+     {
+      "fastener": "Engine mount main nut",
+      "spec": "85 Nm (63 ft-lb)",
+      "note": ""
+     }
+    ],
+    "tools": [
+     "drivetrain drop table",
+     "engine hoist",
+     "second pair of hands"
+    ],
+    "part_ids": [
+     "engine-mounts",
+     "transmission-mount",
+     "drivetrain-drop-table"
+    ],
+    "children": []
+   },
+   {
+    "id": "install-reconnect",
+    "title": "Reconnect fuel, coolant, electrical, A/C, shifter and axles",
+    "phase": "install",
+    "est_hours": 5,
+    "notes": "Work from the photographs. New O-rings on every A/C joint and have the system evacuated and recharged professionally. New crush washers/O-rings on fuel fittings. Double-check both engine ground straps. Before you fill anything, do a connector audit against your teardown photos \u2014 a single unplugged sensor will have you chasing a phantom for an evening.",
+    "torque": [
+     {
+      "fastener": "Axle shaft bolts",
+      "spec": "NOT VERIFIED IN RESEARCH \u2014 consult factory manual",
+      "note": "New bolts. Clean the 12-point heads before seating the socket."
+     }
+    ],
+    "tools": [
+     "A/C vacuum pump and gauges (shop service)",
+     "line wrenches"
+    ],
+    "part_ids": [
+     "ac-oring-kit",
+     "fuel-line-o-rings",
+     "axle-bolts",
+     "coolant-hose-set"
+    ],
+    "children": []
+   },
+   {
+    "id": "install-fill-bleed",
+    "title": "Fill fluids and bleed the cooling system",
+    "phase": "install",
+    "est_hours": 3,
+    "notes": "Engine oil: approximately 8.25 L (8.7 US qt) for an oil-and-filter change; approximately 10.25 L (10.8 US qt) for a completely dry fill, which is what you have now \u2014 fill to the dry-fill figure, then set the level properly on the dipstick/electronic gauge once it has run and settled. Use an oil meeting the Porsche A40 approval, typically a 0W-40 or 5W-40 full synthetic. BLEEDING THE 996 COOLING SYSTEM IS FIDDLY AND MATTERS: the engine is behind you and the radiators are at the front, with high points in between. Use the bleeder screw, run the heater on full hot, and expect to top up repeatedly over several heat cycles. An air pocket on a fresh engine is a very expensive way to learn this.",
+    "torque": [
+     {
+      "fastener": "Engine oil drain plug",
+      "spec": "50 Nm (37 ft-lb)",
+      "note": "New crush washer."
+     },
+     {
+      "fastener": "Manual transmission drain / fill plug",
+      "spec": "30 Nm (22 ft-lb)",
+      "note": ""
+     }
+    ],
+    "tools": [
+     "vacuum coolant filler (strongly recommended)",
+     "funnel with no-spill adapter"
+    ],
+    "part_ids": [
+     "engine-oil",
+     "oil-filter",
+     "coolant-concentrate",
+     "gear-oil-manual",
+     "brake-fluid"
+    ],
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "startup-and-breakin",
+  "title": "First start, break-in and validation",
+  "phase": "startup",
+  "est_hours": 12,
+  "notes": "The rebuild is not finished when it starts; it is finished when it has been validated. Have a fire extinguisher within reach and a second person watching for leaks during every one of these steps.",
+  "torque": [],
+  "tools": [
+   "fire extinguisher",
+   "IR thermometer",
+   "scan tool"
+  ],
+  "part_ids": [],
+  "children": [
+   {
+    "id": "startup-prime-oil",
+    "title": "Prime the oil system before the first start",
+    "phase": "startup",
+    "est_hours": 1,
+    "notes": "Do not let a fresh engine fire on dry bearings. Disable ignition and fuel, then crank in short bursts until oil pressure registers. Confirm pressure before you allow it to start. Verify no fuel or coolant leaks while cranking.",
+    "torque": [],
+    "tools": [
+     "scan tool to disable fuel/ignition",
+     "oil pressure readout"
+    ],
+    "part_ids": [],
+    "children": []
+   },
+   {
+    "id": "startup-first-start",
+    "title": "First start and initial heat cycle",
+    "phase": "startup",
+    "est_hours": 2,
+    "notes": "Start it and bring it straight to a fast idle around 2000 rpm \u2014 do not let a fresh engine sit at low idle, the cam lobes and lifters want oil flow. Watch coolant temperature and oil pressure continuously. Listen for anything rhythmic. Let it reach operating temperature, then shut down and let it cool completely. Check for leaks at every joint you made, especially the case seam, the sump, the RMS and the head gaskets. Re-read camshaft deviation on both banks now and compare to your baseline.",
+    "torque": [],
+    "tools": [
+     "Durametric or PIWIS",
+     "IR thermometer",
+     "bright light and mirror"
+    ],
+    "part_ids": [],
+    "children": []
+   },
+   {
+    "id": "startup-breakin-drive",
+    "title": "Break-in driving and first oil change",
+    "phase": "startup",
+    "est_hours": 6,
+    "notes": "Follow the ring and cylinder supplier's break-in schedule \u2014 with Nickies or any specific piston/ring package, THEIR procedure overrides generic advice. Broadly: varied load and rpm, no sustained constant speed, no lugging, no full throttle for the first stage, and plenty of engine braking to load the rings against the bore. Change the oil and filter early (commonly in the 500-1000 mile window), then cut that filter open too \u2014 it is your first real report card on the build. Re-check coolant level at every cool-down, and re-torque anything the fastener supplier specifies a re-torque for (Raceware studs, for instance, require a documented re-torque after heat cycling).",
+    "torque": [
+     {
+      "fastener": "Head studs \u2014 re-torque if specified by the stud supplier",
+      "spec": "Per supplier instructions",
+      "note": "Raceware require a mandatory re-torque after heat cycling; ARP 204-4707 as supplied do not call for one. Follow the instructions in your box."
+     }
+    ],
+    "tools": [
+     "oil filter cutter",
+     "torque wrench"
+    ],
+    "part_ids": [
+     "engine-oil",
+     "oil-filter"
+    ],
+    "children": []
+   },
+   {
+    "id": "startup-post-breakin-validation",
+    "title": "Post break-in validation and documentation",
+    "phase": "startup",
+    "est_hours": 3,
+    "notes": "Close the loop on every measurement you took at the start: leakdown and compression on all six, camshaft deviation both banks, fuel trims, oil consumption over a measured interval, and a borescope of every bore. Photograph the filter media from the break-in oil change. File the complete build record \u2014 measurements, part numbers, torque log, machine shop invoices and photographs. On an M96 rebuild this documentation is worth real money at resale, because the first question any informed buyer asks is what was done about the IMS and the bores.",
+    "torque": [],
+    "tools": [
+     "leakdown tester",
+     "borescope",
+     "scan tool"
+    ],
+    "part_ids": [
+     "borescope",
+     "diagnostic-scan-tool",
+     "oil-filter-cutter"
+    ],
+    "children": []
+   }
+  ]
+ }
+]
