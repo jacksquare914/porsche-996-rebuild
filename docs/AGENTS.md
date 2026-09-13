@@ -53,10 +53,29 @@ on 3 of 6, sending them to the machine shop, $840" produces a post someone actua
 
 ---
 
-## Running them on a schedule
+## The Sunday Instagram batch
 
-Ask Claude to set up a scheduled task — for example a Sunday evening run that checks the
-price queue and drafts the week's content, so both are waiting for you Monday morning.
+Meister Without has its own scheduled task — **"Sunday Instagram batch"**, Sundays at 8am
+PT — which drafts five Instagram post tickets a week from the brand's strategy page, the
+posted/metrics tracker and the store. That runs whether or not the rebuild has anything in
+it.
+
+The rebuild is wired into it but **off by default**. On the Content tab there's a
+**Feed the Sunday batch** switch. Flip it on and that Sunday's run also reads this
+rebuild's log entries and photos from the last 14 days and may build up to 2 of its 5
+tickets from them — either account, whichever voice fits: the story and the mistakes go to
+@csquare_96, a part number or a diagnostic order goes to @meisterwithout in the manual
+voice.
+
+It turns itself back off after the batch runs, so it never silently repeats. There is a
+free-text **steer this week** box if you want to point it at something specific ("lead with
+the bore scoring").
+
+The rebuild tickets it writes are appended to this rebuild's `content` array as drafts too,
+so they show up on the Content tab alongside anything `build-content` made.
+
+The two paths don't conflict: `build-content` is the on-demand one ("write up this week"),
+the Sunday batch is the scheduled one, and both write to the same place.
 
 ---
 

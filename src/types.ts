@@ -147,6 +147,21 @@ export interface ContentDraft {
   status: 'draft' | 'approved' | 'posted';
 }
 
+/**
+ * Read by the "Sunday Instagram batch — Meister Without" scheduled task.
+ * Off by default: when `include_in_sunday_batch` is false the batch ignores this
+ * rebuild entirely and builds its five tickets from the shop and the store, exactly
+ * as it does today. Flip it on in the Content tab in any week you want the rebuild
+ * mined for posts.
+ */
+export interface InstagramOptIn {
+  include_in_sunday_batch: boolean;
+  /** Steer one week's batch — "lead with the bore scoring", "keep it to the IMS". */
+  focus?: string;
+  /** Set automatically when the switch is flipped, so the batch can tell how stale it is. */
+  updated_at?: string;
+}
+
 export interface RebuildState {
   version: number;
   car: {
@@ -157,6 +172,7 @@ export interface RebuildState {
     engine_no?: string;
     mileage?: number;
   };
+  instagram?: InstagramOptIn;
   budget_usd?: number;
   steps: Record<string, StepState>;
   parts: Record<string, PartState>;
@@ -174,6 +190,7 @@ export function emptyState(): RebuildState {
       model: '996 Targa',
       engine: 'M96.03 3.6L',
     },
+    instagram: { include_in_sunday_batch: false },
     steps: {},
     parts: {},
     quotes: [],
