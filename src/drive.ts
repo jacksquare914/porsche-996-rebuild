@@ -289,14 +289,29 @@ export async function uploadPhoto(file: File): Promise<DriveFile> {
   return (await res.json()) as DriveFile;
 }
 
-/** Drive thumbnail links expire; re-fetch them for the photos we display. */
-export async function refreshThumbs(fileIds: string[]): Promise<Record<string, string>> {
+/**
+ * Drive thumbnail links expire after a few hours, so they are re-fetched every time
+ * the log is shown rather than stored in state.
+ *
+ * Drive hands back a tiny default (around 220px on the long edge), which is visibly
+ * soft on a phone screen at 2-3x pixel density. The trailing `=sNNN` on a
+ * googleusercontent URL is a size request, so we ask for something big enough to
+ * stay sharp in the grid and when tapped.
+ */
+export async function refreshThumbs(
+  fileIds: string[],
+  size = 640,
+): Promise<Record<string, string>> {
   const out: Record<string, string> = {};
   await Promise.all(
     fileIds.map(async (id) => {
       try {
         const f = await api<DriveFile>(`files/${id}?fields=id,thumbnailLink`);
-        if (f.thumbnailLink) out[id] = f.thumbnailLink;
+        if (f.thumbnailLink) {
+          out[id] = /=s\d+(-c)?$/.test(f.thumbnailLink)
+            ? f.thumbnailLink.replace(/=s\d+(-c)?$/, `=s${size}`)
+            : `${f.thumbnailLink}=s${size}`;
+        }
       } catch {
         /* a deleted photo just won't render */
       }

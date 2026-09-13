@@ -6,7 +6,7 @@ import { uploadPhoto, refreshThumbs, driveFileUrl, isSignedIn } from '../drive';
 import { Icon, Sheet, Empty } from '../ui';
 
 export default function Log() {
-  const { state, update } = useStore();
+  const { state, update, status } = useStore();
   const [composing, setComposing] = useState(false);
   const [thumbs, setThumbs] = useState<Record<string, string>>({});
   const [editing, setEditing] = useState<LogEntry | null>(null);
@@ -14,6 +14,10 @@ export default function Log() {
   const entries = [...state.log].sort((a, b) => b.at.localeCompare(a.at));
   const allPhotoIds = entries.flatMap((e) => e.photos.map((p) => p.fileId));
 
+  // `status` has to be a dependency. The log renders instantly from the local cache,
+  // so on a cold load this effect runs BEFORE the silent Drive sign-in finishes —
+  // it bails on !isSignedIn(), and without `status` here the photo list never changes
+  // afterwards, so it never retries and every thumbnail stays blank until a reload.
   useEffect(() => {
     if (!isSignedIn() || allPhotoIds.length === 0) return;
     const missing = allPhotoIds.filter((id) => !thumbs[id]);
@@ -21,7 +25,7 @@ export default function Log() {
     refreshThumbs(missing.slice(0, 60)).then((t) =>
       setThumbs((prev) => ({ ...prev, ...t })));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [allPhotoIds.join(',')]);
+  }, [allPhotoIds.join(','), status]);
 
   return (
     <>
