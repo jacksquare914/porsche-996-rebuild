@@ -1,0 +1,50 @@
+{
+ "schema": "techdb/1",
+ "id": "machining-case-sleeve-deck",
+ "status": "draft",
+ "title": "Case machining, sleeving (Nickies) and decking",
+ "phase": "machining",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "If the bores are scored, the accepted repair on an M96 is to machine the case and install billet aluminium nickel-silicon-carbide plated cylinders (Nickies) with matched oversize forged pistons. NEVER use a steel sleeve in an M96 — the thermal expansion mismatch against the aluminium case is exactly the wrong answer and the industry consensus is unambiguous about it. Budget roughly USD 5,000-6,000 for case machining plus Nickies plus oversize forged pistons. The case halves must be align-bored/honed as a matched pair if the main bores are out. Decide bore size (96 mm stock, or 102/104 mm big-bore) before machining, because it sets the piston, ring and head gasket choice.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Case machining, sleeving (Nickies) and decking.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "machine shop: CNC boring, align hone, decking fixture",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "nickies-96mm",
+  "nickies-104mm-bigbore",
+  "forged-pistons-oversize",
+  "piston-rings"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

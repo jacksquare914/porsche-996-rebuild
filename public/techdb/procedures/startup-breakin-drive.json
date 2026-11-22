@@ -1,0 +1,65 @@
+{
+ "schema": "techdb/1",
+ "id": "startup-breakin-drive",
+ "status": "draft",
+ "title": "Break-in driving and first oil change",
+ "phase": "startup",
+ "rg": null,
+ "op": null,
+ "time_h": 6,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Follow the ring and cylinder supplier's break-in schedule — with Nickies or any specific piston/ring package, THEIR procedure overrides generic advice. Broadly: varied load and rpm, no sustained constant speed, no lugging, no full throttle for the first stage, and plenty of engine braking to load the rings against the bore. Change the oil and filter early (commonly in the 500-1000 mile window), then cut that filter open too — it is your first real report card on the build. Re-check coolant level at every cool-down, and re-torque anything the fastener supplier specifies a re-torque for (Raceware studs, for instance, require a documented re-torque after heat cycling).",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Break-in driving and first oil change.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "startup-breakin-drive.t1",
+   "name": "Head studs — re-torque if specified by the stud supplier",
+   "stages": [
+    {
+     "label": "Per supplier instructions"
+    }
+   ],
+   "note": "Raceware require a mandatory re-torque after heat cycling; ARP 204-4707 as supplied do not call for one. Follow the instructions in your box.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "oil filter cutter",
+   "special": null
+  },
+  {
+   "name": "torque wrench",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-oil",
+  "oil-filter"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

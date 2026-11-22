@@ -1,0 +1,82 @@
+{
+ "schema": "techdb/1",
+ "id": "install-lift-into-car",
+ "status": "draft",
+ "title": "Mate transmission to engine and lift the assembly into the car",
+ "phase": "install",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Mate the transmission to the engine on the cradle, onto the dowels, without forcing — never pull it together with the bellhousing bolts. Raise the assembly slowly, checking clearance to the body, coolant plumbing and A/C lines continuously. This is where the risk of damaging a brand-new engine is highest, so go slowly and use a second set of eyes.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Mate transmission to engine and lift the assembly into the car.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "install-lift-into-car.t1",
+   "name": "Engine mount to carrier, upper bolts",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "install-lift-into-car.t2",
+   "name": "Engine mount main nut",
+   "stages": [
+    {
+     "label": "85 Nm (63 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "drivetrain drop table",
+   "special": null
+  },
+  {
+   "name": "engine hoist",
+   "special": null
+  },
+  {
+   "name": "second pair of hands",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-mounts",
+  "transmission-mount",
+  "drivetrain-drop-table"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

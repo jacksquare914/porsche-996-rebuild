@@ -1,0 +1,144 @@
+{
+ "schema": "techdb/1",
+ "documents": [
+  {
+   "id": "wsm-g1p1",
+   "kind": "workshop-manual",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 1 Engine, Part 1 (Repair Groups 10, 13)",
+   "edition": "Basic edition 1997 with supplements to 44/2001. Engine M96/01 (3.4 l) only.",
+   "pages": 248,
+   "in_hand": true,
+   "where": "Drive: Porsche 996 Rebuild / \"Porsche 966 Electronic Workshop Manuals.pdf\" (78 MB); text and page index in reference/wsm/",
+   "coverage": "Crankcase, bearing housing, crankshaft, pistons, belt drive, crankshaft seals. Tightening torque table pages 1-1 to 1-5.",
+   "caveat": "No M96/03 pages. Values apply to the 3.6 l only where the torque book confirms them or the fastener is the same catalogue part number."
+  },
+  {
+   "id": "wsm-g1p2",
+   "kind": "workshop-manual",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 1 Engine, Part 2 (Repair Groups 15, 17, 19)",
+   "edition": "Basic edition 1997 with supplements to 2001. Engine M96/01 only.",
+   "pages": 349,
+   "in_hand": true,
+   "where": "Drive: \"Porsche 996 Electronic Workshop Manuals.pdf\" (96 MB); text in reference/wsm/",
+   "coverage": "Cylinder head, valve drive, camshaft timing, intermediate shaft, lubrication, cooling.",
+   "caveat": "The 3.6 l head (VarioCam Plus) is a different design. Confirm head and cam values against the torque book."
+  },
+  {
+   "id": "wsm-g0",
+   "kind": "workshop-manual",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 0 Entire vehicle, General",
+   "edition": "1997 to 2001, with the Service Information MY2002 brochures appended (pages 193 and after).",
+   "pages": 303,
+   "in_hand": true,
+   "where": "Drive: \"Porsche 996 Workshop/repair manuals.pdf\" (36 MB)",
+   "coverage": "Technical data (3.4 l), lifting points, maintenance schedule, M96/03 engine summary in the MY2002 Service Information."
+  },
+  {
+   "id": "wsm-g2",
+   "kind": "workshop-manual",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 2 Fuel, exhaust, engine electronics",
+   "edition": "to 2001",
+   "pages": 108,
+   "in_hand": true,
+   "where": "Drive: \"Porsche 996 Electronic Workshop Manuals.pdf\" (21 MB)",
+   "coverage": "Fuel system, exhaust, DME."
+  },
+  {
+   "id": "si-2002",
+   "kind": "service-information",
+   "title": "Service Information Technical Brochure, 911 Carrera / Carrera 4 / Turbo / GT2, model year 2002 (Porsche Cars North America)",
+   "edition": "August 2001",
+   "in_hand": true,
+   "where": "Inside wsm-g0, pages 193 to 207",
+   "coverage": "What changed on the M96/03: 3596 cm3, 96 x 82.8 mm, 235 kW, 63 mm main journals, 142 mm rods, Graphal pistons, new head, MLS gasket, VarioCam Plus. No torque values."
+  },
+  {
+   "id": "wsm-turbo",
+   "kind": "workshop-manual",
+   "title": "Porsche 911 Turbo / GT2 / Carrera 4S (996) Technical Manual, 2001 to 2005, engine M96/70",
+   "pages": 2033,
+   "in_hand": true,
+   "where": "Drive: einordnung.pdf (43 MB)",
+   "coverage": "Mezger engine. Not applicable to the M96/03 engine. Usable for body, chassis, battery and 2003 to 2005 maintenance schedules.",
+   "caveat": "Never take an engine value from this document for the M96/03."
+  },
+  {
+   "id": "kat-021",
+   "kind": "parts-catalogue",
+   "title": "Porsche parts catalogue Kat 021, English all-other-countries edition, type 996 MY1998 to 2005",
+   "edition": "24.07.2017",
+   "pages": 815,
+   "in_hand": true,
+   "where": "reference/kat021-e-996-05-katalog.pdf; index in reference/catalog-index.json; node scripts/catalog.mjs",
+   "coverage": "Part identity, quantity per car, model-year limits, exploded views. Fastener positions in this database follow its illustrations.",
+   "caveat": "2017 snapshot. Gaudin Porsche gives the number to order today."
+  },
+  {
+   "id": "torque-book",
+   "kind": "torque-book",
+   "title": "Fastening Specifications, Porsche 911 Automobile, Type 996 1998 through 2005. Edited by Jake Raby for The Knowledge Gruppe.",
+   "in_hand": true,
+   "where": "Paper copy in the garage. Transcribed pages in reference/torque-book/996-fastening-specifications.json (copyrighted, not in the public repo).",
+   "coverage": "Fastener size, grade, position and torque for M96.0X, with M96.03 rows where the engines differ. Item numbers follow the parts catalogue positions. Pages 15 (crankcase) and 19 (crankshaft, flywheel) transcribed so far.",
+   "caveat": "Remaining engine pages still to be photographed and transcribed."
+  },
+  {
+   "id": "ln-imss",
+   "kind": "kit-instructions",
+   "title": "LN Engineering IMS Solution installation manual (LIB-0027, rev. 03-24)",
+   "in_hand": false,
+   "where": "lnengineering.com/files/2023-IMSS-instructions-rev-03-24.pdf (site blocks automated download; fetch it from the shop and drop it in Drive)",
+   "coverage": "IMS flange and center nut torque, oil feed line, snap ring, tools."
+  },
+  {
+   "id": "ln-imsr",
+   "kind": "kit-instructions",
+   "title": "LN Engineering Single Row Pro IMS Retrofit installation manual (LIB-0028)",
+   "in_hand": false,
+   "where": "lnengineering.com",
+   "coverage": "Alternative to the IMS Solution."
+  },
+  {
+   "id": "arp-204-4707",
+   "kind": "kit-instructions",
+   "title": "ARP 204-4707 M96/M97 cylinder head stud kit instruction card",
+   "in_hand": false,
+   "where": "In the kit box",
+   "coverage": "Two equal steps to 60 ft-lb with ARP Ultra-Torque per the retailer listing; the card is the authority."
+  },
+  {
+   "id": "arp-204-5001",
+   "kind": "kit-instructions",
+   "title": "ARP 204-5001 M96/M97 carrier through-bolt kit instruction card",
+   "in_hand": false,
+   "where": "In the kit box",
+   "coverage": "Replaces the OEM M9 x 127 bearing carrier screws. Retailer listing: three equal steps to 50 ft-lb."
+  },
+  {
+   "id": "arp-204-6301",
+   "kind": "kit-instructions",
+   "title": "ARP 204-6301 M96/M97 rod bolts instruction card",
+   "in_hand": false,
+   "where": "In the kit box",
+   "coverage": "Replaces the OEM M9 x 1.25 rod bolts. Stretch gauge preferred."
+  },
+  {
+   "id": "web-wm",
+   "kind": "web-transcription",
+   "title": "workshop-manuals.com transcription of the Porsche 996 F6-3.6L (2002 to 2004) service data",
+   "in_hand": false,
+   "where": "workshop-manuals.com (bot check, not fetched by us)",
+   "coverage": "Search snippets quote: M96/03 connecting rod bolt 20 Nm + 110 deg; bearing housing M9 x 150 and M9 x 94 22 Nm.",
+   "caveat": "Not verified by us. A pointer, not a source."
+  },
+  {
+   "id": "research",
+   "kind": "research-notes",
+   "title": "Research notes carried in src/data/steps.json",
+   "in_hand": true,
+   "where": "src/data/steps.json",
+   "coverage": "Forum and vendor research from the first build of the tracker.",
+   "caveat": "Unsourced. Any value here is open until a document confirms it."
+  }
+ ]
+}

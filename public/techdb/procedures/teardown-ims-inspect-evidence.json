@@ -1,0 +1,49 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-ims-inspect-evidence",
+ "status": "draft",
+ "title": "Inspect and document IMS bearing condition and shaft play",
+ "phase": "inspection",
+ "rg": null,
+ "op": null,
+ "time_h": 1,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Before the bearing comes out, feel for radial and axial play at the shaft nose. Any detectable play, any roughness on rotation, or a collapsed/missing seal on the outer race means the bearing has been shedding into the oil — which changes the whole build, because that debris has been through every bearing in the engine. Capture the state of the grease: a dry, brown, varnished bearing is the textbook pre-failure condition. Photograph the balls and both races.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Inspect and document IMS bearing condition and shaft play.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "dial indicator with magnetic base",
+   "special": null
+  },
+  {
+   "name": "borescope",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

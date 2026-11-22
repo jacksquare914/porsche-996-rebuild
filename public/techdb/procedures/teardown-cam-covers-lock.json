@@ -1,0 +1,53 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-cam-covers-lock",
+ "status": "draft",
+ "title": "Remove cam covers, set TDC and lock the camshafts",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Photograph the VarioCam Plus solenoid positions and their wiring before removal. 2003 3.6 SPECIFIC: this is a VarioCam Plus engine — variable timing via an electro-hydraulic rotary vane adjuster at the nose of each INTAKE camshaft, plus two-stage valve lift via switchable tappets. It is NOT the earlier 3.4's chain-tensioner-actuated VarioCam. Note also that the 3.6 M96.03 is a THREE-chain engine (crank-to-IMS plus one chain per bank), where the 1999-2001 3.4 is a five-chain engine — the parts and the timing procedure are not interchangeable.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove cam covers, set TDC and lock the camshafts.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "cam locking/timing fixture (Porsche 9595-series or equivalent aftermarket P253 type)",
+   "special": null
+  },
+  {
+   "name": "TDC locating pin",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "cam-cover-gasket",
+  "variocam-solenoid",
+  "variocam-actuator"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -44,6 +44,29 @@ export interface StepState {
   started_at?: string;
   done_at?: string;
   note?: string;
+  /** Working data and the approval record from the Manual tab. */
+  manual?: ManualRecord;
+}
+
+/**
+ * Everything the workshop manual collects while a step is worked, and the record it
+ * leaves behind on approval. Lives inside rebuild-state.json so the phone and the agents
+ * see the same bytes. Keys are the ids used in public/techdb/procedures/<step>.json.
+ */
+export interface ManualRecord {
+  /** procedure step number -> done */
+  checklist?: Record<string, boolean>;
+  /** spec id -> value as typed */
+  measurements?: Record<string, string>;
+  /** tool index -> on the bench */
+  tools?: Record<string, boolean>;
+  /** figure id -> progress through the tightening sequence */
+  sequence?: Record<string, { stage: number; i: number }>;
+  timer_started_at?: string;
+  approved_at?: string;
+  approved_by?: string;
+  /** Snapshot written at approval: values, results, sources, open items. */
+  record?: Record<string, unknown>;
 }
 
 export type PartCategory =

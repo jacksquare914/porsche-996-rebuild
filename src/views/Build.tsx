@@ -181,6 +181,14 @@ function StepDetail({
         </div>
       )}
 
+      {!isParent && (
+        <div className="row wrap" style={{ marginTop: 10 }}>
+          <a className="btn sm" href={`#manual:${step.id}`} onClick={onClose} style={{ textDecoration: 'none' }}>
+            Open in the manual
+          </a>
+        </div>
+      )}
+
       {step.notes && <div className="notes">{step.notes}</div>}
 
       {step.torque?.length ? (

@@ -1,0 +1,91 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-tensioners-chains-ramps",
+ "status": "draft",
+ "title": "Remove chain tensioners, chains, guide rails and chain ramps",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "THE OTHER SIGNATURE M96 WEAR ITEM. The chain ramps and guides are plastic over a steel spine, and they heat-cycle themselves brittle then wear through — which retards cam timing and throws the deviation codes you logged at the start. Lay every ramp out and photograph the wear faces next to a new one; grooves worn past roughly half the pad thickness, or any cracking/missing chunks, condemn the set. ALL ramps, rails and chains get replaced on a full rebuild — they are cheap relative to doing this job twice. Retrieve the tensioner shoes and count the pieces; a missing chunk of ramp is somewhere in your engine and you need to find it.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove chain tensioners, chains, guide rails and chain ramps.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-tensioners-chains-ramps.t1",
+   "name": "Chain tensioner into case",
+   "stages": [
+    {
+     "label": "M27 x 2: 80 Nm (59 ft-lb), tensioner to crankcase and tensioner to cylinder head alike."
+    }
+   ],
+   "note": "Tensioners are hydraulic; compress and pin before installation, release only after the chains are on. M96/01 edition value; the 3.6 tensioners carry different part numbers, confirm against the torque book page.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-2, 1-4"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "teardown-tensioners-chains-ramps.t2",
+   "name": "M6 x 30 pan-head socket screws at chain box (10.9)",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH"
+    }
+   ],
+   "note": "Use a magnetic bit for the screw that enters the slot — if dropped it goes into the crankcase.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "chain tensioner tool",
+   "special": null
+  },
+  {
+   "name": "magnetic pickup",
+   "special": null
+  },
+  {
+   "name": "magnetic bit holder",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "timing-chain-set",
+  "chain-ramps-rails",
+  "chain-tensioner-ims",
+  "chain-tensioner-1-3",
+  "chain-tensioner-4-6",
+  "ims-sprocket",
+  "ims-tensioner-paddle-billet"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

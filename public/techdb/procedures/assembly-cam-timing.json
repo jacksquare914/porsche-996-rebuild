@@ -1,0 +1,72 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-cam-timing",
+ "status": "draft",
+ "title": "Set camshaft timing and verify deviation",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "THE STEP THAT DECIDES WHETHER THE ENGINE LIVES. Bring the engine to TDC cylinder 1 on the compression stroke and lock it there. Fit the cam holding/locking fixtures to both banks (Porsche 9595-series tooling or a competent aftermarket equivalent such as the P253 type). Time the chains, release the tensioners, then rotate the engine through at least two full turns BY HAND — if anything binds, stop and find out why before you apply any more force. Re-check TDC and re-verify the locks still drop in. A widely used belt-and-braces practice among M96 builders is red thread locker on the cam sprocket bolts as insurance against timing slip. Finally, after first start, read camshaft deviation for both banks with a scan tool and compare against the values you logged at the very beginning — that is the closed loop on the whole job.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Set camshaft timing and verify deviation.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-cam-timing.t1",
+   "name": "Camshaft sprocket / adjuster bolts",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
+    }
+   ],
+   "note": "Red (high-strength) thread locker is common practice here as anti-slip insurance.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "Porsche 9595-series cam holding fixture / P253-type timing lock tool",
+   "special": null
+  },
+  {
+   "name": "TDC locating pin",
+   "special": null
+  },
+  {
+   "name": "Durametric or PIWIS for deviation readout",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "variocam-actuator",
+  "variocam-solenoid",
+  "thread-locker-red",
+  "cam-timing-tool",
+  "diagnostic-scan-tool"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

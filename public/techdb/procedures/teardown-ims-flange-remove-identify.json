@@ -1,0 +1,70 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-ims-flange-remove-identify",
+ "status": "draft",
+ "title": "Remove the IMS flange and positively identify the bearing variant",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 1,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Identify in this order of reliability: (1) pull the flange and look — a single row of balls in a narrow race with a comparatively wide flange; (2) measure flange dish depth, 19.27 mm for single-row versus 13.34 mm for dual-row; (3) cross-check the engine number stamped on the lower edge of the crankcase. Do NOT rely on model year alone — a warranty-replacement engine could be a different variant. Record the answer on the build sheet before you order any IMS part.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove the IMS flange and positively identify the bearing variant.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-ims-flange-remove-identify.t1",
+   "name": "IMS flange bolts",
+   "stages": [
+    {
+     "label": "OEM flange: M6 micro-encapsulated 10 Nm (7.5 ft-lb); lock nut on the intermediate shaft flange M8 x 1: 13 Nm (10 ft-lb), or 11 Nm if special tool 9110 is used."
+    }
+   ],
+   "note": "With an LN kit, the LN instructions replace these values.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "dial calipers",
+   "special": null
+  },
+  {
+   "name": "LN IMS tool 106-08.2.2 (purchase or rental)",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "ims-flange-seal",
+  "ims-tool"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-separate-trans",
+ "status": "draft",
+ "title": "Separate transmission from engine",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Pull the transmission straight back off the dowels — do NOT let it hang on the input shaft, that bends the clutch disc hub and can damage the guide tube. Support the transmission on its own stand. With the bellhousing open, inspect the clutch face, the release bearing and the guide tube, and look for oil: oil on the clutch from the engine side means a leaking RMS; from the transmission side means the input shaft seal.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Separate transmission from engine.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "transmission jack",
+   "special": null
+  },
+  {
+   "name": "long extensions and swivels for bellhousing bolts",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

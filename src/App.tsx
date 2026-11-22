@@ -9,9 +9,11 @@ import Parts from './views/Parts';
 import Log from './views/Log';
 import Prices from './views/Prices';
 import Content from './views/Content';
+import Manual from './views/Manual';
 
 const TABS = [
   { id: 'build', label: 'Build', icon: 'build' },
+  { id: 'manual', label: 'Manual', icon: 'manual' },
   { id: 'parts', label: 'Parts', icon: 'parts' },
   { id: 'log', label: 'Log', icon: 'log' },
   { id: 'prices', label: 'Prices', icon: 'price' },
@@ -20,6 +22,12 @@ const TABS = [
 
 type TabId = (typeof TABS)[number]['id'];
 const LOCAL_KEY = 'p996_state_cache';
+
+/** Hash is `#tab` or `#tab:param`, e.g. `#manual:assembly-heads-on`. */
+function parseHash(): { tab: TabId; param: string | null } {
+  const [tab, ...rest] = location.hash.slice(1).split(':');
+  return { tab: (tab as TabId) || 'build', param: rest.length ? rest.join(':') : null };
+}
 
 function merge(base: RebuildState, loaded: Partial<RebuildState> | null): RebuildState {
   if (!loaded) return base;
@@ -36,9 +44,8 @@ function merge(base: RebuildState, loaded: Partial<RebuildState> | null): Rebuil
 }
 
 export default function App() {
-  const [tab, setTab] = useState<TabId>(
-    () => (location.hash.slice(1) as TabId) || 'build',
-  );
+  const [tab, setTab] = useState<TabId>(() => parseHash().tab);
+  const [hashParam, setHashParam] = useState<string | null>(() => parseHash().param);
   const [state, setState] = useState<RebuildState>(() => {
     try {
       const cached = localStorage.getItem(LOCAL_KEY);
@@ -53,7 +60,7 @@ export default function App() {
   const saveTimer = useRef<number>(0);
 
   useEffect(() => {
-    const onHash = () => setTab((location.hash.slice(1) as TabId) || 'build');
+    const onHash = () => { const h = parseHash(); setTab(h.tab); setHashParam(h.param); };
     addEventListener('hashchange', onHash);
     return () => removeEventListener('hashchange', onHash);
   }, []);
@@ -189,6 +196,7 @@ export default function App() {
           )}
 
           {tab === 'build' && <Build onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
+          {tab === 'manual' && <Manual stepId={hashParam} onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
           {tab === 'parts' && <Parts openId={openPart} setOpenId={setOpenPart} />}
           {tab === 'log' && <Log />}
           {tab === 'prices' && <Prices onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
@@ -197,7 +205,7 @@ export default function App() {
 
         <nav className="tabbar">
           {TABS.map((t) => (
-            <button key={t.id} aria-selected={tab === t.id} onClick={() => { location.hash = t.id; }}>
+            <button key={t.id} aria-selected={tab === t.id} onClick={() => { location.hash = t.id === 'manual' && hashParam && tab === 'manual' ? `manual:${hashParam}` : t.id; }}>
               <Icon name={t.icon} />
               {t.label}
             </button>

@@ -1,0 +1,104 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-accessory-strip",
+ "status": "draft",
+ "title": "Remove alternator, A/C compressor, power steering pump, belt drive, AOS, water pump",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "The AOS and its vent hoses come off as a unit — replace all of it, the hoses go brittle and crack and a vacuum leak there is a genuine engine-killer (it can hydro-lock or run the engine on its own oil). The water pump almost certainly has a plastic impeller; replace it with a metal-impeller unit on principle, because a shed plastic impeller distributes itself through the whole cooling system. Inspect the accessory belt tensioner and idler bearings by hand — any roughness, replace.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove alternator, A/C compressor, power steering pump, belt drive, AOS, water pump.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-accessory-strip.t1",
+   "name": "Water pump bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "New gasket; do not over-torque into the aluminium case.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-2, 1-5 (coolant pump to crankcase)"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "teardown-accessory-strip.t2",
+   "name": "Thermostat housing bolts",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "teardown-accessory-strip.t3",
+   "name": "AOS mounting bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 23 (oil separator to crankcase, M6 x 16); WSM Gr.1 Part 1 (M96/01 edition) p.1-1"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "serpentine belt tool",
+   "special": null
+  },
+  {
+   "name": "10mm/13mm sockets",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "water-pump",
+  "thermostat",
+  "aos",
+  "aos-hose-kit",
+  "serpentine-belt",
+  "belt-tensioner",
+  "alternator"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

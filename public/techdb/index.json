@@ -1,0 +1,630 @@
+{
+ "schema": "techdb/1",
+ "generated_at": "2026-11-22T23:29:14.362Z",
+ "car": {
+  "year": 2003,
+  "model": "996 Targa",
+  "engine": "M96.03 3.6 l",
+  "vin_range": "993S6 30061>35000"
+ },
+ "documents": [
+  {
+   "id": "wsm-g1p1",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 1 Engine, Part 1 (Repair Groups 10, 13)",
+   "kind": "workshop-manual",
+   "in_hand": true
+  },
+  {
+   "id": "wsm-g1p2",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 1 Engine, Part 2 (Repair Groups 15, 17, 19)",
+   "kind": "workshop-manual",
+   "in_hand": true
+  },
+  {
+   "id": "wsm-g0",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 0 Entire vehicle, General",
+   "kind": "workshop-manual",
+   "in_hand": true
+  },
+  {
+   "id": "wsm-g2",
+   "title": "Porsche 911 Carrera (996) Technical Manual, Group 2 Fuel, exhaust, engine electronics",
+   "kind": "workshop-manual",
+   "in_hand": true
+  },
+  {
+   "id": "si-2002",
+   "title": "Service Information Technical Brochure, 911 Carrera / Carrera 4 / Turbo / GT2, model year 2002 (Porsche Cars North America)",
+   "kind": "service-information",
+   "in_hand": true
+  },
+  {
+   "id": "wsm-turbo",
+   "title": "Porsche 911 Turbo / GT2 / Carrera 4S (996) Technical Manual, 2001 to 2005, engine M96/70",
+   "kind": "workshop-manual",
+   "in_hand": true
+  },
+  {
+   "id": "kat-021",
+   "title": "Porsche parts catalogue Kat 021, English all-other-countries edition, type 996 MY1998 to 2005",
+   "kind": "parts-catalogue",
+   "in_hand": true
+  },
+  {
+   "id": "torque-book",
+   "title": "Fastening Specifications, Porsche 911 Automobile, Type 996 1998 through 2005. Edited by Jake Raby for The Knowledge Gruppe.",
+   "kind": "torque-book",
+   "in_hand": true
+  },
+  {
+   "id": "ln-imss",
+   "title": "LN Engineering IMS Solution installation manual (LIB-0027, rev. 03-24)",
+   "kind": "kit-instructions",
+   "in_hand": false
+  },
+  {
+   "id": "ln-imsr",
+   "title": "LN Engineering Single Row Pro IMS Retrofit installation manual (LIB-0028)",
+   "kind": "kit-instructions",
+   "in_hand": false
+  },
+  {
+   "id": "arp-204-4707",
+   "title": "ARP 204-4707 M96/M97 cylinder head stud kit instruction card",
+   "kind": "kit-instructions",
+   "in_hand": false
+  },
+  {
+   "id": "arp-204-5001",
+   "title": "ARP 204-5001 M96/M97 carrier through-bolt kit instruction card",
+   "kind": "kit-instructions",
+   "in_hand": false
+  },
+  {
+   "id": "arp-204-6301",
+   "title": "ARP 204-6301 M96/M97 rod bolts instruction card",
+   "kind": "kit-instructions",
+   "in_hand": false
+  },
+  {
+   "id": "web-wm",
+   "title": "workshop-manuals.com transcription of the Porsche 996 F6-3.6L (2002 to 2004) service data",
+   "kind": "web-transcription",
+   "in_hand": false
+  },
+  {
+   "id": "research",
+   "title": "Research notes carried in src/data/steps.json",
+   "kind": "research-notes",
+   "in_hand": true
+  }
+ ],
+ "counts": {
+  "procedures": 52,
+  "authored": 3,
+  "fasteners": 54,
+  "figures": 6
+ },
+ "procedures": [
+  {
+   "id": "prep-oil-filter-forensics",
+   "title": "Cut the oil filter and drop the sump plate for debris forensics",
+   "phase": "prep",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1.5,
+   "wsm_page": null
+  },
+  {
+   "id": "prep-borescope-bores",
+   "title": "Borescope all six cylinders through the spark plug holes",
+   "phase": "prep",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "prep-leakdown-compression",
+   "title": "Leakdown and compression test, record per cylinder",
+   "phase": "prep",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "prep-drain-fluids",
+   "title": "Drain engine oil, coolant, transmission oil; discharge A/C",
+   "phase": "prep",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "prep-remove-rear-bodywork",
+   "title": "Remove rear bumper cover, undertrays, exhaust and rear wheels",
+   "phase": "prep",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-fuel-electrical",
+   "title": "Relieve fuel pressure, disconnect fuel lines, harness and grounds",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-coolant-ac-hoses",
+   "title": "Disconnect coolant hoses, A/C lines and heater lines",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-axles-shifter-clutch-hydraulics",
+   "title": "Disconnect axle shafts, shift cables and clutch slave cylinder",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-lower-assembly",
+   "title": "Take the weight and lower the engine/transmission assembly out",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 6,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-separate-trans",
+   "title": "Separate transmission from engine",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-clutch-dmf",
+   "title": "Remove clutch, pressure plate and dual-mass flywheel",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1.5,
+   "wsm_page": null
+  },
+  {
+   "id": "removal-engine-to-stand",
+   "title": "Mount engine on a stand with an M96 adapter plate",
+   "phase": "removal",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-intake-throttle",
+   "title": "Remove intake manifold, throttle body, injectors and fuel rail",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2.5,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-accessory-strip",
+   "title": "Remove alternator, A/C compressor, power steering pump, belt drive, AOS, water pump",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-exhaust-manifolds",
+   "title": "Remove exhaust manifolds, heat shields and O2 sensors",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2.5,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-ims-flange-remove-identify",
+   "title": "Remove the IMS flange and positively identify the bearing variant",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-ims-inspect-evidence",
+   "title": "Inspect and document IMS bearing condition and shaft play",
+   "phase": "inspection",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-rms-flange",
+   "title": "Remove rear main seal and crankshaft flange area",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-cam-covers-lock",
+   "title": "Remove cam covers, set TDC and lock the camshafts",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-tensioners-chains-ramps",
+   "title": "Remove chain tensioners, chains, guide rails and chain ramps",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-cam-housings-lifters",
+   "title": "Remove cam housings, camshafts and hydraulic lifters",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 4,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-heads-off",
+   "title": "Remove cylinder heads",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-oil-pan-pump",
+   "title": "Remove sump/oil pan, pickup, oil pump and scavenge pumps",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-case-split",
+   "title": "Split the crankcase halves",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "teardown-crank-rods-pistons",
+   "title": "Remove crankshaft, connecting rods and pistons",
+   "phase": "teardown",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 4,
+   "wsm_page": null
+  },
+  {
+   "id": "inspection-bores-scoring",
+   "title": "Cylinder bore inspection for scoring, taper and out-of-round",
+   "phase": "inspection",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "inspection-case-dchunk",
+   "title": "Crankcase inspection — D-chunk cracks, sleeve integrity, bearing bores",
+   "phase": "inspection",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "inspection-crank-rods-bearings",
+   "title": "Crankshaft, rod and bearing inspection",
+   "phase": "inspection",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "inspection-heads-valves",
+   "title": "Cylinder head, valve and valve guide inspection",
+   "phase": "inspection",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "machining-case-sleeve-deck",
+   "title": "Case machining, sleeving (Nickies) and decking",
+   "phase": "machining",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "machining-heads-valve-job",
+   "title": "Cylinder head rebuild — valve job, guides, resurface",
+   "phase": "machining",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "machining-crank-balance",
+   "title": "Crankshaft polish/grind and rotating assembly balance",
+   "phase": "machining",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-case-clean-prep",
+   "title": "Final clean, deburr and dry-fit the case halves",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 4,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-crank-bearings",
+   "title": "Assemble the bearing housing with the crankshaft and measure the axial play",
+   "phase": "assembly",
+   "rg": 13,
+   "op": "13 49 37",
+   "status": "authored",
+   "time_h": 4,
+   "wsm_page": "13-30"
+  },
+  {
+   "id": "assembly-pistons-rods",
+   "title": "Fit rings to pistons, install pistons and rods",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 5,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-ims-install",
+   "title": "Install the IMS bearing solution",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-case-halves-sealant",
+   "title": "Seal and attach the crankcase halves",
+   "phase": "assembly",
+   "rg": 10,
+   "op": "10 10 37",
+   "status": "authored",
+   "time_h": 4,
+   "wsm_page": "10-55"
+  },
+  {
+   "id": "assembly-oil-pump-sump",
+   "title": "Install oil pump, pickup and sump",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-heads-on",
+   "title": "Install the cylinder heads and tighten the cylinder head screws",
+   "phase": "assembly",
+   "rg": 15,
+   "op": "15 70 23",
+   "status": "authored",
+   "time_h": 4,
+   "wsm_page": "15-13"
+  },
+  {
+   "id": "assembly-cams-lifters-housings",
+   "title": "Install lifters, camshafts and cam housings",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 4,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-chains-rails-tensioners",
+   "title": "Install timing chains, guide rails, ramps and tensioners",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 4,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-cam-timing",
+   "title": "Set camshaft timing and verify deviation",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 5,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-rms-front-seal",
+   "title": "Install the rear main seal and front crankshaft seal",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-flywheel-clutch",
+   "title": "Install dual-mass flywheel, clutch and release bearing",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust",
+   "title": "Refit water pump, AOS, accessories, intake and exhaust manifolds",
+   "phase": "assembly",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 6,
+   "wsm_page": null
+  },
+  {
+   "id": "install-lift-into-car",
+   "title": "Mate transmission to engine and lift the assembly into the car",
+   "phase": "install",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "install-reconnect",
+   "title": "Reconnect fuel, coolant, electrical, A/C, shifter and axles",
+   "phase": "install",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 5,
+   "wsm_page": null
+  },
+  {
+   "id": "install-fill-bleed",
+   "title": "Fill fluids and bleed the cooling system",
+   "phase": "install",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  },
+  {
+   "id": "startup-prime-oil",
+   "title": "Prime the oil system before the first start",
+   "phase": "startup",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 1,
+   "wsm_page": null
+  },
+  {
+   "id": "startup-first-start",
+   "title": "First start and initial heat cycle",
+   "phase": "startup",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 2,
+   "wsm_page": null
+  },
+  {
+   "id": "startup-breakin-drive",
+   "title": "Break-in driving and first oil change",
+   "phase": "startup",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 6,
+   "wsm_page": null
+  },
+  {
+   "id": "startup-post-breakin-validation",
+   "title": "Post break-in validation and documentation",
+   "phase": "startup",
+   "rg": null,
+   "op": null,
+   "status": "draft",
+   "time_h": 3,
+   "wsm_page": null
+  }
+ ]
+}

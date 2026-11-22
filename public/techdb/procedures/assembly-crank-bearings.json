@@ -1,0 +1,224 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-crank-bearings",
+ "status": "authored",
+ "title": "Assemble the bearing housing with the crankshaft and measure the axial play",
+ "phase": "assembly",
+ "rg": 13,
+ "rg_title": "Engine - Crankshaft, pistons",
+ "op": "13 49 37",
+ "op_title": "Disassembling and assembling bearing housing with crankshaft",
+ "wsm_page": "13-30",
+ "imprint": "WSM Group 1 Part 1, pages 13-23 to 13-32a",
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "source",
+   "text": "Procedure 13 49 37, WSM Group 1 Part 1, pages 13-23 to 13-32a, and torque table page 1-1. This edition is for the M96/01 (3.4 liter). The M96/03 has 63 mm main journals and 142 mm connecting rods (Service Information MY2002, Group 0, page 200). The torque book (page 19) confirms the bearing-carrier screws and the rod bolts for M96.0X.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-23 to 13-32a"
+    },
+    {
+     "doc": "si-2002",
+     "ref": "p.200"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.19"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Do not mix the connecting-rod bearing caps. Attach each cap to its connecting rod immediately after removal, or mark the sides with an electric scriber. Do not use a prick punch. A wrong cap causes engine damage.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-25"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Do not install a bearing housing that has no connecting-rod bearing twist locks.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-27"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "The thrust plates go in main bearing 4 of the bank 4-6 housing half. The oil pockets point to the pulley side or the flywheel side.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-26, 13-30"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Make sure that the 6 sealing balls are installed and correctly caulked. If necessary, rework them. (13-30, no. 1)",
+   "refs": []
+  },
+  {
+   "no": 2,
+   "text": "Push the 3 dowel sleeves into main bearings 7, 4 and 1 of the bank 4-6 housing half. Push them to the stop. (13-30, no. 2)",
+   "refs": []
+  },
+  {
+   "no": 3,
+   "text": "Push the oil spray jets into their bores with a 4 mm plastic mandrel. (13-30, no. 3)",
+   "refs": [
+    {
+     "tool": "Plastic mandrel 4 mm"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "text": "Put the 7 crankshaft bearing shells in position. The locating stud or twist lock points to the dowel-sleeve side. Apply a thin layer of oil to the bearing surfaces. (13-30, no. 4)",
+   "refs": [
+    {
+     "part": "main-bearings"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "text": "Install the thrust plates at main bearing 4, oil pockets to the pulley side or the flywheel side. Put the crankshaft in. Make sure that the two thrust plates are seated. (13-30, no. 5 and 6)",
+   "refs": [
+    {
+     "part": "thrust-bearings"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "text": "Apply oil to the thread and the contact face of the 14 thrust-bearing screws. Tighten to 25 Nm in sequence. Make a paint mark on each screw head. Tighten 1 × 90° in the same sequence. (13-30, no. 7, and 13-32)",
+   "refs": [
+    {
+     "fastener": "kat-102-00-16"
+    },
+    {
+     "figure": "wsm-185_96",
+     "sequence": true
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "text": "Attach the dial gauge holder. Put the gauge against the crankshaft flange. Push the crankshaft to the gauge and set the gauge to zero. Push the crankshaft away from the gauge. Record the axial play. (13-31, no. 8)",
+   "refs": [
+    {
+     "spec": "axial-play"
+    },
+    {
+     "tool": "Dial gauge with gauge holder"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "text": "Install the connecting-rod bearing shells and apply grease to the bearing surfaces. Attach the cap with the twist-lock recesses opposite each other. Apply oil to the thread. Tighten to 20 Nm, make a paint mark, then tighten 1 × 90°. (13-31, no. 9 and 10)",
+   "refs": [
+    {
+     "fastener": "kat-102-00-11"
+    },
+    {
+     "part": "rod-bearings"
+    }
+   ]
+  }
+ ],
+ "fasteners": [
+  {
+   "ref": "kat-102-00-16"
+  },
+  {
+   "ref": "kat-102-00-11"
+  },
+  {
+   "ref": "kat-102-00-23"
+  }
+ ],
+ "tools": [
+  {
+   "name": "Assembly fixture for bearing housing",
+   "special": "9607",
+   "note": "Attach the housing with two M10 x 30 hexagon-head bolts"
+  },
+  {
+   "name": "Dial gauge with gauge holder",
+   "special": null,
+   "note": "Axial play"
+  },
+  {
+   "name": "Torque wrench 5 to 60 Nm",
+   "special": null
+  },
+  {
+   "name": "Torque angle attachment",
+   "special": null,
+   "note": "90 deg steps"
+  },
+  {
+   "name": "Plastic mandrel 4 mm",
+   "special": null,
+   "note": "Oil spray jets"
+  },
+  {
+   "name": "Optimol Optipit grease",
+   "special": "000 043 204 17",
+   "note": "Connecting-rod bearing shells"
+  }
+ ],
+ "specs": [
+  {
+   "id": "axial-play",
+   "name": "Crankshaft axial play, new installation",
+   "unit": "mm",
+   "min": 0.05,
+   "max": 0.24,
+   "wear_limit": 0.28,
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-31 no.8"
+    }
+   ]
+  }
+ ],
+ "spec_note": "The WSM gives no radial clearance for the main bearings and no Plastigage step for this engine. If you want a Plastigage check here, give the limit and its document. The check then becomes a measurement row.",
+ "parts": [
+  "main-bearings",
+  "thrust-bearings",
+  "rod-bearings",
+  "crankshaft",
+  "assembly-lube"
+ ],
+ "figures": [
+  "wsm-185_96",
+  "kat-102-00"
+ ],
+ "sources": [
+  {
+   "doc": "wsm-g1p1",
+   "ref": "p.13-23 to 13-32a, p.1-1"
+  },
+  {
+   "doc": "torque-book",
+   "ref": "p.19"
+  },
+  {
+   "doc": "kat-021",
+   "ref": "ill. 102-00"
+  }
+ ]
+}

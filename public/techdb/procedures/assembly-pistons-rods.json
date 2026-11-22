@@ -1,0 +1,88 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-pistons-rods",
+ "status": "draft",
+ "title": "Fit rings to pistons, install pistons and rods",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "File-fit every ring: square each ring in its own bore with a piston and measure the end gap against the piston supplier's spec, not a generic figure. Stagger the ring gaps per the supplier's diagram. Use a TAPERED SLEEVE ring compressor, which is what the cylinder design wants — not a band-type compressor. Protect the rod bolts with hose sleeves so nothing touches the crank or the bore. THE 4-6 TRICK: pistons 4-6 must be fed in through the case access opening with the rods already on the crank. Do a dry practice run, use an alignment tool, and verify EVERY wrist pin circlip with a borescope after installation — a circlip that pops out destroys the engine.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Fit rings to pistons, install pistons and rods.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-pistons-rods.t1",
+   "name": "Connecting rod bolts",
+   "stages": [
+    {
+     "label": "M9 x 1.25 (12 off): stage 1 20 Nm (15 ft-lb), stage 2 +90 deg. Oil thread and contact face."
+    }
+   ],
+   "note": "OPEN: the torque book gives +90 deg for M96.0X and the WSM M96/01 edition gives +90 deg, but a transcription of the factory 3.6 data (workshop-manuals.com, not verified by us) gives +110 deg for M96/03. Settle this against the book page for the rod before assembly. ARP 204-6301 bolts use ARP's procedure.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 11 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.13-31, 1-1"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "tapered sleeve ring compressor",
+   "special": null
+  },
+  {
+   "name": "ring filer",
+   "special": null
+  },
+  {
+   "name": "feeler gauges",
+   "special": null
+  },
+  {
+   "name": "rod bolt stretch gauge",
+   "special": null
+  },
+  {
+   "name": "borescope",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "pistons-oem",
+  "forged-pistons-oversize",
+  "piston-rings",
+  "rod-bearings",
+  "rod-bolts-arp",
+  "connecting-rods",
+  "ring-compressor-tapered",
+  "borescope"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

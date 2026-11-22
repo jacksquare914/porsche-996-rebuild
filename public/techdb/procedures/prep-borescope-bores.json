@@ -1,0 +1,70 @@
+{
+ "schema": "techdb/1",
+ "id": "prep-borescope-bores",
+ "status": "draft",
+ "title": "Borescope all six cylinders through the spark plug holes",
+ "phase": "prep",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Rotate the engine so each piston is at BDC and look at the thrust face of the bore. CRITICAL M96 CAVEAT: bore scoring starts at the BOTTOM of the cylinder and is hidden by the piston through most of its travel, so a clean borescope is NOT proof of a clean bore — only teardown is. Look for vertical score lines on the thrust side. On 996/997 the failure is reported more often on the driver's side bank (cylinders 4-6 on a US-market LHD car), and cylinder 6 is the one most commonly quoted as the first to go because it sits furthest from the oil pump and runs hottest. Photograph each bore and label the image by cylinder number.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Borescope all six cylinders through the spark plug holes.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "prep-borescope-bores.t1",
+   "name": "Spark plugs (reused)",
+   "stages": [
+    {
+     "label": "Re-fitting 25 +5 Nm (19 +3.5 ft-lb); first fitting 30 +3 Nm (22 +2 ft-lb)"
+    }
+   ],
+   "note": "Anti-seize is not required on the OE plug.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-4 (M14 x 1.25)"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "articulating borescope with side-view mirror",
+   "special": null
+  },
+  {
+   "name": "spark plug socket 14mm thin-wall",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "spark-plugs",
+  "borescope"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

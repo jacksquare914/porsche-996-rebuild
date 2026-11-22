@@ -1,0 +1,60 @@
+{
+ "schema": "techdb/1",
+ "id": "machining-heads-valve-job",
+ "status": "draft",
+ "title": "Cylinder head rebuild — valve job, guides, resurface",
+ "phase": "machining",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Specify a three-angle valve job, new guides where clearance is out, new valve stem seals throughout, and a light resurface only if needed — remember the M96 head sits on a long-bolt stack, so material removed from the head changes the clamped stack height and interacts with head gasket thickness. Have the shop pressure-test both heads. Lap and vacuum-test each valve on return and photograph the seat contact rings.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Cylinder head rebuild — valve job, guides, resurface.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "valve spring compressor",
+   "special": null
+  },
+  {
+   "name": "vacuum test cup",
+   "special": null
+  },
+  {
+   "name": "lapping compound",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "valve-guides",
+  "valve-stem-seals",
+  "intake-valves",
+  "exhaust-valves",
+  "valve-springs",
+  "head-gaskets"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

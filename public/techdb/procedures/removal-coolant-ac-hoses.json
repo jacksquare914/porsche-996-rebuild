@@ -1,0 +1,54 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-coolant-ac-hoses",
+ "status": "draft",
+ "title": "Disconnect coolant hoses, A/C lines and heater lines",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Cap every opened A/C fitting immediately with new O-rings ready for reassembly; moisture in the system means a new receiver/drier. Inspect the plastic coolant distribution pieces and the thermostat housing as they come off — these are the M96's own coolant weak points and they go brittle. Photograph the hose routing around the AOS, it is easy to get wrong on reassembly.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Disconnect coolant hoses, A/C lines and heater lines.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "A/C O-ring kit",
+   "special": null
+  },
+  {
+   "name": "spring clamp pliers",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "coolant-hose-set",
+  "thermostat-housing",
+  "ac-oring-kit",
+  "coolant-pipe-note"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

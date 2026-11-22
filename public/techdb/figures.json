@@ -1,0 +1,428 @@
+{
+ "schema": "techdb/1",
+ "note": "Image files are Porsche drawings (copyright) and are not in the public repo. They are synced from reference/figures and kept in the Drive folder. Maps: bolts = [x, y, sequence number] in the viewBox; order = the tightening sequence; outline = schematic drawn by the app.",
+ "figures": [
+  {
+   "id": "wsm-652_97",
+   "kind": "sequence",
+   "title": "Tightening sequence of cylinder-head screws",
+   "file": "wsm-652_97.jpg",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-13 (15 70 23), supplement 23, 1999"
+    }
+   ],
+   "map": {
+    "outline": "head",
+    "viewBox": [
+     0,
+     0,
+     440,
+     225
+    ],
+    "bolts": [
+     [
+      72,
+      62,
+      9
+     ],
+     [
+      132,
+      62,
+      7
+     ],
+     [
+      192,
+      62,
+      1
+     ],
+     [
+      252,
+      62,
+      3
+     ],
+     [
+      312,
+      62,
+      5
+     ],
+     [
+      372,
+      62,
+      11
+     ],
+     [
+      72,
+      162,
+      12
+     ],
+     [
+      132,
+      162,
+      6
+     ],
+     [
+      192,
+      162,
+      4
+     ],
+     [
+      252,
+      162,
+      2
+     ],
+     [
+      312,
+      162,
+      8
+     ],
+     [
+      372,
+      162,
+      10
+     ]
+    ],
+    "order": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "stages": [
+     "30 Nm",
+     "LOOSEN ALL",
+     "20 Nm",
+     "angle pass 1",
+     "angle pass 2"
+    ],
+    "note": "Bolt numbers and sequence traced from the WSM figure (M96/01 edition). One bank of 12 screws. The outline is schematic."
+   }
+  },
+  {
+   "id": "wsm-443_96",
+   "kind": "sequence",
+   "title": "Tightening sequence for crankcase halves",
+   "file": "wsm-443_96.jpg",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-56 (10 10 37), supplement 38, 1999"
+    }
+   ],
+   "map": {
+    "outline": "case",
+    "viewBox": [
+     0,
+     0,
+     460,
+     300
+    ],
+    "bolts": [
+     [
+      85,
+      217,
+      1
+     ],
+     [
+      83,
+      184,
+      2
+     ],
+     [
+      76,
+      141,
+      3
+     ],
+     [
+      76,
+      87,
+      4
+     ],
+     [
+      380,
+      68,
+      5
+     ],
+     [
+      382,
+      155,
+      6
+     ],
+     [
+      378,
+      229,
+      7
+     ],
+     [
+      346,
+      251,
+      8
+     ],
+     [
+      313,
+      247,
+      9
+     ],
+     [
+      283,
+      248,
+      10
+     ],
+     [
+      234,
+      233,
+      11
+     ],
+     [
+      177,
+      241,
+      12
+     ],
+     [
+      125,
+      257,
+      13
+     ],
+     [
+      87,
+      240,
+      14
+     ],
+     [
+      80,
+      51,
+      15
+     ],
+     [
+      87,
+      33,
+      16
+     ],
+     [
+      141,
+      34,
+      17
+     ],
+     [
+      182,
+      34,
+      18
+     ],
+     [
+      222,
+      34,
+      19
+     ],
+     [
+      263,
+      34,
+      20
+     ],
+     [
+      302,
+      34,
+      21
+     ],
+     [
+      341,
+      34,
+      22
+     ]
+    ],
+    "order": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ],
+    "stages": [
+     "13 Nm"
+    ],
+    "note": "22 numbered positions from the WSM figure. The legend on p.10-52 lists 25 bolts; the figure does not number three of them."
+   }
+  },
+  {
+   "id": "wsm-185_96",
+   "kind": "sequence",
+   "title": "Tightening sequence for thrust-bearing screws",
+   "file": "wsm-185_96.jpg",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-32 (13 49 37)"
+    }
+   ],
+   "map": {
+    "outline": "bearing",
+    "viewBox": [
+     0,
+     0,
+     460,
+     200
+    ],
+    "bolts": [
+     [
+      62,
+      70,
+      11
+     ],
+     [
+      118,
+      70,
+      7
+     ],
+     [
+      174,
+      70,
+      3
+     ],
+     [
+      230,
+      70,
+      1
+     ],
+     [
+      286,
+      70,
+      5
+     ],
+     [
+      342,
+      70,
+      9
+     ],
+     [
+      398,
+      70,
+      13
+     ],
+     [
+      62,
+      130,
+      12
+     ],
+     [
+      118,
+      130,
+      8
+     ],
+     [
+      174,
+      130,
+      4
+     ],
+     [
+      230,
+      130,
+      2
+     ],
+     [
+      286,
+      130,
+      6
+     ],
+     [
+      342,
+      130,
+      10
+     ],
+     [
+      398,
+      130,
+      14
+     ]
+    ],
+    "order": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "stages": [
+     "25 Nm",
+     "90 deg"
+    ],
+    "note": "14 screw positions and sequence from the WSM figure."
+   }
+  },
+  {
+   "id": "kat-101-05",
+   "kind": "exploded",
+   "title": "Crankcase",
+   "file": "kat-101-05.jpg",
+   "full": "kat-101-05-full.png",
+   "sources": [
+    {
+     "doc": "kat-021",
+     "ref": "illustration 101-05"
+    }
+   ],
+   "legend": "6 = hexagon-head bolt M6 x 35 (25). 7, 8, 9 = bearing-housing screws through the crankcase (3). 10 = O-ring 12 x 2 (2). 11 = dowel sleeve 17 M6 x 18.5 (4). 2 = straight pin (3). 19 = screw plug M27 x 2, 18 = sealing ring A27 x 32. 23 = drain plug. 30 = sealing compound Loctite 5900. 32 = crankshaft sensor. 34 = knock sensors. 38 = engine mount studs."
+  },
+  {
+   "id": "kat-102-00",
+   "kind": "exploded",
+   "title": "Crankshaft, bearing case, connecting rods, flywheel",
+   "file": "kat-102-00.jpg",
+   "full": "kat-102-00-full.png",
+   "sources": [
+    {
+     "doc": "kat-021",
+     "ref": "illustration 102-00"
+    }
+   ],
+   "legend": "14 = bearing case (MY 02-: 996 101 057 03). 13 = crankshaft bearing (14, MY 02-). 16 = screw M9 x 127 (14). 24 = thrust washer (2, MY 02-). 9 = connecting rod, 11 = connecting rod bolt (12), 12 = connecting-rod bearing (12), 10 = bush. 15 = dowel sleeve (3). 25 = straight pin. 7 = pulley bolt. 17 = flywheel, 18 = flywheel bolts (8). 23 = oil separator screws (6). 28 = grease for the rod shells."
+  },
+  {
+   "id": "kat-103-01",
+   "kind": "exploded",
+   "title": "Cylinder head, VarioCam Plus (MY 2002 and after)",
+   "file": "kat-103-01.jpg",
+   "full": "kat-103-01-full.png",
+   "sources": [
+    {
+     "doc": "kat-021",
+     "ref": "illustration 103-01"
+    }
+   ],
+   "legend": "25 = cylinder head screw M10 x 230 (24). 24 = cylinder head gasket (2). 6 = dowel sleeve (16). 18 = combination screw, tappet housing (38). 15 = tappet guide housing. 36 = sealing compound."
+  }
+ ]
+}

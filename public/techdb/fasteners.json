@@ -1,0 +1,1237 @@
+{
+ "schema": "techdb/1",
+ "note": "Rows keyed to the parts catalogue illustration and position where one exists (kat-<ill>-<pos>). m03 = confirmed for M96.0X by the torque book. m01_only = from the M96/01 edition of the WSM, not yet confirmed for the 3.6 l. conflict = sources disagree; the app blocks approval.",
+ "fasteners": [
+  {
+   "id": "kat-102-00-16",
+   "ill": "102-00",
+   "pos": 16,
+   "name": "Thrust-bearing screws, bearing housing (crankshaft bearing carrier)",
+   "thread": "M9 x 127",
+   "qty": 14,
+   "pn": [
+    "996 101 115 59"
+   ],
+   "reuse": "Angle-tightened. The WSM does not say replace; builders replace them. ARP 204-5001 is the aftermarket replacement with its own procedure.",
+   "lube": "Oil on thread and contact face",
+   "stages": [
+    {
+     "label": "25 Nm (19 ft-lb) in sequence",
+     "nm": 25
+    },
+    {
+     "label": "1 x 90 deg in the same sequence",
+     "angle": 90
+    }
+   ],
+   "sequence_figure": "wsm-185_96",
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 16 (M96.0X)"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-30 no.7, p.13-32, p.1-1"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 102-00 pos. 16"
+    }
+   ]
+  },
+  {
+   "id": "kat-102-00-11",
+   "ill": "102-00",
+   "pos": 11,
+   "name": "Connecting-rod bolts",
+   "thread": "M9 x 1.25",
+   "qty": 12,
+   "pn": [
+    "996 103 115 51",
+    "997 103 115 01"
+   ],
+   "reuse": "Angle-tightened. ARP 204-6301 is the aftermarket replacement.",
+   "lube": "Oil on thread and contact face",
+   "stages": [
+    {
+     "label": "20 Nm (15 ft-lb)",
+     "nm": 20
+    },
+    {
+     "label": "1 x 90 deg",
+     "angle": 90
+    }
+   ],
+   "m03": true,
+   "conflict": "The torque book (M96.0X) and the WSM M96/01 give +90 deg. An unverified web transcription of the factory 3.6 l data gives +110 deg for M96/03. Check the torque book page for the connecting rod before assembly.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 11 (M96.0X)"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.13-31 no.10, p.1-1"
+    },
+    {
+     "doc": "web-wm",
+     "ref": "connecting rod specifications, 996 F6-3.6L"
+    }
+   ]
+  },
+  {
+   "id": "kat-102-00-7",
+   "ill": "102-00",
+   "pos": 7,
+   "name": "Vibration damper (pulley) to crankshaft",
+   "thread": "M16 x 1.5 x 60",
+   "qty": 1,
+   "pn": [
+    "900 082 085 09"
+   ],
+   "stages": [
+    {
+     "label": "50 Nm (37 ft-lb)",
+     "nm": 50
+    },
+    {
+     "label": "1 x 90 deg",
+     "angle": 90
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 7"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ]
+  },
+  {
+   "id": "kat-102-00-18",
+   "ill": "102-00",
+   "pos": 18,
+   "name": "Double-mass flywheel to crankshaft",
+   "thread": "M10 x 1 x 50, grade 12.9",
+   "qty": 8,
+   "pn": [
+    "999 073 092 01",
+    "999 073 092 09"
+   ],
+   "reuse": "New bolts",
+   "stages": [
+    {
+     "label": "25 Nm (19 ft-lb)",
+     "nm": 25
+    },
+    {
+     "label": "1 x 90 deg",
+     "angle": 90
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 18, M96.03 row"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ]
+  },
+  {
+   "id": "kat-102-00-23",
+   "ill": "102-00",
+   "pos": 23,
+   "name": "Oil separator (baffle) to crankcase / oil guide on bearing housing",
+   "thread": "M6 x 16, micro-encapsulated",
+   "qty": 6,
+   "pn": [
+    "999 218 005 01",
+    "999 218 005 02"
+   ],
+   "reuse": "New (micro-encapsulated)",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 23"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1 (oil guide on bearing housing)"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-6",
+   "ill": "101-05",
+   "pos": 6,
+   "name": "Hexagon-head bolts joining the crankcase halves",
+   "thread": "M6 x 35, micro-encapsulated",
+   "qty": 25,
+   "pn": [
+    "900 378 174 09",
+    "999 217 151 09",
+    "900 385 270 01"
+   ],
+   "reuse": "New micro-encapsulated bolts each time",
+   "lube": "Dry",
+   "stages": [
+    {
+     "label": "13 Nm (10 ft-lb) in the sequence of Fig. 443_96",
+     "nm": 13
+    }
+   ],
+   "sequence_figure": "wsm-443_96",
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 6 (M96.0X)"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-52 no.8, p.10-55 no.4, p.10-56, p.1-1"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 101-05 pos. 6"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-7-9",
+   "ill": "101-05",
+   "pos": "7, 8, 9",
+   "name": "Fastening screws for the bearing housing through the crankcase",
+   "thread": "9 x 150 (pos. 7), M9 x 94 (pos. 8), 9 x 94 (pos. 9)",
+   "qty": 3,
+   "pn": [
+    "996 101 219 52",
+    "996 101 229 00",
+    "996 101 203 00"
+   ],
+   "reuse": "O-ring 12 x 2 (999 701 789 40) always replaced",
+   "stages": [
+    {
+     "label": "22 Nm (16 ft-lb), only after the cylinder heads are fastened",
+     "nm": 22
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 items 7, 8, 9"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-52 nos. 1, 3, 5; p.1-1 (listed there as M9 x 160 and M9 x 95)"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 101-05 pos. 7, 8, 9"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-19",
+   "ill": "101-05",
+   "pos": 19,
+   "name": "Screw plug, piston-pin assembly bore, bank 4-6",
+   "thread": "M27 x 2",
+   "qty": 1,
+   "pn": [
+    "900 219 017 30"
+   ],
+   "reuse": "Sealing ring A27 x 32 (900 123 147 30) always replaced",
+   "stages": [
+    {
+     "label": "80 Nm (59 ft-lb)",
+     "nm": 80
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-52 no.6, p.1-2"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 101-05 pos. 19, 18"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-14",
+   "ill": "101-05",
+   "pos": 14,
+   "name": "Cover to crankcase",
+   "thread": "M6 x 20",
+   "qty": 10,
+   "pn": [
+    "900 378 103 09"
+   ],
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 14"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 101-05 pos. 14"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-17",
+   "ill": "101-05",
+   "pos": 17,
+   "name": "Components to crankcase",
+   "thread": "M6 x 16",
+   "qty": 24,
+   "pn": [
+    "900 378 035 01"
+   ],
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 17"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 101-05 pos. 17"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-23",
+   "ill": "101-05",
+   "pos": 23,
+   "name": "Engine oil drain plug",
+   "thread": "M18 x 1.5",
+   "qty": 1,
+   "pn": [
+    "900 219 009 30"
+   ],
+   "reuse": "New sealing ring",
+   "stages": [
+    {
+     "label": "50 Nm (37 ft-lb)",
+     "nm": 50
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 23"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    },
+    {
+     "doc": "wsm-g0",
+     "ref": "p.03-1"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-32",
+   "ill": "101-05",
+   "pos": 32,
+   "name": "Crankshaft (speed) sensor to crankcase",
+   "thread": "M6 x 16, micro-encapsulated",
+   "qty": 1,
+   "stages": [
+    {
+     "label": "10 +/- 0.5 Nm (7.5 +/- 0.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 32"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5 (speed sender)"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-34",
+   "ill": "101-05",
+   "pos": 34,
+   "name": "Knock sensors to crankcase",
+   "thread": "M8 x 30",
+   "qty": 2,
+   "pn": [
+    "900 378 108 09"
+   ],
+   "stages": [
+    {
+     "label": "20 +/- 2 Nm (15 +/- 1.5 ft-lb)",
+     "nm": 20
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 34"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-37",
+   "ill": "101-05",
+   "pos": 37,
+   "name": "Engine support to crankcase, nut",
+   "thread": "M6",
+   "qty": 1,
+   "pn": [
+    "900 377 010 09"
+   ],
+   "stages": [
+    {
+     "label": "13 Nm (10 ft-lb)",
+     "nm": 13
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 37"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-05-38",
+   "ill": "101-05",
+   "pos": 38,
+   "name": "Engine mount studs (engine carrier to engine)",
+   "thread": "M10 x 102",
+   "qty": 4,
+   "pn": [
+    "999 218 110 09"
+   ],
+   "stages": [
+    {
+     "label": "46 Nm (34 ft-lb)",
+     "nm": 46
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.15 item 38"
+    },
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2 (engine carrier to engine, M10)"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-25",
+   "ill": "103-01",
+   "pos": 25,
+   "name": "Cylinder head screws",
+   "thread": "M10 x 230",
+   "qty": 24,
+   "per_bank": 12,
+   "pn": [
+    "996 104 180 58"
+   ],
+   "reuse": "Angle-tightened. The WSM does not say replace. Replace.",
+   "lube": "Thin film of engine oil on thread and under the head",
+   "stages": [
+    {
+     "label": "30 Nm (22 ft-lb) in the sequence of Fig. 652_97",
+     "nm": 30
+    },
+    {
+     "label": "Loosen all screws fully",
+     "undo": true
+    },
+    {
+     "label": "20 Nm (15 ft-lb) in sequence",
+     "nm": 20
+    },
+    {
+     "label": "Torque angle, first pass, in sequence (angle open: 60 or 70 deg)",
+     "angle": null
+    },
+    {
+     "label": "Torque angle, second pass, in sequence (angle open: 60 or 70 deg)",
+     "angle": null
+    }
+   ],
+   "sequence_figure": "wsm-652_97",
+   "conflict": "The WSM M96/01 edition (supplement 23, 1999) gives 1 x 60 deg +/- 2 deg twice. The research notes and two forum quotes of the 3.6 l manual give 2 x 70 deg. The catalogue lists the same screw 996 104 180 58 for the late 3.4 l head and the 3.6 l head. Settle the angle against the torque book cylinder head page before tightening.",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-13 (15 70 23), p.1-4"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 103-01 pos. 25; also ill. 103-00"
+    },
+    {
+     "doc": "research",
+     "ref": "steps.json: 2 x 70 deg"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-18",
+   "ill": "103-01",
+   "pos": 18,
+   "name": "Tappet housing (bucket tappet guide housing) to cylinder head",
+   "thread": "M6, combination screw",
+   "qty": 38,
+   "pn": [
+    "900 067 316 02"
+   ],
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m01_only": true,
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4 (flat-base tappet housing to cylinder head)"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 103-01 pos. 18"
+    }
+   ]
+  },
+  {
+   "id": "wsm-cam-saddles",
+   "name": "Camshaft bearing saddles to cylinder head",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true,
+   "caveat": "3.6 l head differs; confirm in the torque book"
+  },
+  {
+   "id": "wsm-head-cover",
+   "name": "Cylinder head cover (camshaft housing cover) to cylinder head",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "13 Nm (10 ft-lb) in sequence",
+     "nm": 13
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    },
+    {
+     "doc": "web-wm",
+     "ref": "3.6 l cylinder head cover page quotes 13 Nm, 20 bolts"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-spark-plug",
+   "name": "Spark plugs",
+   "thread": "M14 x 1.25",
+   "stages": [
+    {
+     "label": "First fitting 30 +3 Nm (22 +2 ft-lb)",
+     "nm": 30
+    },
+    {
+     "label": "Re-fitting 25 +5 Nm (19 +3.5 ft-lb)",
+     "nm": 25
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-cam-sprocket",
+   "name": "Camshaft drive pinion and drive plate to camshaft",
+   "thread": "M6 x 15, grade 10.9",
+   "stages": [
+    {
+     "label": "14 Nm (10.5 ft-lb)",
+     "nm": 14
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true,
+   "caveat": "VarioCam Plus adjuster on the 3.6 l intake side; confirm in the torque book"
+  },
+  {
+   "id": "wsm-chain-tensioner",
+   "name": "Chain tensioner to crankcase and to cylinder head",
+   "thread": "M27 x 2",
+   "stages": [
+    {
+     "label": "80 Nm (59 ft-lb)",
+     "nm": 80
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    },
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-intake-pipe",
+   "name": "Intake pipe (manifold) to cylinder head",
+   "thread": "M6, micro-encapsulated",
+   "stages": [
+    {
+     "label": "9.7 Nm (7 ft-lb)",
+     "nm": 9.7
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-return-pump",
+   "name": "Oil return (scavenge) pump to cylinder head",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-pressure-plug",
+   "name": "Plug, oil-pressure duct to cylinder head",
+   "thread": "M10 x 1",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-suction-pipe",
+   "name": "Oil suction pipe to crankcase",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-aos",
+   "name": "Air/oil separator (AOS) to crankcase",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-pan",
+   "name": "Oil pan to crankcase",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-filter",
+   "name": "Oil filter housing to crankcase",
+   "thread": "S80 x 3",
+   "stages": [
+    {
+     "label": "25 +/- 1 Nm (19 +/- 1 ft-lb)",
+     "nm": 25
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-coolant-guide-housing",
+   "name": "Coolant guide housing to crankcase",
+   "thread": "M10",
+   "stages": [
+    {
+     "label": "45 Nm (33 ft-lb)",
+     "nm": 45
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-coolant-drain-plug",
+   "name": "Coolant drain plug",
+   "thread": "M10 x 1",
+   "stages": [
+    {
+     "label": "10 +5 Nm (7.5 +3.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-relief-plug",
+   "name": "Screw plug for oil relief valve",
+   "thread": "M20 x 1.5",
+   "stages": [
+    {
+     "label": "25 Nm (19 ft-lb)",
+     "nm": 25
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-1"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ims-flange",
+   "name": "Intermediate shaft flange to crankcase (OEM flange)",
+   "thread": "M6, micro-encapsulated",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ],
+   "m01_only": true,
+   "caveat": "With an LN kit the LN manual replaces this value"
+  },
+  {
+   "id": "wsm-ims-locknut",
+   "name": "Lock nut on intermediate shaft flange",
+   "thread": "M8 x 1",
+   "stages": [
+    {
+     "label": "13 Nm (10 ft-lb), or 11 Nm (8 ft-lb) with special tool 9110",
+     "nm": 13
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ],
+   "m01_only": true,
+   "caveat": "With an LN kit the LN manual replaces this value"
+  },
+  {
+   "id": "wsm-guide-rail-bolt",
+   "name": "Bolt for chain guide rail",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-water-pump",
+   "name": "Coolant (water) pump to crankcase",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2, p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-thrust-plate-dmf",
+   "name": "Thrust plate to double-mass flywheel",
+   "thread": "M8",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-belt-tensioner-roller",
+   "name": "Belt tensioner roller on lever for tensioning element",
+   "thread": "M10",
+   "stages": [
+    {
+     "label": "60 Nm (44 ft-lb)",
+     "nm": 60
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-2"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-belt-roller-1",
+   "name": "Belt deflection roller 1 to crankcase",
+   "thread": "M10 x 145",
+   "stages": [
+    {
+     "label": "65 Nm (48 ft-lb) for grade 10.9; 46 Nm (34 ft-lb) for grade 8.8",
+     "nm": 65
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-3"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-belt-roller-2",
+   "name": "Belt deflection roller 2 to bracket for hydraulic pump",
+   "thread": "M8 x 55",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-3"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-pulley-generator",
+   "name": "Belt pulley to generator",
+   "thread": "M16 x 1.5",
+   "stages": [
+    {
+     "label": "65 +/- 5 Nm (48 +/- 3.5 ft-lb)",
+     "nm": 65
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-3"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-pulley-ps-pump",
+   "name": "Belt pulley to hydraulic (power steering) pump",
+   "thread": "M8 x 12",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-3"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-level-sender",
+   "name": "Oil level sender to crankcase",
+   "thread": "M14 x 1.25",
+   "stages": [
+    {
+     "label": "max. 20 Nm (15 ft-lb)",
+     "nm": 20
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-o2-sensor",
+   "name": "Oxygen sensor to catalytic converter",
+   "thread": "M18",
+   "stages": [
+    {
+     "label": "55 +/- 5 Nm (41 +/- 3.5 ft-lb)",
+     "nm": 55
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-hall-sender",
+   "name": "Hall sender",
+   "thread": "M6, micro-encapsulated",
+   "stages": [
+    {
+     "label": "10 +/- 0.5 Nm (7.5 +/- 0.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ntc-coolant",
+   "name": "NTC coolant temperature sensor",
+   "thread": "M14 x 1.5",
+   "stages": [
+    {
+     "label": "25 +/- 5 Nm (19 +/- 3.5 ft-lb)",
+     "nm": 25
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-oil-pressure-switch",
+   "name": "Oil pressure switch",
+   "thread": "M14 x 1.5",
+   "stages": [
+    {
+     "label": "25 +/- 5 Nm (19 +/- 3.5 ft-lb)",
+     "nm": 25
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-starter",
+   "name": "Starter to engine",
+   "thread": "M10",
+   "stages": [
+    {
+     "label": "45 Nm (33 ft-lb)",
+     "nm": 45
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-generator",
+   "name": "Generator to engine",
+   "thread": "M10",
+   "stages": [
+    {
+     "label": "45 Nm (33 ft-lb)",
+     "nm": 45
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ignition-coil",
+   "name": "Ignition coil to cylinder head cover",
+   "thread": "M6",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ps-pump-bracket",
+   "name": "Power steering pump to bracket",
+   "thread": "M8",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ps-pressure-pipe",
+   "name": "Pressure pipe to power steering pump",
+   "thread": "M16",
+   "stages": [
+    {
+     "label": "24 Nm (18 ft-lb)",
+     "nm": 24
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-ps-reservoir",
+   "name": "Oil reservoir to power steering pump",
+   "thread": "M8",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  },
+  {
+   "id": "wsm-aux-air-check-valve",
+   "name": "Check valve for auxiliary (secondary) air pump",
+   "thread": "M22 x 1.5",
+   "stages": [
+    {
+     "label": "32 Nm (24 ft-lb)",
+     "nm": 32
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.1-5"
+    }
+   ],
+   "m01_only": true
+  }
+ ]
+}

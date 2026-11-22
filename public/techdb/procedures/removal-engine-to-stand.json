@@ -1,0 +1,55 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-engine-to-stand",
+ "status": "draft",
+ "title": "Mount engine on a stand with an M96 adapter plate",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "A generic four-arm stand will NOT bolt to an M96 — you need the bellhousing-pattern adapter plate. Use a stand rated well above the ~200 kg engine and put the stand on a solid floor; you will be applying real torque to this thing later. Mount it so the engine can rotate to put the case-half seam horizontal. Fit blanking plates/tape over every open port so nothing falls inside.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Mount engine on a stand with an M96 adapter plate.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "engine stand (750 lb+)",
+   "special": null
+  },
+  {
+   "name": "M96 engine stand adapter plate",
+   "special": null
+  },
+  {
+   "name": "engine hoist with load leveller",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-stand-adapter"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

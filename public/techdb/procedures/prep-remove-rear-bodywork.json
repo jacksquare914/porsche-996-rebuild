@@ -1,0 +1,59 @@
+{
+ "schema": "techdb/1",
+ "id": "prep-remove-rear-bodywork",
+ "status": "draft",
+ "title": "Remove rear bumper cover, undertrays, exhaust and rear wheels",
+ "phase": "prep",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Rear bumper cover comes off after the tail light surround fasteners and the wheel-well liner screws; it is held by long horizontal guide rails — pull it straight back, not down. Photograph the position of the bumper shims. Expect several broken plastic clips; buy a clip assortment in advance. Soak every exhaust fastener in penetrant the night before — 20-year-old muffler-to-cat nuts snap as a matter of routine.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove rear bumper cover, undertrays, exhaust and rear wheels.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "plastic trim tool set",
+   "special": null
+  },
+  {
+   "name": "T25/T30 Torx",
+   "special": null
+  },
+  {
+   "name": "penetrating oil",
+   "special": null
+  },
+  {
+   "name": "clip assortment",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "exhaust-hardware-kit"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

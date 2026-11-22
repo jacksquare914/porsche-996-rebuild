@@ -1,0 +1,175 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-accessories-intake-exhaust",
+ "status": "draft",
+ "title": "Refit water pump, AOS, accessories, intake and exhaust manifolds",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 6,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Metal-impeller water pump, new thermostat, all new AOS hoses, new injector O-rings, new exhaust manifold gaskets and nuts with anti-seize on the studs. Fit all sensors and route the harness exactly as photographed at teardown. Fit new spark plugs and inspect the coils — 20-year-old coils on a freshly rebuilt engine is a false economy.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Refit water pump, AOS, accessories, intake and exhaust manifolds.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-accessories-intake-exhaust.t1",
+   "name": "Water pump bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "New gasket; do not over-torque into the aluminium case.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-2, 1-5 (coolant pump to crankcase)"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t2",
+   "name": "Thermostat housing bolts",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t3",
+   "name": "AOS mounting bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 23; WSM Gr.1 Part 1 (M96/01 edition) p.1-1"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t4",
+   "name": "Ignition coil pack bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-5 (ignition coil to cylinder head cover)"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t5",
+   "name": "Spark plugs (new)",
+   "stages": [
+    {
+     "label": "30 +3 Nm (22 +2 ft-lb) first fitting; 25 +5 Nm re-fitting"
+    }
+   ],
+   "note": "Reused plugs 25 Nm (19 ft-lb).",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-4"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t6",
+   "name": "Knock sensors to crankcase",
+   "stages": [
+    {
+     "label": "M8 x 30 (2 off): 20 +/- 2 Nm (15 +/- 1.5 ft-lb)"
+    }
+   ],
+   "note": "Torque matters for the sensor signal.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 item 34; WSM Gr.1 Part 1 (M96/01 edition) p.1-5"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-accessories-intake-exhaust.t7",
+   "name": "Crankshaft sensor to crankcase",
+   "stages": [
+    {
+     "label": "M6 x 16: 10 +/- 0.5 Nm (7.5 +/- 0.5 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 item 32; WSM Gr.1 Part 1 (M96/01 edition) p.1-5"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "torque wrench 5-30 Nm",
+   "special": null
+  },
+  {
+   "name": "spark plug socket",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "water-pump",
+  "thermostat",
+  "aos",
+  "aos-hose-kit",
+  "spark-plugs",
+  "ignition-coils",
+  "injector-oring-kit",
+  "exhaust-manifold-gaskets",
+  "serpentine-belt",
+  "belt-tensioner"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-cams-lifters-housings",
+ "status": "draft",
+ "title": "Install lifters, camshafts and cam housings",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Soak new hydraulic lifters in clean oil and keep them upright. Remember the 3.6 split: switchable variable-lift lifters (996-105-255-25) go in the INTAKE positions, conventional lifters (996-105-041-72) in the EXHAUST positions. Lubricate cam lobes and journals with assembly lube. Torque the cam housing fasteners progressively and evenly in the specified sequence so the camshaft is never bent by uneven spring load.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Install lifters, camshafts and cam housings.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-cams-lifters-housings.t1",
+   "name": "Camshaft bearing housing bolts",
+   "stages": [
+    {
+     "label": "M96/01 edition: camshaft bearing saddles to cylinder head M6 10 Nm (7.5 ft-lb); flat-base tappet housing to cylinder head M6 10 Nm; cylinder head cover M6 13 Nm (10 ft-lb). Progressive, in the specified sequence."
+    }
+   ],
+   "note": "The 3.6 (VarioCam Plus) head differs from the 3.4 head. Confirm against the torque book cylinder head page before use.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-4"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "assembly lube",
+   "special": null
+  },
+  {
+   "name": "cam housing sequence diagram",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "hydraulic-lifters-exhaust",
+  "variable-lift-lifters-intake",
+  "camshafts",
+  "cam-housing-gasket",
+  "assembly-lube"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}
