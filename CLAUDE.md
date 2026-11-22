@@ -42,7 +42,8 @@ deletes. See `docs/AGENTS.md` for the full loop.
 
 ## The factory parts catalogue
 
-Jack has the official Porsche catalogue (Kat 521, USA edition, 996 MY98–05). It is
+Jack has the official Porsche catalogue (Kat 021, English edition, 996 MY98–05, dated
+24.07.2017; the USA edition Kat 521 is the same catalogue with US-only variants). It is
 gitignored under `reference/` because it is copyrighted and this repo is public — it lives
 in the Drive folder. Query it rather than reading the PDF:
 

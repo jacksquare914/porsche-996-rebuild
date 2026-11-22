@@ -42,7 +42,7 @@ for working with the factory parts catalogue.
 
 ## Part numbers
 
-The factory parts catalogue (Kat 521, 996 MY98–05) is wired in as a lookup:
+The factory parts catalogue (Kat 021 / Kat 521, 996 MY98–05) is wired in as a lookup:
 
 ```bash
 node scripts/catalog.mjs pn 996-107-026-51      # what is this part, does it fit a 2003

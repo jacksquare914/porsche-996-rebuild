@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Parse the Porsche factory parts catalogue (Kat 521, USA edition, 996 MY98-05)
- * into a lookup index.
+ * Parse the Porsche factory parts catalogue (Kat 521 USA edition or Kat 021 English
+ * all-other-countries edition, both 996 MY98-05, 24.07.2017) into a lookup index.
  *
- *   pdftotext -layout kat521-usa-996-05-katalog.pdf catalog.txt
+ *   pdftotext -layout kat021-e-996-05-katalog.pdf catalog.txt
  *   node scripts/parse-catalog.mjs catalog.txt reference/catalog-index.json
  *
  * The catalogue is Porsche's copyrighted work. The PDF and this index stay OUT of
@@ -170,9 +170,17 @@ for (const r of rows) {
 
 const parts = [...byPn.values()].sort((a, b) => a.pn.localeCompare(b.pn));
 
+// Edition and date come from the page footers ("24.07.2017   -1   Kat 021"), so the same
+// parser serves the USA/Canada edition (Kat 521) and the all-other-countries English
+// edition (Kat 021). Both are dated 24.07.2017 and share the illustration numbering.
+const katM = readFileSync(inPath, 'utf8').match(/Kat (\d{3})/);
+const dateM = readFileSync(inPath, 'utf8').match(/(\d{2}\.\d{2}\.\d{4})\s+-\d+\s+Kat/);
+const kat = katM ? katM[1] : '???';
+const edition = kat === '521' ? 'USA/Canada edition' : kat === '021' ? 'all-other-countries edition, English' : 'edition unknown';
+
 const index = {
   source:
-    'Porsche parts catalogue Kat 521, USA/Canada edition, type 996 MY1998-2005, dated 24.07.2017',
+    `Porsche parts catalogue Kat ${kat}, ${edition}, type 996 MY1998-2005, dated ${dateM ? dateM[1] : 'unknown'}`,
   caution: [
     'This is a 2017 snapshot. Porsche supersedes part numbers continuously, so a number here',
     'may no longer be orderable — confirm the current number against a live dealer catalogue',
