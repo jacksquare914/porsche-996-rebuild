@@ -1,0 +1,199 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-heads-on",
+ "status": "authored",
+ "title": "Install the cylinder heads and tighten the cylinder head screws",
+ "phase": "assembly",
+ "rg": 15,
+ "rg_title": "Engine - Cylinder head, valve drive",
+ "op": "15 70 23",
+ "op_title": "Installing cylinder head",
+ "wsm_page": "15-13",
+ "imprint": "WSM Group 1 Part 2, pages 15-11 to 15-13, supplement 23, 1999",
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "source",
+   "text": "Procedure 15 70 23 \"Installing cylinder head\", WSM Group 1 Part 2, pages 15-11 to 15-13 (supplement 23, 1999), and torque table page 1-4. This edition is for the M96/01. The M96/03 has a new cylinder head and a multi-layer steel gasket (Service Information MY2002, Group 0, page 202).",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-11 to 15-13, p.1-4"
+    },
+    {
+     "doc": "si-2002",
+     "ref": "p.202"
+    }
+   ]
+  },
+  {
+   "kind": "conflict",
+   "text": "Do not tighten the cylinder head screws before the correct angle is known. The WSM for the M96/01 gives 30 Nm, loosen all, 20 Nm, then 2 × 60° ±2° (page 15-13). The research notes for the M96/03 give 2 × 70°. No document in hand gives the M96/03 value with a page number. The parts catalogue gives the same screw, 996 104 180 58, for the VarioCam Plus head and for the late 3.4 head. Approval of this step is not possible until the angle is known.",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-13"
+    },
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 103-01 pos. 25"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "Engines from number M96/01 66X03084 and M96/02 68X01044 have modified cylinder head screws. These screws have a Torx T55 head, not T50.",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-11"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "The gaskets have the marks Zyl. 1-3 or Zyl. 4-6, OBEN/TOP, and the part number.",
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.15-12"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Make sure that the dowel sleeves are seated in the crankcase. Install the head gaskets with the correct bank mark and OBEN/TOP up. (15-12)",
+   "refs": [
+    {
+     "part": "head-gaskets"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "text": "Apply a thin layer of engine oil to the cylinder head screws. (15-13)",
+   "refs": [
+    {
+     "fastener": "kat-103-01-25"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "text": "Tighten all 12 screws to 30 Nm in the sequence of Fig. 652_97. (15-13)",
+   "refs": [
+    {
+     "figure": "wsm-652_97",
+     "sequence": true
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "text": "Loosen all cylinder head screws fully. (15-13)",
+   "refs": []
+  },
+  {
+   "no": 5,
+   "text": "Tighten the screws to 20 Nm in the same sequence. (15-13)",
+   "refs": []
+  },
+  {
+   "no": 6,
+   "text": "Tighten the screws by the torque angle in the same sequence. Do this step two times. The angle is open, see the caution. (15-13)",
+   "refs": [
+    {
+     "tool": "Torque angle attachment"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "text": "When the two cylinder heads are attached, tighten the three bearing-housing screws through the crankcase to 22 Nm. (10-52)",
+   "refs": [
+    {
+     "fastener": "kat-101-05-7-9"
+    }
+   ]
+  }
+ ],
+ "fasteners": [
+  {
+   "ref": "kat-103-01-25"
+  },
+  {
+   "ref": "kat-101-05-7-9"
+  },
+  {
+   "id": "arp-204-4707",
+   "name": "ARP head stud kit 204-4707 (alternative to the OEM screws)",
+   "thread": "—",
+   "qty": 1,
+   "reuse": "Studs can be used again",
+   "lube": "ARP Ultra-Torque",
+   "stages": [
+    {
+     "label": "30 ft-lb"
+    },
+    {
+     "label": "60 ft-lb (81 Nm)"
+    }
+   ],
+   "sources": [
+    {
+     "doc": "arp-204-4707",
+     "ref": "retailer listing; the card in the kit is the authority"
+    }
+   ],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "Torque angle attachment",
+   "special": "WE manual 2.4, no. 88"
+  },
+  {
+   "name": "Socket wrench insert Torx T50",
+   "special": "9633",
+   "note": "Early engines"
+  },
+  {
+   "name": "Socket Torx T55, commercial",
+   "special": null,
+   "note": "Modified screws, see note"
+  },
+  {
+   "name": "Torque wrench 20 to 150 Nm",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "head-gaskets",
+  "head-bolts-oem",
+  "arp-head-studs",
+  "arp-ultra-torque-lube",
+  "torque-angle-gauge"
+ ],
+ "figures": [
+  "wsm-652_97",
+  "kat-103-01"
+ ],
+ "sources": [
+  {
+   "doc": "wsm-g1p2",
+   "ref": "p.15-11 to 15-13, p.1-4"
+  },
+  {
+   "doc": "kat-021",
+   "ref": "ill. 103-01"
+  }
+ ]
+}

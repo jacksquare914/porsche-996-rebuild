@@ -1,0 +1,59 @@
+{
+ "schema": "techdb/1",
+ "id": "inspection-heads-valves",
+ "status": "draft",
+ "title": "Cylinder head, valve and valve guide inspection",
+ "phase": "inspection",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Check head flatness with a straightedge and feelers in both diagonals and lengthwise. Measure valve stem-to-guide clearance by rocking each valve in its guide with a dial indicator — worn guides are common at this mileage and are a real oil-consumption source that people misattribute to rings or the AOS. Inspect the seats for recession and pitting, check for cracks between the valve seats and around the plug hole, and pressure-test the head if there is any sign of coolant intrusion. Check the cam bearing surfaces in the head/housing for scoring.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Cylinder head, valve and valve guide inspection.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "precision straightedge and feeler gauges",
+   "special": null
+  },
+  {
+   "name": "dial indicator",
+   "special": null
+  },
+  {
+   "name": "valve spring tester",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "valve-guides",
+  "intake-valves",
+  "exhaust-valves",
+  "valve-springs",
+  "valve-stem-seals"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

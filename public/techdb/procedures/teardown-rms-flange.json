@@ -1,0 +1,48 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-rms-flange",
+ "status": "draft",
+ "title": "Remove rear main seal and crankshaft flange area",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 1,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "The RMS is the 996's most over-blamed and most misunderstood leak. LN's position is worth repeating: RMS leaks are not caused by the weight of the dual-mass flywheel, they come from case/block mis-machining at the factory or from an engine never updated to the current PTFE seal. Note carefully whether the old seal sat square in its bore. A PTFE seal is installed DRY — no oil, no grease on the lip — and must go in square with the proper tool, never tapped in with a socket.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove rear main seal and crankshaft flange area.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "Porsche 9699 + 9699/2 RMS tool, or LN 0PB.105.249.LN",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "rms-seal",
+  "rms-install-tool"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

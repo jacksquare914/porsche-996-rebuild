@@ -1,0 +1,107 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-flywheel-clutch",
+ "status": "draft",
+ "title": "Install dual-mass flywheel, clutch and release bearing",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "NEW TTY FLYWHEEL BOLTS, no exceptions — the OEM bolts stretch by design and are single-use. Torque 25 Nm then 90 degrees with a proper angle gauge. Centre the clutch disc with an alignment tool before final-torquing the pressure plate, and tighten the cover bolts in a star pattern in stages. Fit the new release bearing and check the guide tube for wear. Photograph the assembly before the transmission goes on.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Install dual-mass flywheel, clutch and release bearing.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-flywheel-clutch.t1",
+   "name": "Dual-mass flywheel bolts",
+   "stages": [
+    {
+     "label": "M10 x 1 x 50, 12.9 (8 off): stage 1 25 Nm (19 ft-lb), stage 2 +90 deg."
+    }
+   ],
+   "note": "New bolts. Torque-then-angle with an angle gauge.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 18 (M96.03 row); WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "assembly-flywheel-clutch.t2",
+   "name": "Clutch pressure plate bolts",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
+    }
+   ],
+   "note": "Star pattern, in stages.",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "assembly-flywheel-clutch.t3",
+   "name": "Vibration damper (pulley) to crankshaft",
+   "stages": [
+    {
+     "label": "M16 x 1.5 x 60: stage 1 50 Nm (37 ft-lb), stage 2 +90 deg"
+    }
+   ],
+   "note": "",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 7; WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "flywheel locking tool",
+   "special": null
+  },
+  {
+   "name": "clutch alignment tool",
+   "special": null
+  },
+  {
+   "name": "torque angle gauge",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "dual-mass-flywheel",
+  "flywheel-bolts",
+  "clutch-kit",
+  "release-bearing",
+  "torque-angle-gauge",
+  "faultless-tool-kit"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

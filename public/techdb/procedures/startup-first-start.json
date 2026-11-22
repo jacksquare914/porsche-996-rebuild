@@ -1,0 +1,53 @@
+{
+ "schema": "techdb/1",
+ "id": "startup-first-start",
+ "status": "draft",
+ "title": "First start and initial heat cycle",
+ "phase": "startup",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Start it and bring it straight to a fast idle around 2000 rpm — do not let a fresh engine sit at low idle, the cam lobes and lifters want oil flow. Watch coolant temperature and oil pressure continuously. Listen for anything rhythmic. Let it reach operating temperature, then shut down and let it cool completely. Check for leaks at every joint you made, especially the case seam, the sump, the RMS and the head gaskets. Re-read camshaft deviation on both banks now and compare to your baseline.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "First start and initial heat cycle.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "Durametric or PIWIS",
+   "special": null
+  },
+  {
+   "name": "IR thermometer",
+   "special": null
+  },
+  {
+   "name": "bright light and mirror",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

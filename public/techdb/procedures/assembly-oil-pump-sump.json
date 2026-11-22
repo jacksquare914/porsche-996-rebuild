@@ -1,0 +1,75 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-oil-pump-sump",
+ "status": "draft",
+ "title": "Install oil pump, pickup and sump",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Prime the oil pump with assembly lube before it goes on so it can pull oil on first crank. New pickup tube O-ring — a leak here is an air leak that starves the engine and is invisible from outside. Consider the chromoly oil pump drive upgrade now, it is inaccessible later. Seal the sump with a thin even bead; the previous builder's excess 5900 is why you spent an hour scraping.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Install oil pump, pickup and sump.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-oil-pump-sump.t1",
+   "name": "Oil pan / sump bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "Low value into aluminium; spiral sequence from the centre out.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-1 (oil pan to crankcase)"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "sealant applicator",
+   "special": null
+  },
+  {
+   "name": "torque wrench 5-30 Nm",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "oil-pump",
+  "oil-pump-drive-chromoly",
+  "oil-pickup-tube",
+  "oil-pickup-oring",
+  "sump-gasket",
+  "loctite-5900",
+  "magnetic-drain-plug"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

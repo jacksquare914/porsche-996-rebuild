@@ -1,0 +1,53 @@
+{
+ "schema": "techdb/1",
+ "id": "prep-leakdown-compression",
+ "status": "draft",
+ "title": "Leakdown and compression test, record per cylinder",
+ "phase": "prep",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Warm engine, all plugs out, throttle propped open. Record both absolute numbers and cylinder-to-cylinder spread — spread matters more than absolute. Listen at the oil filler (rings), the intake (intake valve), the exhaust (exhaust valve) and the coolant tank (head gasket / D-chunk crack). Bubbles in the expansion tank during leakdown on one specific cylinder is the classic D-chunk / cracked-liner tell. Write the numbers on the build sheet; they are your before/after proof.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Leakdown and compression test, record per cylinder.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "leakdown tester (dual gauge)",
+   "special": null
+  },
+  {
+   "name": "compression tester with M14 adapter",
+   "special": null
+  },
+  {
+   "name": "air compressor",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

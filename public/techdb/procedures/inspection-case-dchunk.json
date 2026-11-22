@@ -1,0 +1,56 @@
+{
+ "schema": "techdb/1",
+ "id": "inspection-case-dchunk",
+ "status": "draft",
+ "title": "Crankcase inspection — D-chunk cracks, sleeve integrity, bearing bores",
+ "phase": "inspection",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "The D-chunk failure is a crack that propagates from the cylinder outward into the coolant passage, letting coolant flood the engine internals — it is the end state of untreated bore scoring, and it is reported most often on the 3.4 but is not exclusive to it. Inspect the outside of each cylinder from inside the case for cracks, and look for a slipped or cracked factory sleeve. Dye-penetrant or magnaflux the case if there is any doubt. Also check the main bearing bore alignment and roundness with the halves bolted together to spec, and inspect the case for the fretting and mis-machining that causes chronic RMS leaks. A block with cracked or slipped sleeves needs repair sleeves or replacement — decide here, not later.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Crankcase inspection — D-chunk cracks, sleeve integrity, bearing bores.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "dye penetrant kit",
+   "special": null
+  },
+  {
+   "name": "dial bore gauge",
+   "special": null
+  },
+  {
+   "name": "align-bore checking bar",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "nickies-96mm",
+  "case-repair-sleeves"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

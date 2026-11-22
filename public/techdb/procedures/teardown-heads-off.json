@@ -1,0 +1,75 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-heads-off",
+ "status": "draft",
+ "title": "Remove cylinder heads",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "The M96 is a long-bolt engine: the cylinder head fasteners are long through-bolts that pass through the head and clamp into the crankcase/crankshaft carrier, not short bolts into a deck. Loosen them in reverse sequence in several passes. The OEM through-bolts are TORQUE-TO-YIELD and must be discarded — this is where most builders switch to ARP studs (kit 204-4707) or Raceware. With the heads off, examine the head gasket fire rings for blow-by paths and the coolant ports for corrosion, and photograph both head gaskets in place before lifting them.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove cylinder heads.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-heads-off.t1",
+   "name": "Cylinder head (long) bolts, 996 3.6 — removal",
+   "stages": [
+    {
+     "label": "Loosen in the reverse of the tightening sequence of WSM Fig. 652_97, in stages."
+    }
+   ],
+   "note": "Angle-tightened screws; the WSM does not state reuse. Replace.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.15-13"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "long extensions",
+   "special": null
+  },
+  {
+   "name": "12-point head bolt socket",
+   "special": null
+  },
+  {
+   "name": "engine stand that rotates",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "head-gaskets",
+  "head-bolts-oem",
+  "arp-head-studs"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

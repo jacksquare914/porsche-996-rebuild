@@ -4,7 +4,8 @@ This repo is the tracker for a full engine-out rebuild of **Jack's 2003 Porsche 
 M96.03 3.6L**. It is two things at once:
 
 1. **A web app** (`src/`) — a mobile-first tracker for the rebuild procedure, the parts
-   list, and a photo log. Static React/Vite, no server.
+   list, a photo log, and a factory-style workshop manual (the Manual tab). Static
+   React/Vite, no server.
 2. **An agent workspace** (`.claude/`, `scripts/`) — subagents that hunt parts prices and
    write build content, both reading and writing the same live data.
 
@@ -42,7 +43,8 @@ deletes. See `docs/AGENTS.md` for the full loop.
 
 ## The factory parts catalogue
 
-Jack has the official Porsche catalogue (Kat 521, USA edition, 996 MY98–05). It is
+Jack has the official Porsche catalogue (Kat 021, English edition, 996 MY98–05, dated
+24.07.2017; the USA edition Kat 521 is the same catalogue with US-only variants). It is
 gitignored under `reference/` because it is copyrighted and this repo is public — it lives
 in the Drive folder. Query it rather than reading the PDF:
 
@@ -56,6 +58,22 @@ node scripts/catalog.mjs check                  # audit src/data/parts.json
 in it.** It settles what a part *is* and whether it fits a 2003; **Gaudin Porsche settles
 what number to order today.** Check both. Full detail, including how to read the model-year
 limit column, is in `docs/CATALOG.md` — read that before touching part numbers.
+
+## The technical database (the workshop manual's data)
+
+Torque values, sequences, limits, tools, figures and their sources live in `public/techdb/`
+as JSON and are fetched by the app at runtime. Nothing technical is hard-coded in `src/`.
+`docs/TECHDB.md` has the schema and the rules; the short version:
+
+- every value carries `sources` (document id + page); `node scripts/techdb.mjs validate`
+  fails on a row without one;
+- a row with `conflict` text blocks approval of any step that uses it;
+- `m03` = confirmed for M96.0X by the Knowledge Gruppe torque book, `m01_only` = from the
+  3.4 l WSM edition only, `open` = no source yet;
+- fastener ids follow the parts catalogue illustration and position (`kat-101-05-6`), and
+  the torque book uses the same numbers;
+- the drawings are Porsche's: `public/techdb/figures/` is gitignored and synced from
+  `reference/figures/` with `node scripts/techdb.mjs figures`.
 
 ## House rules
 

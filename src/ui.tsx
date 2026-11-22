@@ -3,6 +3,7 @@ import { useEffect, type ReactNode } from 'react';
 export function Icon({ name }: { name: string }) {
   const paths: Record<string, ReactNode> = {
     build: <><path d="M4 6h16M4 12h10M4 18h13" /><circle cx="18" cy="12" r="1.6" /></>,
+    manual: <><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3V4Z" /><path d="M5 17h14M9 8h6M9 11h4" /></>,
     parts: <><path d="M20 7 12 3 4 7v10l8 4 8-4V7Z" /><path d="m4 7 8 4 8-4M12 11v10" /></>,
     log: <><rect x="3" y="5" width="18" height="15" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></>,
     price: <><path d="M12 2v20" /><path d="M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2.2 2.8 5 3.3 5 1.4 5 3.3-2.2 3-5 3-5-1.1-5-3" /></>,

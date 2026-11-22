@@ -1,0 +1,85 @@
+{
+ "schema": "techdb/1",
+ "id": "install-fill-bleed",
+ "status": "draft",
+ "title": "Fill fluids and bleed the cooling system",
+ "phase": "install",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Engine oil: approximately 8.25 L (8.7 US qt) for an oil-and-filter change; approximately 10.25 L (10.8 US qt) for a completely dry fill, which is what you have now — fill to the dry-fill figure, then set the level properly on the dipstick/electronic gauge once it has run and settled. Use an oil meeting the Porsche A40 approval, typically a 0W-40 or 5W-40 full synthetic. BLEEDING THE 996 COOLING SYSTEM IS FIDDLY AND MATTERS: the engine is behind you and the radiators are at the front, with high points in between. Use the bleeder screw, run the heater on full hot, and expect to top up repeatedly over several heat cycles. An air pocket on a fresh engine is a very expensive way to learn this.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Fill fluids and bleed the cooling system.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "install-fill-bleed.t1",
+   "name": "Engine oil drain plug",
+   "stages": [
+    {
+     "label": "50 Nm (37 ft-lb)"
+    }
+   ],
+   "note": "New crush washer.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 item 23 (M18 x 1.5); WSM Gr.1 Part 1 (M96/01 edition) p.1-1, 03-1"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "install-fill-bleed.t2",
+   "name": "Manual transmission drain / fill plug",
+   "stages": [
+    {
+     "label": "30 Nm (22 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "vacuum coolant filler (strongly recommended)",
+   "special": null
+  },
+  {
+   "name": "funnel with no-spill adapter",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-oil",
+  "oil-filter",
+  "coolant-concentrate",
+  "gear-oil-manual",
+  "brake-fluid"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

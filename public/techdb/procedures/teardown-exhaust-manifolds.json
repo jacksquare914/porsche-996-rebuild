@@ -1,0 +1,87 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-exhaust-manifolds",
+ "status": "draft",
+ "title": "Remove exhaust manifolds, heat shields and O2 sensors",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 2.5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Heat and penetrant, then patience. Plan on snapping at least one manifold stud and plan the extraction in advance (weld a nut on rather than drill, if you can get to it). Remove the O2 sensors with a slotted sensor socket and do not hang them by their wires. All manifold gaskets and nuts are one-time-use.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove exhaust manifolds, heat shields and O2 sensors.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-exhaust-manifolds.t1",
+   "name": "Exhaust manifold nuts",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
+    }
+   ],
+   "note": "Use new copper-plated lock nuts and new gaskets; anti-seize the studs on assembly.",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "teardown-exhaust-manifolds.t2",
+   "name": "Oxygen sensors",
+   "stages": [
+    {
+     "label": "55 +/- 5 Nm (41 +/- 3.5 ft-lb)"
+    }
+   ],
+   "note": "Never install an O2 sensor with anti-seize on the sensing tip.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-5 (M18, M96/01 edition)"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "O2 sensor socket",
+   "special": null
+  },
+  {
+   "name": "oxy-acetylene or induction heater",
+   "special": null
+  },
+  {
+   "name": "stud extractor set",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "exhaust-manifold-gaskets",
+  "exhaust-hardware-kit",
+  "o2-sensors"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

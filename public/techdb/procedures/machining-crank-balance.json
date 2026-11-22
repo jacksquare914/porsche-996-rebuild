@@ -1,0 +1,50 @@
+{
+ "schema": "techdb/1",
+ "id": "machining-crank-balance",
+ "status": "draft",
+ "title": "Crankshaft polish/grind and rotating assembly balance",
+ "phase": "machining",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Polish journals if within spec, grind undersize only if you must (and buy matching undersize bearings). Have the full rotating assembly — crank, rods, pistons, pins, rings, bearings, and the flywheel/clutch if you want it perfect — balanced as a set. This is the difference between a rebuilt engine and a built one, and on a flat-six it is felt directly in how the engine revs.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Crankshaft polish/grind and rotating assembly balance.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "machine shop: crank grinder, balancer",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "crankshaft",
+  "connecting-rods",
+  "main-bearings",
+  "rod-bearings"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

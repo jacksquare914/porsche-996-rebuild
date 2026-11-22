@@ -1,0 +1,65 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-axles-shifter-clutch-hydraulics",
+ "status": "draft",
+ "title": "Disconnect axle shafts, shift cables and clutch slave cylinder",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "The axle shaft inner CV bolts are 12-point M8 (triple-square/XZN) and they round off if the socket is not driven fully home — clean the heads with a pick first. Support each axle with wire once free so the CV boot is not stretched. Leave the clutch slave cylinder bolted to the bellhousing and unbolt it from the line, or better, unbolt the slave and hang it on the body so the hydraulic system stays sealed and does not need bleeding later.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Disconnect axle shafts, shift cables and clutch slave cylinder.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "removal-axles-shifter-clutch-hydraulics.t1",
+   "name": "Axle shaft to flange bolts (M8 12-point)",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
+    }
+   ],
+   "note": "Commonly quoted in the 80 Nm class for the M10 variant and ~45-50 Nm for M8; verify before assembly. Always use new bolts.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "M8/M10 12-point (XZN) sockets",
+   "special": null
+  },
+  {
+   "name": "mechanics wire",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "axle-bolts",
+  "clutch-slave-cylinder"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

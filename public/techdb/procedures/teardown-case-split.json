@@ -1,0 +1,94 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-case-split",
+ "status": "draft",
+ "title": "Split the crankcase halves",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Mark the sealant bead line on the flange with a sharpie BEFORE you clean anything — the factory bead path is specific and you will want to reproduce it. Remove every case fastener (the M96.03 uses on the order of 25 case bolts plus 14 crankshaft carrier bolts) and lay them out on a board in a map of their positions; they are not all the same length. Separate the halves with even prying at the designated pry points ONLY — never between the sealing faces, a nick in that flange is a permanent oil leak. Split with the 1-3 half down and the 4-6 half up so the crank stays supported; use temporary bolts to support the crankshaft carrier as the halves come apart.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Split the crankcase halves.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-case-split.t1",
+   "name": "Crankcase bolts (25 off)",
+   "stages": [
+    {
+     "label": "M6 x 35 (25 off): 13 Nm (10 ft-lb) in the sequence of WSM Fig. 443_96. Bearing-housing screws through the case 9 x 150, M9 x 94, 9 x 94 (3 off): 22 Nm (16 ft-lb), tightened only after the cylinder heads are fastened."
+    }
+   ],
+   "note": "Micro-encapsulated M6 bolts, new each time. Sealant: Loctite 5900 or Drei Bond 1209, bead about 1.5 mm, bolt up within five minutes.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 items 6, 7, 8, 9 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.1-1, 10-52, 10-55, 10-56"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "teardown-case-split.t2",
+   "name": "Crankshaft carrier bolts (14 off)",
+   "stages": [
+    {
+     "label": "M9 x 127 (14 off): stage 1 25 Nm (19 ft-lb) in the sequence of WSM Fig. 185_96, stage 2 +90 deg in the same sequence. Oil thread and contact face."
+    }
+   ],
+   "note": "OEM screws are angle-tightened; the WSM does not state replacement, builders replace them. ARP 204-5001 replacements use ARP's own procedure and lubricant.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 16 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.13-30, 13-32, 1-1"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "case splitting pry bars (soft-faced)",
+   "special": null
+  },
+  {
+   "name": "bolt organiser board",
+   "special": null
+  },
+  {
+   "name": "engine stand that rotates 360 deg",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "case-bolts",
+  "crank-carrier-bolts-arp",
+  "crank-carrier-oring",
+  "case-bolt-orings",
+  "loctite-5900"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

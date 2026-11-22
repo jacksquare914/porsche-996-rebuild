@@ -1,0 +1,78 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-crank-rods-pistons",
+ "status": "draft",
+ "title": "Remove crankshaft, connecting rods and pistons",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Measure crankshaft end play BEFORE disassembly and write it down — a rebuilt engine should come back in the middle of the spec range (one documented rebuild measured 0.004 in / 0.10 mm). Number every rod and cap to its journal and keep caps with their own rods; they are fracture-split and not interchangeable. GEOMETRY NOTE that catches people out on reassembly: pistons 1-3 come out and go back through the top of the bore normally, but 4-6 have to be passed through an access opening in the case wall with the rods still on the crank. Keep each piston with its bore and mark its orientation arrow. Bag the bearing shells by position — reading the wear pattern later is how you diagnose oiling problems.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove crankshaft, connecting rods and pistons.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-crank-rods-pistons.t1",
+   "name": "Connecting rod bolts (12 off)",
+   "stages": [
+    {
+     "label": "M9 x 1.25 (12 off): stage 1 20 Nm (15 ft-lb), stage 2 +90 deg. Oil thread and contact face."
+    }
+   ],
+   "note": "OPEN: the torque book gives +90 deg for M96.0X and the WSM M96/01 edition gives +90 deg, but a transcription of the factory 3.6 data (workshop-manuals.com, not verified by us) gives +110 deg for M96/03. Settle this against the book page for the rod before assembly. ARP 204-6301 bolts use ARP's procedure.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 11 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.13-31, 1-1"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "dial indicator",
+   "special": null
+  },
+  {
+   "name": "rod bolt protectors / hose sleeves",
+   "special": null
+  },
+  {
+   "name": "piston ring expander",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "rod-bolts-arp",
+  "main-bearings",
+  "rod-bearings",
+  "thrust-bearings",
+  "pistons-oem",
+  "piston-rings"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

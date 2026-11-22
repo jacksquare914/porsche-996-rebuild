@@ -1,0 +1,57 @@
+{
+ "schema": "techdb/1",
+ "id": "startup-post-breakin-validation",
+ "status": "draft",
+ "title": "Post break-in validation and documentation",
+ "phase": "startup",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Close the loop on every measurement you took at the start: leakdown and compression on all six, camshaft deviation both banks, fuel trims, oil consumption over a measured interval, and a borescope of every bore. Photograph the filter media from the break-in oil change. File the complete build record — measurements, part numbers, torque log, machine shop invoices and photographs. On an M96 rebuild this documentation is worth real money at resale, because the first question any informed buyer asks is what was done about the IMS and the bores.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Post break-in validation and documentation.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "leakdown tester",
+   "special": null
+  },
+  {
+   "name": "borescope",
+   "special": null
+  },
+  {
+   "name": "scan tool",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "borescope",
+  "diagnostic-scan-tool",
+  "oil-filter-cutter"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

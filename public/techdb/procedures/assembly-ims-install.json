@@ -1,0 +1,68 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-ims-install",
+ "status": "draft",
+ "title": "Install the IMS bearing solution",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "FOR A 2003 3.6, THE CHOICE IS BETWEEN TWO SINGLE-ROW PRODUCTS. (a) IMS Retrofit Single Row Pro (LN 106-08.2.2, around USD 999): a ceramic-hybrid ball bearing, serviceable, replaceable at clutch intervals, installable with the engine in the car. (b) IMS Solution Single Row (around USD 1,899): a pressure-fed PLAIN bearing — no balls, no rollers — which backdates the design to what Porsche used in the Mezger engines, carries no scheduled replacement interval and a 5-year unlimited-mileage warranty. WITH THE ENGINE ALREADY OUT AND THE CASE ALREADY APART, THE SOLUTION IS THE RATIONAL CHOICE — its installation requirements (oil feed provisions, full access) are free at this point in the build, and you never open this up again. Do not buy the Dual Row Pro for this engine unless you have physically confirmed a dual-row flange. Follow LN's kit instructions exactly; their torque values supersede any generic figure.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Install the IMS bearing solution.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "assembly-ims-install.t1",
+   "name": "IMS flange bolts",
+   "stages": [
+    {
+     "label": "Per LN kit instructions"
+    }
+   ],
+   "note": "Follow the supplied instructions, not a generic figure.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "LN IMS tool 106-08.2.2 (purchase or LN rental program)",
+   "special": null
+  },
+  {
+   "name": "bearing puller/installer",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "ims-solution-single-row",
+  "ims-retrofit-single-row-pro",
+  "ims-flange-seal",
+  "ims-tensioner-paddle-billet",
+  "ims-tool"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

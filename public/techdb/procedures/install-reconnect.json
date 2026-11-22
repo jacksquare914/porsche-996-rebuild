@@ -1,0 +1,67 @@
+{
+ "schema": "techdb/1",
+ "id": "install-reconnect",
+ "status": "draft",
+ "title": "Reconnect fuel, coolant, electrical, A/C, shifter and axles",
+ "phase": "install",
+ "rg": null,
+ "op": null,
+ "time_h": 5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Work from the photographs. New O-rings on every A/C joint and have the system evacuated and recharged professionally. New crush washers/O-rings on fuel fittings. Double-check both engine ground straps. Before you fill anything, do a connector audit against your teardown photos — a single unplugged sensor will have you chasing a phantom for an evening.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Reconnect fuel, coolant, electrical, A/C, shifter and axles.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "install-reconnect.t1",
+   "name": "Axle shaft bolts",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
+    }
+   ],
+   "note": "New bolts. Clean the 12-point heads before seating the socket.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "A/C vacuum pump and gauges (shop service)",
+   "special": null
+  },
+  {
+   "name": "line wrenches",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "ac-oring-kit",
+  "fuel-line-o-rings",
+  "axle-bolts",
+  "coolant-hose-set"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

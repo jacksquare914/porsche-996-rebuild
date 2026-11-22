@@ -1,0 +1,59 @@
+{
+ "schema": "techdb/1",
+ "id": "inspection-crank-rods-bearings",
+ "status": "draft",
+ "title": "Crankshaft, rod and bearing inspection",
+ "phase": "inspection",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Mic every main and rod journal in two axes at three points for taper and out-of-round. Check crank runout on V-blocks. Read the old bearing shells like a diagnostic: even grey wear is normal; copper showing through is overload or oil starvation; embedded glitter is the IMS bearing debris that has been circulating. Documented finding worth knowing — rod bearing 6 commonly shows the heaviest thrust-face wear, consistent with being furthest from the oil pump. Check rod big-end bore roundness and rod straightness; have rods resized if outside spec.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Crankshaft, rod and bearing inspection.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "micrometers",
+   "special": null
+  },
+  {
+   "name": "V-blocks and dial indicator",
+   "special": null
+  },
+  {
+   "name": "rod alignment fixture",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "crankshaft",
+  "connecting-rods",
+  "main-bearings",
+  "rod-bearings",
+  "thrust-bearings"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

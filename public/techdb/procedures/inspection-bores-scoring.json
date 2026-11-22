@@ -1,0 +1,59 @@
+{
+ "schema": "techdb/1",
+ "id": "inspection-bores-scoring",
+ "status": "draft",
+ "title": "Cylinder bore inspection for scoring, taper and out-of-round",
+ "phase": "inspection",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "THE DEFINING M96 INSPECTION. With the pistons out you can finally see the bottom of the bore where scoring starts and where the borescope could not reach. Look at the thrust faces. Vertical scoring you can catch a fingernail in is terminal for that bore. Documented rebuild practice: measure out-of-round perpendicular to the crank axis, with 0.0015 in quoted as a practical limit. Measure taper top to bottom. Cylinder 6 gets the most attention in the field — furthest from the oil pump, hottest, and the most commonly reported first failure — but check all six and do not stop at the first bad one. Inspect the piston skirts at the same time: flaking of the iron/ferrous coating off the skirt is the mechanism that starts the scoring. If any bore is scored, the honest answer is sleeving the whole block, not one hole.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Cylinder bore inspection for scoring, taper and out-of-round.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "dial bore gauge 0.0001 in",
+   "special": null
+  },
+  {
+   "name": "bright inspection light",
+   "special": null
+  },
+  {
+   "name": "magnifying loupe",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "nickies-96mm",
+  "nickies-104mm-bigbore",
+  "forged-pistons-oversize",
+  "measuring-tools",
+  "borescope"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

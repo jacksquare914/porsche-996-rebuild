@@ -1,0 +1,67 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-intake-throttle",
+ "status": "draft",
+ "title": "Remove intake manifold, throttle body, injectors and fuel rail",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 2.5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Pull the fuel rail with the injectors attached, then press the injectors out. Every injector gets new upper and lower O-rings — they are hard as plastic at this age and they are a classic post-rebuild fuel-smell/rough-idle cause. Cover the head intake ports immediately. Inspect the intake ports for oil pooling: heavy oil in the intake is your AOS telling you it has failed.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove intake manifold, throttle body, injectors and fuel rail.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-intake-throttle.t1",
+   "name": "Throttle body to intake",
+   "stages": [
+    {
+     "label": "NOT VERIFIED IN RESEARCH — low value, ~10 Nm class"
+    }
+   ],
+   "note": "New throttle body gasket 996-110-317-52. Verify against factory manual.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "injector puller",
+   "special": null
+  },
+  {
+   "name": "pick set",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "intake-manifold-gasket",
+  "throttle-body-gasket",
+  "injector-oring-kit",
+  "fuel-injectors"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

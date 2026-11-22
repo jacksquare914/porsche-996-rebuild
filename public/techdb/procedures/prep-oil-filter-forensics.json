@@ -1,0 +1,97 @@
+{
+ "schema": "techdb/1",
+ "id": "prep-oil-filter-forensics",
+ "status": "draft",
+ "title": "Cut the oil filter and drop the sump plate for debris forensics",
+ "phase": "prep",
+ "rg": null,
+ "op": null,
+ "time_h": 1.5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "This is the single highest-information-per-hour task in the whole job. Cut the filter open with a filter cutter and spread the pleats on a white shop towel. Fine glittery ferrous paste on a magnet = IMS bearing wearing out. Shiny non-ferrous aluminium flake = bore scoring or piston skirt material. Brass/copper = bearing shells. Black rubbery chunks = chain ramp/guide plastic. Photograph the pleats and photograph the magnetic drain plug. Keep the debris in a labelled bag — it is your evidence for what the teardown should focus on.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Cut the oil filter and drop the sump plate for debris forensics.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "prep-oil-filter-forensics.t1",
+   "name": "Engine oil drain plug",
+   "stages": [
+    {
+     "label": "50 Nm (37 ft-lb)"
+    }
+   ],
+   "note": "Always use a new aluminium crush washer. A magnetic drain plug is a worthwhile permanent upgrade.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 item 23 (M18 x 1.5); WSM Gr.1 Part 1 (M96/01 edition) p.1-1, 03-1"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "prep-oil-filter-forensics.t2",
+   "name": "Oil filter housing cap",
+   "stages": [
+    {
+     "label": "25 +/- 1 Nm (19 +/- 1 ft-lb)"
+    }
+   ],
+   "note": "New cap O-ring every time.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-1 (oil filter to crankcase, S80 x 3)"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "oil filter cutter",
+   "special": null
+  },
+  {
+   "name": "74mm oil filter cap socket",
+   "special": null
+  },
+  {
+   "name": "strong magnet",
+   "special": null
+  },
+  {
+   "name": "white lint-free towels",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "oil-filter",
+  "magnetic-drain-plug",
+  "engine-oil",
+  "oil-filter-cutter"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-rms-front-seal",
+ "status": "draft",
+ "title": "Install the rear main seal and front crankshaft seal",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Use the current genuine Porsche PTFE rear main seal (0PB-105-249) — it is the updated design and it is what fixes the chronic leak history. INSTALL IT DRY: no oil, no grease, nothing on the lip. It must go in square and to the correct depth, which means the Porsche 9699 + 9699/2 tool or the LN equivalent (0PB.105.249.LN). Do not tap it in with a socket and do not touch the sealing lip with your fingers.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Install the rear main seal and front crankshaft seal.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "Porsche 9699 + 9699/2 RMS tool, or LN 0PB.105.249.LN",
+   "special": null
+  },
+  {
+   "name": "front crank seal installer",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "rms-seal",
+  "front-crank-seal",
+  "rms-install-tool"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

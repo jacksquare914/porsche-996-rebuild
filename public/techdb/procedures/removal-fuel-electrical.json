@@ -1,0 +1,51 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-fuel-electrical",
+ "status": "draft",
+ "title": "Relieve fuel pressure, disconnect fuel lines, harness and grounds",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 2,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Relieve rail pressure before opening any fuel fitting, and plug both lines immediately — the 996 will dribble a surprising amount. The main engine harness plug sits on the left side of the engine; release the lever slowly, the connector body is brittle with age. Do not forget the two engine ground straps — a missed ground causes maddening no-start diagnostics later.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Relieve fuel pressure, disconnect fuel lines, harness and grounds.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "fuel line disconnect tools",
+   "special": null
+  },
+  {
+   "name": "fuel line caps/plugs",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "fuel-line-o-rings"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

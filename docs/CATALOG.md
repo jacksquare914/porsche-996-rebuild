@@ -1,8 +1,15 @@
 # The factory parts catalogue
 
-Jack has the official Porsche parts catalogue for the 996 — **Kat 521, USA/Canada edition,
-type 996 MY1998–2005, dated 24.07.2017**. It is the authority on what a part *is*, what it
-belongs to, and whether it fits a given model year.
+Jack has the official Porsche parts catalogue for the 996 in two editions, both dated
+**24.07.2017**: **Kat 021, the English all-other-countries edition** (815 pages, the one
+currently indexed) and **Kat 521, the USA/Canada edition**. They share the illustration
+numbering and the page layout; Kat 021 carries a few more rest-of-world variants (6,971
+part numbers against roughly 6,400). The catalogue is the authority on what a part *is*,
+what it belongs to, and whether it fits a given model year.
+
+The illustrations are embedded as 375 dpi line art, not scans. Extract them losslessly with
+`pdfimages -png -f <page> -l <page>`; they are sharper than the workshop manual figures and
+their position numbers match the `pos` column in the index.
 
 It is **not** the authority on what number to order today. See "Supersessions" below.
 
@@ -12,7 +19,8 @@ The catalogue is Porsche's copyrighted work and this repository is public. Neith
 nor the parsed index is committed — both are gitignored:
 
 ```
-reference/kat521-usa-996-05-katalog.pdf     the catalogue itself
+reference/kat021-e-996-05-katalog.pdf       the catalogue itself (Kat 021, English)
+reference/kat521-usa-996-05-katalog.pdf     the USA/Canada edition, if present
 reference/catalog-index.json                 the parsed lookup index
 ```
 
@@ -22,11 +30,12 @@ the agents can reach them without the repo redistributing them. Keep it that way
 ## Rebuilding the index
 
 ```bash
-pdftotext -layout reference/kat521-usa-996-05-katalog.pdf /tmp/catalog.txt
+pdftotext -layout reference/kat021-e-996-05-katalog.pdf /tmp/catalog.txt
 node scripts/parse-catalog.mjs /tmp/catalog.txt reference/catalog-index.json
 ```
 
-That yields roughly 6,400 unique part numbers across 239 illustrations.
+That yields 6,971 unique part numbers across 240 illustrations from Kat 021 (roughly 6,400
+from Kat 521). The parser reads the edition and date from the page footers.
 
 ## Using it
 

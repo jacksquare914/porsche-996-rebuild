@@ -1,0 +1,82 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-lower-assembly",
+ "status": "draft",
+ "title": "Take the weight and lower the engine/transmission assembly out",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 6,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Take the full weight on the cradle BEFORE undoing the engine and transmission mounts. Then lower in small increments while a second person watches every remaining cable, hose and harness for tension — something is always still attached. An experienced shop quotes 4-6 hours for the drop; budget 6 for a careful first time. Do not attempt this alone, and do not let the assembly hang on one support point.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Take the weight and lower the engine/transmission assembly out.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "removal-lower-assembly.t1",
+   "name": "Engine mount to carrier, upper bolts",
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  },
+  {
+   "id": "removal-lower-assembly.t2",
+   "name": "Engine mount main nut",
+   "stages": [
+    {
+     "label": "85 Nm (63 ft-lb)"
+    }
+   ],
+   "note": "",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "drivetrain drop table or two transmission jacks",
+   "special": null
+  },
+  {
+   "name": "engine hoist",
+   "special": null
+  },
+  {
+   "name": "second pair of hands",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-mounts",
+  "transmission-mount",
+  "drivetrain-drop-table"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -18,7 +18,7 @@ const INDEX = 'reference/catalog-index.json';
 if (!existsSync(INDEX)) {
   console.error(`No catalogue index at ${INDEX}.`);
   console.error('Build it:');
-  console.error('  pdftotext -layout reference/kat521-usa-996-05-katalog.pdf /tmp/catalog.txt');
+  console.error('  pdftotext -layout reference/kat021-e-996-05-katalog.pdf /tmp/catalog.txt');
   console.error(`  node scripts/parse-catalog.mjs /tmp/catalog.txt ${INDEX}`);
   process.exit(1);
 }

@@ -33,3 +33,6 @@ dist-ssr
 # Porsche factory parts catalogue — copyrighted, and this repo is public.
 # Lives in the Drive folder instead. See docs/CATALOG.md.
 reference/
+
+# Tech database figure images: Porsche drawings, copyrighted. Synced from reference/figures by scripts/techdb.mjs figures.
+public/techdb/figures/

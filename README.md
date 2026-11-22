@@ -16,7 +16,13 @@ prices across your vendor accounts, one turns your log into posts.
 diagnostics to break-in. Torque specs, special tools and the parts each step needs are
 attached to the step. Tick steps off; progress rolls up by estimated hours.
 
-**Parts** — 102 parts with genuine Porsche numbers, LN Engineering and OE alternatives, what
+**Manual** — the workshop manual, one page per step in the layout of the factory sheets:
+safety text, tools, parts, the numbered procedure with measured values and the tightening
+sequence in the row where they are used, the fastener table, and the conditions for
+approval. Every value carries its document and page; a conflict between sources blocks
+approval. The data is a folder of JSON (`public/techdb/`, see [docs/TECHDB.md](docs/TECHDB.md)).
+
+**Parts** — 103 parts with genuine Porsche numbers, LN Engineering and OE alternatives, what
 to replace on principle versus inspect first, and running cost. Filter by category or by
 status from *needed* through *installed*.
 
@@ -42,7 +48,7 @@ for working with the factory parts catalogue.
 
 ## Part numbers
 
-The factory parts catalogue (Kat 521, 996 MY98–05) is wired in as a lookup:
+The factory parts catalogue (Kat 021 / Kat 521, 996 MY98–05) is wired in as a lookup:
 
 ```bash
 node scripts/catalog.mjs pn 996-107-026-51      # what is this part, does it fit a 2003

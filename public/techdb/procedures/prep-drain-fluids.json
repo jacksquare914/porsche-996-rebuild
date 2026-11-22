@@ -1,0 +1,88 @@
+{
+ "schema": "techdb/1",
+ "id": "prep-drain-fluids",
+ "status": "draft",
+ "title": "Drain engine oil, coolant, transmission oil; discharge A/C",
+ "phase": "prep",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "A/C MUST be discharged and recovered by a licensed shop before the condenser/compressor lines are opened — venting R134a is illegal. The 996 cooling system holds a lot of coolant and it does not all come out of the radiator drains; open the bleeder on the expansion tank and pull the lower hose at the thermostat housing. Expect to chase residual coolant for a while. Catch and measure what comes out so you know what to put back.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Drain engine oil, coolant, transmission oil; discharge A/C.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "prep-drain-fluids.t1",
+   "name": "Engine oil drain plug",
+   "stages": [
+    {
+     "label": "50 Nm (37 ft-lb)"
+    }
+   ],
+   "note": "New crush washer.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.15 item 23 (M18 x 1.5); WSM Gr.1 Part 1 (M96/01 edition) p.1-1, 03-1"
+    }
+   ],
+   "open": false
+  },
+  {
+   "id": "prep-drain-fluids.t2",
+   "name": "Manual transmission drain / fill plug",
+   "stages": [
+    {
+     "label": "30 Nm (22 ft-lb)"
+    }
+   ],
+   "note": "Open the FILL plug first — if you cannot open it, do not drain.",
+   "sources": [],
+   "open": true
+  }
+ ],
+ "tools": [
+  {
+   "name": "A/C recovery machine (shop service)",
+   "special": null
+  },
+  {
+   "name": "coolant catch basin",
+   "special": null
+  },
+  {
+   "name": "17mm hex drive for trans plugs",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "engine-oil",
+  "coolant-concentrate",
+  "gear-oil-manual",
+  "magnetic-drain-plug"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-case-clean-prep",
+ "status": "draft",
+ "title": "Final clean, deburr and dry-fit the case halves",
+ "phase": "assembly",
+ "rg": null,
+ "op": null,
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Both sealing flanges must be perfectly clean and perfectly dry — any oil film and the sealant will not bond. Final wipe with brake cleaner or acetone on a lint-free cloth, then do not touch the flange with bare hands. Chase every threaded hole with a thread chaser (not a cutting tap) and blow out the chips. Dry-assemble the halves once with the crank in, without sealant, to confirm nothing binds and everything clears.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Final clean, deburr and dry-fit the case halves.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "thread chasers",
+   "special": null
+  },
+  {
+   "name": "deburring tool",
+   "special": null
+  },
+  {
+   "name": "acetone / brake cleaner",
+   "special": null
+  },
+  {
+   "name": "nitrile gloves",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "brake-parts-cleaner"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

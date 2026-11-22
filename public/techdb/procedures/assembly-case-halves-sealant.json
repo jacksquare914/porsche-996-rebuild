@@ -1,0 +1,204 @@
+{
+ "schema": "techdb/1",
+ "id": "assembly-case-halves-sealant",
+ "status": "authored",
+ "title": "Seal and attach the crankcase halves",
+ "phase": "assembly",
+ "rg": 10,
+ "rg_title": "Engine - Crankcase, suspension",
+ "op": "10 10 37",
+ "op_title": "Disassembling and assembling crankcase halves",
+ "wsm_page": "10-55",
+ "imprint": "WSM Group 1 Part 1, pages 10-51 to 10-56, supplement 38, 1999",
+ "time_h": 4,
+ "timer_s": 300,
+ "notices": [
+  {
+   "kind": "source",
+   "text": "Procedure 10 10 37, WSM Group 1 Part 1, pages 10-51 to 10-56 (supplement 38, 1999), and torque table page 1-1. This edition is for the M96/01. The Service Information MY2002 says that the four-part crankcase design is unchanged on the M96/03 (Group 0, page 200). The torque book (page 15) confirms the 25 M6 × 35 bolts at 13 Nm and the three 22 Nm screws for M96.0X.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-51 to 10-56"
+    },
+    {
+     "doc": "si-2002",
+     "ref": "p.200"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.15"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Install all the bolts in less than five minutes after you apply the silicone bead. Start the timer when you start the bead. Cured sealant does not seal.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-54"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Use only Drei Bond silicone type 1209 or Loctite 5900 to seal the crankcase halves. Apply a bead of approximately 1.5 mm width to the clean sealing surface of the bank 4-6 half. Too much sealant goes into the oil system.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-54, 10-55"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "The three bearing-housing screws through the crankcase (9 × 150, M9 × 94, 9 × 94) get their 22 Nm torque only after the cylinder heads are attached. They get new O-rings 12 × 2.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-52"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Clean the two sealing surfaces fully. Old Loctite 5900 is black. Make sure that the 4 dowel sleeves (17 M6 × 18.5) and the 3 cylindrical pins (12 × 22) are installed. Replace the 2 gaskets. (10-52, 10-53)",
+   "refs": []
+  },
+  {
+   "no": 2,
+   "text": "Put the 25 micro-encapsulated hexagon-head bolts M6 × 35 on the bolt map, each at its position. Do not use bolts that are not micro-encapsulated. (10-52, no. 8, and 10-55, no. 4)",
+   "refs": [
+    {
+     "fastener": "kat-101-05-6"
+    },
+    {
+     "part": "case-bolts"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "text": "Cut the first metering step of the nozzle at an angle. Start the timer. Apply a uniform bead of approximately 1.5 mm width to the bank 4-6 half. (10-55, no. 1 and 2)",
+   "refs": [
+    {
+     "part": "loctite-5900"
+    },
+    {
+     "figure": "wsm-443_96",
+     "bead": true
+    },
+    {
+     "timer": true
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "text": "Carefully put the crankcase half in position. Do not damage the bead. (10-55, no. 3)",
+   "refs": []
+  },
+  {
+   "no": 5,
+   "text": "Tighten the bolts to 13 Nm in the sequence of Fig. 443_96. Use the guided mode. (10-55, no. 4, and 10-56)",
+   "refs": [
+    {
+     "figure": "wsm-443_96",
+     "sequence": true
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "text": "Install the bearing-housing screws with new O-rings. Tighten them by hand only. The 22 Nm torque comes after the cylinder heads are attached. (10-52, no. 1 to 5)",
+   "refs": [
+    {
+     "fastener": "kat-101-05-7-9"
+    },
+    {
+     "part": "case-bolt-orings"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "text": "Install the screw plug M27 × 2 for the piston-pin assembly bore with a new sealing ring A27 × 32. Tighten to 80 Nm. (10-52, no. 6 and 7)",
+   "refs": [
+    {
+     "fastener": "kat-101-05-19"
+    },
+    {
+     "part": "case-plug-sealing-ring"
+    }
+   ]
+  }
+ ],
+ "fasteners": [
+  {
+   "ref": "kat-101-05-6"
+  },
+  {
+   "ref": "kat-101-05-7-9"
+  },
+  {
+   "ref": "kat-101-05-19"
+  }
+ ],
+ "tools": [
+  {
+   "name": "Metering pistol for sealant",
+   "special": "WE manual 2.4, no. 75-1"
+  },
+  {
+   "name": "Engine holder for assembly",
+   "special": "9689"
+  },
+  {
+   "name": "Slotted screwdriver 14 mm × 250 mm",
+   "special": null,
+   "note": "Separation only"
+  },
+  {
+   "name": "Insertion tool, flywheel-side sealing ring",
+   "special": "9609"
+  },
+  {
+   "name": "Assembly sleeve, pulley-side sealing ring",
+   "special": "9610"
+  },
+  {
+   "name": "Torque wrench 5 to 60 Nm",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "loctite-5900",
+  "dreibond-1209",
+  "case-bolts",
+  "case-bolt-orings",
+  "case-plug-sealing-ring",
+  "crank-carrier-oring"
+ ],
+ "figures": [
+  "wsm-443_96",
+  "kat-101-05"
+ ],
+ "sources": [
+  {
+   "doc": "wsm-g1p1",
+   "ref": "p.10-51 to 10-56, p.1-1"
+  },
+  {
+   "doc": "torque-book",
+   "ref": "p.15"
+  },
+  {
+   "doc": "kat-021",
+   "ref": "ill. 101-05"
+  }
+ ]
+}

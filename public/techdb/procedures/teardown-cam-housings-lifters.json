@@ -1,0 +1,72 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-cam-housings-lifters",
+ "status": "draft",
+ "title": "Remove cam housings, camshafts and hydraulic lifters",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 4,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Loosen cam housing/bearing fasteners progressively in reverse of the tightening sequence, a little at a time across the whole housing, so the cam is not bent by uneven spring load. DO NOT use a magnet to lift the lifters out — there is a service bulletin against it because magnetising a hydraulic lifter makes it collect ferrous debris for the rest of its life. Use a suction tool or a lifter grabber. 3.6 SPECIFIC LIFTER SPLIT: the 2002-2008 3.6 uses 12 conventional non-variable lifters in the EXHAUST positions (996-105-041-72) and 12 switchable variable-lift lifters in the INTAKE positions (996-105-255-25) — they are different parts at very different prices, do not mix them up.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove cam housings, camshafts and hydraulic lifters.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-cam-housings-lifters.t1",
+   "name": "Camshaft bearing housing / cam cap bolts",
+   "stages": [
+    {
+     "label": "M96/01 edition: camshaft bearing saddles to cylinder head M6 10 Nm (7.5 ft-lb); flat-base tappet housing to cylinder head M6 10 Nm; cylinder head cover M6 13 Nm (10 ft-lb). Progressive, in the specified sequence."
+    }
+   ],
+   "note": "The 3.6 (VarioCam Plus) head differs from the 3.4 head. Confirm against the torque book cylinder head page before use.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-4"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "lifter suction/vacuum tool",
+   "special": null
+  },
+  {
+   "name": "labelled lifter tray",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "hydraulic-lifters-exhaust",
+  "variable-lift-lifters-intake",
+  "camshafts",
+  "cam-housing-gasket"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

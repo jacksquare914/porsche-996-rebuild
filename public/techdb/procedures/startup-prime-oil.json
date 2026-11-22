@@ -1,0 +1,49 @@
+{
+ "schema": "techdb/1",
+ "id": "startup-prime-oil",
+ "status": "draft",
+ "title": "Prime the oil system before the first start",
+ "phase": "startup",
+ "rg": null,
+ "op": null,
+ "time_h": 1,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Do not let a fresh engine fire on dry bearings. Disable ignition and fuel, then crank in short bursts until oil pressure registers. Confirm pressure before you allow it to start. Verify no fuel or coolant leaks while cranking.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Prime the oil system before the first start.",
+   "refs": []
+  }
+ ],
+ "fasteners": [],
+ "tools": [
+  {
+   "name": "scan tool to disable fuel/ignition",
+   "special": null
+  },
+  {
+   "name": "oil pressure readout",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

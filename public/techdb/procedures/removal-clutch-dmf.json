@@ -1,0 +1,76 @@
+{
+ "schema": "techdb/1",
+ "id": "removal-clutch-dmf",
+ "status": "draft",
+ "title": "Remove clutch, pressure plate and dual-mass flywheel",
+ "phase": "removal",
+ "rg": null,
+ "op": null,
+ "time_h": 1.5,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Lock the flywheel before loosening. Loosen the pressure plate bolts in a star pattern a turn at a time so the cover does not distort. The DMF is heavy — do not let it drop on the crank flange or the dowel. Before discarding, check the DMF: rotational free play (rock the secondary mass against the primary), radial rock, and any rattling or evidence of grease thrown out past the seal. Porsche/LuK spec a diagnostic tool for this; if in doubt on a 20-year-old car with the engine already out, replace it. THE FLYWHEEL BOLTS ARE TORQUE-TO-YIELD AND MUST NOT BE REUSED.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove clutch, pressure plate and dual-mass flywheel.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "removal-clutch-dmf.t1",
+   "name": "Dual-mass flywheel bolts (M96)",
+   "stages": [
+    {
+     "label": "M10 x 1 x 50, 12.9 (8 off): stage 1 25 Nm (19 ft-lb), stage 2 +90 deg."
+    }
+   ],
+   "note": "New bolts. Torque-then-angle with an angle gauge.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 18 (M96.03 row); WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "flywheel locking tool",
+   "special": null
+  },
+  {
+   "name": "torque angle gauge",
+   "special": null
+  },
+  {
+   "name": "M10 12-point socket",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "dual-mass-flywheel",
+  "flywheel-bolts",
+  "clutch-kit",
+  "release-bearing"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}

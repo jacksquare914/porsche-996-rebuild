@@ -1,0 +1,77 @@
+{
+ "schema": "techdb/1",
+ "id": "teardown-oil-pan-pump",
+ "status": "draft",
+ "title": "Remove sump/oil pan, pickup, oil pump and scavenge pumps",
+ "phase": "teardown",
+ "rg": null,
+ "op": null,
+ "time_h": 3,
+ "notices": [
+  {
+   "kind": "note",
+   "text": "Expect the sump to have been sealed with a heavy hand of Loctite 5900 — scrape it carefully and do not gouge the aluminium sealing face, and do not let scrapings fall into the case. Inspect the oil pump gears for scoring and measure gear-to-housing clearance. Check the oil pump drive — the OEM drive is a known weak link and a chromoly replacement is a sensible upgrade while you are in here. Inspect the pickup screen for the same debris you found in the filter.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "steps.json"
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "no": 1,
+   "text": "Remove sump/oil pan, pickup, oil pump and scavenge pumps.",
+   "refs": []
+  }
+ ],
+ "fasteners": [
+  {
+   "id": "teardown-oil-pan-pump.t1",
+   "name": "Oil pan / sump bolts",
+   "stages": [
+    {
+     "label": "M6: 10 Nm (7.5 ft-lb)"
+    }
+   ],
+   "note": "Low value into aluminium; spiral sequence from the centre out.",
+   "sources": [
+    {
+     "doc": "as-noted",
+     "ref": "WSM Gr.1 Part 1 (M96/01 edition) p.1-1 (oil pan to crankcase)"
+    }
+   ],
+   "open": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "plastic and brass scrapers",
+   "special": null
+  },
+  {
+   "name": "feeler gauges",
+   "special": null
+  },
+  {
+   "name": "straightedge",
+   "special": null
+  }
+ ],
+ "specs": [],
+ "parts": [
+  "oil-pump",
+  "oil-pump-drive-chromoly",
+  "oil-pickup-tube",
+  "sump-gasket",
+  "oil-pickup-oring"
+ ],
+ "figures": [],
+ "sources": [
+  {
+   "doc": "research",
+   "ref": "steps.json"
+  }
+ ]
+}
