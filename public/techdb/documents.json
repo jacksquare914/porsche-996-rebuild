@@ -79,8 +79,8 @@
    "title": "Fastening Specifications, Porsche 911 Automobile, Type 996 1998 through 2005. Edited by Jake Raby for The Knowledge Gruppe.",
    "in_hand": true,
    "where": "Paper copy in the garage. Transcribed pages in reference/torque-book/996-fastening-specifications.json (copyrighted, not in the public repo).",
-   "coverage": "Fastener size, grade, position and torque for the M96.0X, with separate M96.03 rows where the engines differ. Item numbers follow the parts catalogue positions. Engine section transcribed: p.7-11 (standard torque table, engine series), 15 crankcase, 17 belt tensioner, 19 crankshaft and flywheel, 21 cylinder heads, 23 and 25 camshafts and timing chains (M96.01 and M96.03), 27 lubrication, 29 coolant pump, 31 intake, 33 engine mount.",
-   "caveat": "Pages 12-13 not photographed yet. Groups 2 (fuel, exhaust) and 3 (clutch, transmission) not transcribed yet.",
+   "coverage": "Fastener size, grade, position and torque for the M96.0X, with separate M96.03 rows where the engines differ. Item numbers follow the parts catalogue positions. Engine section transcribed: p.7-11 (standard torque table, engine series), 15 crankcase, 17 belt tensioner, 19 crankshaft and flywheel, 21 cylinder heads, 23 and 25 camshafts and timing chains (M96.01 and M96.03), 27 lubrication, 29 coolant pump, 31 intake, 33 engine mount. Groups 2 to 5 transcribed: p.71 fuel supply, 73 exhaust, 81 clutch, 89 transmission mounting and bellhousing, 97 G96 fluid cooler, 103-115 front axle and steering, 119-121 rear axle. Fastener rows exist for the pages the engine-out job touches; the front-axle, steering and airbag pages are in the reference transcription only.",
+   "caveat": "Engine section pages 12-13 not photographed. Not yet photographed: the rest of group 2 (p.75-77), group 3 (p.83-87, 91-95, 99-101), p.117, and group 5 from p.123 (drive shafts, rear struts) and group 6 (wheels, brakes).",
    "engine_series": [
     {
      "years": "1998-2001",
