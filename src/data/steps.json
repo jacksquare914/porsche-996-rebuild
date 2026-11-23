@@ -1298,21 +1298,22 @@
    },
    {
     "id": "assembly-flywheel-clutch",
-    "title": "Install dual-mass flywheel, clutch and release bearing",
+    "title": "Install the lightweight flywheel, the clutch and the release bearing",
     "phase": "assembly",
     "est_hours": 2,
-    "notes": "NEW TTY FLYWHEEL BOLTS, no exceptions — the OEM bolts stretch by design and are single-use. Torque 25 Nm then 90 degrees with a proper angle gauge. Centre the clutch disc with an alignment tool before final-torquing the pressure plate, and tighten the cover bolts in a star pattern in stages. Fit the new release bearing and check the guide tube for wear. Photograph the assembly before the transmission goes on.",
+    "notes": "Aasco aluminium flywheel 106411-11 replaces the dual-mass flywheel. Check the kit bolt length against the crankshaft (A minus B, minimum 2.0 mm). Three passes: 27 Nm dry in a cross pattern, 27 Nm one bolt at a time with threadlocker on the thread, then 75 Nm (55 ft-lb). No impact driver. Centre the disc with an alignment tool; pressure plate bolts 23 Nm in a cross pattern. New release bearing; check the guide sleeve for a wear step. Photograph before the transmission goes on.",
     "torque": [
      {
-      "fastener": "Dual-mass flywheel bolts",
-      "spec": "M10 x 1 x 50, 12.9 (8 off): stage 1 25 Nm (19 ft-lb), stage 2 +90 deg.",
-      "note": "New bolts. Torque-then-angle with an angle gauge.",
-      "source": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 18 (M96.03 row); WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
+      "fastener": "Aasco flywheel bolts, M10 x 1.0, with torque plate",
+      "spec": "27 Nm (20 ft-lb) cross pattern; 27 Nm one at a time with threadlocker; 75 Nm (55 ft-lb) cross pattern",
+      "note": "Kit bolts, never reused. Aasco sheet value for M10 x 1.0; the SSF note says 60 ft-lb, the sheet governs. OEM dual-mass bolt value 25 Nm + 90 deg does not apply.",
+      "source": "Aasco Motorsports flywheel installation instructions p.3-4"
      },
      {
       "fastener": "Clutch pressure plate bolts",
-      "spec": "NOT VERIFIED IN RESEARCH — consult factory manual",
-      "note": "Star pattern, in stages."
+      "spec": "M8 x 16 (6 off): 23 Nm (17 ft-lb), cross pattern",
+      "note": "OEM bolts. Aasco guide gives 27 Nm only for Aasco-supplied hardware.",
+      "source": "Knowledge Gruppe, Fastening Specifications 996, p.81 item 4"
      },
      {
       "fastener": "Vibration damper (pulley) to crankshaft",
@@ -1323,14 +1324,16 @@
     "tools": [
      "flywheel locking tool",
      "clutch alignment tool",
-     "torque angle gauge"
+     "depth gauge or vernier caliper",
+     "torque wrench 20-100 Nm"
     ],
     "part_ids": [
-     "dual-mass-flywheel",
-     "flywheel-bolts",
+     "lightweight-flywheel",
+     "pilot-bearing",
      "clutch-kit",
      "release-bearing",
-     "torque-angle-gauge",
+     "clutch-guide-sleeve",
+     "threadlocker",
      "faultless-tool-kit"
     ],
     "children": []

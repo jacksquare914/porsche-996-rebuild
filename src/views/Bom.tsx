@@ -102,7 +102,10 @@ export default function BomView({ onOpenPart }: { onOpenPart: (id: string) => vo
                         </div>
                       )}
                       {typeof (l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd) === 'number' && (
-                        <div className="dim small">FCP whsl {Math.round(l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd!)} · SSF ~{Math.round(l.price_ssf_est_usd ?? 0)}</div>
+                        <div className="dim small">FCP whsl {Math.round(l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd!)} · SSF {typeof l.price_ssf_usd === 'number' ? Math.round(l.price_ssf_usd) : `~${Math.round(l.price_ssf_est_usd ?? 0)}`}</div>
+                      )}
+                      {typeof l.price_ssf_usd === 'number' && typeof (l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd) !== 'number' && (
+                        <div className="dim small">SSF {Math.round(l.price_ssf_usd)} live</div>
                       )}
                       {typeof l.list_price_usd === 'number' && (
                         <div className="dim small">List {Math.round(l.list_price_usd)} · Rusnak ~{Math.round(l.price_rusnak_est_usd ?? 0)}</div>

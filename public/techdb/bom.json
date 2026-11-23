@@ -17,7 +17,7 @@
   "not-needed": "D. Not needed for this build",
   "aftermarket": "E. Aftermarket, by vendor (not Porsche numbers)"
  },
- "generated_at": "2026-11-23T04:18:03.083Z",
+ "generated_at": "2026-11-23T04:23:50.213Z",
  "lines": [
   {
    "group": "ln",
@@ -1292,11 +1292,12 @@
    "part_id": "lightweight-flywheel",
    "catalogue": null,
    "list_price_usd": 889,
-   "list_price_source": "trade-account product page, screenshot from Jack 2026-11-23 (vendor name not in the screenshot)",
+   "list_price_source": "SSF Imported Auto Parts, trade account, screenshot 2026-11-23",
    "est_price_usd": 635.45,
-   "price_source": "Trade price shown as \"Your Price\" on the same page, 4 in stock West Coast, 2026-11-23",
-   "note": "Flywheel only. The page says it takes the stock disc or the Sachs spring-hub sport disc 88 1861 999 856, and that the bolt torque is 60 ft-lb (the Aasco installation PDF on the page is the authority). With the Sachs clutch repair kit 996 116 911 02 from group B this is the flywheel-plus-OE-clutch route; the FCP 996CLUTCHKT above is the flywheel-plus-Sachs-Performance route. Pilot bearing and flywheel bolts in group B are not needed with this part.",
-   "source": "trade-account product page, screenshot from Jack 2026-11-23 (vendor name not in the screenshot)"
+   "price_source": "SSF \"Your Price\", trade account, 4 in stock West Coast, 2026-11-23",
+   "note": "Flywheel only. The page says it takes the stock disc or the Sachs spring-hub sport disc 88 1861 999 856, and that the bolt torque is 60 ft-lb; the Aasco installation sheet, now in Drive, says 55 ft-lb / 75 Nm for the M10 x 1.0 bolt and governs. With the Sachs clutch repair kit 996 116 911 02 from group B this is the flywheel-plus-OE-clutch route; the FCP 996CLUTCHKT above is the flywheel-plus-Sachs-Performance route. Pilot bearing and flywheel bolts in group B are not needed with this part.",
+   "source": "SSF Imported Auto Parts, trade account, screenshot 2026-11-23",
+   "price_ssf_usd": 635.45
   }
  ],
  "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent. Rusnak estimate = Porsche list x 0.8 (Jack's wholesale account). List prices are from indexed Gaudin pages and differ between pages on some parts.",

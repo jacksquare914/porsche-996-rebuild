@@ -107,6 +107,8 @@ export interface BomLine {
   part_id?: string | null; catalogue?: string | null; note?: string;
   est_price_usd?: number; price_source?: string; source?: string;
   price_fcp_wholesale_usd?: number; price_fcp_wholesale_est_usd?: number; price_ssf_est_usd?: number;
+  /** A price seen live on SSF, as opposed to the estimate derived from FCP wholesale. */
+  price_ssf_usd?: number;
   list_price_usd?: number; list_price_source?: string; price_rusnak_est_usd?: number;
   fcp_sku?: string;
 }

@@ -1018,12 +1018,16 @@
     {
      "doc": "torque-book",
      "ref": "p.81 item 4"
+    },
+    {
+     "doc": "aasco-fw",
+     "ref": "p.4 torque guide, pressure plate to flywheel"
     }
    ],
    "ill": "301-00",
    "pos": 4,
    "qty": 6,
-   "caveat": "OEM value. With the Sachs Performance / Aasco kit use the kit sheet if it gives a value.",
+   "caveat": "OEM bolts: 23 Nm. If Aasco supplies pressure plate hardware, the Aasco guide gives 20 ft-lb / 27 Nm for M8 x 1.25. The sheet defers to the OEM value for OEM bolts.",
    "m03": true
   },
   {
@@ -1410,26 +1414,37 @@
   },
   {
    "id": "aftermarket-flywheel-bolts",
-   "name": "Aasco aluminium flywheel bolts (kit-supplied, with torque plate)",
-   "thread": "per kit",
+   "name": "Aasco aluminium flywheel to crankshaft, kit bolts with torque plate",
+   "thread": "M10 x 1.0 (kit-supplied; check the length, see the procedure)",
    "qty": 8,
-   "reuse": "Per the kit sheet",
-   "lube": "Per the kit sheet",
+   "reuse": "Never reuse flywheel bolts. Kit bolts, or new OEM / ARP of checked length.",
+   "lube": "Dry for the first pass; threadlocker on the threads for the second pass. None between flywheel and flange.",
    "stages": [
     {
-     "label": "60 ft-lb (81 Nm) per the vendor page for Aasco 106411-11; confirm in the Aasco installation PDF before use",
-     "nm": null
+     "label": "27 Nm (20 ft-lb), all bolts, cross pattern, with the torque plate",
+     "nm": 27
+    },
+    {
+     "label": "One bolt at a time: remove, threadlocker on the thread, refit, 27 Nm (20 ft-lb)",
+     "nm": 27
+    },
+    {
+     "label": "75 Nm (55 ft-lb), cross pattern, no impact driver",
+     "nm": 75
     }
    ],
-   "open": true,
    "caveat": "No kit sheet in hand. The WSM 25 Nm + 90 deg row (kat-102-00-18) is for the OEM dual-mass bolt only.",
    "sources": [
     {
+     "doc": "aasco-fw",
+     "ref": "p.3-4, Installation and Flywheel fastener torque guide"
+    },
+    {
      "doc": "research",
-     "ref": "Aasco 106411-11 vendor page, screenshot 2026-11-23"
+     "ref": "SSF catalogue note for 106411-11: 60 ft-lb"
     }
    ],
-   "note": "Three vendor listings now say 60 ft-lb. The Aasco Flywheel Installation Instructions PDF is linked on the product page; download it and the row can close. Not the OEM 25 Nm + 90 deg, which is for the dual-mass flywheel bolt."
+   "note": "Aasco torque guide for an M10 x 1.0 flywheel bolt: 55 ft-lb / 75 Nm. The SSF catalogue note says 60 ft-lb; the manufacturer sheet governs. The OEM 25 Nm + 90 deg is for the dual-mass flywheel bolt only."
   },
   {
    "id": "kat-103-01-21",

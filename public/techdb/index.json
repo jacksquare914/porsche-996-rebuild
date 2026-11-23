@@ -1,6 +1,6 @@
 {
  "schema": "techdb/1",
- "generated_at": "2026-11-23T04:10:31.724Z",
+ "generated_at": "2026-11-23T04:23:50.253Z",
  "car": {
   "year": 2003,
   "model": "996 Targa",
@@ -97,11 +97,17 @@
    "title": "Research notes carried in src/data/steps.json",
    "kind": "research-notes",
    "in_hand": true
+  },
+  {
+   "id": "aasco-fw",
+   "title": "Aasco Motorsports flywheel installation instructions (8 pages)",
+   "kind": "kit-instructions",
+   "in_hand": true
   }
  ],
  "counts": {
   "procedures": 52,
-  "authored": 3,
+  "authored": 4,
   "fasteners": 118,
   "figures": 6
  },
@@ -538,11 +544,11 @@
   },
   {
    "id": "assembly-flywheel-clutch",
-   "title": "Install dual-mass flywheel, clutch and release bearing",
+   "title": "Install the lightweight flywheel, the clutch and the release bearing",
    "phase": "assembly",
-   "rg": null,
+   "rg": 13,
    "op": null,
-   "status": "draft",
+   "status": "authored",
    "time_h": 2,
    "wsm_page": null
   },
