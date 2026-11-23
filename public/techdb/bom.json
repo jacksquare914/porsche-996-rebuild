@@ -1,0 +1,1087 @@
+{
+ "schema": "techdb/1",
+ "title": "Bill of materials, M96.03 rebuild as a 4.0 l with LN Engineering machining",
+ "car": "2003 996 Targa, M96.03, VIN 993S6 30061>35000",
+ "basis": "LN Engineering M96.03 Standard/Deluxe rebuild kit contents as carried in parts.json, the LN M96/M97 Nickies Program 2026 (SKU list), the parts catalogue Kat 021 (24.07.2017) for Porsche part numbers and model-year limits.",
+ "rules": [
+  "Group A is bought from or done by LN Engineering because the item is in-house or part of the machining package.",
+  "Group B is bought by Porsche part number wherever the price is best (Gaudin, FCP Euro, SSF, Worldpac, Rusnak, RockAuto). Where two numbers are listed, Gaudin settles which one is current.",
+  "Group C is still good until a measurement says otherwise.",
+  "Group D is not needed because of the 4.0 l conversion or the LN package.",
+  "Prices are shown only where a listed price exists and name their source. Everything else is null until the price agent runs."
+ ],
+ "groups": {
+  "ln": "A. LN Engineering: machining package and in-house parts",
+  "porsche-pn": "B. Buy by Porsche part number, best price",
+  "inspect": "C. Inspect first",
+  "not-needed": "D. Not needed for this build"
+ },
+ "generated_at": "2026-11-23T00:09:42.589Z",
+ "lines": [
+  {
+   "group": "ln",
+   "id": "nickies-101",
+   "name": "Nickies 101 mm billet aluminium NSC-plated cylinders, installed in your block (block process, all six)",
+   "qty": 1,
+   "ln_sku": "106-996.101",
+   "pn": [],
+   "part_id": "nickies-104mm-bigbore",
+   "note": "The 3.6 to 4.0 conversion. 106-996.101.CD is the closed-deck version with resurfacing; LN says closed deck is not needed for a normally aspirated engine. LN decks and measures the block and machines the sealant grooves as part of the process.",
+   "source": "LN Engineering M96/M97 Nickies Program 2026, conversion table and SKU list"
+  },
+  {
+   "group": "ln",
+   "id": "pistons-101",
+   "name": "3.6 to 4.0 911 101 mm CP-Carrillo piston set, rings, pins and clips, 12:1 CR",
+   "qty": 1,
+   "ln_sku": "106-997.20",
+   "pn": [],
+   "part_id": "forged-pistons-oversize",
+   "note": "The only 3.6-to-4.0 piston set in the 2026 program. Ask LN about compression ratio and fuel before confirming; 12:1 is their listed spec. Ring end gaps can be pre-set by LN (ring gapping service).",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "ln",
+   "id": "head-gaskets-101",
+   "name": "Custom 101 mm head gasket set, sold as a pair, thickness chosen by LN after decking (.032, .040 or .060 in)",
+   "qty": 1,
+   "ln_sku": "106-09.3/101, 106-09.3/101T or 106-09.3/101RT",
+   "pn": [],
+   "part_id": "head-gaskets",
+   "note": "In-house LN part. Replaces the stock 996 104 201 04. LN picks the thickness from the deck measurement.",
+   "source": "LN Nickies Program 2026, custom head gaskets"
+  },
+  {
+   "group": "ln",
+   "id": "rods-aftermarket",
+   "name": "Connecting rod set for the 3.6/3.8, LN Spec Carrillo or K1/Boostline, 6 rods with bolts",
+   "qty": 1,
+   "ln_sku": "400-997.CP (Carrillo) or 400-997 (K1/Boostline)",
+   "pn": [
+    "replaces 996 103 985 00, 01, 02"
+   ],
+   "part_id": "connecting-rods",
+   "note": "LN: upgrading the rods is required when displacement goes up. Aftermarket rods bring their own bolts, so the OEM rod bolts and ARP 204-6301 drop out. LN balances the rotating assembly with the new pistons.",
+   "source": "LN Nickies Program 2026, connecting rods"
+  },
+  {
+   "group": "ln",
+   "id": "ims-solution",
+   "name": "IMS Solution for single-row IMS, MY00-05",
+   "qty": 1,
+   "ln_sku": "106-08.20",
+   "pn": [],
+   "part_id": "ims-solution-single-row",
+   "est_price_usd": 1899,
+   "price_source": "LN list, Sept 2026 (parts.json)",
+   "note": "Pressure-fed plain bearing, no service interval. Includes the flange, seals and the spin-on filter adapter line. LN manual LIB-0027 gives the torques.",
+   "source": "LN Nickies Program 2026, IMS"
+  },
+  {
+   "group": "ln",
+   "id": "ims-service",
+   "name": "Inspect intermediate shaft for runout, recondition, pin the sprocket, install the bearing",
+   "qty": 1,
+   "ln_sku": "106-08.1.L",
+   "pn": [],
+   "part_id": "ims-sprocket",
+   "note": "LN recommends pinning the main timing gear on every rebuild. Do it while the shaft is with the block.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "ln",
+   "id": "crank-service",
+   "name": "Crankshaft: magnetic particle inspection and journal polish; rotating assembly balance",
+   "qty": 1,
+   "ln_sku": "LN machine shop service",
+   "pn": [],
+   "part_id": "crankshaft",
+   "note": "Send the crank with the block. Bearing size follows from the polish.",
+   "source": "LN Nickies Program 2026, machine shop"
+  },
+  {
+   "group": "ln",
+   "id": "head-service",
+   "name": "Cylinder head remanufacture: multi-angle Serdi valve job, guides, Viton stem seals, diamond-milled surfaces (optional, decide after inspection)",
+   "qty": 2,
+   "ln_sku": "LN machine shop service",
+   "pn": [],
+   "part_id": "machining-heads-valve-job",
+   "note": "Covers valve guides, stem seals, valve springs and seats in one line. If the heads measure good, skip it and buy stem seals 996 105 115 52 only.",
+   "source": "LN Nickies Program 2026, cylinder heads"
+  },
+  {
+   "group": "ln",
+   "id": "tensioner-paddle",
+   "name": "Billet IMS-to-crankshaft tensioner paddle",
+   "qty": 1,
+   "ln_sku": "106-10",
+   "pn": [],
+   "part_id": "ims-tensioner-paddle-billet",
+   "note": "Deluxe-kit item. Inaccessible after the case is closed.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "ln",
+   "id": "oil-pump-drive",
+   "name": "Chromoly oil pump hex drive",
+   "qty": 1,
+   "ln_sku": "106-11",
+   "pn": [],
+   "part_id": "oil-pump-drive-chromoly",
+   "note": "Deluxe-kit item.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "ln",
+   "id": "thermostat-160",
+   "name": "160 F low-temperature thermostat insert (tool 106-06.2 to fit)",
+   "qty": 1,
+   "ln_sku": "106-06.1",
+   "pn": [
+    "replaces 996 106 125 52"
+   ],
+   "part_id": "thermostat",
+   "note": "Standard-kit item. The OEM insert is 996 106 125 52 (ill. 105-00 pos. 6) if you stay stock.",
+   "source": "LN Nickies Program 2026; Kat 021 (24.07.2017) ill. 105-00"
+  },
+  {
+   "group": "ln",
+   "id": "arp-head-studs",
+   "name": "ARP M96/M97 head stud kit",
+   "qty": 1,
+   "ln_sku": "204-4707",
+   "pn": [
+    "replaces 996 104 180 58 x 24"
+   ],
+   "part_id": "arp-head-studs",
+   "est_price_usd": 549.99,
+   "price_source": "LN list, Sept 2026 (parts.json)",
+   "note": "LN recommends ARP for head, carrier and rod fasteners. Also sold by FCP Euro and Summit. If you stay OEM, buy 24 x 996 104 180 58 instead (group B).",
+   "source": "LN Nickies Program 2026, ARP"
+  },
+  {
+   "group": "ln",
+   "id": "arp-carrier-bolts",
+   "name": "ARP M96/M97 crankshaft carrier through-bolt kit",
+   "qty": 1,
+   "ln_sku": "204-5001",
+   "pn": [
+    "replaces 996 101 115 59 x 14"
+   ],
+   "part_id": "crank-carrier-bolts-arp",
+   "note": "Replaces the 14 M9 x 127 bearing-carrier screws. ARP torque card replaces the WSM 25 Nm + 90 deg.",
+   "source": "LN Nickies Program 2026, ARP"
+  },
+  {
+   "group": "ln",
+   "id": "main-bearings-coated",
+   "name": "Coated performance main bearings, 3.6, set of 14 (optional over genuine)",
+   "qty": 1,
+   "ln_sku": "99610120904C",
+   "pn": [
+    "996 101 209 04 (LN lists this as the current genuine number; the 2017 catalogue has 996 101 209 01)"
+   ],
+   "part_id": "main-bearings",
+   "note": "Decide after the crank polish. Genuine uncoated shells are group B.",
+   "source": "LN Nickies Program 2026, bearings"
+  },
+  {
+   "group": "ln",
+   "id": "ring-compressor-101",
+   "name": "Tapered sleeve ring compressor, 101 mm",
+   "qty": 1,
+   "ln_sku": "LN tapered ring compressor, 101 mm",
+   "pn": [],
+   "part_id": "ring-compressor-tapered",
+   "note": "Bore-specific; buy after the pistons are confirmed.",
+   "source": "LN Nickies Program 2026, tools"
+  },
+  {
+   "group": "ln",
+   "id": "rms-tool",
+   "name": "M96/M97 rear main seal installation tool",
+   "qty": 1,
+   "ln_sku": "0PB.105.249.LN",
+   "pn": [],
+   "part_id": "rms-install-tool",
+   "note": "Or the Porsche 9699 tool.",
+   "source": "LN Nickies Program 2026, tools"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "main-bearings",
+   "name": "Crankshaft bearing shells, 3.6 (63 mm journals)",
+   "qty": 14,
+   "pn": [
+    "996 101 209 01",
+    "996 101 209 04 (per LN, likely current)"
+   ],
+   "part_id": "main-bearings",
+   "catalogue": "ill. 102-00 pos. 13, MY 02-",
+   "note": "One number is the 2017 catalogue, the other is what LN sells today. Order whichever Gaudin shows as current. Size after LN polishes the crank.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 13, MY 02-"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "rod-bearings",
+   "name": "Connecting-rod bearing shells",
+   "qty": 12,
+   "pn": [
+    "996 103 121 62"
+   ],
+   "part_id": "rod-bearings",
+   "catalogue": "ill. 102-00 pos. 12",
+   "note": "Matches the LN coated number 99610312162C. Check with LN that the Carrillo rods take the stock shell.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 12"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "thrust-washers",
+   "name": "Thrust washers (WSM: thrust plates)",
+   "qty": 2,
+   "pn": [
+    "996 101 132 00"
+   ],
+   "part_id": "thrust-bearings",
+   "catalogue": "ill. 102-00 pos. 24, MY 02-",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 24, MY 02-"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "case-bolts",
+   "name": "Hexagon-head bolts M6 x 35, micro-encapsulated, crankcase halves",
+   "qty": 25,
+   "pn": [
+    "900 378 174 09",
+    "999 217 151 09",
+    "900 385 270 01"
+   ],
+   "part_id": "case-bolts",
+   "catalogue": "ill. 101-05 pos. 6",
+   "note": "Three alternative numbers in the catalogue; Gaudin says which is current. Micro-encapsulated, new each time (WSM).",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 6"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "case-through-screws",
+   "name": "Bearing-housing screws through the crankcase, 9 x 150, M9 x 94, 9 x 94",
+   "qty": 3,
+   "pn": [
+    "996 101 219 52",
+    "996 101 229 00",
+    "996 101 203 00"
+   ],
+   "part_id": "case-bolts",
+   "catalogue": "ill. 101-05 pos. 7, 8, 9",
+   "note": "One of each. Reuse is normal; replace if the threads or heads are marked.",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 7, 8, 9"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "case-orings",
+   "name": "O-ring 12 x 2 for the bearing-housing screws",
+   "qty": 2,
+   "pn": [
+    "999 701 789 40"
+   ],
+   "part_id": "case-bolt-orings",
+   "catalogue": "ill. 101-05 pos. 10",
+   "note": "Always replace (WSM 10-52). Buy 4: the oil filler area uses the same ring (ill. 104-05 pos. 5).",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 10"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "case-plug-ring",
+   "name": "Sealing ring A27 x 32 under the M27 x 2 plug",
+   "qty": 1,
+   "pn": [
+    "900 123 147 30"
+   ],
+   "part_id": "case-plug-sealing-ring",
+   "catalogue": "ill. 101-05 pos. 18",
+   "note": "Also 3 off at the chain tensioners (ill. 103-11 pos. 37). Buy 4.",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 18"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "case-dowels",
+   "name": "Dowel sleeves 17 M6 x 18.5, crankcase",
+   "qty": 4,
+   "pn": [
+    "999 095 043 01"
+   ],
+   "part_id": null,
+   "catalogue": "ill. 101-05 pos. 11",
+   "note": "Only if any are damaged.",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 11"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "crank-seal-front",
+   "name": "Crankshaft sealing ring, pulley side",
+   "qty": 1,
+   "pn": [
+    "999 113 490 40",
+    "999 113 476 40"
+   ],
+   "part_id": "front-crank-seal",
+   "catalogue": "ill. 102-00 pos. 5",
+   "note": "Two numbers listed at the same position; Gaudin says which is current.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 5"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "crank-seal-rear",
+   "name": "Crankshaft sealing ring, flywheel side (rear main seal)",
+   "qty": 1,
+   "pn": [
+    "999 113 475 40 (catalogue, MY 99-)",
+    "0PB 105 249 (later PTFE seal cited by LN)"
+   ],
+   "part_id": "rms-seal",
+   "catalogue": "ill. 102-00 pos. 4",
+   "note": "Install dry with the tool. Ask Gaudin which number is current; the PTFE design is the one to fit.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 4"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "flywheel-bolts",
+   "name": "Double-mass flywheel bolts M10 x 1 x 50, grade 12.9",
+   "qty": 8,
+   "pn": [
+    "999 073 092 09",
+    "999 073 092 01"
+   ],
+   "part_id": "flywheel-bolts",
+   "catalogue": "ill. 102-00 pos. 18",
+   "note": "Catalogue quantity is 8, not 9. Angle-tightened, new.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 18"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "pulley-bolt",
+   "name": "Pulley (vibration damper) bolt M16 x 1.5 x 60",
+   "qty": 1,
+   "pn": [
+    "900 082 085 09"
+   ],
+   "part_id": null,
+   "catalogue": "ill. 102-00 pos. 7",
+   "note": "50 Nm + 90 deg; new is cheap insurance.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 7"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "head-bolts-oem",
+   "name": "Cylinder head screws M10 x 230 (only if you do not fit ARP studs)",
+   "qty": 24,
+   "pn": [
+    "996 104 180 58"
+   ],
+   "part_id": "head-bolts-oem",
+   "catalogue": "ill. 103-01 pos. 25",
+   "note": "Angle-tightened; replace. Not needed with ARP 204-4707.",
+   "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 25"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "head-dowels",
+   "name": "Dowel sleeves, cylinder head to crankcase",
+   "qty": 16,
+   "pn": [
+    "996 104 117 50"
+   ],
+   "part_id": null,
+   "catalogue": "ill. 103-01 pos. 6",
+   "note": "Only if damaged.",
+   "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 6"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "plug-tube-seals",
+   "name": "Sealing set at the spark plug tubes and tappet housing: gasket x 6 and O-ring x 6",
+   "qty": 1,
+   "pn": [
+    "996 104 203 00 (x6)",
+    "999 701 761 40 (x6)"
+   ],
+   "part_id": "cam-housing-gasket",
+   "catalogue": "ill. 103-01 pos. 28, 29",
+   "note": "The 3.6 head seals. The cam housing and cover joints themselves are Loctite 5900, not gaskets.",
+   "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 28, 29"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "stem-seals",
+   "name": "Valve stem seals",
+   "qty": 24,
+   "pn": [
+    "996 105 115 52"
+   ],
+   "part_id": "valve-stem-seals",
+   "catalogue": "ill. 103-01 pos. 10",
+   "note": "Only if LN does not do the heads.",
+   "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 10"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "timing-chains-bank",
+   "name": "Timing chain, camshafts, one per bank",
+   "qty": 2,
+   "pn": [
+    "996 105 152 00"
+   ],
+   "part_id": "timing-chain-set",
+   "catalogue": "ill. 103-11 pos. 26",
+   "note": "3-chain engine. Replace with the rails.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 26"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "timing-chain-ims",
+   "name": "Timing chain, crankshaft to intermediate shaft",
+   "qty": 1,
+   "pn": [
+    "996 105 171 56"
+   ],
+   "part_id": "timing-chain-set",
+   "catalogue": "ill. 103-11 pos. 17",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 17"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "cam-sprockets",
+   "name": "Camshaft sprockets",
+   "qty": 2,
+   "pn": [
+    "996 105 178 54"
+   ],
+   "part_id": null,
+   "catalogue": "ill. 103-11 pos. 27",
+   "note": "Inspect for hooked teeth; replace with the chains if worn.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 27"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "guide-rails",
+   "name": "Chain guide rails and tensioner blades, 3-chain engine",
+   "qty": 1,
+   "pn": [
+    "996 105 164 00",
+    "996 105 054 01",
+    "996 105 166 51",
+    "996 105 168 03 (x2)",
+    "996 105 156 00",
+    "996 105 158 00",
+    "996 105 165 55",
+    "996 105 195 00 (pad)"
+   ],
+   "part_id": "chain-ramps-rails",
+   "catalogue": "ill. 103-11 pos. 33, 22, 7, 30, 18, 19",
+   "note": "One set per engine as listed. Always replaced on an M96 rebuild.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 33, 22, 7, 30, 18, 19"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "tensioner-ims",
+   "name": "Chain tensioner, crankshaft to intermediate shaft",
+   "qty": 1,
+   "pn": [
+    "996 105 180 56",
+    "996 105 180 55",
+    "996 105 180 58 (later number in the seed list, unverified)"
+   ],
+   "part_id": "chain-tensioner-ims",
+   "catalogue": "ill. 103-11 pos. 35",
+   "note": "Gaudin settles the current suffix.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 35"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "tensioner-1-3",
+   "name": "Chain tensioner, bank 1-3",
+   "qty": 1,
+   "pn": [
+    "996 105 186 00",
+    "996 105 186 02 (seed list, unverified)"
+   ],
+   "part_id": "chain-tensioner-1-3",
+   "catalogue": "ill. 103-11 pos. 24",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 24"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "tensioner-4-6",
+   "name": "Chain tensioner, bank 4-6",
+   "qty": 1,
+   "pn": [
+    "996 105 188 00",
+    "996 105 188 01 (seed list, unverified)"
+   ],
+   "part_id": "chain-tensioner-4-6",
+   "catalogue": "ill. 103-11 pos. 34",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 34"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "tensioner-rings",
+   "name": "Sealing rings at the tensioners and O-rings on the cam housing",
+   "qty": 1,
+   "pn": [
+    "900 123 147 30 (x3)",
+    "999 707 344 40 (x3)",
+    "999 707 346 40 (x6)",
+    "999 707 392 40 (x1)"
+   ],
+   "part_id": null,
+   "catalogue": "ill. 103-11 pos. 37, 25, 32, 14",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 37, 25, 32, 14"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "lifters-exhaust",
+   "name": "Hydraulic valve tappets, exhaust side",
+   "qty": 12,
+   "pn": [
+    "996 105 041 72"
+   ],
+   "part_id": "hydraulic-lifters-exhaust",
+   "catalogue": "ill. 103-11 pos. 5",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 5",
+   "est_price_usd": 367.48,
+   "price_source": "LN list for the set, Sept 2026 (parts.json)"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "lifters-intake",
+   "name": "Switchable (VarioCam Plus) valve tappets, intake side",
+   "qty": 12,
+   "pn": [
+    "996 105 255 20",
+    "996 105 255 25 (seed list, unverified)"
+   ],
+   "part_id": "variable-lift-lifters-intake",
+   "catalogue": "ill. 103-11 pos. 6",
+   "note": "Inspect first; expensive. Replace only what fails the check.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 6"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "loctite-5900",
+   "name": "Sealing compound Loctite 5900, 50 ml",
+   "qty": 3,
+   "pn": [
+    "000 043 204 35"
+   ],
+   "part_id": "loctite-5900",
+   "catalogue": "ill. 101-05 pos. 30; 103-01 pos. 36",
+   "note": "Case halves, cam housings, covers, sump. Three tubes covers the engine.",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 30; 103-01 pos. 36",
+   "est_price_usd": 35,
+   "price_source": "approximate, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "aos",
+   "name": "Oil separator (AOS), 2002 on",
+   "qty": 1,
+   "pn": [
+    "996 107 026 51",
+    "996 107 026 50",
+    "996 107 026 52 (seed list, unverified)"
+   ],
+   "part_id": "aos",
+   "catalogue": "ill. 104-10 pos. 1, MY 02-",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 104-10 pos. 1, MY 02-",
+   "est_price_usd": 258.25,
+   "price_source": "LN list, Sept 2026 (parts.json)"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "aos-hoses",
+   "name": "AOS vent lines, oil hose and seals, 2002 on",
+   "qty": 1,
+   "pn": [
+    "996 107 147 59",
+    "996 107 175 50",
+    "996 106 208 50",
+    "996 106 223 52",
+    "996 106 224 51",
+    "999 707 507 40",
+    "999 707 154 40",
+    "999 707 364 40"
+   ],
+   "part_id": "aos-hose-kit",
+   "catalogue": "ill. 104-10 pos. 4, 10, 12, 20, 13, 2, 7",
+   "note": "LN: replace the vent lines whenever the AOS is replaced. Check each hose against the car; the Targa may not use all of them.",
+   "source": "Kat 021 (24.07.2017) ill. 104-10 pos. 4, 10, 12, 20, 13, 2, 7"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "oil-filter",
+   "name": "Oil filter element, 2002 on, and housing sealing ring",
+   "qty": 3,
+   "pn": [
+    "996 107 225 60",
+    "996 107 313 51"
+   ],
+   "part_id": "oil-filter",
+   "catalogue": "ill. 104-05 pos. 3 (MY 02-), 2",
+   "note": "The seed list had 996 107 225 53, which is the up-to-2001 element. Three filters: forensics cut, first fill, first change.",
+   "source": "Kat 021 (24.07.2017) ill. 104-05 pos. 3 (MY 02-), 2"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "drain-plug",
+   "name": "Oil drain plug M18 x 1.5 and sealing ring A18 x 24",
+   "qty": 1,
+   "pn": [
+    "900 219 009 30",
+    "900 123 106 30"
+   ],
+   "part_id": "magnetic-drain-plug",
+   "catalogue": "ill. 101-05 pos. 23, 24",
+   "note": "Or the LN magnetic plug.",
+   "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 23, 24"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "oil-pickup-oring",
+   "name": "O-ring, oil suction tube",
+   "qty": 1,
+   "pn": [
+    "999 707 375 40"
+   ],
+   "part_id": "oil-pickup-oring",
+   "catalogue": "ill. 104-05 pos. 10 (suction tube pos. 9)",
+   "note": "Confirm the position on the drawing when ordering.",
+   "source": "Kat 021 (24.07.2017) ill. 104-05 pos. 10 (suction tube pos. 9)"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "water-pump",
+   "name": "Water pump with gasket",
+   "qty": 1,
+   "pn": [
+    "996 106 011 57",
+    "996 106 011 77 (seed list, unverified)",
+    "gasket 996 106 340 51"
+   ],
+   "part_id": "water-pump",
+   "catalogue": "ill. 105-00 pos. 1, 2",
+   "note": "Metal impeller. The catalogue chain ends at -57; -77 may be the current dealer number.",
+   "source": "Kat 021 (24.07.2017) ill. 105-00 pos. 1, 2",
+   "est_price_usd": 180,
+   "price_source": "approximate, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "thermostat-oem",
+   "name": "Thermostat housing cover, insert and gasket (if not the LN 160 F insert)",
+   "qty": 1,
+   "pn": [
+    "996 106 013 59",
+    "996 106 125 52",
+    "996 106 326 50"
+   ],
+   "part_id": "thermostat-housing",
+   "catalogue": "ill. 105-00 pos. 5, 6, 7",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 105-00 pos. 5, 6, 7"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "intake-gaskets",
+   "name": "Intake manifold gaskets x 2 and intake distributor gaskets x 6",
+   "qty": 1,
+   "pn": [
+    "996 110 103 50 (x2)",
+    "996 110 247 50 (x6)"
+   ],
+   "part_id": "intake-manifold-gasket",
+   "catalogue": "ill. 107-10 pos. 25, 2",
+   "note": "The seed list had 996 110 103 90 x 6; the catalogue has -50 x 2 plus the six distributor gaskets.",
+   "source": "Kat 021 (24.07.2017) ill. 107-10 pos. 25, 2"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "throttle-gasket",
+   "name": "Throttle body sealing ring and gasket",
+   "qty": 1,
+   "pn": [
+    "996 110 317 52",
+    "996 110 310 50"
+   ],
+   "part_id": "throttle-body-gasket",
+   "catalogue": "ill. 107-10 pos. 10; 107-00 pos. 4",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 107-10 pos. 10; 107-00 pos. 4"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "injector-orings",
+   "name": "Injector O-rings",
+   "qty": 12,
+   "pn": [
+    "944 110 901 01"
+   ],
+   "part_id": "injector-oring-kit",
+   "catalogue": "ill. 107-05 pos. 11",
+   "note": "Upper and lower, 12 total.",
+   "source": "Kat 021 (24.07.2017) ill. 107-05 pos. 11"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "exhaust-gaskets",
+   "name": "Exhaust manifold gaskets",
+   "qty": 2,
+   "pn": [
+    "996 111 107 54",
+    "996 111 107 55"
+   ],
+   "part_id": "exhaust-manifold-gaskets",
+   "catalogue": "ill. 198-00 gasket set contents",
+   "note": "Plus new copper nuts from the exhaust illustration (not yet looked up).",
+   "source": "Kat 021 (24.07.2017) ill. 198-00 gasket set contents"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "spark-plugs",
+   "name": "Spark plugs, 2002 on",
+   "qty": 6,
+   "pn": [
+    "999 170 223 90"
+   ],
+   "part_id": "spark-plugs",
+   "catalogue": "ill. 901-00 pos. 4, MY 02-",
+   "note": "The seed list had 999 170 195 90, which is not in the catalogue. Bosch FR6LDC is the WSM cross-reference for the 3.4; confirm the 3.6 plug at Gaudin.",
+   "source": "Kat 021 (24.07.2017) ill. 901-00 pos. 4, MY 02-",
+   "est_price_usd": 10,
+   "price_source": "approximate per plug, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "plug-connectors",
+   "name": "Spark plug connectors, 2002 on (inspect, replace if cracked)",
+   "qty": 6,
+   "pn": [
+    "996 602 105 00"
+   ],
+   "part_id": "ignition-coils",
+   "catalogue": "ill. 901-00 pos. 2, MY 02-",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 901-00 pos. 2, MY 02-"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "coils",
+   "name": "Ignition coils, 2002 on (as needed)",
+   "qty": 6,
+   "pn": [
+    "997 602 104 02"
+   ],
+   "part_id": "ignition-coils",
+   "catalogue": "ill. 901-00 pos. 1, MY 02-",
+   "note": "The seed list numbers 996 602 104 00 / 102 00 are not in the catalogue.",
+   "source": "Kat 021 (24.07.2017) ill. 901-00 pos. 1, MY 02-",
+   "est_price_usd": 45,
+   "price_source": "approximate per coil, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "belt",
+   "name": "Poly-rib belt",
+   "qty": 1,
+   "pn": [
+    "996 102 151 65",
+    "996 102 151 64"
+   ],
+   "part_id": "serpentine-belt",
+   "catalogue": "ill. 102-00 pos. 27",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 27",
+   "est_price_usd": 35,
+   "price_source": "approximate, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "belt-rollers",
+   "name": "Belt tensioner and rollers, 2002 on (inspect, replace if rough)",
+   "qty": 1,
+   "pn": [
+    "996 102 260 50",
+    "996 102 117 56",
+    "996 102 118 56",
+    "996 102 119 58"
+   ],
+   "part_id": "belt-tensioner",
+   "catalogue": "ill. 101-10 pos. 2, 8, 15, 12, MY 02-",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 101-10 pos. 2, 8, 15, 12, MY 02-"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "engine-mounts",
+   "name": "Engine mountings",
+   "qty": 2,
+   "pn": [
+    "993 375 049 06"
+   ],
+   "part_id": "engine-mounts",
+   "catalogue": "ill. 109-00 pos. 2",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 109-00 pos. 2"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "clutch-kit",
+   "name": "Clutch kit, Sachs, 996.2 3.6",
+   "qty": 1,
+   "pn": [
+    "996 116 910 02"
+   ],
+   "part_id": "clutch-kit",
+   "catalogue": null,
+   "note": "From the seed list; not yet checked against the clutch illustration.",
+   "source": "Kat 021 (24.07.2017)",
+   "est_price_usd": 608.75,
+   "price_source": "LN list, Sept 2026 (parts.json)"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "dmf",
+   "name": "Double-mass flywheel (inspect first; replace if out of the LuK rock/tilt spec)",
+   "qty": 1,
+   "pn": [
+    "996 114 012 03",
+    "996 114 012 05 (seed list, LN-listed)"
+   ],
+   "part_id": "dual-mass-flywheel",
+   "catalogue": "ill. 102-00 pos. 17",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 17",
+   "est_price_usd": 976,
+   "price_source": "LN list, Sept 2026 (parts.json)"
+  },
+  {
+   "group": "inspect",
+   "id": "camshafts",
+   "name": "Camshafts, 4 off (two per bank, VarioCam Plus intake)",
+   "qty": 4,
+   "pn": [
+    "996 105 035 00/40",
+    "996 105 036 00/40",
+    "996 105 059 00",
+    "996 105 060 00",
+    "996 105 262 05",
+    "996 105 264 05"
+   ],
+   "part_id": "camshafts",
+   "catalogue": "ill. 103-11 pos. 1 to 4",
+   "note": "Several numbers by bank and side; match to the engine number if one is condemned.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 1 to 4"
+  },
+  {
+   "group": "inspect",
+   "id": "cam-adjusters",
+   "name": "VarioCam Plus camshaft adjusters (vane type), one per bank",
+   "qty": 2,
+   "pn": [
+    "996 105 051 03",
+    "996 105 052 01"
+   ],
+   "part_id": "variocam-actuator",
+   "catalogue": "ill. 103-11 pos. 45",
+   "note": "The seed list carried the solenoid numbers here; the adjusters are 051/052.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 45"
+  },
+  {
+   "group": "inspect",
+   "id": "cam-solenoids",
+   "name": "VarioCam Plus solenoid valves (actuators), two per bank",
+   "qty": 4,
+   "pn": [
+    "996 105 303 02",
+    "996 105 303 05",
+    "996 105 301 02/03/04"
+   ],
+   "part_id": "variocam-solenoid",
+   "catalogue": "ill. 103-11 pos. 41, 40",
+   "note": "Pos. 41 x 2 and pos. 40 x 2. Replace if the baseline scan showed cam deviation faults.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 41, 40"
+  },
+  {
+   "group": "inspect",
+   "id": "intermediate-shaft",
+   "name": "Intermediate shaft",
+   "qty": 1,
+   "pn": [
+    "996 105 901 02"
+   ],
+   "part_id": "ims-sprocket",
+   "catalogue": "ill. 103-11 pos. 12",
+   "note": "LN inspects runout and pins the gear (group A).",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 12"
+  },
+  {
+   "group": "inspect",
+   "id": "oil-pump",
+   "name": "Oil pump",
+   "qty": 1,
+   "pn": [],
+   "part_id": "oil-pump",
+   "catalogue": null,
+   "note": "Seed list number 996 107 012 63 is not in the catalogue (-56 to -61 are). Inspect; replace only on wear.",
+   "source": "Kat 021 (24.07.2017)"
+  },
+  {
+   "group": "inspect",
+   "id": "injectors",
+   "name": "Injectors (clean and flow-test)",
+   "qty": 6,
+   "pn": [
+    "996 606 122 00"
+   ],
+   "part_id": "fuel-injectors",
+   "catalogue": "ill. 107-05 pos. 10, MY 01-",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 107-05 pos. 10, MY 01-"
+  },
+  {
+   "group": "inspect",
+   "id": "valves",
+   "name": "Valves, springs and guides",
+   "qty": 1,
+   "pn": [
+    "996 105 271 00/02 (intake)",
+    "996 105 273 01/03/04 (exhaust)",
+    "996 105 118 00/01 (springs)"
+   ],
+   "part_id": "intake-valves",
+   "catalogue": "ill. 103-01 pos. 8, 9, 12",
+   "note": "Covered by the LN head service if you take it.",
+   "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 8, 9, 12"
+  },
+  {
+   "group": "inspect",
+   "id": "slave-cylinder",
+   "name": "Clutch slave cylinder",
+   "qty": 1,
+   "pn": [],
+   "part_id": "clutch-slave-cylinder",
+   "catalogue": null,
+   "note": "Replace if weeping.",
+   "source": "Kat 021 (24.07.2017)"
+  },
+  {
+   "group": "inspect",
+   "id": "coolant-hoses",
+   "name": "Coolant hoses and clamps",
+   "qty": 1,
+   "pn": [],
+   "part_id": "coolant-hose-set",
+   "catalogue": null,
+   "note": "Squeeze test; the cracked coolant T from the log is on the replace list.",
+   "source": "Kat 021 (24.07.2017)"
+  },
+  {
+   "group": "inspect",
+   "id": "alternator",
+   "name": "Alternator and pulley",
+   "qty": 1,
+   "pn": [],
+   "part_id": "alternator",
+   "catalogue": null,
+   "note": "Bench test.",
+   "source": "Kat 021 (24.07.2017)"
+  },
+  {
+   "group": "not-needed",
+   "id": "stock-pistons",
+   "name": "Stock 96 mm pistons and rings",
+   "qty": 0,
+   "pn": [
+    "996 103 052 20",
+    "996 103 053 04"
+   ],
+   "part_id": "pistons-oem",
+   "note": "Replaced by the 101 mm CP set.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "nickies-96",
+   "name": "96 mm Nickies",
+   "qty": 0,
+   "pn": [],
+   "part_id": "nickies-96mm",
+   "note": "Superseded by the 101 mm conversion.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "repair-sleeves",
+   "name": "Crankcase repair sleeves",
+   "qty": 0,
+   "pn": [],
+   "part_id": "case-repair-sleeves",
+   "note": "Only for a rod-through-the-case block.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "stock-head-gasket",
+   "name": "Stock head gaskets",
+   "qty": 0,
+   "pn": [
+    "996 104 201 04"
+   ],
+   "part_id": "head-gaskets",
+   "note": "Replaced by the LN 101 mm set.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "stock-rods",
+   "name": "OEM connecting rods and bolts",
+   "qty": 0,
+   "pn": [
+    "996 103 985 01",
+    "996 103 115 51"
+   ],
+   "part_id": "rod-bolts-arp",
+   "note": "Replaced by the aftermarket rods with their own bolts. ARP 204-6301 is for stock rods only.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "ims-retrofit",
+   "name": "IMS Retrofit Single Row Pro and its tool",
+   "qty": 0,
+   "pn": [],
+   "part_id": "ims-retrofit-single-row-pro",
+   "note": "Superseded by the IMS Solution with the engine apart.",
+   "source": "LN Nickies Program 2026"
+  },
+  {
+   "group": "not-needed",
+   "id": "full-gasket-set",
+   "name": "Complete engine gasket set (LN 10-0904-202 or Porsche 986 100 905 00)",
+   "qty": 0,
+   "pn": [
+    "986 100 905 00"
+   ],
+   "part_id": "engine-gasket-set",
+   "note": "Decision: the set includes stock-bore head gaskets you cannot use and the catalogue set lists the 3.4 head gaskets. Price the group B seals individually against the set before deciding; the set is often cheaper for the forty small items.",
+   "source": "LN Nickies Program 2026"
+  }
+ ]
+}

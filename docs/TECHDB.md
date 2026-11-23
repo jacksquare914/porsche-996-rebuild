@@ -106,3 +106,12 @@ The Manual tab stores working data under the step in `rebuild-state.json`
 progress, the sealant timer. Approval sets `status: "done"`, stamps `approved_at`, writes a
 `record` snapshot (values, results, torque record, sources, open items) and appends a log
 entry. Agents read the same bytes through `scripts/state.mjs`.
+
+## The bill of materials
+
+`public/techdb/bom.json` is the build-specific shopping list: what LN supplies or machines
+(group A), what is bought by Porsche part number at the best price (group B), what is
+inspected before buying (group C), and what the 4.0 l conversion makes unnecessary
+(group D). Each line carries the catalogue illustration and position, the LN SKU where one
+applies, and a listed price only where a source names one. Regenerate the shareable page
+with the generator in the session scratchpad or read the JSON directly.
