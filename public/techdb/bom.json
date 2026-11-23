@@ -16,7 +16,7 @@
   "inspect": "C. Inspect first",
   "not-needed": "D. Not needed for this build"
  },
- "generated_at": "2026-11-23T02:16:00.285Z",
+ "generated_at": "2026-11-23T02:17:20.657Z",
  "lines": [
   {
    "group": "ln",
@@ -1171,5 +1171,43 @@
    "price_fcp_wholesale_est_usd": 812.01
   }
  ],
- "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent."
+ "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent.",
+ "vendors": [
+  {
+   "id": "rusnak",
+   "name": "Rusnak | Pasadena Porsche, wholesale parts account",
+   "kind": "dealer, genuine Porsche",
+   "pricing_rule": "About 20 % off Porsche list price (Jack's figure). Account in the name of Meister Without LLC, set up 2026-08-25; parts consultant Dustin Williams, (626) 376-4504, porscheparts@rusnakautogroup.com.",
+   "source": "Gmail thread \"Wholesale Parts Account Setup\", 2026-08-24/25",
+   "best_for": "Genuine-only items where FCP sells genuine near list: bearings, thrust washers, chains, tensioners, rails, seals, O-rings, bolts. Also the supersession check."
+  },
+  {
+   "id": "fcp",
+   "name": "FCP Euro",
+   "kind": "online, genuine and OE/OEM",
+   "pricing_rule": "Jack's account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2, 2026-11-23). Lifetime replacement on everything.",
+   "best_for": "Gaskets, seals, filters, AOS, anything replaced again later."
+  },
+  {
+   "id": "ssf",
+   "name": "SSF Imported Auto Parts",
+   "kind": "trade distributor, OE/OEM",
+   "pricing_rule": "About 10 % under Jack's FCP wholesale price (Jack's rule). Login required; the price agent checks it.",
+   "best_for": "Commodity OE parts without a lifetime-warranty angle."
+  },
+  {
+   "id": "gaudin",
+   "name": "Gaudin Porsche online parts",
+   "kind": "dealer online, genuine",
+   "pricing_rule": "Public discounted genuine prices with the Porsche list price shown. Used here as the list-price reference and the supersession authority.",
+   "best_for": "Reading list prices and current part numbers."
+  },
+  {
+   "id": "ln",
+   "name": "LN Engineering",
+   "kind": "specialist",
+   "pricing_rule": "List. In-house parts and machining only here.",
+   "best_for": "Nickies, pistons, custom head gaskets, IMS Solution, ARP, services."
+  }
+ ]
 }
