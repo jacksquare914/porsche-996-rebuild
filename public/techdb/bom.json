@@ -17,7 +17,7 @@
   "not-needed": "D. Not needed for this build",
   "aftermarket": "E. Aftermarket, by vendor (not Porsche numbers)"
  },
- "generated_at": "2026-11-23T03:29:17.984Z",
+ "generated_at": "2026-11-23T04:18:03.083Z",
  "lines": [
   {
    "group": "ln",
@@ -392,7 +392,7 @@
    ],
    "part_id": "flywheel-bolts",
    "catalogue": "ill. 102-00 pos. 18",
-   "note": "Lightweight flywheel kits ship with their own bolts and torque plate; the torque is in the kit sheet (vendor listings: 60 ft-lb). The WSM 25 Nm + 90 deg applies to the OEM dual-mass bolt.",
+   "note": "Included with the Aasco 106411-11 flywheel, with its torque plate. Lightweight flywheel kits ship with their own bolts and torque plate; the torque is in the kit sheet (vendor listings: 60 ft-lb). The WSM 25 Nm + 90 deg applies to the OEM dual-mass bolt.",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 18"
   },
   {
@@ -432,7 +432,7 @@
    ],
    "part_id": "pilot-bearing",
    "catalogue": "ill. 102-00 pos. 19",
-   "note": "Often included in the flywheel kit; check first.",
+   "note": "Included with the Aasco 106411-11 flywheel (and the FCP kits). Buy only if the flywheel comes without it.",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 19"
   },
   {
@@ -1016,7 +1016,7 @@
    ],
    "part_id": "clutch-kit",
    "catalogue": "ill. 301-00 repair kit, MY 02-",
-   "note": "Only if the flywheel is bought without a clutch. The FCP 996CLUTCHKT in group E includes the Sachs Performance clutch. Seed number 996 116 910 02 corrected to 996 116 911 02 per the catalogue. Vendor listings for the lightweight flywheels say the stock 240 mm disc and pressure plate fit; confirm with the flywheel vendor before ordering, or take the Sachs Performance spring-hub sport disc they name.",
+   "note": "Needed with the Aasco 106411-11 flywheel alone; not needed with the FCP 996CLUTCHKT, which includes the Sachs Performance clutch. Seed number 996 116 910 02 corrected to 996 116 911 02 per the catalogue. Vendor listings for the lightweight flywheels say the stock 240 mm disc and pressure plate fit; confirm with the flywheel vendor before ordering, or take the Sachs Performance spring-hub sport disc they name.",
    "source": "Kat 021 (24.07.2017)",
    "est_price_usd": 608.75,
    "price_source": "LN list, Sept 2026 (parts.json)"
@@ -1282,6 +1282,21 @@
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
    "price_fcp_wholesale_est_usd": 1930.89,
    "price_ssf_est_usd": null
+  },
+  {
+   "group": "aftermarket",
+   "id": "aasco-106411-11",
+   "name": "Aasco Motorsports 106411-11 aluminium flywheel alone, Lightweight Sport Version, 14.35 lb, with pilot bearing, bolts and torque plate",
+   "qty": 1,
+   "pn": [],
+   "part_id": "lightweight-flywheel",
+   "catalogue": null,
+   "list_price_usd": 889,
+   "list_price_source": "trade-account product page, screenshot from Jack 2026-11-23 (vendor name not in the screenshot)",
+   "est_price_usd": 635.45,
+   "price_source": "Trade price shown as \"Your Price\" on the same page, 4 in stock West Coast, 2026-11-23",
+   "note": "Flywheel only. The page says it takes the stock disc or the Sachs spring-hub sport disc 88 1861 999 856, and that the bolt torque is 60 ft-lb (the Aasco installation PDF on the page is the authority). With the Sachs clutch repair kit 996 116 911 02 from group B this is the flywheel-plus-OE-clutch route; the FCP 996CLUTCHKT above is the flywheel-plus-Sachs-Performance route. Pilot bearing and flywheel bolts in group B are not needed with this part.",
+   "source": "trade-account product page, screenshot from Jack 2026-11-23 (vendor name not in the screenshot)"
   }
  ],
  "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent. Rusnak estimate = Porsche list x 0.8 (Jack's wholesale account). List prices are from indexed Gaudin pages and differ between pages on some parts.",

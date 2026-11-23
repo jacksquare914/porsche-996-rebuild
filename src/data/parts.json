@@ -1677,6 +1677,10 @@
   "oem_part_numbers": [],
   "alt_brands": [
    {
+    "brand": "Aasco Motorsports",
+    "part": "106411-11 aluminium flywheel, 14.35 lb, with pilot bearing, bolts, torque plate"
+   },
+   {
     "brand": "FCP Euro kit 996CLUTCHKT",
     "part": "Sachs Performance clutch + Aasco billet aluminium flywheel"
    },
@@ -1692,8 +1696,8 @@
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
-  "est_price_usd": 2155.01,
-  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack. FCP Euro lists kit 996CLUTCHKT (Sachs Performance clutch with Aasco aluminium flywheel) at 2,155.01 on an indexed page, 2026-11-23; confirm 3.6 l fitment and contents."
+  "est_price_usd": 635.45,
+  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack. FCP Euro lists kit 996CLUTCHKT (Sachs Performance clutch with Aasco aluminium flywheel) at 2,155.01 on an indexed page, 2026-11-23; confirm 3.6 l fitment and contents. Aasco 106411-11 on its own: list 889.00, trade price 635.45, 4 in stock West Coast, screenshot 2026-11-23; the page states 60 ft-lb for the bolts and links the Aasco installation PDF."
  },
  {
   "id": "pilot-bearing",
