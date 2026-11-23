@@ -1658,19 +1658,23 @@
   "oem_part_numbers": [],
   "alt_brands": [
    {
-    "brand": "Aasco",
-    "part": "FLW 996 114 012 04 AAS (Patrick Motorsports listing, 12.5 lb assembly)"
+    "brand": "FCP Euro kit 996CLUTCHKT",
+    "part": "Sachs Performance clutch + Aasco billet aluminium flywheel"
    },
    {
-    "brand": "Lightweight Sport aluminium flywheel",
-    "part": "14.35 lb version listed by Pelican Parts for 996 Carrera"
+    "brand": "Aasco Motorsports",
+    "part": "106425-12-PKG billet steel flywheel + Sachs Performance clutch"
+   },
+   {
+    "brand": "Sachs / Aasco",
+    "part": "95011602303KT2 OE-style clutch + billet steel flywheel, pilot bearing, RMS"
    }
   ],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
-  "est_price_usd": null,
-  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack."
+  "est_price_usd": 2155.01,
+  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack. FCP Euro lists kit 996CLUTCHKT (Sachs Performance clutch with Aasco aluminium flywheel) at 2,155.01 on an indexed page, 2026-11-23; confirm 3.6 l fitment and contents."
  },
  {
   "id": "pilot-bearing",

@@ -17,7 +17,7 @@
   "not-needed": "D. Not needed for this build",
   "aftermarket": "E. Aftermarket, by vendor (not Porsche numbers)"
  },
- "generated_at": "2026-11-23T02:26:02.471Z",
+ "generated_at": "2026-11-23T02:26:51.124Z",
  "lines": [
   {
    "group": "ln",
@@ -1003,7 +1003,7 @@
    ],
    "part_id": "clutch-kit",
    "catalogue": "ill. 301-00 repair kit, MY 02-",
-   "note": "Seed number 996 116 910 02 corrected to 996 116 911 02 per the catalogue. Vendor listings for the lightweight flywheels say the stock 240 mm disc and pressure plate fit; confirm with the flywheel vendor before ordering, or take the Sachs Performance spring-hub sport disc they name.",
+   "note": "Only if the flywheel is bought without a clutch. The FCP 996CLUTCHKT in group E includes the Sachs Performance clutch. Seed number 996 116 910 02 corrected to 996 116 911 02 per the catalogue. Vendor listings for the lightweight flywheels say the stock 240 mm disc and pressure plate fit; confirm with the flywheel vendor before ordering, or take the Sachs Performance spring-hub sport disc they name.",
    "source": "Kat 021 (24.07.2017)",
    "est_price_usd": 608.75,
    "price_source": "LN list, Sept 2026 (parts.json)"
@@ -1257,13 +1257,18 @@
   {
    "group": "aftermarket",
    "id": "lightweight-flywheel",
-   "name": "Lightweight aluminium single-mass flywheel, 240 mm, with bolts, torque plate and pilot bearing",
+   "name": "Lightweight flywheel and clutch kit: FCP Euro 996CLUTCHKT, Sachs Performance clutch with Aasco billet aluminium single-mass flywheel",
    "qty": 1,
    "pn": [],
    "part_id": "lightweight-flywheel",
    "catalogue": null,
-   "note": "Brand and part number to confirm by Jack. Candidates seen: Aasco FLW 996 114 012 04 AAS (Patrick Motorsports, 12.5 lb assembly, naturally aspirated models) and the 14.35 lb Lightweight Sport aluminium flywheel (Pelican Parts). Both take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet (vendor listings: 60 ft-lb). Price after the brand is chosen.",
-   "source": "Vendor listings seen via search, 2026-11-23"
+   "note": "FCP kit 996CLUTCHKT: Sachs Performance clutch kit with the Aasco lightweight billet aluminium single-mass flywheel, ships in one business day. Other FCP pages show 2,185.08 and a 996CLUTCHKT1 variant at 2,005.09; check live. Alternatives at FCP: Aasco 106425-12-PKG billet steel flywheel with Sachs Performance clutch, 2,626.00, needs the OE flywheel bolts; Sachs 95011602303KT2 OE-style clutch with Aasco billet steel flywheel, pilot bearing and rear main seal, 2,258.24. The listings are for the 911 (996) in general; confirm 3.6 l fitment and what the kit includes (bolts, torque plate, pilot bearing) before ordering. Flywheel bolt torque per the kit sheet. This kit replaces the separate clutch repair kit line in group B.",
+   "source": "FCP Euro listings seen via search, 2026-11-23",
+   "fcp_sku": "996CLUTCHKT",
+   "est_price_usd": 2155.01,
+   "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
+   "price_fcp_wholesale_est_usd": 1930.89,
+   "price_ssf_est_usd": null
   }
  ],
  "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent. Rusnak estimate = Porsche list x 0.8 (Jack's wholesale account). List prices are from indexed Gaudin pages and differ between pages on some parts.",
