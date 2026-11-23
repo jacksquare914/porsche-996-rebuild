@@ -197,7 +197,7 @@ export default function App() {
 
           {tab === 'build' && <Build onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
           {tab === 'manual' && <Manual stepId={hashParam} onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
-          {tab === 'parts' && <Parts openId={openPart} setOpenId={setOpenPart} />}
+          {tab === 'parts' && <Parts openId={openPart} setOpenId={setOpenPart} view={hashParam} />}
           {tab === 'log' && <Log />}
           {tab === 'prices' && <Prices onOpenPart={(id) => { setOpenPart(id); location.hash = 'parts'; }} />}
           {tab === 'content' && <Content />}

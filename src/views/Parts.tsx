@@ -6,13 +6,15 @@ import {
   useStore, partLine, budget, fmtUsd, fmtDate,
 } from '../store';
 import { Sheet, Stat, Empty, Icon } from '../ui';
+import BomView from './Bom';
 
 type Filter = 'all' | 'shortlist' | PartStatus | PartCategory;
 
 export default function Parts({
-  openId, setOpenId,
-}: { openId: string | null; setOpenId: (id: string | null) => void }) {
+  openId, setOpenId, view,
+}: { openId: string | null; setOpenId: (id: string | null) => void; view?: string | null }) {
   const { state } = useStore();
+  const [mode, setMode] = useState<'catalog' | 'bom'>(view === 'bom' ? 'bom' : 'catalog');
   const [filter, setFilter] = useState<Filter>('all');
   const [q, setQ] = useState('');
 
@@ -42,6 +44,16 @@ export default function Parts({
 
   return (
     <>
+      <div className="filters" style={{ marginBottom: 12 }}>
+        <button aria-pressed={mode === 'catalog'} onClick={() => { setMode('catalog'); location.hash = 'parts'; }}>Parts list</button>
+        <button aria-pressed={mode === 'bom'} onClick={() => { setMode('bom'); location.hash = 'parts:bom'; }}>Bill of materials</button>
+      </div>
+
+      {mode === 'bom' && <BomView onOpenPart={(id) => setOpenId(id)} />}
+      {mode === 'bom' && openId && PART_INDEX[openId] && (
+        <PartDetail part={PART_INDEX[openId]} onClose={() => setOpenId(null)} />
+      )}
+      {mode === 'catalog' && <>
       <div className="card pad" style={{ marginBottom: 14 }}>
         <div className="statrow">
           <Stat n={fmtUsd(b.estimated)} l="est. total" />
@@ -95,6 +107,7 @@ export default function Parts({
       {openId && PART_INDEX[openId] && (
         <PartDetail part={PART_INDEX[openId]} onClose={() => setOpenId(null)} />
       )}
+      </>}
     </>
   );
 }
