@@ -16,7 +16,7 @@
   "inspect": "C. Inspect first",
   "not-needed": "D. Not needed for this build"
  },
- "generated_at": "2026-11-23T02:17:20.657Z",
+ "generated_at": "2026-11-23T02:19:21.665Z",
  "lines": [
   {
    "group": "ln",
@@ -229,11 +229,12 @@
    "name": "Crankshaft bearing shells, 3.6 (63 mm journals)",
    "qty": 14,
    "pn": [
+    "996 101 209 04",
     "996 101 209 01"
    ],
    "part_id": "main-bearings",
    "catalogue": "ill. 102-00 pos. 13, MY 02-",
-   "note": "One number is the 2017 catalogue, the other is what LN sells today. Order whichever Gaudin shows as current. Size after LN polishes the crank.",
+   "note": "One number is the 2017 catalogue, the other is what LN sells today. Order whichever Gaudin shows as current. Size after LN polishes the crank. Current number per Gaudin: 996 101 209 04, replacing 996 101 209 01. Gaudin lists 996 101 209 04 as replacing 99610120901. Another Gaudin page shows 46.10 list.",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 13, MY 02-",
    "pn_alt": [
     "996 101 209 04 (per LN, likely current)"
@@ -241,7 +242,10 @@
    "est_price_usd": 797.86,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (56.99 x 14)",
    "price_ssf_est_usd": 643.39,
-   "price_fcp_wholesale_est_usd": 714.88
+   "price_fcp_wholesale_est_usd": 714.88,
+   "list_price_usd": 715.96,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23 (51.14 x 14)",
+   "price_rusnak_est_usd": 572.77
   },
   {
    "group": "porsche-pn",
@@ -409,16 +413,20 @@
    "name": "Cylinder head screws M10 x 230 (only if you do not fit ARP studs)",
    "qty": 24,
    "pn": [
+    "996 104 180 59",
     "996 104 180 58"
    ],
    "part_id": "head-bolts-oem",
    "catalogue": "ill. 103-01 pos. 25",
-   "note": "Angle-tightened; replace. Not needed with ARP 204-4707.",
+   "note": "Angle-tightened; replace. Not needed with ARP 204-4707. Current number per Gaudin: 996 104 180 59, replacing 996 104 180 58. Gaudin lists 996 104 180 59 (10 x 230) as replacing -53 to -58.",
    "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 25",
    "est_price_usd": 193.98,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (96.99 x 2)",
    "price_ssf_est_usd": 156.43,
-   "price_fcp_wholesale_est_usd": 173.81
+   "price_fcp_wholesale_est_usd": 173.81,
+   "list_price_usd": 600.24,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23 (25.01 x 24)",
+   "price_rusnak_est_usd": 480.19
   },
   {
    "group": "porsche-pn",
@@ -484,12 +492,16 @@
    "name": "Timing chain, camshafts, one per bank",
    "qty": 2,
    "pn": [
+    "996 105 152 01",
     "996 105 152 00"
    ],
    "part_id": "timing-chain-set",
    "catalogue": "ill. 103-11 pos. 26",
-   "note": "3-chain engine. Replace with the rails.",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 26"
+   "note": "3-chain engine. Replace with the rails. Current number per Gaudin: 996 105 152 01, replacing 996 105 152 00. Price pairing on the Gaudin page is not certain; confirm live.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 26",
+   "list_price_usd": 492.18,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23 (246.09 x 2)",
+   "price_rusnak_est_usd": 393.74
   },
   {
    "group": "porsche-pn",
@@ -497,12 +509,16 @@
    "name": "Timing chain, crankshaft to intermediate shaft",
    "qty": 1,
    "pn": [
+    "996 105 171 58",
     "996 105 171 56"
    ],
    "part_id": "timing-chain-set",
    "catalogue": "ill. 103-11 pos. 17",
-   "note": "",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 17"
+   "note": "Current number per Gaudin: 996 105 171 58, replacing 996 105 171 56. Another Gaudin page shows 194.39.",
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 17",
+   "list_price_usd": 207.91,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23",
+   "price_rusnak_est_usd": 166.33
   },
   {
    "group": "porsche-pn",
@@ -547,16 +563,20 @@
    "name": "Chain tensioner, crankshaft to intermediate shaft",
    "qty": 1,
    "pn": [
+    "996 105 180 58",
     "996 105 180 56",
     "996 105 180 55"
    ],
    "part_id": "chain-tensioner-ims",
    "catalogue": "ill. 103-11 pos. 35",
-   "note": "Gaudin settles the current suffix.",
+   "note": "Gaudin settles the current suffix. Current number per Gaudin: 996 105 180 58, replacing 996 105 180 56.",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 35",
    "pn_alt": [
     "996 105 180 58 (later number in the seed list, unverified)"
-   ]
+   ],
+   "list_price_usd": 112.62,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23",
+   "price_rusnak_est_usd": 90.1
   },
   {
    "group": "porsche-pn",
@@ -564,11 +584,12 @@
    "name": "Chain tensioner, bank 1-3",
    "qty": 1,
    "pn": [
+    "996 105 186 02",
     "996 105 186 00"
    ],
    "part_id": "chain-tensioner-1-3",
    "catalogue": "ill. 103-11 pos. 24",
-   "note": "",
+   "note": "Current number per Gaudin: 996 105 186 02, replacing 996 105 186 00. A second Gaudin page shows 89.02 for the same number.",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 24",
    "pn_alt": [
     "996 105 186 02 (seed list, unverified)"
@@ -576,7 +597,10 @@
    "est_price_usd": 155.99,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
    "price_ssf_est_usd": 125.79,
-   "price_fcp_wholesale_est_usd": 139.77
+   "price_fcp_wholesale_est_usd": 139.77,
+   "list_price_usd": 143.81,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23",
+   "price_rusnak_est_usd": 115.05
   },
   {
    "group": "porsche-pn",
@@ -584,15 +608,19 @@
    "name": "Chain tensioner, bank 4-6",
    "qty": 1,
    "pn": [
+    "996 105 188 02",
     "996 105 188 00"
    ],
    "part_id": "chain-tensioner-4-6",
    "catalogue": "ill. 103-11 pos. 34",
-   "note": "",
+   "note": "Current number per Gaudin: 996 105 188 02, replacing 996 105 188 00. Gaudin shows 188 02; the seed list had 188 01. Confirm which is current when ordering.",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 34",
    "pn_alt": [
     "996 105 188 01 (seed list, unverified)"
-   ]
+   ],
+   "list_price_usd": 174.17,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23",
+   "price_rusnak_est_usd": 139.34
   },
   {
    "group": "porsche-pn",
@@ -753,7 +781,7 @@
    ],
    "part_id": "water-pump",
    "catalogue": "ill. 105-00 pos. 1, 2",
-   "note": "Metal impeller. The catalogue chain ends at -57; -77 may be the current dealer number. 996 106 340 51: gasket",
+   "note": "Metal impeller. The catalogue chain ends at -57; -77 may be the current dealer number. 996 106 340 51: gasket Gaudin lists -57 as the current pump replacing -51 to -56 (so the seed -77 is not a Porsche supersession). A category page shows 364.88 list.",
    "source": "Kat 021 (24.07.2017) ill. 105-00 pos. 1, 2",
    "est_price_usd": 485.99,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
@@ -761,7 +789,10 @@
     "996 106 011 77 (seed list, unverified)"
    ],
    "price_ssf_est_usd": 391.9,
-   "price_fcp_wholesale_est_usd": 435.45
+   "price_fcp_wholesale_est_usd": 435.45,
+   "list_price_usd": 413.63,
+   "list_price_source": "Porsche list price (MSRP) seen on an indexed Gaudin Porsche page, 2026-11-23",
+   "price_rusnak_est_usd": 330.9
   },
   {
    "group": "porsche-pn",
@@ -1171,7 +1202,7 @@
    "price_fcp_wholesale_est_usd": 812.01
   }
  ],
- "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent.",
+ "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent. Rusnak estimate = Porsche list x 0.8 (Jack's wholesale account). List prices are from indexed Gaudin pages and differ between pages on some parts.",
  "vendors": [
   {
    "id": "rusnak",
