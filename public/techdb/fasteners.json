@@ -607,11 +607,11 @@
    "thread": "M14 x 1.25",
    "stages": [
     {
-     "label": "First fitting 30 +3 Nm (22 +2 ft-lb)",
+     "label": "30 Nm (22 ft-lb), new plug",
      "nm": 30
     },
     {
-     "label": "Re-fitting 25 +5 Nm (19 +3.5 ft-lb)",
+     "label": "25 Nm (19 ft-lb), plug refitted",
      "nm": 25
     }
    ],
@@ -619,9 +619,16 @@
     {
      "doc": "wsm-g1p2",
      "ref": "p.1-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 4"
     }
    ],
-   "m01_only": true
+   "pos": 4,
+   "qty": 6,
+   "note": "The WSM M96/01 gives 30 +3 Nm new and 25 +5 Nm refit; the book rounds to 30 and 25.",
+   "m03": true
   },
   {
    "id": "wsm-cam-sprocket",
@@ -1094,7 +1101,7 @@
   },
   {
    "id": "wsm-pulley-generator",
-   "name": "Belt pulley to generator",
+   "name": "Alternator (generator) pulley nut",
    "thread": "M16 x 1.5",
    "stages": [
     {
@@ -1106,9 +1113,16 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-3"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 33"
     }
    ],
-   "m01_only": true
+   "ill": "902-05",
+   "pos": 33,
+   "qty": 1,
+   "m03": true
   },
   {
    "id": "wsm-pulley-ps-pump",
@@ -1249,8 +1263,8 @@
   },
   {
    "id": "wsm-starter",
-   "name": "Starter to engine",
-   "thread": "M10",
+   "name": "Starter to bell housing, Torx bolts",
+   "thread": "AM10 x 35",
    "stages": [
     {
      "label": "45 Nm (33 ft-lb)",
@@ -1261,9 +1275,16 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 28"
     }
    ],
-   "m01_only": true
+   "ill": "902-05",
+   "pos": 28,
+   "qty": 2,
+   "m03": true
   },
   {
    "id": "wsm-generator",
@@ -1281,12 +1302,13 @@
      "ref": "p.1-5"
     }
    ],
-   "m01_only": true
+   "m01_only": true,
+   "note": "The torque book p.147 does not list the alternator mounting bolts; only the WSM value is in hand."
   },
   {
    "id": "wsm-ignition-coil",
    "name": "Ignition coil to cylinder head cover",
-   "thread": "M6",
+   "thread": "M6 x 25, Allen",
    "stages": [
     {
      "label": "10 Nm (7.5 ft-lb)",
@@ -1297,9 +1319,15 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 3a"
     }
    ],
-   "m01_only": true
+   "pos": "3a",
+   "qty": 12,
+   "m03": true
   },
   {
    "id": "wsm-ps-pump-bracket",
@@ -2508,6 +2536,328 @@
     {
      "doc": "torque-book",
      "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-501-05-2",
+   "ill": "501-05",
+   "pos": 2,
+   "name": "Constant velocity joint to rear differential (transmission) flange",
+   "thread": "M10 x 50, pan-head (12-point)",
+   "qty": 12,
+   "reuse": "Clean threads; new bolts if the heads are rounded",
+   "stages": [
+    {
+     "label": "81 Nm (60 ft-lb)",
+     "nm": 81
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 2"
+    }
+   ]
+  },
+  {
+   "id": "kat-501-05-8",
+   "ill": "501-05",
+   "pos": 8,
+   "name": "Rear axle nut (drive shaft to hub)",
+   "thread": "M22 x 1.5 lock nut",
+   "qty": 2,
+   "reuse": "Replace the lock nut",
+   "stages": [
+    {
+     "label": "460 Nm (340 ft-lb), wheels on the ground",
+     "nm": 460
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 8"
+    }
+   ]
+  },
+  {
+   "id": "tb-p123-4",
+   "ill": "501-00",
+   "pos": 4,
+   "name": "Rear stabilizer bar to subframe",
+   "thread": "M8 x 40",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 4"
+    }
+   ]
+  },
+  {
+   "id": "tb-p123-6",
+   "ill": "501-00",
+   "pos": 6,
+   "name": "Rear stabilizer link to stabilizer, nut",
+   "thread": "M10 or M10 x 1.0",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "46 Nm (34 ft-lb) if the thread is M10 coarse",
+     "nm": 46
+    },
+    {
+     "label": "65 Nm (48 ft-lb) if the thread is M10 x 1.0 fine",
+     "nm": 65
+    }
+   ],
+   "m03": true,
+   "note": "Two threads exist. Check the pitch before tightening.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 6"
+    }
+   ]
+  },
+  {
+   "id": "tb-p123-9",
+   "ill": "501-00",
+   "pos": 9,
+   "name": "Rear strut rod to upper mount, nut",
+   "thread": "M12 x 1",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "58 Nm (43 ft-lb)",
+     "nm": 58
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 9"
+    }
+   ]
+  },
+  {
+   "id": "tb-p123-10",
+   "ill": "501-00",
+   "pos": 10,
+   "name": "Rear strut upper mount to chassis, nuts",
+   "thread": "M10",
+   "qty": 6,
+   "stages": [
+    {
+     "label": "46 Nm (34 ft-lb)",
+     "nm": 46
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 10"
+    }
+   ]
+  },
+  {
+   "id": "tb-p123-11",
+   "ill": "501-00",
+   "pos": 11,
+   "name": "Rear strut to wheel bearing carrier, bolt and nut",
+   "thread": "M12 x 1.5",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "100 Nm (74 ft-lb)",
+     "nm": 100
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.123 item 11"
+    }
+   ]
+  },
+  {
+   "id": "kat-601-00-4a",
+   "ill": "601-00",
+   "pos": "4a, 5",
+   "name": "Wheel bolts (incl. the theft-prevention bolt)",
+   "thread": "M14 x 1.5",
+   "qty": 20,
+   "stages": [
+    {
+     "label": "130 Nm (96 ft-lb)",
+     "nm": 130
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.127 item 4a, 5"
+    }
+   ]
+  },
+  {
+   "id": "tb-p137-13-32",
+   "ill": "802-0x",
+   "pos": "13, 32",
+   "name": "Rear bumper to impact absorber",
+   "thread": "M12 x 100",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "85 Nm (63 ft-lb)",
+     "nm": 85
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.137 item 13, 32"
+    }
+   ]
+  },
+  {
+   "id": "tb-p137-15-34",
+   "ill": "802-0x",
+   "pos": "15, 34",
+   "name": "Rear impact absorber to chassis",
+   "thread": "M8 x 30 and M8 x 40",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.137 item 15, 34"
+    }
+   ]
+  },
+  {
+   "id": "tb-p141-17",
+   "pos": 17,
+   "name": "Engine compartment cooling fan to body",
+   "thread": "M6 x 20",
+   "qty": 3,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.141 item 17"
+    }
+   ]
+  },
+  {
+   "id": "tb-p147-3-5",
+   "ill": "813-15",
+   "pos": "3, 5",
+   "name": "Air-conditioning compressor to crankcase",
+   "thread": "M8 x 90 (pos. 3) and M8 x 120 (pos. 5)",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "note": "The book lists one of each; check the count on the bench.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 3, 5"
+    }
+   ]
+  },
+  {
+   "id": "tb-p147-8",
+   "ill": "813-15",
+   "pos": 8,
+   "name": "Refrigerant lines to compressor, Allen bolts",
+   "thread": "M8",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "14 Nm (10.5 ft-lb)",
+     "nm": 14
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 8"
+    }
+   ]
+  },
+  {
+   "id": "tb-p147-25",
+   "ill": "902-05",
+   "pos": 25,
+   "name": "Cable to starter, nut",
+   "thread": "M6",
+   "qty": 1,
+   "stages": [
+    {
+     "label": "6.5 Nm (5 ft-lb)",
+     "nm": 6.5
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 25"
+    }
+   ]
+  },
+  {
+   "id": "tb-p147-34-35",
+   "ill": "902-05",
+   "pos": "34, 35",
+   "name": "Electrical connections (B+ terminals) at starter and alternator, nuts",
+   "thread": "M8",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "15 Nm (11 ft-lb)",
+     "nm": 15
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.147 item 34, 35"
     }
    ]
   }
