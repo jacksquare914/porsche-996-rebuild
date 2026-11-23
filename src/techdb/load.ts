@@ -1,4 +1,4 @@
-import type { Fastener, Figure, Procedure, TechDb, TechDoc, TechIndex } from './types';
+import type { Bom, Fastener, Figure, Procedure, TechDb, TechDoc, TechIndex } from './types';
 
 /**
  * The technical database is a folder of JSON served next to the app (public/techdb/).
@@ -82,4 +82,10 @@ function shortTitle(d: TechDoc): string {
 export function isVerified(db: TechDb, f: { sources?: { doc: string }[]; open?: boolean }): boolean {
   if (f.open) return false;
   return (f.sources ?? []).some((s) => s.doc === 'as-noted' || (db.documents[s.doc]?.in_hand && !['research', 'web-wm'].includes(s.doc)));
+}
+
+let bomPromise: Promise<Bom> | null = null;
+export function loadBom(): Promise<Bom> {
+  if (!bomPromise) { bomPromise = get<Bom>('bom.json'); bomPromise.catch(() => { bomPromise = null; }); }
+  return bomPromise;
 }

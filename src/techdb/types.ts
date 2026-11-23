@@ -81,3 +81,22 @@ export interface TechDb {
   fasteners: Record<string, Fastener>;
   figures: Record<string, Figure>;
 }
+
+/** public/techdb/bom.json */
+export interface BomLine {
+  group: 'ln' | 'porsche-pn' | 'inspect' | 'not-needed';
+  id: string; name: string; qty?: number;
+  /** Catalogue-verified Porsche numbers. */
+  pn?: string[];
+  /** Other numbers with the reason they are not yet trusted. */
+  pn_alt?: string[];
+  /** OEM numbers an LN item stands in for. */
+  replaces?: string[];
+  ln_sku?: string;
+  part_id?: string | null; catalogue?: string | null; note?: string;
+  est_price_usd?: number; price_source?: string; source?: string;
+}
+export interface Bom {
+  schema: string; title: string; car: string; basis: string; rules: string[];
+  groups: Record<BomLine['group'], string>; generated_at: string; lines: BomLine[];
+}

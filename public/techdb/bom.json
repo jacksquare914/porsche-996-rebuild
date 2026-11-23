@@ -16,7 +16,7 @@
   "inspect": "C. Inspect first",
   "not-needed": "D. Not needed for this build"
  },
- "generated_at": "2026-11-23T00:09:42.589Z",
+ "generated_at": "2026-11-23T00:24:23.583Z",
  "lines": [
   {
    "group": "ln",
@@ -45,7 +45,7 @@
    "id": "head-gaskets-101",
    "name": "Custom 101 mm head gasket set, sold as a pair, thickness chosen by LN after decking (.032, .040 or .060 in)",
    "qty": 1,
-   "ln_sku": "106-09.3/101, 106-09.3/101T or 106-09.3/101RT",
+   "ln_sku": "106-09.3/101 (.032 in), 106-09.3/101T (.040 in) or 106-09.3/101RT (.060 in)",
    "pn": [],
    "part_id": "head-gaskets",
    "note": "In-house LN part. Replaces the stock 996 104 201 04. LN picks the thickness from the deck measurement.",
@@ -57,12 +57,13 @@
    "name": "Connecting rod set for the 3.6/3.8, LN Spec Carrillo or K1/Boostline, 6 rods with bolts",
    "qty": 1,
    "ln_sku": "400-997.CP (Carrillo) or 400-997 (K1/Boostline)",
-   "pn": [
-    "replaces 996 103 985 00, 01, 02"
-   ],
+   "pn": [],
    "part_id": "connecting-rods",
    "note": "LN: upgrading the rods is required when displacement goes up. Aftermarket rods bring their own bolts, so the OEM rod bolts and ARP 204-6301 drop out. LN balances the rotating assembly with the new pistons.",
-   "source": "LN Nickies Program 2026, connecting rods"
+   "source": "LN Nickies Program 2026, connecting rods",
+   "replaces": [
+    "996 103 985 00, 01, 02"
+   ]
   },
   {
    "group": "ln",
@@ -93,7 +94,7 @@
    "id": "crank-service",
    "name": "Crankshaft: magnetic particle inspection and journal polish; rotating assembly balance",
    "qty": 1,
-   "ln_sku": "LN machine shop service",
+   "ln_sku": "machine shop service",
    "pn": [],
    "part_id": "crankshaft",
    "note": "Send the crank with the block. Bearing size follows from the polish.",
@@ -104,7 +105,7 @@
    "id": "head-service",
    "name": "Cylinder head remanufacture: multi-angle Serdi valve job, guides, Viton stem seals, diamond-milled surfaces (optional, decide after inspection)",
    "qty": 2,
-   "ln_sku": "LN machine shop service",
+   "ln_sku": "machine shop service",
    "pn": [],
    "part_id": "machining-heads-valve-job",
    "note": "Covers valve guides, stem seals, valve springs and seats in one line. If the heads measure good, skip it and buy stem seals 996 105 115 52 only.",
@@ -138,12 +139,13 @@
    "name": "160 F low-temperature thermostat insert (tool 106-06.2 to fit)",
    "qty": 1,
    "ln_sku": "106-06.1",
-   "pn": [
-    "replaces 996 106 125 52"
-   ],
+   "pn": [],
    "part_id": "thermostat",
    "note": "Standard-kit item. The OEM insert is 996 106 125 52 (ill. 105-00 pos. 6) if you stay stock.",
-   "source": "LN Nickies Program 2026; Kat 021 (24.07.2017) ill. 105-00"
+   "source": "LN Nickies Program 2026; Kat 021 (24.07.2017) ill. 105-00",
+   "replaces": [
+    "996 106 125 52"
+   ]
   },
   {
    "group": "ln",
@@ -151,14 +153,15 @@
    "name": "ARP M96/M97 head stud kit",
    "qty": 1,
    "ln_sku": "204-4707",
-   "pn": [
-    "replaces 996 104 180 58 x 24"
-   ],
+   "pn": [],
    "part_id": "arp-head-studs",
    "est_price_usd": 549.99,
    "price_source": "LN list, Sept 2026 (parts.json)",
    "note": "LN recommends ARP for head, carrier and rod fasteners. Also sold by FCP Euro and Summit. If you stay OEM, buy 24 x 996 104 180 58 instead (group B).",
-   "source": "LN Nickies Program 2026, ARP"
+   "source": "LN Nickies Program 2026, ARP",
+   "replaces": [
+    "996 104 180 58 x 24"
+   ]
   },
   {
    "group": "ln",
@@ -166,12 +169,13 @@
    "name": "ARP M96/M97 crankshaft carrier through-bolt kit",
    "qty": 1,
    "ln_sku": "204-5001",
-   "pn": [
-    "replaces 996 101 115 59 x 14"
-   ],
+   "pn": [],
    "part_id": "crank-carrier-bolts-arp",
    "note": "Replaces the 14 M9 x 127 bearing-carrier screws. ARP torque card replaces the WSM 25 Nm + 90 deg.",
-   "source": "LN Nickies Program 2026, ARP"
+   "source": "LN Nickies Program 2026, ARP",
+   "replaces": [
+    "996 101 115 59 x 14"
+   ]
   },
   {
    "group": "ln",
@@ -179,19 +183,20 @@
    "name": "Coated performance main bearings, 3.6, set of 14 (optional over genuine)",
    "qty": 1,
    "ln_sku": "99610120904C",
-   "pn": [
-    "996 101 209 04 (LN lists this as the current genuine number; the 2017 catalogue has 996 101 209 01)"
-   ],
+   "pn": [],
    "part_id": "main-bearings",
    "note": "Decide after the crank polish. Genuine uncoated shells are group B.",
-   "source": "LN Nickies Program 2026, bearings"
+   "source": "LN Nickies Program 2026, bearings",
+   "pn_alt": [
+    "996 101 209 04 (LN lists this as the current genuine number; the 2017 catalogue has 996 101 209 01)"
+   ]
   },
   {
    "group": "ln",
    "id": "ring-compressor-101",
    "name": "Tapered sleeve ring compressor, 101 mm",
    "qty": 1,
-   "ln_sku": "LN tapered ring compressor, 101 mm",
+   "ln_sku": "tapered ring compressor, 101 mm",
    "pn": [],
    "part_id": "ring-compressor-tapered",
    "note": "Bore-specific; buy after the pistons are confirmed.",
@@ -214,13 +219,15 @@
    "name": "Crankshaft bearing shells, 3.6 (63 mm journals)",
    "qty": 14,
    "pn": [
-    "996 101 209 01",
-    "996 101 209 04 (per LN, likely current)"
+    "996 101 209 01"
    ],
    "part_id": "main-bearings",
    "catalogue": "ill. 102-00 pos. 13, MY 02-",
    "note": "One number is the 2017 catalogue, the other is what LN sells today. Order whichever Gaudin shows as current. Size after LN polishes the crank.",
-   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 13, MY 02-"
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 13, MY 02-",
+   "pn_alt": [
+    "996 101 209 04 (per LN, likely current)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -337,13 +344,15 @@
    "name": "Crankshaft sealing ring, flywheel side (rear main seal)",
    "qty": 1,
    "pn": [
-    "999 113 475 40 (catalogue, MY 99-)",
-    "0PB 105 249 (later PTFE seal cited by LN)"
+    "999 113 475 40"
    ],
    "part_id": "rms-seal",
    "catalogue": "ill. 102-00 pos. 4",
-   "note": "Install dry with the tool. Ask Gaudin which number is current; the PTFE design is the one to fit.",
-   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 4"
+   "note": "Catalogue number is MY 99-. Install dry with the tool. Ask Gaudin whether 0PB 105 249 supersedes it; the PTFE design is the one to fit.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 4",
+   "pn_alt": [
+    "0PB 105 249 (later PTFE seal cited by LN)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -404,8 +413,8 @@
    "name": "Sealing set at the spark plug tubes and tappet housing: gasket x 6 and O-ring x 6",
    "qty": 1,
    "pn": [
-    "996 104 203 00 (x6)",
-    "999 701 761 40 (x6)"
+    "996 104 203 00 x 6",
+    "999 701 761 40 x 6"
    ],
    "part_id": "cam-housing-gasket",
    "catalogue": "ill. 103-01 pos. 28, 29",
@@ -473,15 +482,15 @@
     "996 105 164 00",
     "996 105 054 01",
     "996 105 166 51",
-    "996 105 168 03 (x2)",
+    "996 105 168 03 x 2",
     "996 105 156 00",
     "996 105 158 00",
     "996 105 165 55",
-    "996 105 195 00 (pad)"
+    "996 105 195 00"
    ],
    "part_id": "chain-ramps-rails",
    "catalogue": "ill. 103-11 pos. 33, 22, 7, 30, 18, 19",
-   "note": "One set per engine as listed. Always replaced on an M96 rebuild.",
+   "note": "One set per engine as listed. Always replaced on an M96 rebuild. 996 105 195 00: pad",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 33, 22, 7, 30, 18, 19"
   },
   {
@@ -491,13 +500,15 @@
    "qty": 1,
    "pn": [
     "996 105 180 56",
-    "996 105 180 55",
-    "996 105 180 58 (later number in the seed list, unverified)"
+    "996 105 180 55"
    ],
    "part_id": "chain-tensioner-ims",
    "catalogue": "ill. 103-11 pos. 35",
    "note": "Gaudin settles the current suffix.",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 35"
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 35",
+   "pn_alt": [
+    "996 105 180 58 (later number in the seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -505,13 +516,15 @@
    "name": "Chain tensioner, bank 1-3",
    "qty": 1,
    "pn": [
-    "996 105 186 00",
-    "996 105 186 02 (seed list, unverified)"
+    "996 105 186 00"
    ],
    "part_id": "chain-tensioner-1-3",
    "catalogue": "ill. 103-11 pos. 24",
    "note": "",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 24"
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 24",
+   "pn_alt": [
+    "996 105 186 02 (seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -519,13 +532,15 @@
    "name": "Chain tensioner, bank 4-6",
    "qty": 1,
    "pn": [
-    "996 105 188 00",
-    "996 105 188 01 (seed list, unverified)"
+    "996 105 188 00"
    ],
    "part_id": "chain-tensioner-4-6",
    "catalogue": "ill. 103-11 pos. 34",
    "note": "",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 34"
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 34",
+   "pn_alt": [
+    "996 105 188 01 (seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -533,10 +548,10 @@
    "name": "Sealing rings at the tensioners and O-rings on the cam housing",
    "qty": 1,
    "pn": [
-    "900 123 147 30 (x3)",
-    "999 707 344 40 (x3)",
-    "999 707 346 40 (x6)",
-    "999 707 392 40 (x1)"
+    "900 123 147 30 x 3",
+    "999 707 344 40 x 3",
+    "999 707 346 40 x 6",
+    "999 707 392 40 x 1"
    ],
    "part_id": null,
    "catalogue": "ill. 103-11 pos. 37, 25, 32, 14",
@@ -564,13 +579,15 @@
    "name": "Switchable (VarioCam Plus) valve tappets, intake side",
    "qty": 12,
    "pn": [
-    "996 105 255 20",
-    "996 105 255 25 (seed list, unverified)"
+    "996 105 255 20"
    ],
    "part_id": "variable-lift-lifters-intake",
    "catalogue": "ill. 103-11 pos. 6",
    "note": "Inspect first; expensive. Replace only what fails the check.",
-   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 6"
+   "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 6",
+   "pn_alt": [
+    "996 105 255 25 (seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -594,15 +611,17 @@
    "qty": 1,
    "pn": [
     "996 107 026 51",
-    "996 107 026 50",
-    "996 107 026 52 (seed list, unverified)"
+    "996 107 026 50"
    ],
    "part_id": "aos",
    "catalogue": "ill. 104-10 pos. 1, MY 02-",
    "note": "",
    "source": "Kat 021 (24.07.2017) ill. 104-10 pos. 1, MY 02-",
    "est_price_usd": 258.25,
-   "price_source": "LN list, Sept 2026 (parts.json)"
+   "price_source": "LN list, Sept 2026 (parts.json)",
+   "pn_alt": [
+    "996 107 026 52 (seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -672,15 +691,17 @@
    "qty": 1,
    "pn": [
     "996 106 011 57",
-    "996 106 011 77 (seed list, unverified)",
-    "gasket 996 106 340 51"
+    "996 106 340 51"
    ],
    "part_id": "water-pump",
    "catalogue": "ill. 105-00 pos. 1, 2",
-   "note": "Metal impeller. The catalogue chain ends at -57; -77 may be the current dealer number.",
+   "note": "Metal impeller. The catalogue chain ends at -57; -77 may be the current dealer number. 996 106 340 51: gasket",
    "source": "Kat 021 (24.07.2017) ill. 105-00 pos. 1, 2",
    "est_price_usd": 180,
-   "price_source": "approximate, parts.json"
+   "price_source": "approximate, parts.json",
+   "pn_alt": [
+    "996 106 011 77 (seed list, unverified)"
+   ]
   },
   {
    "group": "porsche-pn",
@@ -703,8 +724,8 @@
    "name": "Intake manifold gaskets x 2 and intake distributor gaskets x 6",
    "qty": 1,
    "pn": [
-    "996 110 103 50 (x2)",
-    "996 110 247 50 (x6)"
+    "996 110 103 50 x 2",
+    "996 110 247 50 x 6"
    ],
    "part_id": "intake-manifold-gasket",
    "catalogue": "ill. 107-10 pos. 25, 2",
@@ -861,15 +882,17 @@
    "name": "Double-mass flywheel (inspect first; replace if out of the LuK rock/tilt spec)",
    "qty": 1,
    "pn": [
-    "996 114 012 03",
-    "996 114 012 05 (seed list, LN-listed)"
+    "996 114 012 03"
    ],
    "part_id": "dual-mass-flywheel",
    "catalogue": "ill. 102-00 pos. 17",
    "note": "",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 17",
    "est_price_usd": 976,
-   "price_source": "LN list, Sept 2026 (parts.json)"
+   "price_source": "LN list, Sept 2026 (parts.json)",
+   "pn_alt": [
+    "996 114 012 05 (seed list, LN-listed)"
+   ]
   },
   {
    "group": "inspect",
@@ -877,8 +900,8 @@
    "name": "Camshafts, 4 off (two per bank, VarioCam Plus intake)",
    "qty": 4,
    "pn": [
-    "996 105 035 00/40",
-    "996 105 036 00/40",
+    "996 105 035 00",
+    "996 105 036 00",
     "996 105 059 00",
     "996 105 060 00",
     "996 105 262 05",
@@ -886,7 +909,7 @@
    ],
    "part_id": "camshafts",
    "catalogue": "ill. 103-11 pos. 1 to 4",
-   "note": "Several numbers by bank and side; match to the engine number if one is condemned.",
+   "note": "Several numbers by bank and side; match to the engine number if one is condemned. 996 105 035 00: /40 996 105 036 00: /40",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 1 to 4"
   },
   {
@@ -911,11 +934,11 @@
    "pn": [
     "996 105 303 02",
     "996 105 303 05",
-    "996 105 301 02/03/04"
+    "996 105 301 02"
    ],
    "part_id": "variocam-solenoid",
    "catalogue": "ill. 103-11 pos. 41, 40",
-   "note": "Pos. 41 x 2 and pos. 40 x 2. Replace if the baseline scan showed cam deviation faults.",
+   "note": "Pos. 41 x 2 and pos. 40 x 2. Replace if the baseline scan showed cam deviation faults. 996 105 301 02: /03/04",
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 41, 40"
   },
   {
@@ -961,13 +984,13 @@
    "name": "Valves, springs and guides",
    "qty": 1,
    "pn": [
-    "996 105 271 00/02 (intake)",
-    "996 105 273 01/03/04 (exhaust)",
-    "996 105 118 00/01 (springs)"
+    "996 105 271 00",
+    "996 105 273 01",
+    "996 105 118 00"
    ],
    "part_id": "intake-valves",
    "catalogue": "ill. 103-01 pos. 8, 9, 12",
-   "note": "Covered by the LN head service if you take it.",
+   "note": "Covered by the LN head service if you take it. 996 105 271 00: /02 (intake 996 105 273 01: /03/04 (exhaust 996 105 118 00: /01 (springs",
    "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 8, 9, 12"
   },
   {
