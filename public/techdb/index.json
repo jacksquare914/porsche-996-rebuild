@@ -1,6 +1,6 @@
 {
  "schema": "techdb/1",
- "generated_at": "2026-11-23T02:26:02.624Z",
+ "generated_at": "2026-11-23T03:45:09.451Z",
  "car": {
   "year": 2003,
   "model": "996 Targa",
@@ -102,7 +102,7 @@
  "counts": {
   "procedures": 52,
   "authored": 3,
-  "fasteners": 55,
+  "fasteners": 82,
   "figures": 6
  },
  "procedures": [

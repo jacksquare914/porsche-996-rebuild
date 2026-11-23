@@ -65,7 +65,6 @@
     }
    ],
    "m03": true,
-   "conflict": "The torque book (M96.0X) and the WSM M96/01 give +90 deg. An unverified web transcription of the factory 3.6 l data gives +110 deg for M96/03. Check the torque book page for the connecting rod before assembly.",
    "sources": [
     {
      "doc": "torque-book",
@@ -74,12 +73,9 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.13-31 no.10, p.1-1"
-    },
-    {
-     "doc": "web-wm",
-     "ref": "connecting rod specifications, 996 F6-3.6L"
     }
-   ]
+   ],
+   "note": "Closed 2026-11-23. The torque book p.19 gives 20 Nm + 90 deg for the M96.0X. The same page splits the flywheel rows by engine series where the series differ, and does not split the connecting rod row, so 90 deg covers the M96.03. The WSM M96/01 agrees. The 110 deg figure came from an unverified web transcription and is not in any document in hand. With ARP 204-6301 bolts use the ARP sheet instead."
   },
   {
    "id": "kat-102-00-7",
@@ -498,16 +494,15 @@
      "nm": 20
     },
     {
-     "label": "Torque angle, first pass, in sequence (angle open: 60 or 70 deg)",
-     "angle": null
+     "label": "70 deg +/- 2 deg, first pass, in sequence",
+     "angle": 70
     },
     {
-     "label": "Torque angle, second pass, in sequence (angle open: 60 or 70 deg)",
-     "angle": null
+     "label": "70 deg +/- 2 deg, second pass, in sequence",
+     "angle": 70
     }
    ],
    "sequence_figure": "wsm-652_97",
-   "conflict": "The WSM M96/01 edition (supplement 23, 1999) gives 1 x 60 deg +/- 2 deg twice. The research notes and two forum quotes of the 3.6 l manual give 2 x 70 deg. The catalogue lists the same screw 996 104 180 58 for the late 3.4 l head and the 3.6 l head. Settle the angle against the torque book cylinder head page before tightening.",
    "sources": [
     {
      "doc": "wsm-g1p2",
@@ -518,17 +513,19 @@
      "ref": "ill. 103-01 pos. 25; also ill. 103-00"
     },
     {
-     "doc": "research",
-     "ref": "steps.json: 2 x 70 deg"
+     "doc": "torque-book",
+     "ref": "p.21 item 25 (M96.03 row)"
     }
-   ]
+   ],
+   "m03": true,
+   "note": "Settled 2026-11-23 against the torque book p.21: the book has a separate row for the M96.03, 2 x 70 deg +/- 2 deg, and a row for the M96.01/.02/.04, 2 x 60 deg +/- 2 deg. The WSM 60 deg (M96/01 edition) is the 3.4 l value. 30 Nm, loosen, 20 Nm are the same for both."
   },
   {
    "id": "kat-103-01-18",
    "ill": "103-01",
    "pos": 18,
-   "name": "Tappet housing (bucket tappet guide housing) to cylinder head",
-   "thread": "M6, combination screw",
+   "name": "Camshaft bearing carrier (tappet housing) to cylinder head",
+   "thread": "M6 x 35, combination screw",
    "qty": 38,
    "pn": [
     "900 067 316 02"
@@ -539,7 +536,6 @@
      "nm": 10
     }
    ],
-   "m01_only": true,
    "sources": [
     {
      "doc": "wsm-g1p2",
@@ -548,8 +544,14 @@
     {
      "doc": "kat-021",
      "ref": "ill. 103-01 pos. 18"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 18"
     }
-   ]
+   ],
+   "note": "The torque book calls it the camshaft bearing carrier, the WSM the tappet housing. Same 38 screws, pos. 18.",
+   "m03": true
   },
   {
    "id": "wsm-cam-saddles",
@@ -573,7 +575,7 @@
   {
    "id": "wsm-head-cover",
    "name": "Cylinder head cover (camshaft housing cover) to cylinder head",
-   "thread": "M6",
+   "thread": "AM6 x 30",
    "stages": [
     {
      "label": "13 Nm (10 ft-lb) in sequence",
@@ -588,9 +590,16 @@
     {
      "doc": "web-wm",
      "ref": "3.6 l cylinder head cover page quotes 13 Nm, 20 bolts"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 19"
     }
    ],
-   "m01_only": true
+   "ill": "103-01",
+   "pos": 19,
+   "qty": 23,
+   "m03": true
   },
   {
    "id": "wsm-spark-plug",
@@ -617,7 +626,7 @@
   {
    "id": "wsm-cam-sprocket",
    "name": "Camshaft drive pinion and drive plate to camshaft",
-   "thread": "M6 x 15, grade 10.9",
+   "thread": "M6 x 15, 10.9 grade",
    "stages": [
     {
      "label": "14 Nm (10.5 ft-lb)",
@@ -628,10 +637,17 @@
     {
      "doc": "wsm-g1p2",
      "ref": "p.1-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 29"
     }
    ],
-   "m01_only": true,
-   "caveat": "VarioCam Plus adjuster on the 3.6 l intake side; confirm in the torque book"
+   "caveat": "VarioCam Plus adjuster on the 3.6 l intake side; confirm in the torque book",
+   "ill": "103-10",
+   "pos": 29,
+   "qty": 8,
+   "m03": true
   },
   {
    "id": "wsm-chain-tensioner",
@@ -651,32 +667,21 @@
     {
      "doc": "wsm-g1p2",
      "ref": "p.1-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 24, 34, 35"
     }
    ],
-   "m01_only": true
+   "ill": "103-10",
+   "pos": "24, 34, 35",
+   "qty": 3,
+   "m03": true
   },
   {
    "id": "wsm-intake-pipe",
-   "name": "Intake pipe (manifold) to cylinder head",
-   "thread": "M6, micro-encapsulated",
-   "stages": [
-    {
-     "label": "9.7 Nm (7 ft-lb)",
-     "nm": 9.7
-    }
-   ],
-   "sources": [
-    {
-     "doc": "wsm-g1p2",
-     "ref": "p.1-4"
-    }
-   ],
-   "m01_only": true
-  },
-  {
-   "id": "wsm-oil-return-pump",
-   "name": "Oil return (scavenge) pump to cylinder head",
-   "thread": "M6",
+   "name": "Intake manifold connector (intake pipe) to cylinder head",
+   "thread": "AM6 x 35",
    "stages": [
     {
      "label": "10 Nm (7.5 ft-lb)",
@@ -687,9 +692,43 @@
     {
      "doc": "wsm-g1p2",
      "ref": "p.1-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 26"
     }
    ],
-   "m01_only": true
+   "ill": "107-10",
+   "pos": 26,
+   "qty": 8,
+   "note": "The WSM M96/01 table prints 9.7 Nm (7 ft-lb) for the same joint; the torque book rounds to 10 Nm.",
+   "m03": true
+  },
+  {
+   "id": "wsm-oil-return-pump",
+   "name": "Tandem (oil return / vacuum) pump to cylinder head",
+   "thread": "M6 x 20",
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "sources": [
+    {
+     "doc": "wsm-g1p2",
+     "ref": "p.1-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 17"
+    }
+   ],
+   "ill": "104-00",
+   "pos": 17,
+   "qty": 4,
+   "note": "4 screws per pump, one pump per head.",
+   "m03": true
   },
   {
    "id": "wsm-oil-pressure-plug",
@@ -783,8 +822,8 @@
   },
   {
    "id": "wsm-coolant-guide-housing",
-   "name": "Coolant guide housing to crankcase",
-   "thread": "M10",
+   "name": "Oil pump / coolant guide housing to crankcase, M10 bolt",
+   "thread": "M10 x 60",
    "stages": [
     {
      "label": "45 Nm (33 ft-lb)",
@@ -795,9 +834,17 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-1"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 33"
     }
    ],
-   "m01_only": true
+   "ill": "104-00",
+   "pos": 33,
+   "qty": 1,
+   "note": "The WSM calls the casting the coolant guide housing, the torque book the housing. Same M10 bolt, 45 Nm.",
+   "m03": true
   },
   {
    "id": "wsm-coolant-drain-plug",
@@ -819,26 +866,34 @@
   },
   {
    "id": "wsm-oil-relief-plug",
-   "name": "Screw plug for oil relief valve",
-   "thread": "M20 x 1.5",
+   "name": "Screw plug, oil pressure relief valve",
+   "thread": "M18 x 1.5",
    "stages": [
     {
-     "label": "25 Nm (19 ft-lb)",
-     "nm": 25
+     "label": "50 Nm (37 ft-lb), torque book",
+     "nm": 50
     }
    ],
    "sources": [
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-1"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 4"
     }
    ],
-   "m01_only": true
+   "ill": "104-00",
+   "pos": 4,
+   "qty": 1,
+   "conflict": "The torque book p.27 item 4 gives 50 Nm for the M18 x 1.5 screw plug of the oil pressure relief valve (M96.0X). The WSM M96/01 torque table p.1-2 gives 25 Nm for the screw plug for the oil relief valve. Check the thread of the plug on the bench: if it is M18 x 1.5, the book value applies; if the WSM means a different plug, record which. Blocks approval until checked.",
+   "m03": true
   },
   {
    "id": "wsm-ims-flange",
-   "name": "Intermediate shaft flange to crankcase (OEM flange)",
-   "thread": "M6, micro-encapsulated",
+   "name": "Intermediate shaft (IMS) cover to crankcase (OEM flange)",
+   "thread": "M6 x 20",
    "stages": [
     {
      "label": "10 Nm (7.5 ft-lb)",
@@ -849,34 +904,49 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-2"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 15"
     }
    ],
-   "m01_only": true,
-   "caveat": "With an LN kit the LN manual replaces this value"
+   "caveat": "With an LN kit the LN manual replaces this value",
+   "ill": "103-10",
+   "pos": 15,
+   "qty": 3,
+   "m03": true
   },
   {
    "id": "wsm-ims-locknut",
-   "name": "Lock nut on intermediate shaft flange",
+   "name": "Lock nut on intermediate shaft (IMS) cover",
    "thread": "M8 x 1",
    "stages": [
     {
-     "label": "13 Nm (10 ft-lb), or 11 Nm (8 ft-lb) with special tool 9110",
-     "nm": 13
+     "label": "12 +/- 0.7 Nm (9 +/- 0.5 ft-lb), M96.03 value",
+     "nm": 12
     }
    ],
    "sources": [
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-2"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 16"
     }
    ],
-   "m01_only": true,
-   "caveat": "With an LN kit the LN manual replaces this value"
+   "caveat": "With an LN IMS kit the LN manual replaces this value.",
+   "ill": "103-10",
+   "pos": 16,
+   "qty": 1,
+   "note": "The torque book gives 12 +/- 0.7 Nm for the M96.03 (p.25) and 11 Nm for the M96.01/.02/.04 (p.23). The WSM M96/01 edition gives 13 Nm, or 11 Nm with special tool 9110, which changes the lever arm. The M96.03 row is used here.",
+   "m03": true
   },
   {
    "id": "wsm-guide-rail-bolt",
-   "name": "Bolt for chain guide rail",
-   "thread": "M6",
+   "name": "Chain guide (rail) to crankcase",
+   "thread": "M6 x 40",
    "stages": [
     {
      "label": "10 Nm (7.5 ft-lb)",
@@ -887,14 +957,21 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-2"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 23"
     }
    ],
-   "m01_only": true
+   "ill": "103-10",
+   "pos": 23,
+   "qty": 3,
+   "m03": true
   },
   {
    "id": "wsm-water-pump",
    "name": "Coolant (water) pump to crankcase",
-   "thread": "M6",
+   "thread": "M6 x 25 (pos. 3, x5) and M6 x 30 (pos. 4, x2)",
    "stages": [
     {
      "label": "10 Nm (7.5 ft-lb)",
@@ -905,9 +982,16 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-2, p.1-5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.29 item 3, 4"
     }
    ],
-   "m01_only": true
+   "ill": "105-00",
+   "pos": "3, 4",
+   "qty": 7,
+   "m03": true
   },
   {
    "id": "wsm-thrust-plate-dmf",
@@ -929,8 +1013,8 @@
   },
   {
    "id": "wsm-belt-tensioner-roller",
-   "name": "Belt tensioner roller on lever for tensioning element",
-   "thread": "M10",
+   "name": "Idler (tensioning) pulley to tensioner arm",
+   "thread": "M10 x 30",
    "stages": [
     {
      "label": "60 Nm (44 ft-lb)",
@@ -941,17 +1025,28 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-2"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 4"
     }
    ],
-   "m01_only": true
+   "ill": "101-10",
+   "pos": 4,
+   "qty": 1,
+   "m03": true
   },
   {
    "id": "wsm-belt-roller-1",
-   "name": "Belt deflection roller 1 to crankcase",
+   "name": "Idler (deflection) pulley to tensioner / crankcase, long bolt",
    "thread": "M10 x 145",
    "stages": [
     {
-     "label": "65 Nm (48 ft-lb) for grade 10.9; 46 Nm (34 ft-lb) for grade 8.8",
+     "label": "46 Nm (34 ft-lb) if the bolt head reads 8.8",
+     "nm": 46
+    },
+    {
+     "label": "65 Nm (48 ft-lb) if the bolt head reads 10.9",
      "nm": 65
     }
    ],
@@ -959,9 +1054,17 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-3"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 17"
     }
    ],
-   "m01_only": true
+   "ill": "101-10",
+   "pos": 17,
+   "qty": 1,
+   "note": "Two grades exist. Read the grade on the bolt head before tightening.",
+   "m03": true
   },
   {
    "id": "wsm-belt-roller-2",
@@ -1055,8 +1158,8 @@
   },
   {
    "id": "wsm-hall-sender",
-   "name": "Hall sender",
-   "thread": "M6, micro-encapsulated",
+   "name": "Camshaft (Hall) sensor to cylinder head",
+   "thread": "M6 x 16",
    "stages": [
     {
      "label": "10 +/- 0.5 Nm (7.5 +/- 0.5 ft-lb)",
@@ -1067,9 +1170,16 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 33"
     }
    ],
-   "m01_only": true
+   "ill": "103-01",
+   "pos": 33,
+   "qty": 2,
+   "m03": true
   },
   {
    "id": "wsm-ntc-coolant",
@@ -1103,9 +1213,16 @@
     {
      "doc": "wsm-g1p1",
      "ref": "p.1-5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 17"
     }
    ],
-   "m01_only": true
+   "ill": "103-01",
+   "pos": 17,
+   "qty": 1,
+   "m03": true
   },
   {
    "id": "wsm-starter",
@@ -1252,6 +1369,651 @@
     {
      "doc": "research",
      "ref": "Pelican Parts and Patrick Motorsports listings, 2026-11-23"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-21",
+   "ill": "103-01",
+   "pos": 21,
+   "name": "Cover to cylinder head",
+   "thread": "M6 x 20",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 21"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-31",
+   "ill": "103-01",
+   "pos": 31,
+   "name": "Heat shield to cylinder head",
+   "thread": "M6 x 16",
+   "qty": 5,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 31"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-39",
+   "ill": "103-01",
+   "pos": 39,
+   "name": "Bracket to cylinder head",
+   "thread": "M8 x 35",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "Standard table, M8. grade 8.8: ZN 24 / ZNS 19 Nm; grade 10.9: ZN 34 / ZNS 28 Nm; grade 12.9: ZN 40 / ZNS 32 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M8",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 39"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-40",
+   "ill": "103-01",
+   "pos": 40,
+   "name": "Bracket to cylinder head",
+   "thread": "M8 x 20",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "Standard table, M8. grade 8.8: ZN 24 / ZNS 19 Nm; grade 10.9: ZN 34 / ZNS 28 Nm; grade 12.9: ZN 40 / ZNS 32 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M8",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 40"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-46",
+   "ill": "103-01",
+   "pos": 46,
+   "name": "Wire loom to crankcase",
+   "thread": "M6 x 12",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 46"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-01-47",
+   "ill": "103-01",
+   "pos": 47,
+   "name": "Bracket to cylinder head",
+   "thread": "M6 x 30",
+   "qty": 8,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 47"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-10-5",
+   "ill": "101-10",
+   "pos": 5,
+   "name": "Idler pulley arm to spring",
+   "thread": "M6 x 16",
+   "qty": 1,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 5"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-10-6",
+   "ill": "101-10",
+   "pos": 6,
+   "name": "Spring to tensioner housing",
+   "thread": "M8 x 22",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 6"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-10-10-11",
+   "ill": "101-10",
+   "pos": "10, 11",
+   "name": "Belt tensioner to crankcase",
+   "thread": "AM8 x 25 (pos. 10) and AM8 x 35 (pos. 11)",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 10, 11"
+    }
+   ]
+  },
+  {
+   "id": "kat-101-10-14",
+   "ill": "101-10",
+   "pos": 14,
+   "name": "Idler (deflection) pulley to crankcase",
+   "thread": "M8 x 55",
+   "qty": 1,
+   "stages": [
+    {
+     "label": "23 Nm (17 ft-lb)",
+     "nm": 23
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.17 item 14"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-10-31",
+   "ill": "103-10",
+   "pos": 31,
+   "name": "Chain guide to timing case",
+   "thread": "M6, 10.9 grade",
+   "qty": 6,
+   "stages": [
+    {
+     "label": "13 Nm (10 ft-lb), M96.03 value",
+     "nm": 13
+    }
+   ],
+   "m03": true,
+   "caveat": "M96.03 only: the M96.01/.02/.04 page gives 10 Nm for the same position. Use 13 Nm on this engine.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 31"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.23 item 31 (M96.01/.02/.04: 10 Nm)"
+    }
+   ]
+  },
+  {
+   "id": "kat-103-10-47",
+   "ill": "103-10",
+   "pos": 47,
+   "name": "Chain sprocket to camshaft, central bolt (M96.03)",
+   "thread": "M12 x 1.5",
+   "qty": 2,
+   "reuse": "Angle-tightened. Replace.",
+   "stages": [
+    {
+     "label": "30 Nm (22 ft-lb)",
+     "nm": 30
+    },
+    {
+     "label": "1 x 90 deg",
+     "angle": 90
+    }
+   ],
+   "m03": true,
+   "caveat": "This row is on the M96.03 page only.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.25 item 47"
+    }
+   ]
+  },
+  {
+   "id": "kat-104-00-9",
+   "ill": "104-00",
+   "pos": 9,
+   "name": "Oil pump housing cover",
+   "thread": "M6 x 20",
+   "qty": 14,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 9"
+    }
+   ]
+  },
+  {
+   "id": "kat-104-00-12",
+   "ill": "104-00",
+   "pos": 12,
+   "name": "Drain screw plug, oil pump housing",
+   "thread": "M10 x 1",
+   "qty": 1,
+   "stages": [
+    {
+     "label": "The torque book leaves this value blank. No value yet.",
+     "nm": null
+    }
+   ],
+   "open": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 12"
+    }
+   ]
+  },
+  {
+   "id": "kat-104-00-21",
+   "ill": "104-00",
+   "pos": 21,
+   "name": "Oil heat exchanger (oil cooler) to crankcase",
+   "thread": "M6 x 18",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 21"
+    }
+   ]
+  },
+  {
+   "id": "kat-104-00-26",
+   "ill": "104-00",
+   "pos": 26,
+   "name": "Oil pump housing cover, Torx bolts",
+   "thread": "BM6 x 25",
+   "qty": 7,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 26"
+    }
+   ]
+  },
+  {
+   "id": "kat-104-00-29",
+   "ill": "104-00",
+   "pos": 29,
+   "name": "Oil pump housing to crankcase, long bolts",
+   "thread": "M6 x 70",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.27 item 29"
+    }
+   ]
+  },
+  {
+   "id": "kat-105-00-8",
+   "ill": "105-00",
+   "pos": 8,
+   "name": "Thermostat cover to thermostat housing, Torx bolts",
+   "thread": "M6 x 20",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.29 item 8"
+    }
+   ]
+  },
+  {
+   "id": "kat-107-10-27",
+   "ill": "107-10",
+   "pos": 27,
+   "name": "Intake manifold to connector",
+   "thread": "AM6 x 35",
+   "qty": 12,
+   "stages": [
+    {
+     "label": "10 Nm (7.5 ft-lb)",
+     "nm": 10
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 27"
+    }
+   ]
+  },
+  {
+   "id": "kat-107-10-5",
+   "ill": "107-10",
+   "pos": 5,
+   "name": "Bracket to intake manifold",
+   "thread": "M6 x 16",
+   "qty": 5,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. The book prints the size as 6 x 16.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 5"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-107-10-15",
+   "ill": "107-10",
+   "pos": 15,
+   "name": "Throttle housing to center manifold",
+   "thread": "M6 x 25",
+   "qty": 5,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 15"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-107-10-16",
+   "ill": "107-10",
+   "pos": 16,
+   "name": "Vacuum unit to intake manifold",
+   "thread": "M5 x 16",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "Standard table, M5. grade 8.8: ZN 6 / ZNS 5 Nm; grade 10.9: ZN 8 / ZNS 7 Nm; grade 12.9: ZN 10 / ZNS 8 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M5",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 16"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-107-10-36",
+   "ill": "107-10",
+   "pos": 36,
+   "name": "Bracket to intake connector",
+   "thread": "M6 x 16",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.31 item 36"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
+    }
+   ]
+  },
+  {
+   "id": "kat-109-00-3",
+   "ill": "109-00",
+   "pos": 3,
+   "name": "Engine mount to body",
+   "thread": "not given",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "Standard table; the book gives no size. Read the size, grade and finish on the bolt.",
+     "nm": null
+    }
+   ],
+   "open": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.33 item 3"
+    }
+   ]
+  },
+  {
+   "id": "kat-109-00-4",
+   "ill": "109-00",
+   "pos": 4,
+   "name": "Engine mount to engine carrier, nut",
+   "thread": "M12 x 1.5",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "85 Nm (63 ft-lb)",
+     "nm": 85
+    }
+   ],
+   "m03": true,
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.33 item 4"
+    }
+   ]
+  },
+  {
+   "id": "kat-109-00-5",
+   "ill": "109-00",
+   "pos": 5,
+   "name": "Engine carrier to crankcase, nuts on the engine mount studs",
+   "thread": "M10",
+   "qty": 4,
+   "stages": [
+    {
+     "label": "46 Nm (34 ft-lb)",
+     "nm": 46
+    }
+   ],
+   "m03": true,
+   "note": "The studs themselves (ill. 101-05 pos. 38) are also 46 Nm.",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.33 item 5"
+    }
+   ]
+  },
+  {
+   "id": "kat-109-00-11",
+   "ill": "109-00",
+   "pos": 11,
+   "name": "Bracket to engine carrier, nut",
+   "thread": "M6",
+   "qty": 2,
+   "stages": [
+    {
+     "label": "Standard table, M6. grade 8.8: ZN 10 / ZNS 8 Nm; grade 10.9: ZN 14 / ZNS 12 Nm; grade 12.9: ZN 17 / ZNS 13 Nm. Read the grade and the finish colour on the bolt head.",
+     "nm": null
+    }
+   ],
+   "std_table": "M6",
+   "m03": true,
+   "note": "The torque book gives no Porsche value; it points to the standard table. ",
+   "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.33 item 11"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.8-10 standard table"
     }
    ]
   }

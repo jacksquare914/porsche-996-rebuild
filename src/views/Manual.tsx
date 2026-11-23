@@ -186,6 +186,36 @@ function Documents({ db }: { db: TechDb }) {
         </div>
       ))}
       <p className="m-small">Fastener rows: {fas.length}. Confirmed for M96.0X by the torque book: {fas.filter((f) => f.m03).length}. From the M96/01 edition only: {fas.filter((f) => f.m01_only).length}. Open conflicts: {fas.filter((f) => f.conflict).length}.</p>
+      {db.standard && <StandardTable std={db.standard} db={db} />}
+    </div>
+  );
+}
+
+/** The torque book's table for fasteners with no Porsche value, by size, grade and finish. */
+function StandardTable({ std, db }: { std: TechDb['standard'] & object; db: TechDb }) {
+  const sizes = Array.from(new Set(std.rows.map((r) => r.size)));
+  const grades = Array.from(new Set(std.rows.map((r) => r.grade)));
+  const cell = (size: string, grade: string, finish: 'ZN' | 'ZNS') => std.rows.find((r) => r.size === size && r.grade === grade && r.finish === finish)?.nm;
+  return (
+    <div className="m-std">
+      <h3 className="m-sec">{std.title}</h3>
+      <div className="m-notice caution"><span className="ico">▲</span><div><span className="lbl">CAUTION</span>{std.use}</div></div>
+      <div className="m-scroll"><table className="m-table m-std-table">
+        <thead>
+          <tr><th rowSpan={2}>Size</th>{grades.map((g) => <th key={g} colSpan={2}>Grade {g}</th>)}</tr>
+          <tr>{grades.map((g) => [<th key={g + 'zn'}>yellow ZN</th>, <th key={g + 'zns'}>silver ZNS</th>])}</tr>
+        </thead>
+        <tbody>
+          {sizes.map((size) => (
+            <tr key={size}>
+              <td><b>{size}</b></td>
+              {grades.map((g) => [<td key={g + 'zn'}>{cell(size, g, 'ZN') ?? '—'}</td>, <td key={g + 'zns'}>{cell(size, g, 'ZNS') ?? '—'}</td>])}
+            </tr>
+          ))}
+        </tbody>
+      </table></div>
+      <p className="m-small">Values in {std.unit}. {std.sources.map((s) => docLabel(db, s)).join('; ')}.</p>
+      <ul className="m-small m-std-rules">{std.rules.map((r, i) => <li key={i}>{r}</li>)}</ul>
     </div>
   );
 }
@@ -387,6 +417,7 @@ function Sheetpage(props: {
                     {f.m03 ? <span className="m-tag ok">M96.0X</span> : f.m01_only ? <span className="m-tag warn">M96/01 only</span> : null}
                     {f.conflict ? <span className="m-tag bad" title={f.conflict}>conflict</span> : null}
                     {f.open ? <span className="m-tag warn">open</span> : null}
+                    {f.std_table ? <span className="m-tag" title="Porsche gives no value. Read the grade and the finish on the bolt head, then take the value from the standard table in Documents.">standard table {f.std_table}</span> : null}
                   </td>
                 </tr>
               ))}

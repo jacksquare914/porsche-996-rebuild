@@ -1,4 +1,4 @@
-import type { Bom, Fastener, Figure, Procedure, TechDb, TechDoc, TechIndex } from './types';
+import type { Bom, Fastener, Figure, Procedure, StandardTorque, TechDb, TechDoc, TechIndex } from './types';
 
 /**
  * The technical database is a folder of JSON served next to the app (public/techdb/).
@@ -19,17 +19,19 @@ const procCache = new Map<string, Promise<Procedure | null>>();
 export function loadTechDb(): Promise<TechDb> {
   if (!dbPromise) {
     dbPromise = (async () => {
-      const [index, docs, fas, figs] = await Promise.all([
+      const [index, docs, fas, figs, standard] = await Promise.all([
         get<TechIndex>('index.json'),
         get<{ documents: TechDoc[] }>('documents.json'),
         get<{ fasteners: Fastener[] }>('fasteners.json'),
         get<{ figures: Figure[] }>('figures.json'),
+        get<StandardTorque>('torque-standard.json').catch(() => undefined),
       ]);
       return {
         index,
         documents: Object.fromEntries(docs.documents.map((d) => [d.id, d])),
         fasteners: Object.fromEntries(fas.fasteners.map((f) => [f.id, f])),
         figures: Object.fromEntries(figs.figures.map((f) => [f.id, f])),
+        standard,
       };
     })();
     dbPromise.catch(() => { dbPromise = null; });

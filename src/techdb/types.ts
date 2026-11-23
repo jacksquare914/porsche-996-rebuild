@@ -22,8 +22,17 @@ export interface Fastener {
   conflict?: string;
   /** No usable source yet. Shown, never trusted. */
   open?: boolean;
+  /** Porsche gives no value; the torque book points to the standard table for this size. */
+  std_table?: string;
   note?: string;
   sources: SourceRef[];
+}
+
+/** public/techdb/torque-standard.json: the torque book's table for fasteners without a Porsche value. */
+export interface StandardTorqueRow { size: string; finish: 'ZN' | 'ZNS'; grade: string; nm: number }
+export interface StandardTorque {
+  schema: string; id: string; title: string; use: string; rules: string[]; unit: string;
+  rows: StandardTorqueRow[]; sources: SourceRef[];
 }
 
 export interface FigureMap {
@@ -80,6 +89,8 @@ export interface TechDb {
   documents: Record<string, TechDoc>;
   fasteners: Record<string, Fastener>;
   figures: Record<string, Figure>;
+  /** Absent when torque-standard.json is missing. */
+  standard?: StandardTorque;
 }
 
 /** public/techdb/bom.json */

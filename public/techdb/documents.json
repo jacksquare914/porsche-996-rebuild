@@ -79,8 +79,34 @@
    "title": "Fastening Specifications, Porsche 911 Automobile, Type 996 1998 through 2005. Edited by Jake Raby for The Knowledge Gruppe.",
    "in_hand": true,
    "where": "Paper copy in the garage. Transcribed pages in reference/torque-book/996-fastening-specifications.json (copyrighted, not in the public repo).",
-   "coverage": "Fastener size, grade, position and torque for M96.0X, with M96.03 rows where the engines differ. Item numbers follow the parts catalogue positions. Pages 15 (crankcase) and 19 (crankshaft, flywheel) transcribed so far.",
-   "caveat": "Remaining engine pages still to be photographed and transcribed."
+   "coverage": "Fastener size, grade, position and torque for the M96.0X, with separate M96.03 rows where the engines differ. Item numbers follow the parts catalogue positions. Engine section transcribed: p.7-11 (standard torque table, engine series), 15 crankcase, 17 belt tensioner, 19 crankshaft and flywheel, 21 cylinder heads, 23 and 25 camshafts and timing chains (M96.01 and M96.03), 27 lubrication, 29 coolant pump, 31 intake, 33 engine mount.",
+   "caveat": "Pages 12-13 not photographed yet. Groups 2 (fuel, exhaust) and 3 (clutch, transmission) not transcribed yet.",
+   "engine_series": [
+    {
+     "years": "1998-2001",
+     "model": "Carrera, Carrera 4",
+     "series": "M96.01, M96.02, M96.04",
+     "displacement": "3,387 cc, 206.67 cid"
+    },
+    {
+     "years": "2002-2005",
+     "model": "Carrera, Carrera 4, Carrera 4S",
+     "series": "M96.03",
+     "displacement": "3596 cc, 219.4 cid"
+    },
+    {
+     "years": "2004",
+     "model": "GT3",
+     "series": "M96.79",
+     "displacement": "3596 cc, 219.4 cid"
+    },
+    {
+     "years": "2002-2005",
+     "model": "911 Turbo, 911 Turbo S, GT2",
+     "series": "M96.70",
+     "displacement": "3600 cc, 219.6 cid"
+    }
+   ]
   },
   {
    "id": "ln-imss",

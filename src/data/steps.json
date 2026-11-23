@@ -752,7 +752,7 @@
      {
       "fastener": "Connecting rod bolts (12 off)",
       "spec": "M9 x 1.25 (12 off): stage 1 20 Nm (15 ft-lb), stage 2 +90 deg. Oil thread and contact face.",
-      "note": "OPEN: the torque book gives +90 deg for M96.0X and the WSM M96/01 edition gives +90 deg, but a transcription of the factory 3.6 data (workshop-manuals.com, not verified by us) gives +110 deg for M96/03. Settle this against the book page for the rod before assembly. ARP 204-6301 bolts use ARP's procedure.",
+      "note": "Settled against the torque book p.19: 20 Nm + 90 deg for the M96.0X, the connecting-rod row is not split by engine series. The 110 deg figure from a web transcription is not in any document in hand. ARP 204-6301 bolts use ARP's procedure.",
       "source": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 11 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.13-31, 1-1"
      }
     ],
@@ -1023,7 +1023,7 @@
      {
       "fastener": "Connecting rod bolts",
       "spec": "M9 x 1.25 (12 off): stage 1 20 Nm (15 ft-lb), stage 2 +90 deg. Oil thread and contact face.",
-      "note": "OPEN: the torque book gives +90 deg for M96.0X and the WSM M96/01 edition gives +90 deg, but a transcription of the factory 3.6 data (workshop-manuals.com, not verified by us) gives +110 deg for M96/03. Settle this against the book page for the rod before assembly. ARP 204-6301 bolts use ARP's procedure.",
+      "note": "Settled against the torque book p.19: 20 Nm + 90 deg for the M96.0X, the connecting-rod row is not split by engine series. The 110 deg figure from a web transcription is not in any document in hand. ARP 204-6301 bolts use ARP's procedure.",
       "source": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 11 (M96.0X); WSM Gr.1 Part 1 (M96/01 edition) p.13-31, 1-1"
      }
     ],
@@ -1151,7 +1151,7 @@
     "torque": [
      {
       "fastener": "Cylinder head long bolts — OEM, 996 3.6",
-      "spec": "M10 x 230 (12 per bank): 30 Nm (22 ft-lb) in sequence, then loosen all; 20 Nm (15 ft-lb) in sequence; then two torque-angle passes in sequence. ANGLE OPEN: WSM M96/01 (supplement 23, 1999) gives 1 x 60 deg +/- 2 deg twice; research notes and two forum quotes of the 3.6 manual give 2 x 70 deg. Settle against the torque book cylinder head page before tightening.",
+      "spec": "M10 x 230 (12 per bank): 30 Nm (22 ft-lb) in sequence, then loosen all; 20 Nm (15 ft-lb) in sequence; then 2 x 70 deg +/- 2 deg in sequence (torque book p.21, M96.03 row). The WSM M96/01 edition gives 2 x 60 deg; that is the 3.4 l value.",
       "note": "The catalogue lists the same screw 996 104 180 58 for the late 3.4 head and the 3.6 head. Do not use the Mezger (M96/70) procedure.",
       "source": "WSM Gr.1 Part 1 (M96/01 edition) p.15-13, 1-4; Kat 021 ill. 103-01 pos. 25"
      },
