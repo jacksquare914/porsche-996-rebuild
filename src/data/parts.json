@@ -908,7 +908,7 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Torque-to-yield, sold separately from the flywheel and the clutch kit, and MANDATORY to replace. Torque 25 Nm (19 ft-lb) + 90 degrees. Quantity is the commonly cited figure for this flange — confirm by counting yours at teardown. Kat 021 (24.07.2017) ill. 102-00 pos. 18: pan-head screw 999 073 092 01 / 09, qty 8 (not 9)."
+  "notes": "Torque-to-yield, sold separately from the flywheel and the clutch kit, and MANDATORY to replace. Torque 25 Nm (19 ft-lb) + 90 degrees. Quantity is the commonly cited figure for this flange — confirm by counting yours at teardown. Kat 021 (24.07.2017) ill. 102-00 pos. 18: pan-head screw 999 073 092 01 / 09, qty 8 (not 9). WITH THE LIGHTWEIGHT FLYWHEEL: use the bolts and the torque in the flywheel kit sheet (vendor listings: 60 ft-lb). The 25 Nm + 90 deg figure is the WSM value for the OEM dual-mass flywheel bolt only."
  },
  {
   "id": "dual-mass-flywheel",
@@ -927,16 +927,16 @@
   ],
   "qty": 1,
   "critical": true,
-  "replace_rule": "inspect-first",
+  "replace_rule": "as-needed",
   "est_price_usd": 976,
-  "notes": "LN price Sept 2026 for 996-114-012-05. Fits all 996 base and 997 base 2005-2008 plus 996 C4S 2002-2005; NOT GT3/Turbo/GT2. Porsche/LuK specify a diagnostic tool to assess free play and radial rock. With the engine already out on a 20-year-old car, replacing it is usually the right call. Single-mass lightweight conversions are available (Aasco, Patrick Motorsports, BBI) at the cost of driveline noise and idle refinement. Kat 021 (24.07.2017) ill. 102-00 pos. 17: double-mass flywheel 996 114 012 03. The seed -05 / -04 may be later supersessions (LN lists -05)."
+  "notes": "LN price Sept 2026 for 996-114-012-05. Fits all 996 base and 997 base 2005-2008 plus 996 C4S 2002-2005; NOT GT3/Turbo/GT2. Porsche/LuK specify a diagnostic tool to assess free play and radial rock. With the engine already out on a 20-year-old car, replacing it is usually the right call. Single-mass lightweight conversions are available (Aasco, Patrick Motorsports, BBI) at the cost of driveline noise and idle refinement. Kat 021 (24.07.2017) ill. 102-00 pos. 17: double-mass flywheel 996 114 012 03. The seed -05 / -04 may be later supersessions (LN lists -05). NOT USED IN THIS BUILD: Jack is fitting a lightweight aluminium single-mass flywheel (see lightweight-flywheel)."
  },
  {
   "id": "clutch-kit",
   "name": "Clutch kit, OEM Sachs (996.2 02-05 base 3.6)",
   "category": "drivetrain",
   "oem_part_numbers": [
-   "996-116-910-02"
+   "996-116-911-02"
   ],
   "alt_brands": [
    {
@@ -948,13 +948,16 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 608.75,
-  "notes": "LN price Sept 2026. Contains 1 disc, 1 pressure plate, 1 release bearing. Correct for the 996.2 base 3.6 — the 996.1 3.4 kit is 99611691100, a different part. Excludes GT3/Turbo/GT2. Flywheel bolts are NOT included and must be bought separately."
+  "notes": "LN price Sept 2026. Contains 1 disc, 1 pressure plate, 1 release bearing. Correct for the 996.2 base 3.6 — the 996.1 3.4 kit is 99611691100, a different part. Excludes GT3/Turbo/GT2. Flywheel bolts are NOT included and must be bought separately. CORRECTION: the catalogue repair kit for MY 02- is 996 116 911 02 (Kat 021 (24.07.2017) ill. 301-00); the seed number 996 116 910 02 was a digit off. Components: pressure plate 996 116 027 05 / 06 (MY 02-), clutch plate 996 116 013 06 or 997 116 013 10 / 12 / 13, release bearing 996 116 080 04, pressure plate screws 999 073 458 01 x 6. With the lightweight flywheel, confirm with the flywheel vendor that the stock 240 mm pressure plate and disc are the match; both vendor listings say they are."
  },
  {
   "id": "release-bearing",
   "name": "Clutch release / throwout bearing",
   "category": "drivetrain",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-116-080-04",
+   "996-116-080-03"
+  ],
   "alt_brands": [
    {
     "brand": "Sachs",
@@ -965,7 +968,7 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Supplied in the Sachs clutch kit. Also inspect the guide tube it slides on for wear."
+  "notes": "Supplied in the Sachs clutch kit. Also inspect the guide tube it slides on for wear. Kat 021 (24.07.2017) ill. 301-00 pos. 2: clutch release bearing 996 116 080 04 (earlier 03)."
  },
  {
   "id": "clutch-slave-cylinder",
@@ -1647,5 +1650,55 @@
   "replace_rule": "as-needed",
   "est_price_usd": 500,
   "notes": "The 996 drivetrain comes out DOWNWARD as an assembly, so you need a cradle supporting both the sump and the transmission — a single-point transmission jack will let it tip. You also need enough lift height to roll the assembly out from under the car. Do not attempt the drop alone."
+ },
+ {
+  "id": "lightweight-flywheel",
+  "name": "Lightweight aluminium single-mass flywheel, 240 mm, with bolts, torque plate and pilot bearing",
+  "category": "drivetrain",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Aasco",
+    "part": "FLW 996 114 012 04 AAS (Patrick Motorsports listing, 12.5 lb assembly)"
+   },
+   {
+    "brand": "Lightweight Sport aluminium flywheel",
+    "part": "14.35 lb version listed by Pelican Parts for 996 Carrera"
+   }
+  ],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack."
+ },
+ {
+  "id": "pilot-bearing",
+  "name": "Pilot bearing (deep-groove ball bearing 15 x 35 x 11) in the crankshaft",
+  "category": "drivetrain",
+  "oem_part_numbers": [
+   "999-052-210-00"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": true,
+  "replace_rule": "always",
+  "est_price_usd": null,
+  "notes": "Kat 021 (24.07.2017) ill. 102-00 pos. 19: deep-groove ball bearing 999 052 210 00. Cheap, and buried behind the flywheel: replace. Lightweight flywheel kits often include one; check before ordering."
+ },
+ {
+  "id": "clutch-guide-sleeve",
+  "name": "Clutch release bearing guide sleeve and release lever ball pin",
+  "category": "drivetrain",
+  "oem_part_numbers": [
+   "996-116-087-01",
+   "996-116-716-02"
+  ],
+  "alt_brands": [],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "inspect-first",
+  "est_price_usd": null,
+  "notes": "Kat 021 (24.07.2017) ill. 301-00 pos. 7 guide sleeve 996 116 087 01, pos. 11 ball pin 996 116 716 02 (MY 00-). Replace the sleeve if the release bearing has worn a step into it."
  }
 ]

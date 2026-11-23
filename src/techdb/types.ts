@@ -84,7 +84,7 @@ export interface TechDb {
 
 /** public/techdb/bom.json */
 export interface BomLine {
-  group: 'ln' | 'porsche-pn' | 'inspect' | 'not-needed';
+  group: 'ln' | 'porsche-pn' | 'aftermarket' | 'inspect' | 'not-needed';
   id: string; name: string; qty?: number;
   /** Catalogue-verified Porsche numbers. */
   pn?: string[];
@@ -101,5 +101,5 @@ export interface BomLine {
 }
 export interface Bom {
   schema: string; title: string; car: string; basis: string; rules: string[];
-  groups: Record<BomLine['group'], string>; generated_at: string; lines: BomLine[];
+  groups: Partial<Record<BomLine['group'], string>>; generated_at: string; lines: BomLine[];
 }

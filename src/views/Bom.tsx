@@ -12,7 +12,7 @@ import { Empty } from '../ui';
  * price agent in one touch.
  */
 
-const GROUPS: BomLine['group'][] = ['ln', 'porsche-pn', 'inspect', 'not-needed'];
+const GROUPS: BomLine['group'][] = ['ln', 'porsche-pn', 'aftermarket', 'inspect', 'not-needed'];
 
 /** Part numbers worth pasting into a vendor search: the catalogue-verified ones. */
 function orderable(pn: string[] | undefined): string[] {
@@ -59,7 +59,7 @@ export default function BomView({ onOpenPart }: { onOpenPart: (id: string) => vo
         </div>
       </div>
 
-      {GROUPS.map((g) => {
+      {GROUPS.filter((g) => bom.groups[g]).map((g) => {
         const lines = bom.lines.filter((l) => l.group === g);
         const listText = lines.map((l) => `${orderable(l.pn).join(' / ') || (l.ln_sku ? `LN ${l.ln_sku}` : '')} x ${l.qty || ''}  ${l.name}`.trim()).join('\n');
         const queueable = lines.filter((l) => l.part_id && PART_INDEX[l.part_id] && ['needed', 'not-needed'].includes((state.parts[l.part_id] ?? DEFAULT_PART).status));
