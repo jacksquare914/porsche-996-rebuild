@@ -17,7 +17,7 @@
   "not-needed": "D. Not needed for this build",
   "aftermarket": "E. Aftermarket, by vendor (not Porsche numbers)"
  },
- "generated_at": "2026-11-23T02:26:51.124Z",
+ "generated_at": "2026-11-23T03:29:17.984Z",
  "lines": [
   {
    "group": "ln",
@@ -720,10 +720,23 @@
    ],
    "part_id": "loctite-5900",
    "catalogue": "ill. 101-05 pos. 30; 103-01 pos. 36",
-   "note": "Case halves, cam housings, covers, sump. Three tubes covers the engine.",
+   "note": "Case halves, cam housings, covers, sump. Three tubes covers the engine. Or Loctite 574 for the metal-to-metal joints, see the next line.",
    "source": "Kat 021 (24.07.2017) ill. 101-05 pos. 30; 103-01 pos. 36",
    "est_price_usd": 35,
    "price_source": "approximate, parts.json"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "loctite-574",
+   "name": "Loctite 574 anaerobic flange sealant, 50 ml (alternative to 5900 for metal-to-metal joints, Jack to decide)",
+   "qty": 1,
+   "pn": [
+    "000 043 010 00"
+   ],
+   "part_id": "loctite-574",
+   "catalogue": "ill. 302-05 (transmission housing)",
+   "note": "Common practice on M96 crankcase halves and cam housings. Cures between close-fitting metal faces, no squeeze-out into the engine, no five-minute window. Not for gaps or plastic covers. The WSM names 5900 or Drei Bond 1209 for the crankcase halves.",
+   "source": "Kat 021 (24.07.2017) ill. 302-05"
   },
   {
    "group": "porsche-pn",

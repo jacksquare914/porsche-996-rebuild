@@ -1349,6 +1349,25 @@
   "notes": "Many experienced M96 builders prefer Drei Bond 1209 over Loctite 5900 for the case halves, finding 5900 messy and prone to leaving debris inside the block. Either is defensible — pick one and do not mix them on the same joint."
  },
  {
+  "id": "loctite-574",
+  "name": "Loctite 574 anaerobic flange sealant (common-practice alternative)",
+  "category": "consumables",
+  "oem_part_numbers": [
+   "000-043-010-00"
+  ],
+  "alt_brands": [
+   {
+    "brand": "Loctite",
+    "part": "574, 50 ml"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Kat 021 (24.07.2017) ill. 302-05: Loctite 574, 000 043 010 00, which Porsche specifies for the transmission housing. Many M96 builders use it on the crankcase halves and cam housings instead of the silicone 5900. Anaerobic: it cures only between close-fitting metal faces with no air, so nothing squeezes into the engine and there is no five-minute window; it does not fill gaps and does not seal plastic covers. The WSM specifies Loctite 5900 or Drei Bond 1209 for the crankcase halves. Decision is Jack's; the manual follows the WSM until he decides."
+ },
+ {
   "id": "thread-locker-red",
   "name": "Thread locker, high strength (red) and medium (blue)",
   "category": "consumables",
