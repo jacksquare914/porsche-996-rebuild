@@ -16,7 +16,7 @@
   "inspect": "C. Inspect first",
   "not-needed": "D. Not needed for this build"
  },
- "generated_at": "2026-11-23T02:08:35.025Z",
+ "generated_at": "2026-11-23T02:15:19.823Z",
  "lines": [
   {
    "group": "ln",
@@ -123,7 +123,8 @@
    "source": "LN Nickies Program 2026",
    "est_price_usd": 494.99,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 445.49
+   "price_ssf_est_usd": 445.49,
+   "price_fcp_wholesale_est_usd": 443.51
   },
   {
    "group": "ln",
@@ -165,7 +166,8 @@
    "replaces": [
     "996 104 180 58 x 24"
    ],
-   "price_ssf_est_usd": 711.89
+   "price_ssf_est_usd": 711.89,
+   "price_fcp_wholesale_est_usd": 708.73
   },
   {
    "group": "ln",
@@ -182,7 +184,8 @@
    ],
    "est_price_usd": 173.99,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 156.59
+   "price_ssf_est_usd": 156.59,
+   "price_fcp_wholesale_est_usd": 155.9
   },
   {
    "group": "ln",
@@ -237,7 +240,8 @@
    ],
    "est_price_usd": 797.86,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (56.99 x 14)",
-   "price_ssf_est_usd": 718.07
+   "price_ssf_est_usd": 718.07,
+   "price_fcp_wholesale_est_usd": 714.88
   },
   {
    "group": "porsche-pn",
@@ -253,7 +257,8 @@
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 12",
    "est_price_usd": 195.48,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (16.29 x 12)",
-   "price_ssf_est_usd": 175.93
+   "price_ssf_est_usd": 175.93,
+   "price_fcp_wholesale_est_usd": 175.15
   },
   {
    "group": "porsche-pn",
@@ -368,7 +373,8 @@
    ],
    "est_price_usd": 24.19,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 21.77
+   "price_ssf_est_usd": 21.77,
+   "price_fcp_wholesale_est_usd": 21.67
   },
   {
    "group": "porsche-pn",
@@ -411,7 +417,8 @@
    "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 25",
    "est_price_usd": 193.98,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (96.99 x 2)",
-   "price_ssf_est_usd": 174.58
+   "price_ssf_est_usd": 174.58,
+   "price_fcp_wholesale_est_usd": 173.81
   },
   {
    "group": "porsche-pn",
@@ -452,6 +459,23 @@
    "catalogue": "ill. 103-01 pos. 10",
    "note": "Only if LN does not do the heads.",
    "source": "Kat 021 (24.07.2017) ill. 103-01 pos. 10"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "timing-chain-kit-fcp",
+   "name": "FCP Euro timing chain kit 996TIMINGKT2 (OE: chains, guide rails, tensioners for the 3-chain engine), alternative to the single lines below",
+   "qty": 1,
+   "pn": [],
+   "ln_sku": null,
+   "fcp_sku": "996TIMINGKT2",
+   "part_id": "timing-chain-set",
+   "catalogue": null,
+   "est_price_usd": 1558.62,
+   "price_source": "FCP Euro live listing, 2026-11-23, retail",
+   "price_fcp_wholesale_usd": 1396.88,
+   "price_fcp_wholesale_source": "FCP Euro live listing, 2026-11-23, wholesale price shown on Jack's account",
+   "note": "Confirmed fitment for chassis 996, ships free. Check the kit contents against the single lines below before buying: chains 996 105 152 00 x2 and 996 105 171 56, the seven rails and blades, and the three tensioners. Buy the kit if it covers all of them; otherwise buy the singles.",
+   "source": "FCP Euro listing screenshot, 2026-11-23"
   },
   {
    "group": "porsche-pn",
@@ -513,7 +537,8 @@
    "source": "Kat 021 (24.07.2017) ill. 103-11 pos. 33, 22, 7, 30, 18, 19",
    "est_price_usd": 255.05,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 229.55
+   "price_ssf_est_usd": 229.55,
+   "price_fcp_wholesale_est_usd": 228.52
   },
   {
    "group": "porsche-pn",
@@ -549,7 +574,8 @@
    ],
    "est_price_usd": 155.99,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 140.39
+   "price_ssf_est_usd": 140.39,
+   "price_fcp_wholesale_est_usd": 139.77
   },
   {
    "group": "porsche-pn",
@@ -647,7 +673,8 @@
    "pn_alt": [
     "996 107 026 52 (seed list, unverified)"
    ],
-   "price_ssf_est_usd": 239.39
+   "price_ssf_est_usd": 239.39,
+   "price_fcp_wholesale_est_usd": 238.33
   },
   {
    "group": "porsche-pn",
@@ -684,7 +711,8 @@
    "source": "Kat 021 (24.07.2017) ill. 104-05 pos. 3 (MY 02-), 2",
    "est_price_usd": 124.47,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check (41.49 x 3)",
-   "price_ssf_est_usd": 112.02
+   "price_ssf_est_usd": 112.02,
+   "price_fcp_wholesale_est_usd": 111.53
   },
   {
    "group": "porsche-pn",
@@ -731,7 +759,8 @@
    "pn_alt": [
     "996 106 011 77 (seed list, unverified)"
    ],
-   "price_ssf_est_usd": 437.39
+   "price_ssf_est_usd": 437.39,
+   "price_fcp_wholesale_est_usd": 435.45
   },
   {
    "group": "porsche-pn",
@@ -1137,8 +1166,9 @@
    "source": "LN Nickies Program 2026",
    "est_price_usd": 906.26,
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
-   "price_ssf_est_usd": 815.63
+   "price_ssf_est_usd": 815.63,
+   "price_fcp_wholesale_est_usd": 812.01
   }
  ],
- "price_note": "Prices marked FCP Euro are from indexed product pages seen on 2026-11-23, not live checks; several pages disagree with each other. SSF estimates are FCP less 10 %, Jack's rule, until the price agent checks the trade account."
+ "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2), and SSF is usually about 10 % under FCP retail as well, so the two trade prices land close together. Live quotes come from the price agent."
 }
