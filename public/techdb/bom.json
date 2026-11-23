@@ -14,9 +14,10 @@
   "ln": "A. LN Engineering: machining package and in-house parts",
   "porsche-pn": "B. Buy by Porsche part number, best price",
   "inspect": "C. Inspect first",
-  "not-needed": "D. Not needed for this build"
+  "not-needed": "D. Not needed for this build",
+  "aftermarket": "E. Aftermarket, by vendor (not Porsche numbers)"
  },
- "generated_at": "2026-11-23T02:19:21.665Z",
+ "generated_at": "2026-11-23T02:26:51.124Z",
  "lines": [
   {
    "group": "ln",
@@ -383,7 +384,7 @@
   {
    "group": "porsche-pn",
    "id": "flywheel-bolts",
-   "name": "Double-mass flywheel bolts M10 x 1 x 50, grade 12.9",
+   "name": "Double-mass flywheel bolts M10 x 1 x 50, grade 12.9 (only if the flywheel kit does not supply bolts)",
    "qty": 8,
    "pn": [
     "999 073 092 09",
@@ -391,8 +392,48 @@
    ],
    "part_id": "flywheel-bolts",
    "catalogue": "ill. 102-00 pos. 18",
-   "note": "Catalogue quantity is 8, not 9. Angle-tightened, new.",
+   "note": "Lightweight flywheel kits ship with their own bolts and torque plate; the torque is in the kit sheet (vendor listings: 60 ft-lb). The WSM 25 Nm + 90 deg applies to the OEM dual-mass bolt.",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 18"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "pressure-plate-screws",
+   "name": "Pressure plate screws",
+   "qty": 6,
+   "pn": [
+    "999 073 458 01",
+    "900 067 131 02"
+   ],
+   "part_id": "clutch-kit",
+   "catalogue": "ill. 301-00 pos. 4",
+   "note": "WSM M96/01: thrust plate to flywheel 23 Nm; the flywheel kit sheet may give its own value.",
+   "source": "Kat 021 (24.07.2017) ill. 301-00 pos. 4"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "release-bearing",
+   "name": "Clutch release bearing (if not taken in the clutch kit)",
+   "qty": 1,
+   "pn": [
+    "996 116 080 04"
+   ],
+   "part_id": "release-bearing",
+   "catalogue": "ill. 301-00 pos. 2",
+   "note": "",
+   "source": "Kat 021 (24.07.2017) ill. 301-00 pos. 2"
+  },
+  {
+   "group": "porsche-pn",
+   "id": "pilot-bearing",
+   "name": "Pilot bearing in the crankshaft, 15 x 35 x 11",
+   "qty": 1,
+   "pn": [
+    "999 052 210 00"
+   ],
+   "part_id": "pilot-bearing",
+   "catalogue": "ill. 102-00 pos. 19",
+   "note": "Often included in the flywheel kit; check first.",
+   "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 19"
   },
   {
    "group": "porsche-pn",
@@ -955,32 +996,30 @@
   {
    "group": "porsche-pn",
    "id": "clutch-kit",
-   "name": "Clutch kit, Sachs, 996.2 3.6",
+   "name": "Clutch repair kit, Sachs, MY 02- (pressure plate 996 116 027 05/06, disc, release bearing)",
    "qty": 1,
    "pn": [
-    "996 116 910 02"
+    "996 116 911 02"
    ],
    "part_id": "clutch-kit",
-   "catalogue": null,
-   "note": "From the seed list; not yet checked against the clutch illustration.",
+   "catalogue": "ill. 301-00 repair kit, MY 02-",
+   "note": "Only if the flywheel is bought without a clutch. The FCP 996CLUTCHKT in group E includes the Sachs Performance clutch. Seed number 996 116 910 02 corrected to 996 116 911 02 per the catalogue. Vendor listings for the lightweight flywheels say the stock 240 mm disc and pressure plate fit; confirm with the flywheel vendor before ordering, or take the Sachs Performance spring-hub sport disc they name.",
    "source": "Kat 021 (24.07.2017)",
    "est_price_usd": 608.75,
    "price_source": "LN list, Sept 2026 (parts.json)"
   },
   {
-   "group": "porsche-pn",
+   "group": "not-needed",
    "id": "dmf",
    "name": "Double-mass flywheel (inspect first; replace if out of the LuK rock/tilt spec)",
-   "qty": 1,
+   "qty": 0,
    "pn": [
     "996 114 012 03"
    ],
    "part_id": "dual-mass-flywheel",
    "catalogue": "ill. 102-00 pos. 17",
-   "note": "",
+   "note": "Replaced by the lightweight aluminium single-mass flywheel. ",
    "source": "Kat 021 (24.07.2017) ill. 102-00 pos. 17",
-   "est_price_usd": 976,
-   "price_source": "LN list, Sept 2026 (parts.json)",
    "pn_alt": [
     "996 114 012 05 (seed list, LN-listed)"
    ]
@@ -1200,6 +1239,36 @@
    "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
    "price_ssf_est_usd": 730.81,
    "price_fcp_wholesale_est_usd": 812.01
+  },
+  {
+   "group": "inspect",
+   "id": "clutch-guide-sleeve",
+   "name": "Release bearing guide sleeve and release lever ball pin",
+   "qty": 1,
+   "pn": [
+    "996 116 087 01",
+    "996 116 716 02"
+   ],
+   "part_id": "clutch-guide-sleeve",
+   "catalogue": "ill. 301-00 pos. 7, 11",
+   "note": "Replace the sleeve if the bearing has worn a step into it.",
+   "source": "Kat 021 (24.07.2017) ill. 301-00"
+  },
+  {
+   "group": "aftermarket",
+   "id": "lightweight-flywheel",
+   "name": "Lightweight flywheel and clutch kit: FCP Euro 996CLUTCHKT, Sachs Performance clutch with Aasco billet aluminium single-mass flywheel",
+   "qty": 1,
+   "pn": [],
+   "part_id": "lightweight-flywheel",
+   "catalogue": null,
+   "note": "FCP kit 996CLUTCHKT: Sachs Performance clutch kit with the Aasco lightweight billet aluminium single-mass flywheel, ships in one business day. Other FCP pages show 2,185.08 and a 996CLUTCHKT1 variant at 2,005.09; check live. Alternatives at FCP: Aasco 106425-12-PKG billet steel flywheel with Sachs Performance clutch, 2,626.00, needs the OE flywheel bolts; Sachs 95011602303KT2 OE-style clutch with Aasco billet steel flywheel, pilot bearing and rear main seal, 2,258.24. The listings are for the 911 (996) in general; confirm 3.6 l fitment and what the kit includes (bolts, torque plate, pilot bearing) before ordering. Flywheel bolt torque per the kit sheet. This kit replaces the separate clutch repair kit line in group B.",
+   "source": "FCP Euro listings seen via search, 2026-11-23",
+   "fcp_sku": "996CLUTCHKT",
+   "est_price_usd": 2155.01,
+   "price_source": "FCP Euro listed price seen on an indexed product page, 2026-11-23, not a live check",
+   "price_fcp_wholesale_est_usd": 1930.89,
+   "price_ssf_est_usd": null
   }
  ],
  "price_note": "Prices marked FCP Euro retail are from indexed product pages seen on 2026-11-23 unless marked live. Jack's FCP account shows a wholesale price about 10 % under retail (seen live: 1,558.62 retail, 1,396.88 wholesale on 996TIMINGKT2). SSF is usually about 10 % under FCP wholesale, so the SSF estimate is retail x 0.896 x 0.9. Live quotes come from the price agent. Rusnak estimate = Porsche list x 0.8 (Jack's wholesale account). List prices are from indexed Gaudin pages and differ between pages on some parts.",

@@ -1232,6 +1232,28 @@
     }
    ],
    "m01_only": true
+  },
+  {
+   "id": "aftermarket-flywheel-bolts",
+   "name": "Lightweight aluminium flywheel bolts (kit-supplied)",
+   "thread": "per kit",
+   "qty": 8,
+   "reuse": "Per the kit sheet",
+   "lube": "Per the kit sheet",
+   "stages": [
+    {
+     "label": "Per the flywheel kit sheet; two vendor listings say 60 ft-lb (81 Nm)",
+     "nm": null
+    }
+   ],
+   "open": true,
+   "caveat": "No kit sheet in hand. The WSM 25 Nm + 90 deg row (kat-102-00-18) is for the OEM dual-mass bolt only.",
+   "sources": [
+    {
+     "doc": "research",
+     "ref": "Pelican Parts and Patrick Motorsports listings, 2026-11-23"
+    }
+   ]
   }
  ]
 }
