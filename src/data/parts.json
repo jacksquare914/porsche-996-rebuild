@@ -3,7 +3,9 @@
   "id": "engine-gasket-set",
   "name": "Complete engine gasket set, M96.03 3.6",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "986-100-905-00"
+  ],
   "alt_brands": [
    {
     "brand": "LN Engineering",
@@ -14,7 +16,7 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 1352.17,
-  "notes": "LN-listed price Sept 2026. Includes head gaskets for the stock 96 mm bore in stock thickness — if you go oversize/big-bore or change deck height you will need head gaskets specified separately. Buying the set is cheaper and far less error-prone than sourcing 40+ individual gaskets."
+  "notes": "LN-listed price Sept 2026. Includes head gaskets for the stock 96 mm bore in stock thickness — if you go oversize/big-bore or change deck height you will need head gaskets specified separately. Buying the set is cheaper and far less error-prone than sourcing 40+ individual gaskets. Kat 021 (24.07.2017) ill. 198-00: Porsche gasket set 986 100 905 00. Its contents list the 3.4 head gaskets (996 104 269 00 / 270 05); confirm the 3.6 variant with Gaudin. With the 4.0 conversion the head gaskets in any set are unused."
  },
  {
   "id": "head-gaskets",
@@ -41,6 +43,7 @@
   "name": "Rear main seal (RMS), genuine Porsche PTFE",
   "category": "ims-rms",
   "oem_part_numbers": [
+   "999-113-475-40",
    "0PB-105-249"
   ],
   "alt_brands": [],
@@ -48,19 +51,22 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 45,
-  "notes": "The current updated PTFE design, and the one LN recommends. Install DRY — no oil or grease on the lip — and square, with the proper tool. LN's position: RMS leaks are not caused by dual-mass flywheel weight but by factory mis-machining of the case or by an engine never updated to this seal."
+  "notes": "The current updated PTFE design, and the one LN recommends. Install DRY — no oil or grease on the lip — and square, with the proper tool. LN's position: RMS leaks are not caused by dual-mass flywheel weight but by factory mis-machining of the case or by an engine never updated to this seal. Kat 021 (24.07.2017) ill. 102-00 pos. 4: shaft sealing ring 999 113 475 40, MY 99-. 0PB 105 249 is the later PTFE seal cited by LN; ask Gaudin for the current number."
  },
  {
   "id": "front-crank-seal",
   "name": "Front crankshaft seal",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "999-113-490-40",
+   "999-113-476-40"
+  ],
   "alt_brands": [],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 30,
-  "notes": "Included in the LN M96.03 rebuild kit. PN not separately verified in research — order via the gasket/rebuild kit or confirm with a dealer parts lookup against your engine number."
+  "notes": "Included in the LN M96.03 rebuild kit. PN not separately verified in research — order via the gasket/rebuild kit or confirm with a dealer parts lookup against your engine number. Kat 021 (24.07.2017) ill. 102-00 pos. 5: shaft sealing ring 999 113 490 40 or 999 113 476 40. Gaudin settles which is current."
  },
  {
   "id": "ims-solution-single-row",
@@ -129,13 +135,15 @@
   "id": "ims-sprocket",
   "name": "Intermediate shaft sprocket",
   "category": "engine-internals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-105-901-02"
+  ],
   "alt_brands": [],
   "qty": 1,
   "critical": false,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "Included in the LN M96.03 rebuild kit. Inspect tooth profile for hooking; replace with the chains."
+  "notes": "Included in the LN M96.03 rebuild kit. Inspect tooth profile for hooking; replace with the chains. Kat 021 (24.07.2017) ill. 103-11 pos. 12: intermediate shaft 996 105 901 02. LN service 106-08.1.L inspects runout and pins the gear."
  },
  {
   "id": "main-bearings",
@@ -342,6 +350,7 @@
   "name": "VarioCam Plus switchable variable-lift lifters (INTAKE positions)",
   "category": "engine-internals",
   "oem_part_numbers": [
+   "996-105-255-20",
    "996-105-255-25"
   ],
   "alt_brands": [],
@@ -349,19 +358,26 @@
   "critical": true,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "The two-stage lift tappets that make this a VarioCam Plus engine. Substantially more expensive than the conventional lifters; price not published at time of research. Inspect and replace as needed rather than automatically."
+  "notes": "The two-stage lift tappets that make this a VarioCam Plus engine. Substantially more expensive than the conventional lifters; price not published at time of research. Inspect and replace as needed rather than automatically. Kat 021 (24.07.2017) ill. 103-11 pos. 6: switchable tappet 996 105 255 20 x 12; -25 is not in the catalogue."
  },
  {
   "id": "camshafts",
   "name": "Camshafts (4 off: intake and exhaust, both banks)",
   "category": "engine-internals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-105-035-00",
+   "996-105-036-00",
+   "996-105-059-00",
+   "996-105-060-00",
+   "996-105-262-05",
+   "996-105-264-05"
+  ],
   "alt_brands": [],
   "qty": 4,
   "critical": false,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "Usually reused. Inspect lobes and journals for scoring and wear. Part numbers not verified — differ between intake and exhaust and between banks."
+  "notes": "Usually reused. Inspect lobes and journals for scoring and wear. Part numbers not verified — differ between intake and exhaust and between banks. Kat 021 (24.07.2017) ill. 103-11 pos. 1 to 4: camshafts 996 105 035 00/40, 036 00/40, 059 00, 060 00, 262 05, 264 05. Match to the engine number if one is condemned."
  },
  {
   "id": "intake-valves",
@@ -403,13 +419,15 @@
   "id": "valve-stem-seals",
   "name": "Valve stem seals",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-105-115-52"
+  ],
   "alt_brands": [],
   "qty": 24,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Always replaced during a valve job. Included in comprehensive gasket sets."
+  "notes": "Always replaced during a valve job. Included in comprehensive gasket sets. Kat 021 (24.07.2017) ill. 103-01 pos. 10: valve stem seal 996 105 115 52, qty 24."
  },
  {
   "id": "valve-springs",
@@ -427,31 +445,46 @@
   "id": "timing-chain-set",
   "name": "Timing chain set (3-chain layout, M96.03)",
   "category": "engine-internals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-105-152-00",
+   "996-105-171-56",
+   "996-105-178-54"
+  ],
   "alt_brands": [],
   "qty": 3,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "THE 3.6 IS A THREE-CHAIN ENGINE — crank-to-IMS plus one chain per bank — where the 1999-2001 3.4 is a five-chain engine. Chains and the timing procedure are NOT interchangeable between them. The LN M96.03 rebuild kit lists 'timing chains qty 2' plus separate drive components, so confirm exactly what your kit covers before ordering singles. CAUTION: PNs 996-105-170-53 (intake-to-exhaust chain) and 996-105-253-00 (cam pads) circulate on forums but are quoted for the 3.4 five-chain engine — do NOT order those for a 3.6 without verification."
+  "notes": "THE 3.6 IS A THREE-CHAIN ENGINE — crank-to-IMS plus one chain per bank — where the 1999-2001 3.4 is a five-chain engine. Chains and the timing procedure are NOT interchangeable between them. The LN M96.03 rebuild kit lists 'timing chains qty 2' plus separate drive components, so confirm exactly what your kit covers before ordering singles. CAUTION: PNs 996-105-170-53 (intake-to-exhaust chain) and 996-105-253-00 (cam pads) circulate on forums but are quoted for the 3.4 five-chain engine — do NOT order those for a 3.6 without verification. Kat 021 (24.07.2017) ill. 103-11 (3-chain engine): camshaft chains 996 105 152 00 x 2 (pos. 26), crank-to-IMS chain 996 105 171 56 (pos. 17), sprockets 996 105 178 54 x 2 (pos. 27)."
  },
  {
   "id": "chain-ramps-rails",
   "name": "Timing chain ramps, guide rails and pads",
   "category": "engine-internals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-105-164-00",
+   "996-105-054-01",
+   "996-105-166-51",
+   "996-105-168-03",
+   "996-105-156-00",
+   "996-105-158-00",
+   "996-105-165-55",
+   "996-105-195-00"
+  ],
   "alt_brands": [],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "ONE OF THE TWO SIGNATURE M96 WEAR ITEMS alongside the IMS. Plastic over a steel spine; they heat-cycle brittle and wear through, retarding cam timing and throwing the deviation values you logged at the start. Documented case: a 187k-mile engine with 'incredibly worn' ramps causing out-of-spec cam deviation. Always replaced as a complete set on a rebuild, with new O-rings on every ramp bolt. Specify 3.6 / three-chain when ordering."
+  "notes": "ONE OF THE TWO SIGNATURE M96 WEAR ITEMS alongside the IMS. Plastic over a steel spine; they heat-cycle brittle and wear through, retarding cam timing and throwing the deviation values you logged at the start. Documented case: a 187k-mile engine with 'incredibly worn' ramps causing out-of-spec cam deviation. Always replaced as a complete set on a rebuild, with new O-rings on every ramp bolt. Specify 3.6 / three-chain when ordering. Kat 021 (24.07.2017) ill. 103-11: guide rails 996 105 164 00, 054 01, 166 51; rail 996 105 168 03 x 2; tensioner blades 996 105 156 00, 158 00, 165 55; pad 996 105 195 00."
  },
  {
   "id": "chain-tensioner-ims",
   "name": "Timing chain tensioner, crankshaft to intermediate shaft",
   "category": "engine-internals",
   "oem_part_numbers": [
+   "996-105-180-56",
+   "996-105-180-55",
    "996-105-180-58"
   ],
   "alt_brands": [],
@@ -459,13 +492,14 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Listed by multiple vendors as the crank-to-IMS tensioner for 996/997 and 986/987 2001-2008. Hydraulic — must be compressed and pinned before installation. There is a TSB relating to tensioner/chain identification; confirm the correct variant for your engine number."
+  "notes": "Listed by multiple vendors as the crank-to-IMS tensioner for 996/997 and 986/987 2001-2008. Hydraulic — must be compressed and pinned before installation. There is a TSB relating to tensioner/chain identification; confirm the correct variant for your engine number. Kat 021 (24.07.2017) ill. 103-11 pos. 35: chain adjuster 996 105 180 55 / 56. The seed number -58 is a later suffix not in the 2017 catalogue."
  },
  {
   "id": "chain-tensioner-1-3",
   "name": "Timing chain tensioner, cylinders 1-3",
   "category": "engine-internals",
   "oem_part_numbers": [
+   "996-105-186-00",
    "996-105-186-02"
   ],
   "alt_brands": [],
@@ -473,13 +507,14 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "996-105-186-02 is the current supersession of the 996-105-186-01 'new style 1-3 tensioner'. Verify bank application and engine-number applicability with a dealer parts lookup — tensioner PNs superseded several times across the M96 run."
+  "notes": "996-105-186-02 is the current supersession of the 996-105-186-01 'new style 1-3 tensioner'. Verify bank application and engine-number applicability with a dealer parts lookup — tensioner PNs superseded several times across the M96 run. Kat 021 (24.07.2017) ill. 103-11 pos. 24: chain adjuster 996 105 186 00; -02 is not in the catalogue."
  },
  {
   "id": "chain-tensioner-4-6",
   "name": "Timing chain tensioner, cylinders 4-6",
   "category": "engine-internals",
   "oem_part_numbers": [
+   "996-105-188-00",
    "996-105-188-01"
   ],
   "alt_brands": [],
@@ -487,38 +522,40 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Quoted on forums as the 'new style 4-6 tensioner'. VERIFY against your engine number — this PN was cited in a 3.4 context and may supersede for the 3.6."
+  "notes": "Quoted on forums as the 'new style 4-6 tensioner'. VERIFY against your engine number — this PN was cited in a 3.4 context and may supersede for the 3.6. Kat 021 (24.07.2017) ill. 103-11 pos. 34: chain adjuster 996 105 188 00; -01 is not in the catalogue."
  },
  {
   "id": "variocam-actuator",
   "name": "VarioCam Plus camshaft actuator (rotary vane adjuster)",
   "category": "engine-internals",
   "oem_part_numbers": [
-   "996-105-303-03",
-   "996-105-303-05",
-   "996-105-303-06",
-   "996-105-303-07"
+   "996-105-051-03",
+   "996-105-052-01"
   ],
   "alt_brands": [],
   "qty": 2,
   "critical": true,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "One per bank, at the nose of each INTAKE camshaft. VarioCam Plus varies timing with this electro-hydraulic rotary vane adjuster and varies lift with the switchable tappets — it is NOT the earlier chain-tensioner-actuated VarioCam of the 3.4. The four PNs listed are a supersession chain quoted across 996/986/997/987; confirm the correct one for engine number M96.03 with a dealer lookup."
+  "notes": "One per bank, at the nose of each INTAKE camshaft. VarioCam Plus varies timing with this electro-hydraulic rotary vane adjuster and varies lift with the switchable tappets — it is NOT the earlier chain-tensioner-actuated VarioCam of the 3.4. The four PNs listed are a supersession chain quoted across 996/986/997/987; confirm the correct one for engine number M96.03 with a dealer lookup. CORRECTED from Kat 021 (24.07.2017) ill. 103-11 pos. 45: the vane-type camshaft adjusters are 996 105 051 03 and 996 105 052 01 (one per bank). The 996 105 303 xx numbers previously listed here are the solenoid valves (pos. 41)."
  },
  {
   "id": "variocam-solenoid",
   "name": "VarioCam solenoid / cam adjuster valve",
   "category": "engine-internals",
   "oem_part_numbers": [
-   "996-105-303-02"
+   "996-105-303-02",
+   "996-105-303-05",
+   "996-105-301-04",
+   "996-105-301-03",
+   "996-105-301-02"
   ],
   "alt_brands": [],
-  "qty": 2,
+  "qty": 4,
   "critical": true,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "Controls oil to the cam adjuster. Worn internal seals let contaminated oil in and the solenoids fail with age — a common cause of cam deviation faults. CAUTION: PNs 996-605-901-00 (1-3) and 996-605-902-00 (4-6) also circulate but are quoted in a 3.4 five-chain context; do not order those for a 3.6 without verification. Seal rebuild kits exist as an alternative to replacement."
+  "notes": "Controls oil to the cam adjuster. Worn internal seals let contaminated oil in and the solenoids fail with age — a common cause of cam deviation faults. CAUTION: PNs 996-605-901-00 (1-3) and 996-605-902-00 (4-6) also circulate but are quoted in a 3.4 five-chain context; do not order those for a 3.6 without verification. Seal rebuild kits exist as an alternative to replacement. Kat 021 (24.07.2017) ill. 103-11: actuators 996 105 303 02 / 05 (pos. 41, x2) and 996 105 301 02 / 03 / 04 (pos. 40, x2). Four per engine."
  },
  {
   "id": "oil-pump",
@@ -567,13 +604,15 @@
   "id": "oil-pickup-oring",
   "name": "Oil pickup tube O-ring",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "999-707-375-40"
+  ],
   "alt_brands": [],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "In the rebuild kit. Never reuse."
+  "notes": "In the rebuild kit. Never reuse. Kat 021 (24.07.2017) ill. 104-05 pos. 10: O-ring 999 707 375 40 at the suction tube (pos. 9). Confirm the position on the drawing."
  },
  {
   "id": "sump-gasket",
@@ -636,13 +675,16 @@
   "id": "cam-housing-gasket",
   "name": "Cam housing / cam cover gaskets and seals",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-104-203-00",
+   "999-701-761-40"
+  ],
   "alt_brands": [],
   "qty": 2,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "In the full gasket set. Includes spark plug tube seals, which are a very common external oil leak source on high-mileage M96s."
+  "notes": "In the full gasket set. Includes spark plug tube seals, which are a very common external oil leak source on high-mileage M96s. Kat 021 (24.07.2017) ill. 103-01 pos. 28 gasket 996 104 203 00 x 6 and pos. 29 O-ring 999 701 761 40 x 6 (spark plug tube seals). The cam housing joint itself is sealed with Loctite 5900 (pos. 36)."
  },
  {
   "id": "cam-cover-gasket",
@@ -661,64 +703,74 @@
   "name": "Intake manifold gasket",
   "category": "gaskets-seals",
   "oem_part_numbers": [
+   "996-110-103-50",
+   "996-110-247-50",
    "996-110-103-90"
   ],
   "alt_brands": [],
-  "qty": 6,
+  "qty": 2,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "PN sourced from a 996 (1999-2005) parts listing — verify quantity and application for the 3.6 intake against a parts diagram."
+  "notes": "PN sourced from a 996 (1999-2005) parts listing — verify quantity and application for the 3.6 intake against a parts diagram. Kat 021 (24.07.2017) ill. 107-10: intake manifold gasket 996 110 103 50 x 2 (pos. 25) and intake distributor gasket 996 110 247 50 x 6 (pos. 2). The -90 number is not in the catalogue."
  },
  {
   "id": "throttle-body-gasket",
   "name": "Throttle body mounting gasket",
   "category": "gaskets-seals",
   "oem_part_numbers": [
-   "996-110-317-52"
+   "996-110-317-52",
+   "996-110-310-50"
   ],
   "alt_brands": [],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "996-110-317-52 is listed for 2000-2005 911. PN 996-110-318-02 also appears in listings as a throttle body gasket — confirm which suits your throttle body casting."
+  "notes": "996-110-317-52 is listed for 2000-2005 911. PN 996-110-318-02 also appears in listings as a throttle body gasket — confirm which suits your throttle body casting. Kat 021 (24.07.2017) ill. 107-10 pos. 10 sealing ring 996 110 317 52; ill. 107-00 pos. 4 gasket 996 110 310 50."
  },
  {
   "id": "injector-oring-kit",
   "name": "Fuel injector O-ring kit (upper and lower)",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "944-110-901-01"
+  ],
   "alt_brands": [],
-  "qty": 6,
+  "qty": 12,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Both upper and lower O-rings per injector. Hard as plastic at 20+ years and a classic post-rebuild fuel-smell and rough-idle cause. Never reuse."
+  "notes": "Both upper and lower O-rings per injector. Hard as plastic at 20+ years and a classic post-rebuild fuel-smell and rough-idle cause. Never reuse. Kat 021 (24.07.2017) ill. 107-05 pos. 11: O-ring 944 110 901 01, qty 12."
  },
  {
   "id": "fuel-injectors",
   "name": "Fuel injectors",
   "category": "fuel-ignition",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-606-122-00"
+  ],
   "alt_brands": [],
   "qty": 6,
   "critical": false,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "Usually cleaned and flow-tested rather than replaced. Have them balanced as a set — an out-of-balance injector on a fresh engine is a frustrating diagnostic."
+  "notes": "Usually cleaned and flow-tested rather than replaced. Have them balanced as a set — an out-of-balance injector on a fresh engine is a frustrating diagnostic. Kat 021 (24.07.2017) ill. 107-05 pos. 10: injector valve 996 606 122 00, MY 01-."
  },
  {
   "id": "exhaust-manifold-gaskets",
   "name": "Exhaust manifold gaskets and nuts",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-111-107-54",
+   "996-111-107-55"
+  ],
   "alt_brands": [],
   "qty": 2,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "One-time-use gaskets and copper-plated lock nuts. Anti-seize the studs on assembly."
+  "notes": "One-time-use gaskets and copper-plated lock nuts. Anti-seize the studs on assembly. Kat 021 (24.07.2017) ill. 198-00 gasket set contents: 996 111 107 54 x 2 (see-also 996 111 107 55)."
  },
  {
   "id": "exhaust-hardware-kit",
@@ -842,19 +894,23 @@
   "id": "flywheel-bolts",
   "name": "Dual-mass flywheel bolts (TTY)",
   "category": "hardware",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "999-073-092-09",
+   "999-073-092-01"
+  ],
   "alt_brands": [],
-  "qty": 9,
+  "qty": 8,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "Torque-to-yield, sold separately from the flywheel and the clutch kit, and MANDATORY to replace. Torque 25 Nm (19 ft-lb) + 90 degrees. Quantity is the commonly cited figure for this flange — confirm by counting yours at teardown."
+  "notes": "Torque-to-yield, sold separately from the flywheel and the clutch kit, and MANDATORY to replace. Torque 25 Nm (19 ft-lb) + 90 degrees. Quantity is the commonly cited figure for this flange — confirm by counting yours at teardown. Kat 021 (24.07.2017) ill. 102-00 pos. 18: pan-head screw 999 073 092 01 / 09, qty 8 (not 9)."
  },
  {
   "id": "dual-mass-flywheel",
   "name": "Dual-mass flywheel, LuK",
   "category": "drivetrain",
   "oem_part_numbers": [
+   "996-114-012-03",
    "996-114-012-05",
    "996-114-012-04"
   ],
@@ -868,7 +924,7 @@
   "critical": true,
   "replace_rule": "inspect-first",
   "est_price_usd": 976,
-  "notes": "LN price Sept 2026 for 996-114-012-05. Fits all 996 base and 997 base 2005-2008 plus 996 C4S 2002-2005; NOT GT3/Turbo/GT2. Porsche/LuK specify a diagnostic tool to assess free play and radial rock. With the engine already out on a 20-year-old car, replacing it is usually the right call. Single-mass lightweight conversions are available (Aasco, Patrick Motorsports, BBI) at the cost of driveline noise and idle refinement."
+  "notes": "LN price Sept 2026 for 996-114-012-05. Fits all 996 base and 997 base 2005-2008 plus 996 C4S 2002-2005; NOT GT3/Turbo/GT2. Porsche/LuK specify a diagnostic tool to assess free play and radial rock. With the engine already out on a 20-year-old car, replacing it is usually the right call. Single-mass lightweight conversions are available (Aasco, Patrick Motorsports, BBI) at the cost of driveline noise and idle refinement. Kat 021 (24.07.2017) ill. 102-00 pos. 17: double-mass flywheel 996 114 012 03. The seed -05 / -04 may be later supersessions (LN lists -05)."
  },
  {
   "id": "clutch-kit",
@@ -922,13 +978,15 @@
   "id": "engine-mounts",
   "name": "Engine mounts",
   "category": "drivetrain",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "993-375-049-06"
+  ],
   "alt_brands": [],
   "qty": 2,
   "critical": false,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "20-year-old rubber under a fresh engine is not worth redoing the job for. Torque: upper bolts 23 Nm (17 ft-lb), main nut 85 Nm (63 ft-lb). PNs not verified in research."
+  "notes": "20-year-old rubber under a fresh engine is not worth redoing the job for. Torque: upper bolts 23 Nm (17 ft-lb), main nut 85 Nm (63 ft-lb). PNs not verified in research. Kat 021 (24.07.2017) ill. 109-00 pos. 2: engine mounting 993 375 049 06, qty 2."
  },
  {
   "id": "transmission-mount",
@@ -959,8 +1017,9 @@
   "name": "Water pump (metal impeller)",
   "category": "cooling",
   "oem_part_numbers": [
-   "996-106-011-77",
-   "996-106-011-57"
+   "996-106-011-57",
+   "996-106-340-51",
+   "996-106-011-77"
   ],
   "alt_brands": [
    {
@@ -972,13 +1031,17 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 180,
-  "notes": "996-106-011-77 is listed by dealers for 2001-2005 911; the -57 is the earlier/broader 1997-2005 listing. SPECIFY A METAL IMPELLER. The factory plastic impeller is a known failure that sheds itself through the entire cooling system. Torque 10 Nm (7.5 ft-lb) — do not over-torque into aluminium. New O-ring/gasket."
+  "notes": "996-106-011-77 is listed by dealers for 2001-2005 911; the -57 is the earlier/broader 1997-2005 listing. SPECIFY A METAL IMPELLER. The factory plastic impeller is a known failure that sheds itself through the entire cooling system. Torque 10 Nm (7.5 ft-lb) — do not over-torque into aluminium. New O-ring/gasket. Kat 021 (24.07.2017) ill. 105-00 pos. 1: water pump chain 996 106 011 51 to 57; gasket 996 106 340 51 (pos. 2). The seed -77 may be the current dealer number."
  },
  {
   "id": "thermostat",
   "name": "Thermostat (and low-temperature option)",
   "category": "cooling",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-106-125-52",
+   "996-106-013-59",
+   "996-106-326-50"
+  ],
   "alt_brands": [
    {
     "brand": "LN Engineering",
@@ -989,7 +1052,7 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "A low-temp thermostat is included in the LN/RND M96.03 rebuild kit and is a sensible choice on an engine whose headline failure modes are heat-related. Housing bolts 10 Nm (7.5 ft-lb). OEM PN not verified in research."
+  "notes": "A low-temp thermostat is included in the LN/RND M96.03 rebuild kit and is a sensible choice on an engine whose headline failure modes are heat-related. Housing bolts 10 Nm (7.5 ft-lb). OEM PN not verified in research. Kat 021 (24.07.2017) ill. 105-00: thermostat insert 996 106 125 52 (pos. 6), thermostat housing 996 106 013 59 (pos. 5), gasket 996 106 326 50 (pos. 7). LN 106-06.1 is the 160 F insert."
  },
  {
   "id": "thermostat-housing",
@@ -1032,21 +1095,29 @@
   "name": "Air-oil separator (AOS), genuine Porsche",
   "category": "engine-internals",
   "oem_part_numbers": [
-   "996-107-026-52",
-   "996-107-026-51"
+   "996-107-026-51",
+   "996-107-026-50",
+   "996-107-026-52"
   ],
   "alt_brands": [],
   "qty": 1,
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 258.25,
-  "notes": "LN price Sept 2026 for 99610702652, for 2002-2008 911 3.6 (excludes the 3.8 M97.01 S). A different AOS, 996-107-023-55, covers 1999-2001 996 — do not cross-order. A failed AOS pulls oil into the intake, smokes heavily, and in the worst case lets the engine run away on its own oil or hydro-lock. Replace on principle during a rebuild. Mounting bolts 10 Nm (7.5 ft-lb)."
+  "notes": "LN price Sept 2026 for 99610702652, for 2002-2008 911 3.6 (excludes the 3.8 M97.01 S). A different AOS, 996-107-023-55, covers 1999-2001 996 — do not cross-order. A failed AOS pulls oil into the intake, smokes heavily, and in the worst case lets the engine run away on its own oil or hydro-lock. Replace on principle during a rebuild. Mounting bolts 10 Nm (7.5 ft-lb). Kat 021 (24.07.2017) ill. 104-10 pos. 1: oil separator 996 107 026 50 and 51, MY 02-. Whether -52 is a later supersession is for Gaudin."
  },
  {
   "id": "aos-hose-kit",
   "name": "AOS vent hose kit (upper, lower, connection piece)",
   "category": "gaskets-seals",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-107-147-59",
+   "996-107-175-50",
+   "996-106-208-50",
+   "996-106-223-52",
+   "996-106-224-51",
+   "999-707-507-40"
+  ],
   "alt_brands": [
    {
     "brand": "Genuine Porsche",
@@ -1057,13 +1128,14 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": null,
-  "notes": "LN explicitly recommend replacing the vent lines whenever the AOS is replaced — they go brittle and crack, and the resulting vacuum leak degrades running and can damage the engine. Includes upper and lower vent lines, connection piece with valve, and lower separator hose."
+  "notes": "LN explicitly recommend replacing the vent lines whenever the AOS is replaced — they go brittle and crack, and the resulting vacuum leak degrades running and can damage the engine. Includes upper and lower vent lines, connection piece with valve, and lower separator hose. Kat 021 (24.07.2017) ill. 104-10: vent line 996 107 147 59, oil hose 996 107 175 50 (MY 02-), hoses 996 106 208 50 / 223 52 / 224 51, O-ring 999 707 507 40 (MY 02-)."
  },
  {
   "id": "spark-plugs",
   "name": "Spark plugs",
   "category": "fuel-ignition",
   "oem_part_numbers": [
+   "999-170-223-90",
    "999-170-195-90"
   ],
   "alt_brands": [
@@ -1076,13 +1148,15 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 10,
-  "notes": "Price is per plug, approximate. Torque 30 Nm (22 ft-lb) new, 25 Nm (19 ft-lb) reused. Verify the exact plug against your engine number — plug specifications changed across the M96 run."
+  "notes": "Price is per plug, approximate. Torque 30 Nm (22 ft-lb) new, 25 Nm (19 ft-lb) reused. Verify the exact plug against your engine number — plug specifications changed across the M96 run. Kat 021 (24.07.2017) ill. 901-00 pos. 4: spark plug 999 170 223 90, MY 02-. The earlier number 999 170 195 90 is not in the catalogue."
  },
  {
   "id": "ignition-coils",
   "name": "Ignition coil packs",
   "category": "fuel-ignition",
   "oem_part_numbers": [
+   "997-602-104-02",
+   "996-602-105-00",
    "996-602-104-00",
    "996-602-102-00"
   ],
@@ -1096,13 +1170,15 @@
   "critical": false,
   "replace_rule": "as-needed",
   "est_price_usd": 45,
-  "notes": "Price per coil, approximate. Both PNs appear in 996 listings (-102 earlier, -104 later/997-shared) — confirm which your car uses. 20-year-old coils on a freshly rebuilt engine is a false economy. Mounting bolts 10 Nm (7.5 ft-lb)."
+  "notes": "Price per coil, approximate. Both PNs appear in 996 listings (-102 earlier, -104 later/997-shared) — confirm which your car uses. 20-year-old coils on a freshly rebuilt engine is a false economy. Mounting bolts 10 Nm (7.5 ft-lb). Kat 021 (24.07.2017) ill. 901-00: ignition coil 997 602 104 02 (MY 02-), spark plug connector 996 602 105 00 (MY 02-). The earlier 996 602 10x 00 numbers are not in the catalogue."
  },
  {
   "id": "oil-filter",
   "name": "Engine oil filter (element kit)",
   "category": "consumables",
   "oem_part_numbers": [
+   "996-107-225-60",
+   "996-107-313-51",
    "996-107-225-53"
   ],
   "alt_brands": [
@@ -1115,13 +1191,16 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 20,
-  "notes": "Price each, approximate. Buy at least three: one for the pre-teardown forensics cut, one for the first fill, one for the early break-in change. Filter cap torque 26 Nm (19 ft-lb) with a new cap O-ring each time."
+  "notes": "Price each, approximate. Buy at least three: one for the pre-teardown forensics cut, one for the first fill, one for the early break-in change. Filter cap torque 26 Nm (19 ft-lb) with a new cap O-ring each time. Kat 021 (24.07.2017) ill. 104-05 pos. 3: filter element 996 107 225 60 is the MY 02- part; 996 107 225 53 is MY -01. Housing sealing ring 996 107 313 51 (pos. 2)."
  },
  {
   "id": "magnetic-drain-plug",
   "name": "Magnetic engine oil drain plug",
   "category": "hardware",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "900-219-009-30",
+   "900-123-106-30"
+  ],
   "alt_brands": [
    {
     "brand": "LN Engineering",
@@ -1132,7 +1211,7 @@
   "critical": false,
   "replace_rule": "as-needed",
   "est_price_usd": 25,
-  "notes": "Included in the LN/RND M96.03 rebuild kit. A permanent early-warning system for ferrous debris — genuinely worth fitting on an M96. Torque 50 Nm (37 ft-lb) with a new crush washer."
+  "notes": "Included in the LN/RND M96.03 rebuild kit. A permanent early-warning system for ferrous debris — genuinely worth fitting on an M96. Torque 50 Nm (37 ft-lb) with a new crush washer. Kat 021 (24.07.2017) ill. 101-05 pos. 23 screw plug M18 x 1.5 900 219 009 30 and pos. 24 sealing ring A18 x 24 900 123 106 30 (OEM plug and ring)."
  },
  {
   "id": "engine-oil",
@@ -1328,7 +1407,10 @@
   "id": "serpentine-belt",
   "name": "Serpentine / accessory drive belt",
   "category": "consumables",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-102-151-65",
+   "996-102-151-64"
+  ],
   "alt_brands": [
    {
     "brand": "Continental / Gates",
@@ -1339,19 +1421,24 @@
   "critical": false,
   "replace_rule": "always",
   "est_price_usd": 35,
-  "notes": "Cheap, and you have it off anyway."
+  "notes": "Cheap, and you have it off anyway. Kat 021 (24.07.2017) ill. 102-00 pos. 27: poly-rib belt 996 102 151 64 / 65."
  },
  {
   "id": "belt-tensioner",
   "name": "Accessory belt tensioner and idler pulleys",
   "category": "consumables",
-  "oem_part_numbers": [],
+  "oem_part_numbers": [
+   "996-102-260-50",
+   "996-102-117-56",
+   "996-102-118-56",
+   "996-102-119-58"
+  ],
   "alt_brands": [],
   "qty": 1,
   "critical": false,
   "replace_rule": "inspect-first",
   "est_price_usd": null,
-  "notes": "Spin each by hand — any roughness or lateral play, replace. A seized idler shreds a new belt."
+  "notes": "Spin each by hand — any roughness or lateral play, replace. A seized idler shreds a new belt. Kat 021 (24.07.2017) ill. 101-10: tensioner 996 102 260 50, tensioning roller 996 102 117 56, deflection rollers 996 102 118 56 and 996 102 119 58 (MY 02-)."
  },
  {
   "id": "alternator",
