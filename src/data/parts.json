@@ -1368,6 +1368,23 @@
   "notes": "Kat 021 (24.07.2017) ill. 302-05: Loctite 574, 000 043 010 00, which Porsche specifies for the transmission housing. Many M96 builders use it on the crankcase halves and cam housings instead of the silicone 5900. Anaerobic: it cures only between close-fitting metal faces with no air, so nothing squeezes into the engine and there is no five-minute window; it does not fill gaps and does not seal plastic covers. The WSM specifies Loctite 5900 or Drei Bond 1209 for the crankcase halves. Decision is Jack's; the manual follows the WSM until he decides."
  },
  {
+  "id": "threadlocker",
+  "name": "Threadlocker for the flywheel bolts (Loctite or equivalent, per the Aasco sheet)",
+  "category": "consumables",
+  "oem_part_numbers": [],
+  "alt_brands": [
+   {
+    "brand": "Loctite",
+    "part": "243 medium strength, 10 ml"
+   }
+  ],
+  "qty": 1,
+  "critical": false,
+  "replace_rule": "as-needed",
+  "est_price_usd": null,
+  "notes": "Aasco installation instructions p.4: threadlocker on the flywheel bolt threads, applied one bolt at a time after the first 20 ft-lb pass. The sheet names no grade; 243 is the usual medium-strength choice for an M10 bolt that must come out again. Jack to confirm the grade."
+ },
+ {
   "id": "thread-locker-red",
   "name": "Thread locker, high strength (red) and medium (blue)",
   "category": "consumables",
@@ -1697,7 +1714,7 @@
   "critical": true,
   "replace_rule": "always",
   "est_price_usd": 635.45,
-  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack. FCP Euro lists kit 996CLUTCHKT (Sachs Performance clutch with Aasco aluminium flywheel) at 2,155.01 on an indexed page, 2026-11-23; confirm 3.6 l fitment and contents. Aasco 106411-11 on its own: list 889.00, trade price 635.45, 4 in stock West Coast, screenshot 2026-11-23; the page states 60 ft-lb for the bolts and links the Aasco installation PDF."
+  "notes": "Jack's choice for the 4.0 l build; replaces the dual-mass flywheel. Vendor listings say the kits ship with the pilot bearing, bolts and torque plate, and take the stock 240 mm clutch disc or the Sachs Performance spring-hub sport disc. Flywheel bolt torque per the kit sheet; two vendor listings say 60 ft-lb. Brand and part number to be confirmed by Jack. FCP Euro lists kit 996CLUTCHKT (Sachs Performance clutch with Aasco aluminium flywheel) at 2,155.01 on an indexed page, 2026-11-23; confirm 3.6 l fitment and contents. Aasco 106411-11 on its own: list 889.00, trade price 635.45, 4 in stock West Coast, SSF Imported Auto Parts, 2026-11-23. The Aasco installation sheet (in Drive) gives 55 ft-lb / 75 Nm for the M10 x 1.0 bolt, in three passes with threadlocker; the SSF note says 60 ft-lb; the sheet governs."
  },
  {
   "id": "pilot-bearing",

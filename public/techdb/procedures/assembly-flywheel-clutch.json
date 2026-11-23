@@ -1,20 +1,86 @@
 {
  "schema": "techdb/1",
  "id": "assembly-flywheel-clutch",
- "status": "draft",
- "title": "Install dual-mass flywheel, clutch and release bearing",
+ "status": "authored",
+ "title": "Install the lightweight flywheel, the clutch and the release bearing",
  "phase": "assembly",
- "rg": null,
+ "rg": 13,
+ "rg_title": "Engine - Crankshaft, pistons",
  "op": null,
+ "op_title": "Flywheel and clutch, aftermarket flywheel",
+ "wsm_page": null,
+ "imprint": "Aasco installation instructions p.2-4; Fastening Specifications 996 p.19, p.81",
  "time_h": 2,
  "notices": [
   {
-   "kind": "note",
-   "text": "NEW TTY FLYWHEEL BOLTS, no exceptions — the OEM bolts stretch by design and are single-use. Torque 25 Nm then 90 degrees with a proper angle gauge. Centre the clutch disc with an alignment tool before final-torquing the pressure plate, and tighten the cover bolts in a star pattern in stages. Fit the new release bearing and check the guide tube for wear. Photograph the assembly before the transmission goes on.",
+   "kind": "source",
+   "text": "Flywheel steps and torques from the Aasco installation instructions, pages 2 to 4. Pressure plate torque from the torque book page 81 item 4. The WSM covers the dual-mass flywheel only.",
    "sources": [
     {
+     "doc": "aasco-fw",
+     "ref": "p.2-4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.81 item 4"
+    }
+   ]
+  },
+  {
+   "kind": "warning",
+   "text": "Never reuse flywheel bolts. Use the kit bolts. Check the length of every bolt before the flywheel goes on (step 4). A bolt that bottoms in the crankshaft gives a false torque reading and the flywheel comes loose.",
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.2-3"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Do not use an impact driver on the flywheel bolts or the pressure plate bolts.",
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.4"
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Keep threadlocker off the flywheel face and the crankshaft flange. Apply it to the bolt thread only, one bolt at a time, after the first pass.",
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.3-4"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "The flywheel bolt torque is 75 Nm (55 ft-lb) for an M10 x 1.0 bolt per the Aasco guide. The SSF catalogue note says 60 ft-lb. The manufacturer sheet governs. The OEM 25 Nm + 90° is for the dual-mass flywheel bolt only.",
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.4"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.19 item 18"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "text": "The Aasco sheet asks for new disc, pressure plate and release bearing with the flywheel. The Aasco 106411-11 comes with the pilot bearing, the bolts and the torque plate. The torque plate must be used.",
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.2"
+    },
+    {
      "doc": "research",
-     "ref": "steps.json"
+     "ref": "SSF listing 106411-11"
     }
    ]
   }
@@ -22,86 +88,171 @@
  "steps": [
   {
    "no": 1,
-   "text": "Install dual-mass flywheel, clutch and release bearing.",
+   "text": "Clean the rust preventive from the flywheel with brake cleaner. Clean the friction face until a white cloth stays clean. (Aasco p.2)",
+   "refs": [
+    {
+     "part": "lightweight-flywheel"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "text": "Set the old flywheel on the new one with the bolt holes aligned. Make sure that the sensor teeth are in the same position. (Aasco p.2)",
    "refs": []
+  },
+  {
+   "no": 3,
+   "text": "Make sure that the crankshaft flange is clean and dry. Make sure that the rear main seal is dry. Press the new pilot bearing into the crankshaft. (Aasco p.2-3)",
+   "refs": [
+    {
+     "part": "pilot-bearing"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "text": "Thread one kit bolt into the crankshaft to the stop. Measure the depth B. Measure the flywheel and the torque plate together, A. Record A minus B. The minimum is 2.0 mm (0.080 in). (Aasco p.3)",
+   "refs": [
+    {
+     "spec": "bolt-clearance"
+    },
+    {
+     "tool": "Depth gauge or vernier caliper"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "text": "Put the flywheel on the crankshaft with the torque plate. Lock the flywheel. Tighten all 8 bolts dry to 27 Nm in a cross pattern. (Aasco p.3)",
+   "refs": [
+    {
+     "fastener": "aftermarket-flywheel-bolts"
+    },
+    {
+     "tool": "Flywheel locking tool"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "text": "Remove one bolt. Apply threadlocker to its thread. Refit it and tighten to 27 Nm. Do the same with each of the other 7 bolts, one at a time. (Aasco p.4)",
+   "refs": [
+    {
+     "fastener": "aftermarket-flywheel-bolts"
+    },
+    {
+     "part": "threadlocker"
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "text": "Tighten all 8 bolts to 75 Nm in a cross pattern. Make a paint mark on each bolt head. (Aasco p.4)",
+   "refs": [
+    {
+     "fastener": "aftermarket-flywheel-bolts"
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "text": "Centre the clutch disc on the flywheel with the alignment tool. Put the pressure plate on the dowel pins. Tighten the 6 bolts by hand in turns until the plate is seated. (Aasco p.4)",
+   "refs": [
+    {
+     "part": "clutch-kit"
+    },
+    {
+     "tool": "Clutch alignment tool"
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "text": "Tighten the pressure plate bolts to 23 Nm in a cross pattern. Remove the alignment tool. (torque book p.81)",
+   "refs": [
+    {
+     "fastener": "wsm-thrust-plate-dmf"
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "text": "Examine the release bearing guide sleeve for a wear step. Replace it if there is a step. Fit the new release bearing. Take photographs before the transmission goes on.",
+   "refs": [
+    {
+     "part": "release-bearing"
+    },
+    {
+     "part": "clutch-guide-sleeve"
+    }
+   ]
   }
  ],
  "fasteners": [
   {
-   "id": "assembly-flywheel-clutch.t1",
-   "name": "Dual-mass flywheel bolts",
-   "stages": [
-    {
-     "label": "M10 x 1 x 50, 12.9 (8 off): stage 1 25 Nm (19 ft-lb), stage 2 +90 deg."
-    }
-   ],
-   "note": "New bolts. Torque-then-angle with an angle gauge.",
-   "sources": [
-    {
-     "doc": "as-noted",
-     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 18 (M96.03 row); WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
-    }
-   ],
-   "open": false
+   "ref": "aftermarket-flywheel-bolts"
   },
   {
-   "id": "assembly-flywheel-clutch.t2",
-   "name": "Clutch pressure plate bolts",
-   "stages": [
-    {
-     "label": "NOT VERIFIED IN RESEARCH — consult factory manual"
-    }
-   ],
-   "note": "Star pattern, in stages.",
-   "sources": [],
-   "open": true
-  },
-  {
-   "id": "assembly-flywheel-clutch.t3",
-   "name": "Vibration damper (pulley) to crankshaft",
-   "stages": [
-    {
-     "label": "M16 x 1.5 x 60: stage 1 50 Nm (37 ft-lb), stage 2 +90 deg"
-    }
-   ],
-   "note": "",
-   "sources": [
-    {
-     "doc": "as-noted",
-     "ref": "Knowledge Gruppe, Fastening Specifications 996, p.19 item 7; WSM Gr.1 Part 1 (M96/01 edition) p.1-2"
-    }
-   ],
-   "open": false
+   "ref": "wsm-thrust-plate-dmf"
   }
  ],
  "tools": [
   {
-   "name": "flywheel locking tool",
+   "name": "Flywheel locking tool",
    "special": null
   },
   {
-   "name": "clutch alignment tool",
+   "name": "Clutch alignment tool",
+   "special": null,
+   "note": "240 mm disc"
+  },
+  {
+   "name": "Torque wrench 20 to 100 Nm",
    "special": null
   },
   {
-   "name": "torque angle gauge",
+   "name": "Depth gauge or vernier caliper",
+   "special": null,
+   "note": "Bolt length check, step 4"
+  },
+  {
+   "name": "Brake cleaner and clean cloths",
    "special": null
   }
  ],
- "specs": [],
+ "specs": [
+  {
+   "id": "bolt-clearance",
+   "name": "Flywheel bolt free thread clearance in the crankshaft, A minus B",
+   "unit": "mm",
+   "min": 2,
+   "max": 6,
+   "sources": [
+    {
+     "doc": "aasco-fw",
+     "ref": "p.3, Important - check bolt length"
+    }
+   ]
+  }
+ ],
+ "spec_note": "Aasco gives a minimum of 0.080 to 0.100 in (2.0 to 2.5 mm) of free clearance. The 6 mm upper bound is a sanity limit, not from the sheet: more than that means the bolt is too short for full thread engagement.",
  "parts": [
-  "dual-mass-flywheel",
-  "flywheel-bolts",
+  "lightweight-flywheel",
+  "pilot-bearing",
   "clutch-kit",
   "release-bearing",
-  "torque-angle-gauge",
-  "faultless-tool-kit"
+  "clutch-guide-sleeve",
+  "threadlocker"
  ],
  "figures": [],
  "sources": [
   {
-   "doc": "research",
-   "ref": "steps.json"
+   "doc": "aasco-fw",
+   "ref": "p.2-4"
+  },
+  {
+   "doc": "torque-book",
+   "ref": "p.19 item 18, p.81 item 4"
   }
  ]
 }

@@ -165,6 +165,15 @@
    "where": "src/data/steps.json",
    "coverage": "Forum and vendor research from the first build of the tracker.",
    "caveat": "Unsourced. Any value here is open until a document confirms it."
+  },
+  {
+   "id": "aasco-fw",
+   "kind": "kit-instructions",
+   "title": "Aasco Motorsports flywheel installation instructions (8 pages)",
+   "in_hand": true,
+   "where": "Drive: Porsche 996 Rebuild / Aasco Flywheel Installation Instructions.pdf; local copy reference/aasco/ (not in the public repo).",
+   "coverage": "Pre-installation checks, bolt length check, three-stage flywheel bolt procedure with threadlocker, fastener torque guide by thread size (M10 x 1.0 flywheel bolt 55 ft-lb / 75 Nm; M8 x 1.25 pressure plate bolt 20 ft-lb / 27 Nm), clutch disc and pressure plate fitting, troubleshooting.",
+   "caveat": "Generic sheet for all Aasco flywheels. The SSF catalogue note for 106411-11 says 60 ft-lb; the sheet says 55 ft-lb for an M10 x 1.0 bolt. The sheet governs. With OEM pressure plate bolts the sheet defers to the OEM value."
   }
  ]
 }
