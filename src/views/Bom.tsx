@@ -101,6 +101,12 @@ export default function BomView({ onOpenPart }: { onOpenPart: (id: string) => vo
                           {l.est_price_usd.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}
                         </div>
                       )}
+                      {typeof (l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd) === 'number' && (
+                        <div className="dim small">FCP whsl {Math.round(l.price_fcp_wholesale_usd ?? l.price_fcp_wholesale_est_usd!)} · SSF ~{Math.round(l.price_ssf_est_usd ?? 0)}</div>
+                      )}
+                      {typeof l.list_price_usd === 'number' && (
+                        <div className="dim small">List {Math.round(l.list_price_usd)} · Rusnak ~{Math.round(l.price_rusnak_est_usd ?? 0)}</div>
+                      )}
                       {st && <span className={`chip ${st}`} style={{ marginTop: 4 }}>{st}</span>}
                       {g === 'not-needed' && <span className="chip" style={{ marginTop: 4 }}>skip</span>}
                     </div>
