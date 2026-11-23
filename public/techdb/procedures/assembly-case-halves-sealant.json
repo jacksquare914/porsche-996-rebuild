@@ -60,6 +60,24 @@
      "ref": "p.10-52"
     }
    ]
+  },
+  {
+   "kind": "note",
+   "text": "Many M96 builders use Loctite 574 (Porsche 000 043 010 00, the transmission housing sealant) on the crankcase halves instead of the silicone 5900. It cures only between close-fitting metal faces, so nothing squeezes into the oil system and the five-minute limit does not apply. It does not fill gaps. The WSM names 5900 or Drei Bond 1209. The choice is open; this procedure follows the WSM until Jack decides.",
+   "sources": [
+    {
+     "doc": "wsm-g1p1",
+     "ref": "p.10-54"
+    },
+    {
+     "doc": "kat-021",
+     "ref": "ill. 302-05"
+    },
+    {
+     "doc": "research",
+     "ref": "common practice, reported by Jack 2026-11-23"
+    }
+   ]
   }
  ],
  "steps": [
@@ -181,7 +199,8 @@
   "case-bolts",
   "case-bolt-orings",
   "case-plug-sealing-ring",
-  "crank-carrier-oring"
+  "crank-carrier-oring",
+  "loctite-574"
  ],
  "figures": [
   "wsm-443_96",
