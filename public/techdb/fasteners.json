@@ -1410,14 +1410,14 @@
   },
   {
    "id": "aftermarket-flywheel-bolts",
-   "name": "Lightweight aluminium flywheel bolts (kit-supplied)",
+   "name": "Aasco aluminium flywheel bolts (kit-supplied, with torque plate)",
    "thread": "per kit",
    "qty": 8,
    "reuse": "Per the kit sheet",
    "lube": "Per the kit sheet",
    "stages": [
     {
-     "label": "Per the flywheel kit sheet; two vendor listings say 60 ft-lb (81 Nm)",
+     "label": "60 ft-lb (81 Nm) per the vendor page for Aasco 106411-11; confirm in the Aasco installation PDF before use",
      "nm": null
     }
    ],
@@ -1426,9 +1426,10 @@
    "sources": [
     {
      "doc": "research",
-     "ref": "Pelican Parts and Patrick Motorsports listings, 2026-11-23"
+     "ref": "Aasco 106411-11 vendor page, screenshot 2026-11-23"
     }
-   ]
+   ],
+   "note": "Three vendor listings now say 60 ft-lb. The Aasco Flywheel Installation Instructions PDF is linked on the product page; download it and the row can close. Not the OEM 25 Nm + 90 deg, which is for the dual-mass flywheel bolt."
   },
   {
    "id": "kat-103-01-21",
