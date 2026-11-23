@@ -1,0 +1,587 @@
+{
+ "schema": "techdb/1",
+ "id": "torque-standard",
+ "title": "Standard tightening torques by size, finish and grade",
+ "use": "For a fastener with no value from Porsche. The torque book names such rows \"Torque Value Table\". Read the grade (8.8, 10.9, 12.9) stamped on the bolt head and the colour of the finish: yellow = ZN, silver = ZNS. Only then take the value.",
+ "rules": [
+  "Porsche models may use fasteners that can only be tightened once. When these fasteners are removed or loosened, discard and replace with new parts.",
+  "These are standard tightening torques and do not apply to torque-to-yield fasteners.",
+  "The torque values apply to the noted fastener finish only: yellow (ZN) or silver (ZNS).",
+  "Not applicable when using a different surface or lubricant on the thread, or if the height of the nut differs.",
+  "Not applicable to necked-down bolts, self-tapping screw connections or to connections between parts made of different materials."
+ ],
+ "unit": "Nm",
+ "rows": [
+  {
+   "size": "M4",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 3
+  },
+  {
+   "size": "M4",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 2
+  },
+  {
+   "size": "M4",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 4
+  },
+  {
+   "size": "M4",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 3
+  },
+  {
+   "size": "M4",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 5
+  },
+  {
+   "size": "M5",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 6
+  },
+  {
+   "size": "M5",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 5
+  },
+  {
+   "size": "M5",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 8
+  },
+  {
+   "size": "M5",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 7
+  },
+  {
+   "size": "M5",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 10
+  },
+  {
+   "size": "M5",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 8
+  },
+  {
+   "size": "M6",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 10
+  },
+  {
+   "size": "M6",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 8
+  },
+  {
+   "size": "M6",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 14
+  },
+  {
+   "size": "M6",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 12
+  },
+  {
+   "size": "M6",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 17
+  },
+  {
+   "size": "M6",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 13
+  },
+  {
+   "size": "M7",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 15
+  },
+  {
+   "size": "M7",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 13
+  },
+  {
+   "size": "M7",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 21
+  },
+  {
+   "size": "M7",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 19
+  },
+  {
+   "size": "M7",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 26
+  },
+  {
+   "size": "M7",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 21
+  },
+  {
+   "size": "M8",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 24
+  },
+  {
+   "size": "M8",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 19
+  },
+  {
+   "size": "M8",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 34
+  },
+  {
+   "size": "M8",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 28
+  },
+  {
+   "size": "M8",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 40
+  },
+  {
+   "size": "M8",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 32
+  },
+  {
+   "size": "M8x1",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 26
+  },
+  {
+   "size": "M8x1",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 21
+  },
+  {
+   "size": "M8x1",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 36
+  },
+  {
+   "size": "M8x1",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 30
+  },
+  {
+   "size": "M8x1",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 33
+  },
+  {
+   "size": "M10",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 47
+  },
+  {
+   "size": "M10",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 38
+  },
+  {
+   "size": "M10",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 66
+  },
+  {
+   "size": "M10",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 56
+  },
+  {
+   "size": "M10",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 79
+  },
+  {
+   "size": "M10",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 62
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 54
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 41
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 75
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 60
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 91
+  },
+  {
+   "size": "M10x1",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 67
+  },
+  {
+   "size": "M12",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 82
+  },
+  {
+   "size": "M12",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 66
+  },
+  {
+   "size": "M12",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 115
+  },
+  {
+   "size": "M12",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 98
+  },
+  {
+   "size": "M12",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 140
+  },
+  {
+   "size": "M12",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 108
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 87
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 68
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 123
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 100
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 147
+  },
+  {
+   "size": "M12x1.5",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 110
+  },
+  {
+   "size": "M14",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 130
+  },
+  {
+   "size": "M14",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 104
+  },
+  {
+   "size": "M14",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 180
+  },
+  {
+   "size": "M14",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 155
+  },
+  {
+   "size": "M14",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 220
+  },
+  {
+   "size": "M14",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 170
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 143
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 110
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 200
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 165
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 240
+  },
+  {
+   "size": "M14x1.5",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 180
+  },
+  {
+   "size": "M16",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 200
+  },
+  {
+   "size": "M16",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 160
+  },
+  {
+   "size": "M16",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 280
+  },
+  {
+   "size": "M16",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 235
+  },
+  {
+   "size": "M16",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 340
+  },
+  {
+   "size": "M16",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 260
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 216
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 170
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 303
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 250
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 364
+  },
+  {
+   "size": "M16x1.5",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 275
+  },
+  {
+   "size": "M18",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 280
+  },
+  {
+   "size": "M18",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 225
+  },
+  {
+   "size": "M18",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 390
+  },
+  {
+   "size": "M18",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 330
+  },
+  {
+   "size": "M18",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 470
+  },
+  {
+   "size": "M18",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 365
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZN",
+   "grade": "8.8",
+   "nm": 313
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZNS",
+   "grade": "8.8",
+   "nm": 245
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZN",
+   "grade": "10.9",
+   "nm": 440
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZNS",
+   "grade": "10.9",
+   "nm": 360
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZN",
+   "grade": "12.9",
+   "nm": 527
+  },
+  {
+   "size": "M18x1.5",
+   "finish": "ZNS",
+   "grade": "12.9",
+   "nm": 400
+  }
+ ],
+ "sources": [
+  {
+   "doc": "torque-book",
+   "ref": "p.8 to p.10, Tightening torque values"
+  }
+ ],
+ "transcribed": "2026-11-23"
+}

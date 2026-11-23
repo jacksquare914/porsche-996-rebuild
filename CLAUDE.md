@@ -69,7 +69,8 @@ as JSON and are fetched by the app at runtime. Nothing technical is hard-coded i
   fails on a row without one;
 - a row with `conflict` text blocks approval of any step that uses it;
 - `m03` = confirmed for M96.0X by the Knowledge Gruppe torque book, `m01_only` = from the
-  3.4 l WSM edition only, `open` = no source yet;
+  3.4 l WSM edition only, `open` = no source yet, `std_table` = no Porsche value, use the
+  book's standard table in `public/techdb/torque-standard.json` by grade and finish;
 - fastener ids follow the parts catalogue illustration and position (`kat-101-05-6`), and
   the torque book uses the same numbers;
 - the drawings are Porsche's: `public/techdb/figures/` is gitignored and synced from

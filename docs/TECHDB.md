@@ -12,6 +12,8 @@ public/techdb/
   fasteners.json             one row per fastener: catalogue position, thread, qty,
                              part numbers, torque stages, flags, sources
   figures.json               figure registry; sequence figures carry an interactive bolt map
+  torque-standard.json       the torque book's standard table (size, finish ZN/ZNS, grade -> Nm)
+                             for fasteners that have no Porsche value ("Torque Value Table")
   procedures/<step-id>.json  one file per leaf step of src/data/steps.json
   figures/*.jpg|png          Porsche drawings — gitignored, synced from reference/figures
 ```
@@ -37,6 +39,9 @@ node -e 'console.log(require("./public/techdb/fasteners.json").fasteners.length)
 3. **Edition flags say how far a value is trusted.** `m03: true` means the Knowledge Gruppe
    torque book confirms it for M96.0X (it lists M96.03 rows where the engines differ).
    `m01_only: true` means only the M96/01 (3.4 l) edition of the WSM covers it so far.
+   `std_table: "M8"` means Porsche gives no value and the torque book points to the standard
+   table: the row's stage label lists the values by grade and finish, and the mechanic reads
+   the grade and the colour on the bolt head. `torque-standard.json` holds the table.
    `open: true` means no usable source yet: shown, never trusted.
 4. **Fasteners are keyed to the parts catalogue.** Row ids are `kat-<illustration>-<position>`
    where a catalogue position exists (`kat-101-05-6` is the M6 × 35 crankcase bolt). The

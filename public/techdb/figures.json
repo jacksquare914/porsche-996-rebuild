@@ -11,6 +11,10 @@
     {
      "doc": "wsm-g1p2",
      "ref": "p.15-13 (15 70 23), supplement 23, 1999"
+    },
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 25 (M96.03 angle)"
     }
    ],
    "map": {
@@ -101,10 +105,10 @@
      "30 Nm",
      "LOOSEN ALL",
      "20 Nm",
-     "angle pass 1",
-     "angle pass 2"
+     "70° pass 1",
+     "70° pass 2"
     ],
-    "note": "Bolt numbers and sequence traced from the WSM figure (M96/01 edition). One bank of 12 screws. The outline is schematic."
+    "note": "Bolt numbers and sequence traced from the WSM figure (M96/01 edition). One bank of 12 screws. The outline is schematic. Angle 70° ± 2° per pass for the M96.03, torque book p.21."
    }
   },
   {

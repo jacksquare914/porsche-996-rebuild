@@ -27,20 +27,26 @@
    ]
   },
   {
-   "kind": "conflict",
-   "text": "Do not tighten the cylinder head screws before the correct angle is known. The WSM for the M96/01 gives 30 Nm, loosen all, 20 Nm, then 2 × 60° ±2° (page 15-13). The research notes for the M96/03 give 2 × 70°. No document in hand gives the M96/03 value with a page number. The parts catalogue gives the same screw, 996 104 180 58, for the VarioCam Plus head and for the late 3.4 head. Approval of this step is not possible until the angle is known.",
+   "kind": "source",
+   "text": "Torque book p.21 gives the M96.03 its own row: 30 Nm, loosen all, 20 Nm, then 2 × 70° ± 2°. The WSM M96/01 value of 2 × 60° is for the 3.4 l engine. Settled 2026-11-23.",
    "sources": [
+    {
+     "doc": "torque-book",
+     "ref": "p.21 item 25"
+    },
     {
      "doc": "wsm-g1p2",
      "ref": "p.15-13"
-    },
+    }
+   ]
+  },
+  {
+   "kind": "caution",
+   "text": "Do not use the 60° angle from the WSM M96/01 edition on this engine. Use 70° ± 2°, two passes.",
+   "sources": [
     {
-     "doc": "research",
-     "ref": "steps.json"
-    },
-    {
-     "doc": "kat-021",
-     "ref": "ill. 103-01 pos. 25"
+     "doc": "torque-book",
+     "ref": "p.21 item 25"
     }
    ]
   },
@@ -106,7 +112,7 @@
   },
   {
    "no": 6,
-   "text": "Tighten the screws by the torque angle in the same sequence. Do this step two times. The angle is open, see the caution. (15-13)",
+   "text": "Tighten the screws 70° ± 2° in the same sequence. Do this step two times. (torque book p.21)",
    "refs": [
     {
      "tool": "Torque angle attachment"
@@ -194,6 +200,10 @@
   {
    "doc": "kat-021",
    "ref": "ill. 103-01"
+  },
+  {
+   "doc": "torque-book",
+   "ref": "p.21"
   }
  ]
 }
